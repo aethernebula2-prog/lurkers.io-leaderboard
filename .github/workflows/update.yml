@@ -29,6 +29,19 @@ jobs:
           PLAYFAB_CUSTOM_ID: ${{ secrets.PLAYFAB_CUSTOM_ID }}
         run: python fetch_leaderboard.py
 
+      - name: Check generated file
+        run: |
+          echo "Generated leaderboard.json:"
+          cat leaderboard.json
+
+          echo ""
+          echo "Git status:"
+          git status --short
+
+          echo ""
+          echo "Git diff:"
+          git diff -- leaderboard.json
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
