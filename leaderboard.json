@@ -1,1 +1,189 @@
-{}
+{
+  "game": "Lurkers.io",
+  "gamemode": "Bedwars",
+  "updatedAt": "2026-08-18T19:20:52.904705+00:00",
+  "lastUpdated": 1787080850642,
+  "cached": false,
+  "players": [
+    {
+      "Account ID": "FB155918BAFE3B5",
+      "Player Name": "KeratryX741",
+      "Games Won": 21,
+      "Games Lost": 13,
+      "Kills": 237,
+      "Deaths": 1,
+      "Score": 23761
+    },
+    {
+      "Account ID": "785BA0C8A5310D11",
+      "Player Name": "zmr24f",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 248,
+      "Deaths": 3,
+      "Score": 8300
+    },
+    {
+      "Account ID": "F6276E39072F9BD0",
+      "Player Name": "account239",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 121,
+      "Deaths": 2,
+      "Score": 6080
+    },
+    {
+      "Account ID": "2969661154FF0EF7",
+      "Player Name": "DingoDepTrai",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 128,
+      "Deaths": 3,
+      "Score": 4322
+    },
+    {
+      "Account ID": "224CC39B0CF2536B",
+      "Player Name": "lander1234",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 258,
+      "Deaths": 7,
+      "Score": 3714
+    },
+    {
+      "Account ID": "B1BBD9A05F4ABE8F",
+      "Player Name": "ELREYC0MBAT321",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 21,
+      "Deaths": 1,
+      "Score": 2142
+    },
+    {
+      "Account ID": "58182C2D8821A7FC",
+      "Player Name": "ELHUESAZ0321",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 55,
+      "Deaths": 3,
+      "Score": 1900
+    },
+    {
+      "Account ID": "37505806FF9E977C",
+      "Player Name": "Invaild",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 52,
+      "Deaths": 3,
+      "Score": 1750
+    },
+    {
+      "Account ID": "DDAD35B3119D31BC",
+      "Player Name": "G3RM4NI4",
+      "Games Won": 13,
+      "Games Lost": 25,
+      "Kills": 208,
+      "Deaths": 15,
+      "Score": 1420
+    },
+    {
+      "Account ID": "C1CC914D4BE6B501",
+      "Player Name": "XxjijibaoCNproxX",
+      "Games Won": 3,
+      "Games Lost": 13,
+      "Kills": 175,
+      "Deaths": 15,
+      "Score": 1185
+    },
+    {
+      "Account ID": "19947B5F511637FB",
+      "Player Name": "Jarvis01",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 17,
+      "Deaths": 2,
+      "Score": 870
+    },
+    {
+      "Account ID": "1BBBBCC2E57236C3",
+      "Player Name": "Dolgoon",
+      "Games Won": 11,
+      "Games Lost": 10,
+      "Kills": 329,
+      "Deaths": 42,
+      "Score": 835
+    },
+    {
+      "Account ID": "8BADAFD29166F55D",
+      "Player Name": "lmoa1",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 13,
+      "Deaths": 2,
+      "Score": 716
+    },
+    {
+      "Account ID": "2B096808B5500115",
+      "Player Name": "sumirtrimus",
+      "Games Won": 11,
+      "Games Lost": 14,
+      "Kills": 231,
+      "Deaths": 38,
+      "Score": 651
+    },
+    {
+      "Account ID": "26F04D53B39F9050",
+      "Player Name": "ARRozc0nLEchexD",
+      "Games Won": 39,
+      "Games Lost": 36,
+      "Kills": 803,
+      "Deaths": 146,
+      "Score": 602
+    },
+    {
+      "Account ID": "72E16E3595293FB9",
+      "Player Name": "deVVVV",
+      "Games Won": 0,
+      "Games Lost": 9,
+      "Kills": 41,
+      "Deaths": 7,
+      "Score": 585
+    },
+    {
+      "Account ID": "8DAADB1EDBEAE7EC",
+      "Player Name": "Ecttttt",
+      "Games Won": 11,
+      "Games Lost": 32,
+      "Kills": 258,
+      "Deaths": 48,
+      "Score": 563
+    },
+    {
+      "Account ID": "96CA6AEAB4D59DB",
+      "Player Name": "8ovexs",
+      "Games Won": 16,
+      "Games Lost": 32,
+      "Kills": 305,
+      "Deaths": 61,
+      "Score": 533
+    },
+    {
+      "Account ID": "EDF6DA0F94B6EC5",
+      "Player Name": "zmr24qwq",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 77,
+      "Deaths": 17,
+      "Score": 464
+    },
+    {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 3,
+      "Games Lost": 8,
+      "Kills": 107,
+      "Deaths": 25,
+      "Score": 455
+    }
+  ]
+}
