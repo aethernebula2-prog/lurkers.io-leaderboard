@@ -1,11 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Lurkers.io Bedwars Leaderboard</title>
+    <meta name="description" content="Live Lurkers.io Bedwars leaderboard with player scores, kills, deaths, wins and losses.">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #updated {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background: #222;
+            color: white;
+        }
+
+        tr:hover {
+            background: #f0f0f0;
+        }
+
+        .error {
+            text-align: center;
+            color: red;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Lurkers.io Bedwars Leaderboard</h1>
-    <p>Leaderboard is working!</p>
+
+<h1>Lurkers.io Bedwars Leaderboard</h1>
+
+<div id="updated">Loading leaderboard...</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Score</th>
+            <th>Kills</th>
+            <th>Deaths</th>
+            <th>Games Won</th>
+            <th>Games Lost</th>
+        </tr>
+    </thead>
+
+    <tbody id="leaderboard">
+    </tbody>
+</table>
+
+<script>
+async function loadLeaderboard() {
+    try {
+        const response = await fetch("leaderboard.json?cache=" + Date.now());
+
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        const leaderboard = document.getElementById("leaderboard");
+        leaderboard.innerHTML = "";
+
+        data.players.forEach((player, index) => {
+            const row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td>${index + 1}</td>
+                <td>${escapeHtml(player["Player Name"])}</td>
+                <td>${player["Score"].toLocaleString()}</td>
+                <td>${player["Kills"].toLocaleString()}</td>
+                <td>${player["Deaths"].toLocaleString()}</td>
+                <td>${player["Games Won"].toLocaleString()}</td>
+                <td>${player["Games Lost"].toLocaleString()}</td>
+            `;
+
+            leaderboard.appendChild(row);
+        });
+
+        if (data.updatedAt) {
+            const date = new Date(data.updatedAt);
+
+            document.getElementById("updated").textContent =
+                "Last fetched: " + date.toLocaleString();
+        }
+
+    } catch (error) {
+        console.error(error);
+
+        document.getElementById("updated").innerHTML =
+            '<span class="error">Failed to load leaderboard.</span>';
+    }
+}
+
+function escapeHtml(text) {
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+loadLeaderboard();
+</script>
+
 </body>
 </html>
