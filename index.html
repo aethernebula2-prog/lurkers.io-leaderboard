@@ -101,16 +101,76 @@
         th, td {
             padding: 8px 5px;
         }
-    tbody tr.rank-1 {
-        border-left: 8px solid #ffd700;
+
+    #aboutButton {
+        display: block;
+        margin: 25px auto 0;
+        padding: 9px 18px;
+        background: #303a51;
+        color: #ffffff;
+        border: 1px solid #46536d;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
     }
 
-    tbody tr.rank-2 {
-        border-left: 8px solid #e5e7eb;
+    #aboutButton:hover {
+        background: #15263b;
     }
 
-    tbody tr.rank-3 {
-        border-left: 8px solid #ff8c42;
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.65);
+    }
+
+    .modal-content {
+        position: relative;
+        width: 90%;
+        max-width: 600px;
+        margin: 10% auto;
+        padding: 25px;
+        background: #161b22;
+        border: 1px solid #303a51;
+        border-radius: 12px;
+        color: #e6e6e6;
+    }
+
+    .modal-content h2 {
+        margin-top: 0;
+        color: #ffffff;
+    }
+
+    .modal-content h3 {
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+
+    .modal-content p {
+        color: #b4bfd1;
+        line-height: 1.6;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 18px;
+        font-size: 28px;
+        color: #8b949e;
+        cursor: pointer;
+    }
+
+    .close:hover {
+        color: #ffffff;
+    }
+
+    .disclaimer {
+        font-size: 13px;
     }
 </style>
 </head>
@@ -138,6 +198,33 @@
     <tbody id="leaderboard">
     </tbody>
 </table>
+
+<button id="aboutButton">About</button>
+
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <h2>About</h2>
+
+            <h3>Score calculation</h3>
+            <p>
+                (Win Ratio × 100) + (K/D Ratio × 100)
+            </p>
+
+            <h3>Data source</h3>
+            <p>
+                Powered by PlayFab and Lurkers.io
+            </p>
+
+            <p>
+                This Website was Created by AethericNebula
+            </p>
+
+            <h4>Version: V1.1.0</h4>
+            <p>Released on Augest 21, 2026</p>
+        </div>
+    </div>
 
 <script>
 async function loadLeaderboard() {
@@ -204,6 +291,25 @@ function escapeHtml(text) {
 }
 
 loadLeaderboard();
+
+const aboutButton = document.getElementById("aboutButton");
+const aboutModal = document.getElementById("aboutModal");
+const closeButton = document.querySelector(".close");
+
+aboutButton.onclick = function() {
+    aboutModal.style.display = "block";
+};
+
+closeButton.onclick = function() {
+    aboutModal.style.display = "none";
+};
+
+window.onclick = function(event) {
+    if (event.target === aboutModal) {
+        aboutModal.style.display = "none";
+    }
+};
+    
 </script>
 
 </body>
