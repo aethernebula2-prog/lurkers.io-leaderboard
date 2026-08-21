@@ -12,12 +12,16 @@
         box-sizing: border-box;
     }
         
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
     .logo {
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        width: 90px;
-        height: 90px;
+        width: 60px;
+        height: 60px;
         object-fit: contain;
     }
 
@@ -125,10 +129,10 @@
 </head>
 
 <body>
-
+<div class="header">
     <img src="logo.png" alt="Lurkers.io Bedwars" class="logo">
-
-<h1>Lurkers.io Bedwars Leaderboard</h1>
+    <h1>Lurkers.io Bedwars Leaderboard</h1>
+</div>
 
 <div id="updated">Loading leaderboard...</div>
 
