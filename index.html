@@ -11,19 +11,6 @@
     * {
         box-sizing: border-box;
     }
-        
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .logo {
-        width: 60px;
-        height: 60px;
-        object-fit: contain;
-    }
 
     body {
         font-family: Arial, sans-serif;
@@ -129,10 +116,8 @@
 </head>
 
 <body>
-<div class="header">
-    <img src="thumbnail.png" alt="Lurkers.io Bedwars" class="logo">
-    <h1>Lurkers.io Bedwars Leaderboard</h1>
-</div>
+
+<h1>Lurkers.io Bedwars Leaderboard</h1>
 
 <div id="updated">Loading leaderboard...</div>
 
@@ -144,6 +129,7 @@
             <th>Score</th>
             <th>Kills</th>
             <th>Deaths</th>
+            <th>K/D Ratio</th>
             <th>Games Won</th>
             <th>Games Lost</th>
         </tr>
@@ -178,12 +164,17 @@ async function loadLeaderboard() {
                 row.classList.add("rank-3");
             }
 
+            const kd = player["Deaths"] === 0
+                    ? player["Kills"]
+                    : player["Kills"] / player["Deaths"];
+
             row.innerHTML = `
                 <td>${index + 1}</td>
                 <td>${escapeHtml(player["Player Name"])}</td>
                 <td>${player["Score"].toLocaleString()}</td>
                 <td>${player["Kills"].toLocaleString()}</td>
                 <td>${player["Deaths"].toLocaleString()}</td>
+                <td>${kd.toFixed(2)}</td>
                 <td>${player["Games Won"].toLocaleString()}</td>
                 <td>${player["Games Lost"].toLocaleString()}</td>
             `;
