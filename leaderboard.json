@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-08-21T19:48:50.448335+00:00",
-  "lastUpdated": 1787341726957,
+  "updatedAt": "2026-08-21T20:53:54.346970+00:00",
+  "lastUpdated": 1787345629573,
   "cached": false,
   "players": [
     {
@@ -170,11 +170,11 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 6,
+      "Games Won": 7,
       "Games Lost": 13,
-      "Kills": 136,
-      "Deaths": 30,
-      "Score": 484
+      "Kills": 144,
+      "Deaths": 31,
+      "Score": 499
     },
     {
       "Account ID": "467F890E718672E1",
