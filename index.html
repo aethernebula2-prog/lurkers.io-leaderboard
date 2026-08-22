@@ -220,7 +220,9 @@
 
 <h1 data-i18n="title">Lurkers.io Bedwars Leaderboard</h1>
 
-<div id="updated">Loading leaderboard...</div>
+<div id="updated">
+    <span data-i18n="loadingLeaderboard">Loading leaderboard...</span>
+</div>
 
 <table>
     <thead>
@@ -389,8 +391,7 @@ async function loadLeaderboard() {
             const date = new Date(data.updatedAt);
 
             document.getElementById("updated").textContent =
-                "Last fetched: " + date.toLocaleString();
-        }
+                translations[currentLanguage].lastFetched + " " + date.toLocaleString();
 
     } catch (error) {
         console.error(error);
@@ -431,7 +432,9 @@ const translations = {
         scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io",
         theme: "Theme",
         darkblue: "Dark Blue",
-        lighttheme: "Light"
+        lighttheme: "Light",
+        loadingLeaderboard: "Loading leaderboard...",
+        lastFetched: "Last fetched:"
     },
 
     zh: {
@@ -458,7 +461,9 @@ const translations = {
         scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算",
         theme: "主题",
         darkblue: "深蓝",
-        lighttheme: "浅色"
+        lighttheme: "浅色",
+        loadingLeaderboard: "加载中...",
+        lastFetched: "最新同步:"
     },
     
     ja: {
@@ -485,7 +490,9 @@ const translations = {
         scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています",
         theme: "テーマ",
         darkblue: "ダークブルー",
-        lighttheme: "ライト"
+        lighttheme: "ライト",
+        loadingLeaderboard: "読み込み中...",
+        lastFetched: "最終取得:"
     },
 
     es:{
@@ -512,7 +519,9 @@ const translations = {
         scorenote: "Si el ratio K/D aparece como N/A, se calculará como 1.00. Estas estadísticas son solo de referencia y son calculadas por Lurkers.io",
         theme: "Tema",
         darkblue: "Azul oscuro",
-        lighttheme: "Claro"
+        lighttheme: "Claro",
+        loadingLeaderboard: "Cargando...",
+        lastFetched: "Última actualización:"
     },
 
     de:{
@@ -539,7 +548,9 @@ const translations = {
         scorenote: "Wird das K/D Rate als N/A angezeigt, wird es als 1,00 berechnet. Diese Statistiken dienen nur als Richtwert und werden von Lurkers.io berechnet",
         theme: "Farbschema",
         darkblue: "Dunkelblau",
-        lighttheme: "Hell"
+        lighttheme: "Hell",
+        loadingLeaderboard: "Wird geladen...",
+        lastFetched: "Zuletzt aktualisiert:"
     }
 };
 
