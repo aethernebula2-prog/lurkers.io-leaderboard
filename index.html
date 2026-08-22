@@ -95,9 +95,8 @@
         }
     }
 
-    #aboutButton {
-        display: block;
-        margin: 25px auto 0;
+    #aboutButton,
+    #settingsButton {
         padding: 9px 18px;
         background: transparent;
         color: #8b949e;
@@ -106,7 +105,8 @@
         font-size: 14px;
     }
 
-    #aboutButton:hover {
+    #aboutButton:hover,
+    #settingsButton:hover {
         background: transparent;
         color: #ffffff;
     }
@@ -401,6 +401,13 @@ function setLanguage(language) {
     });
 }
 
+document.querySelectorAll('input[name="language"]').forEach(input => {
+    input.addEventListener("change", function() {
+        setLanguage(this.value);
+    });
+});
+
+setLanguage("en");
 loadLeaderboard();
 
 const aboutButton = document.getElementById("aboutButton");
