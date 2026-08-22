@@ -6,6 +6,34 @@
     <meta name="description" content="Live Lurkers.io Bedwars leaderboard with player scores, kills, deaths, wins and losses.">
 
     <style>
+    :root {
+        --body-bg: #16243c;
+        --table-bg: #1e2f4b;
+        --header-bg: #16243a;
+        --hover-bg: #303a51;
+        --modal-bg: #161b22;
+
+        --border-color: #37405a;
+        --text-color: #e6e6e6;
+        --secondary-text: #8b949e;
+        --primary-text-color: #ffffff;
+        --error-color: #ff6b6b;
+    }
+
+    body.light-theme {
+        --body-bg: #f3f6fa;
+        --table-bg: #ffffff;
+        --header-bg: #e8edf3;
+        --hover-bg: #f0f4f8;
+        --modal-bg: #ffffff;
+
+        --border-color: #cbd5e1;
+        --text-color: #334155;
+        --secondary-text: #64748b;
+        --primary-text-color: #1e293b;
+        --error-color: #dc2626;
+    }
+        
     * {
         box-sizing: border-box;
     }
@@ -15,19 +43,19 @@
         max-width: 1100px;
         margin: 0 auto;
         padding: 40px 20px;
-        background: #16243c;
-        color: #e6e6e6;
+        background: var(--body-bg);
+        color: var(--text-color);
     }
 
     h1 {
         text-align: center;
-        color: #ffffff;
+        color: var(--primary-text-color);
         margin-bottom: 8px;
     }
 
     #updated {
         text-align: center;
-        color: #8b949e;
+        color: var(--secondary-text);
         margin-bottom: 30px;
     }
 
@@ -37,20 +65,20 @@
         border-spacing: 0;
         overflow: hidden;
         border-radius: 12px;
-        background: #1e2f4b;
-        border: 1px solid #37405a;
+        background: var(--table-bg);
+        border: 1px solid var(--border-color);
     }
 
     th {
         padding: 13px 10px;
-        background: #16243a;
-        color: #ffffff;
-        border-bottom: 1px solid #37405a;
+        background: var(--header-bg);
+        color: var(--primary-text-color);
+        border-bottom: 1px solid var(--border-color);
     }
 
     td {
         padding: 12px 10px;
-        border-bottom: 1px solid #37405a;
+        border-bottom: 1px solid var(--border-color);
         text-align: center;
     }
 
@@ -59,13 +87,13 @@
     }
 
     tbody tr:hover {
-        background: #303a51;
+        background: var(--hover-bg);
     }
 
     td:nth-child(2) {
         text-align: left;
         font-weight: bold;
-        color: #ffffff;
+        color: var(--primary-text-color);
     }
 
     td:nth-child(3) {
@@ -74,7 +102,7 @@
 
     .error {
         text-align: center;
-        color: #ff6b6b;
+        color: var(--error-color);
     }
 
     @media (max-width: 700px) {
@@ -281,6 +309,20 @@
                 <input type="radio" name="language" value="es">
                 Español
             </label>
+
+            <h3 data-i18n="theme">Theme</h3>
+
+            <label>
+                <input type="radio" name="theme" value="dark-blue" checked>
+                <span data-i18n="darkblue">Dark Blue</span>
+            </label>
+
+            <br>
+
+            <label>
+                <input type="radio" name="theme" value="light">
+                <span data-i18n="lighttheme">Light</span>
+            </label>
     </div>
 </div>  
 
@@ -379,7 +421,10 @@ const translations = {
         datafrom: "Data sourced from Lurkers.io via PlayFab",
         scorecalculateformula: "(Win Rate × 100) + (K/D Ratio × 100)",
         datasource: "Data source",
-        scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io"
+        scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io",
+        theme: "Theme",
+        darkblue: "Dark Blue",
+        lighttheme: "Light"
     },
 
     zh: {
@@ -403,7 +448,10 @@ const translations = {
         datafrom: "数据源自Lurkers.io，通过PlayFab提供",
         scorecalculateformula: "(胜率 × 100) + (K/D 比率 × 100)",
         datasource: "数据来源",
-        scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算"
+        scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算",
+        theme: "主题",
+        darkblue: "深蓝",
+        lighttheme: "浅色"
     },
     
     ja: {
@@ -427,7 +475,10 @@ const translations = {
         datafrom: "PlayFab経由でLurkers.ioから取得したデータ",
         scorecalculateformula: "(胜率 × 100) + (キルレ × 100)",
         datasource: "データ供給元",
-        scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています"
+        scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています",
+        theme: "テーマ",
+        darkblue: "ダークブルー",
+        lighttheme: "ライト"
     },
 
     es:{
@@ -451,7 +502,10 @@ const translations = {
         datafrom: "Datos obtenidos de Lurkers.io mediante PlayFab",
         scorecalculateformula: "(% de Victorias × 100) + (Ratio K/D × 100)",
         datasource: "Fuente de datos",
-        scorenote: "Si el ratio K/D aparece como N/A, se calculará como 1.00. Estas estadísticas son solo de referencia y son calculadas por Lurkers.io"
+        scorenote: "Si el ratio K/D aparece como N/A, se calculará como 1.00. Estas estadísticas son solo de referencia y son calculadas por Lurkers.io",
+        theme: "Tema",
+        darkblue: "Azul oscuro",
+        lighttheme: "Claro"
     }     
 };
 
@@ -465,6 +519,16 @@ function setLanguage(language) {
 document.querySelectorAll('input[name="language"]').forEach(input => {
     input.addEventListener("change", function() {
         setLanguage(this.value);
+    });
+});
+
+document.querySelectorAll('input[name="theme"]').forEach(input => {
+    input.addEventListener("change", function() {
+        if (this.value === "light") {
+            document.body.classList.add("light-theme");
+        } else {
+            document.body.classList.remove("light-theme");
+        }
     });
 });
 
