@@ -205,6 +205,38 @@
         color: var(--primary-text-color);
         text-decoration: none;
     }
+
+    .about-link {
+        color: var(--secondary-text);
+    }
+
+    .about-link:hover {
+        color: var(--secondary-text);
+    }
+
+    body.light-theme .about-link {
+        color: var(--text-color);
+    }
+
+    body.light-theme .about-link:hover {
+        color: var(--text-color);
+    }
+
+    .title-link {
+        color: var(--primary-text-color);
+    }
+
+    .title-link:hover {
+        color: var(--primary-text-color);
+    }
+
+    .default-link {
+        color: var(--primary-text-color);
+    }
+
+    .default-link:hover {
+        color: var(--primary-text-color);
+    }
         
     .bottom-buttons {
         display: flex;
@@ -592,6 +624,14 @@ function linkifyLurkers() {
                 link.textContent = "Lurkers.io";
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
+
+                if (node.parentElement.closest("#aboutModal")) {
+                    link.classList.add("about-link");
+                } else if (node.parentElement.closest("h1")) {
+                    link.classList.add("title-link");
+                } else {
+                    link.classList.add("default-link");
+                }
 
                 fragment.appendChild(link);
             }
