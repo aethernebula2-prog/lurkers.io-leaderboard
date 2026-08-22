@@ -278,7 +278,9 @@ async function loadLeaderboard() {
 
             row.innerHTML = `
                 <td>${index + 1}</td>
-                <td>${escapeHtml(player["Player Name"])}</td>
+                <td title="Account ID: ${escapeHtml(player["Account ID"])}">
+                    ${escapeHtml(player["Player Name"])}
+                </td>
                 <td>${player["Score"].toLocaleString()}</td>
                 <td>${player["Kills"].toLocaleString()}</td>
                 <td>${player["Deaths"].toLocaleString()}</td>
