@@ -149,7 +149,8 @@
         line-height: 1.6;
     }
 
-    .close {
+    .close,
+    .settings-close {
         position: absolute;
         top: 10px;
         right: 18px;
@@ -158,7 +159,8 @@
         cursor: pointer;
     }
 
-    .close:hover {
+    .close:hover,
+    .settings-close:hover {
         color: #ffffff;
     }
 
@@ -212,8 +214,8 @@
 </table>
 
 <div class="bottom-buttons">
-    <button id="aboutButton">About</button>
-    <button id="settingsButton">Settings</button>
+    <button id="aboutButton" data-i18n="about">About</button>
+    <button id="settingsButton" data-i18n="settings">Settings</button>
 </div>
 
     <div id="aboutModal" class="modal">
@@ -222,31 +224,29 @@
 
             <h2 data-i18n="about">About</h2>
 
-            <h3>Score calculation</h3>
+            <h3 data-i18n="scorecalculation">Score calculation</h3>
             
-            <p>
+            <p data-i18n="scorecalculateformula>
                 (Win Rate × 100) + (K/D Ratio × 100)
             </p>
             
-            <small style="color: #8b949e;">
+            <small style="color: #8b949e;" data-i18n="scorenote">
                 If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io
             </small>
 
-            <h3>Data source</h3>
-            <p>
-                Data sourced from 
-                <a href="https://lurkers.io">Lurkers.io</a>
-                via PlayFab
+            <h3 data-i18n="datasource">Data source</h3>
+            <p data-i18n="datafrom">
+                Data sourced from Lurkers.io via PlayFab
             </p>
 
-            <h3>Build</h3>
+            <h3 data-i18n="build">Build</h3>
 
-            <p>
+            <p data-i18n="createdbyaethericnebula">
                 Created by AethericNebula
             </p>
 
-            <p>Version: V1.0.0</p>
-            <p>Released on August 19, 2026</p>
+            <p data-i18n="version">Latest Version</p>
+            <p data-i18n="releaseddate">Released on August 19, 2026</p>
         </div>
     </div>
 
@@ -363,7 +363,16 @@ const translations = {
         wins: "Games Won",
         losses: "Games Lost",
         settings: "Settings",
-        about: "About"
+        about: "About",
+        scorecalculation: "Score Calculation",
+        releaseddate: "Released on August 19, 2026",
+        build: "Build",
+        createdbyaethericnebula: "Created by AethericNebula",
+        version: "Latest Version",
+        datafrom: "Data sourced from Lurkers.io via PlayFab",
+        scorecalculateformula: "(Win Rate × 100) + (K/D Ratio × 100)",
+        datasource: "Data source",
+        scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io"
     },
 
     zh: {
@@ -378,7 +387,16 @@ const translations = {
         wins: "胜场",
         losses: "负场",
         settings: "设置",
-        about: "关于"
+        about: "关于",
+        scorecalculation: "分数计算方式",
+        releaseddate: "该版本发布于2026年8月19日",
+        build: "开发说明",
+        createdbyaethericnebula: "开发者：以太星云",
+        version: "已为最新版本",
+        datafrom: "数据源自Lurkers.io，通过PlayFab提供",
+        scorecalculateformula: "(胜率 × 100) + (K/D 比率 × 100)",
+        datasource: "数据来源",
+        scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算"
     },
     
         ja: {
@@ -393,7 +411,16 @@ const translations = {
         wins: "勝利数",
         losses: "敗北数",
         settings: "設定",
-        about: "について"
+        about: "について",
+        scorecalculation: "得点計算",
+        releaseddate: "このバージョンは2026年8月19日にリリースされました",
+        build: "開発",
+        createdbyaethericnebula: "AethericNebulaが開発",
+        version: "最新バージョン",
+        datafrom: "PlayFab経由でLurkers.ioから取得したデータ",
+        scorecalculateformula: "(胜率 × 100) + (キルレ × 100)",
+        datasource: "データ供給元",
+        scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています"
     }
 };
 
