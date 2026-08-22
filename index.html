@@ -220,7 +220,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>
 
-            <h2>About</h2>
+            <h2 data-i18n="about">About</h2>
 
             <h3>Score calculation</h3>
             
@@ -251,31 +251,31 @@
     </div>
 
     <div id="settingsModal" class="modal">
-    <div class="modal-content">
-        <span class="settings-close">&times;</span>
+        <div class="modal-content">
+            <span class="settings-close">&times;</span>
 
-        <h2 data-i18n="settings">Settings</h2>
+            <h2 data-i18n="settings">Settings</h2>
 
-        <label>
-            <input type="radio" name="language" value="en" checked>
-            English
-        </label>
+            <label>
+                <input type="radio" name="language" value="en" checked>
+                English
+            </label>
 
-        <br>
+            <br>
 
-        <label>
-            <input type="radio" name="language" value="zh">
-            简体中文
-        </label>
+            <label>
+                <input type="radio" name="language" value="zh">
+                简体中文
+            </label>
+        
+            <br>
 
-        <br>
-
-        <label>
-            <input type="radio" name="language" value="ja">
-            日本語
-        </label>
+            <label>
+                <input type="radio" name="language" value="ja">
+                日本語
+            </label>
     </div>
-</div>
+</div>  
 
 <script>
 async function loadLeaderboard() {
@@ -362,7 +362,8 @@ const translations = {
         winRate: "Win Rate",
         wins: "Games Won",
         losses: "Games Lost",
-        settings: "Settings"
+        settings: "Settings",
+        about: "About"
     },
 
     zh: {
@@ -376,7 +377,8 @@ const translations = {
         winRate: "胜率",
         wins: "胜场",
         losses: "负场",
-        settings: "设置"
+        settings: "设置",
+        about: "关于"
     },
     
         ja: {
@@ -390,7 +392,8 @@ const translations = {
         winRate: "勝率",
         wins: "勝利数",
         losses: "敗北数",
-        settings: "設定"
+        settings: "設定",
+        about: "について"
     }
 };
 
