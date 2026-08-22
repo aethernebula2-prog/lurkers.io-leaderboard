@@ -274,6 +274,13 @@
                 <input type="radio" name="language" value="ja">
                 日本語
             </label>
+
+            <br>
+
+            <label>
+                <input type="radio" name="language" value="es">
+                Español
+            </label>
     </div>
 </div>  
 
@@ -369,14 +376,14 @@ const translations = {
         build: "Build",
         createdbyaethericnebula: "Created by AethericNebula",
         version: "Latest Version",
-        datafrom: "Data sourced from Lurkers.io via PlayFab",
+        datafrom: ",",
         scorecalculateformula: "(Win Rate × 100) + (K/D Ratio × 100)",
         datasource: "Data source",
         scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io"
     },
 
     zh: {
-        title: "Lurkers.io Bedwars 排行榜",
+        title: "Lurkers.io 床战排行榜",
         rank: "排名",
         player: "玩家",
         score: "分数",
@@ -399,8 +406,8 @@ const translations = {
         scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算"
     },
     
-        ja: {
-        title: "Lurkers.io Bedwars ランキング",
+    ja: {
+        title: "Lurkers.io ベッドワランキング",
         rank: "順位",
         player: "プレイヤー",
         score: "スコア",
@@ -421,7 +428,31 @@ const translations = {
         scorecalculateformula: "(胜率 × 100) + (キルレ × 100)",
         datasource: "データ供給元",
         scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています"
-    }
+    },
+
+    es:{
+        title: "Clasificación de Bedwars de Lurkers.io",
+        rank: "Posición",
+        player: "Jugador",
+        score: "Puntos",
+        kills: "Bajas",
+        deaths: "Muertes",
+        kd: "Ratio K/D",
+        winRate: "% de Victorias",
+        wins: "Victorias",
+        losses: "Derrotas",
+        settings: "Opciones",
+        about: "Acerca de",
+        scorecalculation: "Cálculo de la puntuación",
+        releaseddate: "Esta versión se publicó el 19 de agosto de 2026",
+        build: "Desarrollo",
+        createdbyaethericnebula: "Desarrollado por AethericNebula",
+        version: "Ya está actualizado",
+        datafrom: "Datos obtenidos de Lurkers.io mediante PlayFab",
+        scorecalculateformula: "(% de Victorias × 100) + (Ratio K/D × 100)",
+        datasource: "Fuente de datos",
+        scorenote: "Si el ratio K/D aparece como N/A, se calculará como 1.00. Estas estadísticas son solo de referencia y son calculadas por Lurkers.io"
+    }     
 };
 
 function setLanguage(language) {
