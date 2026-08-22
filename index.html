@@ -221,7 +221,7 @@
 <h1 data-i18n="title">Lurkers.io Bedwars Leaderboard</h1>
 
 <div id="updated">
-    <span data-i18n="loadingLeaderboard">Loading leaderboard...</span>
+    <span id="updatedLabel" data-i18n="loadingLeaderboard">Loading leaderboard...</span>
 </div>
 
 <table>
@@ -390,16 +390,15 @@ async function loadLeaderboard() {
         if (data.updatedAt) {
             const date = new Date(data.updatedAt);
 
-            document.getElementById("updated").textContent =
+            document.getElementById("updatedLabel").textContent =
                 translations[currentLanguage].lastFetched + " " + date.toLocaleString();
 
     } catch (error) {
         console.error(error);
 
-        document.getElementById("updated").innerHTML =
-            '<span class="error">Failed to load leaderboard.</span>';
+        document.getElementById("updatedLabel").textContent =
+            translations[language].lastFetched + " " + date.toLocaleString();
     }
-}
 
 function escapeHtml(text) {
     const div = document.createElement("div");
@@ -554,6 +553,8 @@ const translations = {
     }
 };
 
+let currentLanguage = "en";
+
 function linkifyLurkers() {
     const walker = document.createTreeWalker(
         document.body,
@@ -599,10 +600,13 @@ function linkifyLurkers() {
 }
 
 function setLanguage(language) {
+    currentLanguage = language;
+
     document.querySelectorAll("[data-i18n]").forEach(element => {
         const key = element.dataset.i18n;
         element.textContent = translations[language][key];
     });
+
     linkifyLurkers();
 }
 
