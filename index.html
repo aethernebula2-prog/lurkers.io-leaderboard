@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Lurkers.io Bedwars Leaderboard</title>
+    <h1 data-i18n="title">Lurkers.io Bedwars Leaderboard</h1>
     <meta name="description" content="Live Lurkers.io Bedwars leaderboard with player scores, kills, deaths, wins and losses.">
 
     <style>
@@ -177,6 +177,14 @@
         color: #b4bfd1;
         text-decoration: none;
     }
+        
+    .bottom-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 25px;
+    }
+        
 </style>
 </head>
 
@@ -189,15 +197,15 @@
 <table>
     <thead>
         <tr>
-            <th>Rank</th>
-            <th>Player</th>
-            <th>Score</th>
-            <th>Kills</th>
-            <th>Deaths</th>
-            <th>K/D Ratio</th>
-            <th>Games Won</th>
-            <th>Games Lost</th>
-            <th>Win Rate</th>
+            <th data-i18n="rank">Rank</th>
+            <th data-i18n="player">Player</th>
+            <th data-i18n="score">Score</th>
+            <th data-i18n="kills">Kills</th>
+            <th data-i18n="deaths">Deaths</th>
+            <th data-i18n="kd">K/D Ratio</th>
+            <th data-i18n="wins">Games Won</th>
+            <th data-i18n="losses">Games Lost</th>
+            <th data-i18n="winRate">Win Rate</th>
         </tr>
     </thead>
 
@@ -205,7 +213,10 @@
     </tbody>
 </table>
 
-<button id="aboutButton">ⓘAbout</button>
+<div class="bottom-buttons">
+    <button id="aboutButton">About</button>
+    <button id="settingsButton">Settings</button>
+</div>
 
     <div id="aboutModal" class="modal">
         <div class="modal-content">
@@ -237,9 +248,36 @@
             </p>
 
             <p>Version: V1.0.0</p>
-            <p>Released on Augest 19, 2026</p>
+            <p>Released on August 19, 2026</p>
         </div>
     </div>
+
+    <div id="settingsModal" class="modal">
+    <div class="modal-content">
+        <span class="settings-close">&times;</span>
+
+        <h2 data-i18n="settings">Settings</h2>
+
+        <label>
+            <input type="radio" name="language" value="en" checked>
+            English
+        </label>
+
+        <br>
+
+        <label>
+            <input type="radio" name="language" value="zh">
+            简体中文
+        </label>
+
+        <br>
+
+        <label>
+            <input type="radio" name="language" value="ja">
+            日本語
+        </label>
+    </div>
+</div>
 
 <script>
 async function loadLeaderboard() {
@@ -314,11 +352,66 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+const translations = {
+    en: {
+        title: "Lurkers.io Bedwars Leaderboard",
+        rank: "Rank",
+        player: "Player",
+        score: "Score",
+        kills: "Kills",
+        deaths: "Deaths",
+        kd: "K/D Ratio",
+        winRate: "Win Rate",
+        wins: "Games Won",
+        losses: "Games Lost",
+        settings: "Settings"
+    },
+
+    zh: {
+        title: "Lurkers.io Bedwars 排行榜",
+        rank: "排名",
+        player: "玩家",
+        score: "分数",
+        kills: "击杀",
+        deaths: "死亡",
+        kd: "K/D 比率",
+        winRate: "胜率",
+        wins: "胜场",
+        losses: "负场",
+        settings: "设置"
+    },
+    
+        ja: {
+        title: "Lurkers.io Bedwars ランキング",
+        rank: "順位",
+        player: "プレイヤー",
+        score: "スコア",
+        kills: "キル",
+        deaths: "デス",
+        kd: "K/D比率",
+        winRate: "勝率",
+        wins: "勝利数",
+        losses: "敗北数",
+        settings: "設定"
+    }
+};
+
+function setLanguage(language) {
+    document.querySelectorAll("[data-i18n]").forEach(element => {
+        const key = element.dataset.i18n;
+        element.textContent = translations[language][key];
+    });
+}
+
 loadLeaderboard();
 
 const aboutButton = document.getElementById("aboutButton");
 const aboutModal = document.getElementById("aboutModal");
 const closeButton = document.querySelector(".close");
+
+const settingsButton = document.getElementById("settingsButton");
+const settingsModal = document.getElementById("settingsModal");
+const settingsCloseButton = document.querySelector(".settings-close");
 
 aboutButton.onclick = function() {
     aboutModal.style.display = "block";
@@ -328,9 +421,21 @@ closeButton.onclick = function() {
     aboutModal.style.display = "none";
 };
 
+settingsButton.onclick = function() {
+    settingsModal.style.display = "block";
+};
+
+settingsCloseButton.onclick = function() {
+    settingsModal.style.display = "none";
+};
+
 window.onclick = function(event) {
     if (event.target === aboutModal) {
         aboutModal.style.display = "none";
+    }
+    
+    if (event.target === settingsModal) {
+        settingsModal.style.display = "none";
     }
 };
     
