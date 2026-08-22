@@ -187,6 +187,7 @@
             <th>K/D Ratio</th>
             <th>Games Won</th>
             <th>Games Lost</th>
+            <th>Win Rate</th>
         </tr>
     </thead>
 
@@ -204,7 +205,7 @@
 
             <h3>Score calculation</h3>
             <p>
-                (Win Ratio × 100) + (K/D Ratio × 100)
+                (Win Rate × 100) + (K/D Ratio × 100)
             </p>
 
             <h3>Data source</h3>
@@ -249,8 +250,14 @@ async function loadLeaderboard() {
             }
 
             const kd = player["Deaths"] === 0
-                    ? player["Kills"]
+                    ? null
                     : player["Kills"] / player["Deaths"];
+
+            const totalGames = player["Games Won"] + player["Games Lost"];
+
+            const winRate = totalGames === 0
+                    ? 0
+                    : (player["Games Won"] / totalGames) * 100;
 
             row.innerHTML = `
                 <td>${index + 1}</td>
@@ -258,9 +265,10 @@ async function loadLeaderboard() {
                 <td>${player["Score"].toLocaleString()}</td>
                 <td>${player["Kills"].toLocaleString()}</td>
                 <td>${player["Deaths"].toLocaleString()}</td>
-                <td>${kd.toFixed(2)}</td>
+                <td>${kd === null ? "N/A" : kd.toFixed(2)}</td>
                 <td>${player["Games Won"].toLocaleString()}</td>
                 <td>${player["Games Lost"].toLocaleString()}</td>
+                <td>${winRate.toFixed(2)}%</td>
             `;
 
             leaderboard.appendChild(row);
