@@ -392,13 +392,15 @@ async function loadLeaderboard() {
 
             document.getElementById("updatedLabel").textContent =
                 translations[currentLanguage].lastFetched + " " + date.toLocaleString();
+            }
 
-    } catch (error) {
-        console.error(error);
+        } catch (error) {
+            console.error(error);
 
-        document.getElementById("updatedLabel").textContent =
-            translations[language].lastFetched + " " + date.toLocaleString();
-    }
+            document.getElementById("updatedLabel").textContent =
+                "Failed to load leaderboard.";
+        }
+}
 
 function escapeHtml(text) {
     const div = document.createElement("div");
