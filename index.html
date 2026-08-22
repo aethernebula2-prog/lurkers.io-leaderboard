@@ -390,8 +390,8 @@ async function loadLeaderboard() {
         if (data.updatedAt) {
             const date = new Date(data.updatedAt);
 
-            document.getElementById("updatedLabel").textContent =
-                translations[currentLanguage].lastFetched + " " + date.toLocaleString();
+            document.getElementById("updated").textContent =
+                "Last fetched: " + date.toLocaleString();
             }
 
         } catch (error) {
