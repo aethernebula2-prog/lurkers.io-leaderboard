@@ -351,6 +351,13 @@
                 Deutsch
             </label>
 
+            <br>
+
+            <label>
+                <input type="radio" name="language" value="fr">
+                français
+            </label>
+
             <h3 data-i18n="theme">Theme</h3>
 
             <label>
@@ -465,9 +472,7 @@ const translations = {
         scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io",
         theme: "Theme",
         darkblue: "Dark Blue",
-        lighttheme: "Light",
-        loadingLeaderboard: "Loading leaderboard...",
-        lastFetched: "Last fetched:"
+        lighttheme: "Light"
     },
 
     zh: {
@@ -494,9 +499,7 @@ const translations = {
         scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算",
         theme: "主题",
         darkblue: "深蓝",
-        lighttheme: "浅色",
-        loadingLeaderboard: "加载中...",
-        lastFetched: "最新同步:"
+        lighttheme: "浅色"
     },
     
     ja: {
@@ -523,9 +526,7 @@ const translations = {
         scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています",
         theme: "テーマ",
         darkblue: "ダークブルー",
-        lighttheme: "ライト",
-        loadingLeaderboard: "読み込み中...",
-        lastFetched: "最終取得:"
+        lighttheme: "ライト"
     },
 
     es:{
@@ -552,9 +553,7 @@ const translations = {
         scorenote: "Si el ratio K/D aparece como N/A, se calculará como 1.00. Estas estadísticas son solo de referencia y son calculadas por Lurkers.io",
         theme: "Tema",
         darkblue: "Azul oscuro",
-        lighttheme: "Claro",
-        loadingLeaderboard: "Cargando...",
-        lastFetched: "Última actualización:"
+        lighttheme: "Claro"
     },
 
     de:{
@@ -562,7 +561,7 @@ const translations = {
         rank: "Platz",
         player: "Spieler",
         score: "Punkte",
-        kills: "Kills",
+        kills: "Abschüsse",
         deaths: "Tode",
         kd: "K/D Rate",
         winRate: "Siegquote",
@@ -581,10 +580,35 @@ const translations = {
         scorenote: "Wird das K/D Rate als N/A angezeigt, wird es als 1,00 berechnet. Diese Statistiken dienen nur als Richtwert und werden von Lurkers.io berechnet",
         theme: "Farbschema",
         darkblue: "Dunkelblau",
-        lighttheme: "Hell",
-        loadingLeaderboard: "Wird geladen...",
-        lastFetched: "Zuletzt aktualisiert:"
-    }
+        lighttheme: "Hell"
+    },
+
+    fr: {
+        title: "Classement Bedwars de Lurkers.io",
+        rank: "Rang",
+        player: "Joueurs",
+        score: "Score",
+        kills: "Élim.",
+        deaths: "Morts",
+        kd: "Ratio É/M",
+        winRate: "% de Vict.",
+        wins: "Vict.",
+        losses: "Déf.",
+        settings: "Options",
+        about: "À propos",
+        scorecalculation: "Calcul du Score",
+        releaseddate: "Sorti le 19 août 2026",
+        build: "Développement",
+        createdbyaethericnebula: "Développé par AethericNebula",
+        version: "Dernière Version",
+        datafrom: "Données provenant de Lurkers.io via PlayFab",
+        scorecalculateformula: "(% de Vict. × 100) + (Ratio É/M × 100)",
+        datasource: "Source des données",
+        scorenote: "Si le ratio K/D est N/A, il est traité comme 1,00 pour le calcul. À titre de référence uniquement, les statistiques sont calculées par Lurkers.io",
+        theme: "Thèmes",
+        darkblue: "Bleu Nuit",
+        lighttheme: "Clair"
+    },
 };
 
 let currentLanguage = "en";
