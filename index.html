@@ -250,7 +250,7 @@
 
 <body>
 
-<h1 data-i18n="title">Lurkers.io Bedwars Leaderboard</h1>
+<h1 data-i18n="title">Lurkers.io Leaderboard</h1>
 
 <div id="updated">
     <span id="updatedLabel" data-i18n="loadingLeaderboard">Loading leaderboard...</span>
@@ -406,7 +406,9 @@
 <script>
 async function loadLeaderboard() {
     try {
-        const response = await fetch("leaderboard.json?cache=" + Date.now());
+        const response = await fetch(
+            leaderboardFiles[currentGamemode] + "?cache=" + Date.now()
+        );
 
         if (!response.ok) {
             throw new Error("HTTP " + response.status);
@@ -478,7 +480,7 @@ function escapeHtml(text) {
 
 const translations = {
     en: {
-        title: "Lurkers.io Bedwars Leaderboard",
+        title: "Lurkers.io Leaderboard",
         rank: "Rank",
         player: "Player",
         score: "Score",
@@ -507,7 +509,7 @@ const translations = {
     },
 
     zh: {
-        title: "Lurkers.io 床战排行榜",
+        title: "Lurkers.io 排行榜",
         rank: "排名",
         player: "玩家",
         score: "分数",
@@ -536,7 +538,7 @@ const translations = {
     },
     
     ja: {
-        title: "Lurkers.io ベッドワランキング",
+        title: "Lurkers.io 順位表",
         rank: "順位",
         player: "プレイヤー",
         score: "スコア",
@@ -565,7 +567,7 @@ const translations = {
     },
 
     es:{
-        title: "Clasificación de Bedwars de Lurkers.io",
+        title: "Clasificación de Lurkers.io",
         rank: "Posición",
         player: "Jugador",
         score: "Puntos",
@@ -594,7 +596,7 @@ const translations = {
     },
 
     de:{
-        title: "Lurkers.io Bedwars-Bestenliste",
+        title: "Lurkers.io Bestenliste",
         rank: "Platz",
         player: "Spieler",
         score: "Punkte",
@@ -623,7 +625,7 @@ const translations = {
     },
 
     fr: {
-        title: "Classement Bedwars de Lurkers.io",
+        title: "Classement de Lurkers.io",
         rank: "Rang",
         player: "Joueurs",
         score: "Score",
@@ -652,7 +654,7 @@ const translations = {
     },
 
     ru: {
-        title: "Таблица Лидеров Lurkers.io Бед Варс",
+        title: "Таблица Лидеров Lurkers.io",
         rank: "Рейтинг",
         player: "Игрок",
         score: "Очко",
@@ -752,6 +754,13 @@ document.querySelectorAll('input[name="language"]').forEach(input => {
     });
 });
 
+document.querySelectorAll('input[name="gamemode"]').forEach(input => {
+    input.addEventListener("change", function() {
+        currentGamemode = this.value;
+        loadLeaderboard();
+    });
+});
+
 document.querySelectorAll('input[name="theme"]').forEach(input => {
     input.addEventListener("change", function() {
         if (this.value === "light") {
@@ -762,6 +771,14 @@ document.querySelectorAll('input[name="theme"]').forEach(input => {
     });
 });
 
+const leaderboardFiles = {
+    "Bedwars": "leaderboard-bedwars.json",
+    "Capture The Flag": "leaderboard-ctf.json",
+    "Team Deathmatch": "leaderboard-team-deathmatch.json"
+};
+
+let currentGamemode = "Bedwars";
+    
 setLanguage("en");
 loadLeaderboard();
 
