@@ -30,42 +30,49 @@ if login_data.get("code") != 200:
 session_ticket = login_data["data"]["SessionTicket"]
 
 # 2. Get Lurkers leaderboard
-response = requests.post(
-    f"{BASE_URL}/ExecuteCloudScript",
-    headers={
-        "Content-Type": "application/json",
-        "X-Authorization": session_ticket
-    },
-    json={
-        "FunctionName": "getLeaderboardNew2",
-        "FunctionParameter": {
-            "gamemode": "Bedwars"
+gamemodes = [
+    ("Bedwars", "leaderboard-bedwars.json"),
+    ("Capture The Flag", "leaderboard-ctf.json"),
+    ("Team Deathmatch", "leaderboard-team-deathmatch.json")
+]
+
+for gamemode, filename in gamemodes:
+    response = requests.post(
+        f"{BASE_URL}/ExecuteCloudScript",
+        headers={
+            "Content-Type": "application/json",
+            "X-Authorization": session_ticket
         },
-        "RevisionSelection": "latest",
-        "GeneratePlayStreamEvent": False
-    },
-    timeout=30
-)
+        json={
+            "FunctionName": "getLeaderboardNew2",
+            "FunctionParameter": {
+                "gamemode": gamemode
+            },
+            "RevisionSelection": "latest",
+            "GeneratePlayStreamEvent": False
+        },
+        timeout=30
+    )
 
-response.raise_for_status()
-data = response.json()
+    response.raise_for_status()
+    data = response.json()
 
-if data.get("code") != 200:
-    print(json.dumps(data, indent=2))
-    sys.exit(1)
+    if data.get("code") != 200:
+        print(json.dumps(data, indent=2))
+        sys.exit(1)
 
-result = data["data"]["FunctionResult"]
+    result = data["data"]["FunctionResult"]
 
-output = {
-    "game": "Lurkers.io",
-    "gamemode": "Bedwars",
-    "updatedAt": datetime.now(timezone.utc).isoformat(),
-    "lastUpdated": result.get("lastUpdated"),
-    "cached": result.get("cached"),
-    "players": result["value"]
-}
+    output = {
+        "game": "Lurkers.io",
+        "gamemode": gamemode,
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "lastUpdated": result.get("lastUpdated"),
+        "cached": result.get("cached"),
+        "players": result["value"]
+    }
 
-with open("leaderboard.json", "w", encoding="utf-8") as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"Updated {len(output['players'])} players.")
+    print(f"Updated {len(output['players'])} players for {gamemode}.")
