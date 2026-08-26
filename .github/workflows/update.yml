@@ -24,15 +24,23 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch leaderboard
+      - name: Fetch leaderboards
         env:
           PLAYFAB_CUSTOM_ID: ${{ secrets.PLAYFAB_CUSTOM_ID }}
         run: python fetch_leaderboard.py
 
-      - name: Check generated file
+      - name: Check generated files
         run: |
-          echo "Generated leaderboard.json:"
-          cat leaderboard.json
+          echo "Generated leaderboard-bedwars.json:"
+          cat leaderboard-bedwars.json
+
+          echo ""
+          echo "Generated leaderboard-ctf.json:"
+          cat leaderboard-ctf.json
+
+          echo ""
+          echo "Generated leaderboard-team-deathmatch.json:"
+          cat leaderboard-team-deathmatch.json
 
           echo ""
           echo "Git status:"
@@ -40,18 +48,24 @@ jobs:
 
           echo ""
           echo "Git diff:"
-          git diff -- leaderboard.json
+          git diff -- \
+            leaderboard-bedwars.json \
+            leaderboard-ctf.json \
+            leaderboard-team-deathmatch.json
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add leaderboard.json
+          git add \
+            leaderboard-bedwars.json \
+            leaderboard-ctf.json \
+            leaderboard-team-deathmatch.json
 
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "Update Lurkers leaderboard"
+            git commit -m "Update Lurkers leaderboards"
             git push
           fi
