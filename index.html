@@ -683,8 +683,6 @@ const translations = {
     }
 };
 
-let currentLanguage = "en";
-
 function linkifyLurkers() {
     const walker = document.createTreeWalker(
         document.body,
@@ -740,10 +738,14 @@ function linkifyLurkers() {
 function setLanguage(language) {
     currentLanguage = language;
 
+    localStorage.setItem("language", language);
+
     document.querySelectorAll("[data-i18n]").forEach(element => {
         const key = element.dataset.i18n;
         element.textContent = translations[language][key];
     });
+    
+    document.querySelector(`input[name="language"][value="${language}"]`).checked = true;
 
     linkifyLurkers();
 }
@@ -760,17 +762,17 @@ const leaderboardFiles = {
     "Team Deathmatch": "leaderboard-team-deathmatch.json"
 };
 
-let currentGamemode = "Bedwars";
-
 document.querySelectorAll('input[name="gamemode"]').forEach(input => {
     input.addEventListener("change", function() {
         currentGamemode = this.value;
+        localStorage.setItem("gamemode", currentGamemode);
         loadLeaderboard();
     });
 });
 
 document.querySelectorAll('input[name="theme"]').forEach(input => {
     input.addEventListener("change", function() {
+        localStorage.setItem("theme", this.value);
         if (this.value === "light") {
             document.body.classList.add("light-theme");
         } else {
@@ -779,7 +781,27 @@ document.querySelectorAll('input[name="theme"]').forEach(input => {
     });
 });
     
-setLanguage("en");
+let currentLanguage = localStorage.getItem("language") || "en";
+
+let currentGamemode =
+    localStorage.getItem("gamemode") || "Bedwars";
+
+const savedTheme =
+    localStorage.getItem("theme") || "dark-blue";
+
+document.querySelector(
+    `input[name="gamemode"][value="${currentGamemode}"]`
+).checked = true;
+
+document.querySelector(
+    `input[name="theme"][value="${savedTheme}"]`
+).checked = true;
+
+if (savedTheme === "light") {
+    document.body.classList.add("light-theme");
+}
+
+setLanguage(currentLanguage);
 loadLeaderboard();
 
 const aboutButton = document.getElementById("aboutButton");
