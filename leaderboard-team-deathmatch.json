@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-26T10:54:22.286861+00:00",
-  "lastUpdated": 1787741660559,
+  "updatedAt": "2026-08-26T12:00:55.850464+00:00",
+  "lastUpdated": 1787745653549,
   "cached": false,
   "players": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "MerchEnt",
+      "Player Name": "EqaqeG",
       "Games Won": 10,
       "Games Lost": 10,
       "Kills": 574,
