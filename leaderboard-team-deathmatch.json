@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-26T12:00:55.850464+00:00",
-  "lastUpdated": 1787745653549,
+  "updatedAt": "2026-08-26T15:47:52.240189+00:00",
+  "lastUpdated": 1787759269802,
   "cached": false,
   "players": [
     {
@@ -107,11 +107,11 @@
     {
       "Account ID": "3E098D931E193F9F",
       "Player Name": "vanbey1",
-      "Games Won": 6,
+      "Games Won": 7,
       "Games Lost": 21,
-      "Kills": 506,
-      "Deaths": 72,
-      "Score": 724
+      "Kills": 539,
+      "Deaths": 74,
+      "Score": 753
     },
     {
       "Account ID": "AF250DAC1B238320",
