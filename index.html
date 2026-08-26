@@ -754,6 +754,14 @@ document.querySelectorAll('input[name="language"]').forEach(input => {
     });
 });
 
+const leaderboardFiles = {
+    "Bedwars": "leaderboard-bedwars.json",
+    "Capture The Flag": "leaderboard-ctf.json",
+    "Team Deathmatch": "leaderboard-team-deathmatch.json"
+};
+
+let currentGamemode = "Bedwars";
+
 document.querySelectorAll('input[name="gamemode"]').forEach(input => {
     input.addEventListener("change", function() {
         currentGamemode = this.value;
@@ -770,14 +778,6 @@ document.querySelectorAll('input[name="theme"]').forEach(input => {
         }
     });
 });
-
-const leaderboardFiles = {
-    "Bedwars": "leaderboard-bedwars.json",
-    "Capture The Flag": "leaderboard-ctf.json",
-    "Team Deathmatch": "leaderboard-team-deathmatch.json"
-};
-
-let currentGamemode = "Bedwars";
     
 setLanguage("en");
 loadLeaderboard();
