@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-28T01:30:23.070033+00:00",
-  "lastUpdated": 1787880618793,
-  "cached": false,
+  "updatedAt": "2026-08-28T21:54:20.741758+00:00",
+  "lastUpdated": 1787953572111,
+  "cached": true,
   "players": [
     {
       "Account ID": "A66BD8C64E04BA0C",
@@ -26,26 +26,26 @@
     {
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
-      "Games Won": 7,
-      "Games Lost": 13,
-      "Kills": 587,
-      "Deaths": 40,
-      "Score": 1502
+      "Games Won": 8,
+      "Games Lost": 14,
+      "Kills": 641,
+      "Deaths": 42,
+      "Score": 1562
     },
     {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 16,
-      "Games Lost": 36,
-      "Kills": 2001,
-      "Deaths": 155,
-      "Score": 1321
+      "Games Lost": 40,
+      "Kills": 2146,
+      "Deaths": 161,
+      "Score": 1361
     },
     {
       "Account ID": "25458AF83BCE968D",
       "Player Name": "onebelowall",
       "Games Won": 24,
-      "Games Lost": 25,
+      "Games Lost": 26,
       "Kills": 1250,
       "Deaths": 100,
       "Score": 1298
@@ -89,20 +89,20 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 10,
-      "Games Lost": 10,
-      "Kills": 574,
-      "Deaths": 66,
-      "Score": 919
+      "Games Won": 11,
+      "Games Lost": 11,
+      "Kills": 639,
+      "Deaths": 76,
+      "Score": 890
     },
     {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 6,
-      "Games Lost": 15,
-      "Kills": 290,
-      "Deaths": 39,
-      "Score": 772
+      "Account ID": "FACD62C2F5808FEF",
+      "Player Name": "nach12",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 291,
+      "Deaths": 40,
+      "Score": 777
     },
     {
       "Account ID": "3E098D931E193F9F",
@@ -112,6 +112,15 @@
       "Kills": 593,
       "Deaths": 80,
       "Score": 764
+    },
+    {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 6,
+      "Games Lost": 15,
+      "Kills": 290,
+      "Deaths": 40,
+      "Score": 753
     },
     {
       "Account ID": "AF250DAC1B238320",
@@ -125,20 +134,20 @@
     {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
-      "Games Won": 16,
-      "Games Lost": 23,
-      "Kills": 843,
-      "Deaths": 137,
-      "Score": 656
+      "Games Won": 17,
+      "Games Lost": 24,
+      "Kills": 878,
+      "Deaths": 139,
+      "Score": 673
     },
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 18,
-      "Games Lost": 32,
+      "Games Lost": 33,
       "Kills": 533,
-      "Deaths": 87,
-      "Score": 648
+      "Deaths": 88,
+      "Score": 640
     },
     {
       "Account ID": "63F1752232C1E743",
@@ -148,15 +157,6 @@
       "Kills": 129,
       "Deaths": 22,
       "Score": 600
-    },
-    {
-      "Account ID": "458D3A9F2825F3A",
-      "Player Name": "Valve",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 189,
-      "Deaths": 33,
-      "Score": 582
     },
     {
       "Account ID": "6978B52D92938CA4",
@@ -169,12 +169,12 @@
     },
     {
       "Account ID": "9C3B1FC6B72F645E",
-      "Player Name": "HOTMAMA",
+      "Player Name": "PolishSausage",
       "Games Won": 3,
-      "Games Lost": 15,
+      "Games Lost": 16,
       "Kills": 392,
-      "Deaths": 77,
-      "Score": 525
+      "Deaths": 78,
+      "Score": 518
     },
     {
       "Account ID": "4BCB5C0C23D62CA",
