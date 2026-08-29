@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-08-29T16:01:51.268778+00:00",
-  "lastUpdated": 1788019305323,
-  "cached": false,
+  "updatedAt": "2026-08-29T17:02:34.834056+00:00",
+  "lastUpdated": 1788022448103,
+  "cached": true,
   "players": [
     {
       "Account ID": "FB155918BAFE3B5",
@@ -180,10 +180,10 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "whitemafiatheprogodYT",
       "Games Won": 39,
-      "Games Lost": 59,
+      "Games Lost": 60,
       "Kills": 1162,
-      "Deaths": 260,
-      "Score": 486
+      "Deaths": 261,
+      "Score": 484
     }
   ]
 }
