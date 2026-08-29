@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-08-29T11:01:48.515342+00:00",
-  "lastUpdated": 1788001253325,
+  "updatedAt": "2026-08-29T12:02:12.420300+00:00",
+  "lastUpdated": 1788004617792,
   "cached": true,
   "players": [
     {
@@ -98,11 +98,11 @@
     {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
-      "Games Won": 13,
+      "Games Won": 14,
       "Games Lost": 13,
-      "Kills": 389,
+      "Kills": 391,
       "Deaths": 45,
-      "Score": 914
+      "Score": 920
     },
     {
       "Account ID": "19947B5F511637FB",
