@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-30T15:02:02.868372+00:00",
-  "lastUpdated": 1788102116616,
+  "updatedAt": "2026-08-30T16:01:55.421645+00:00",
+  "lastUpdated": 1788105707183,
   "cached": false,
   "players": [
     {
@@ -42,15 +42,6 @@
       "Score": 1406
     },
     {
-      "Account ID": "25458AF83BCE968D",
-      "Player Name": "onebelowall",
-      "Games Won": 24,
-      "Games Lost": 27,
-      "Kills": 1278,
-      "Deaths": 101,
-      "Score": 1312
-    },
-    {
       "Account ID": "545083C5768882B1",
       "Player Name": "sarmata",
       "Games Won": 11,
@@ -58,6 +49,15 @@
       "Kills": 825,
       "Deaths": 70,
       "Score": 1222
+    },
+    {
+      "Account ID": "25458AF83BCE968D",
+      "Player Name": "onebelowall",
+      "Games Won": 24,
+      "Games Lost": 28,
+      "Kills": 1295,
+      "Deaths": 115,
+      "Score": 1172
     },
     {
       "Account ID": "10F525F29942FC2",
@@ -135,10 +135,10 @@
       "Account ID": "AF250DAC1B238320",
       "Player Name": "Anonnymouss",
       "Games Won": 16,
-      "Games Lost": 23,
+      "Games Lost": 25,
       "Kills": 886,
-      "Deaths": 141,
-      "Score": 669
+      "Deaths": 142,
+      "Score": 662
     },
     {
       "Account ID": "E340F1474433376A",
