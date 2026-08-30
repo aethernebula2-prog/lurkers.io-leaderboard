@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-30T19:02:07.881702+00:00",
-  "lastUpdated": 1788116522345,
+  "updatedAt": "2026-08-30T20:01:51.689903+00:00",
+  "lastUpdated": 1788120109427,
   "cached": false,
   "players": [
     {
@@ -51,15 +51,6 @@
       "Score": 1222
     },
     {
-      "Account ID": "25458AF83BCE968D",
-      "Player Name": "onebelowall",
-      "Games Won": 24,
-      "Games Lost": 28,
-      "Kills": 1295,
-      "Deaths": 115,
-      "Score": 1172
-    },
-    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 6,
@@ -67,6 +58,15 @@
       "Kills": 212,
       "Deaths": 19,
       "Score": 1149
+    },
+    {
+      "Account ID": "25458AF83BCE968D",
+      "Player Name": "onebelowall",
+      "Games Won": 24,
+      "Games Lost": 29,
+      "Kills": 1310,
+      "Deaths": 122,
+      "Score": 1119
     },
     {
       "Account ID": "A5B78A583D8E0CCB",
@@ -135,18 +135,18 @@
       "Account ID": "AF250DAC1B238320",
       "Player Name": "Anonnymouss",
       "Games Won": 18,
-      "Games Lost": 26,
+      "Games Lost": 28,
       "Kills": 886,
-      "Deaths": 143,
-      "Score": 660
+      "Deaths": 145,
+      "Score": 650
     },
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 19,
-      "Games Lost": 34,
-      "Kills": 545,
-      "Deaths": 91,
+      "Games Lost": 35,
+      "Kills": 557,
+      "Deaths": 93,
       "Score": 634
     },
     {
