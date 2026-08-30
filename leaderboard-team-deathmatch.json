@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-30T13:01:54.771041+00:00",
-  "lastUpdated": 1788094909533,
-  "cached": false,
+  "updatedAt": "2026-08-30T14:01:58.389361+00:00",
+  "lastUpdated": 1788097936285,
+  "cached": true,
   "players": [
     {
       "Account ID": "A66BD8C64E04BA0C",
@@ -134,20 +134,20 @@
     {
       "Account ID": "AF250DAC1B238320",
       "Player Name": "Anonnymouss",
-      "Games Won": 14,
+      "Games Won": 16,
       "Games Lost": 21,
       "Kills": 886,
       "Deaths": 139,
-      "Score": 677
+      "Score": 680
     },
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 18,
+      "Games Won": 19,
       "Games Lost": 34,
-      "Kills": 542,
+      "Kills": 545,
       "Deaths": 90,
-      "Score": 636
+      "Score": 641
     },
     {
       "Account ID": "63F1752232C1E743",
