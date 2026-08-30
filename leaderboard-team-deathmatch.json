@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-30T07:02:02.356865+00:00",
-  "lastUpdated": 1788073316539,
+  "updatedAt": "2026-08-30T08:01:59.332862+00:00",
+  "lastUpdated": 1788076911889,
   "cached": false,
   "players": [
     {
@@ -36,10 +36,10 @@
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 16,
-      "Games Lost": 44,
+      "Games Lost": 45,
       "Kills": 2333,
-      "Deaths": 168,
-      "Score": 1415
+      "Deaths": 169,
+      "Score": 1406
     },
     {
       "Account ID": "25458AF83BCE968D",
