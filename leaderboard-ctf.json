@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-08-30T08:01:58.717582+00:00",
-  "lastUpdated": 1788076912902,
+  "updatedAt": "2026-08-30T09:01:46.141987+00:00",
+  "lastUpdated": 1788080498511,
   "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 2,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 342,
       "Deaths": 13,
-      "Score": 2648
+      "Score": 2647
     },
     {
       "Account ID": "8C534CA99D6934FE",
