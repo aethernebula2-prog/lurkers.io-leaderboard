@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-31T15:02:20.173340+00:00",
-  "lastUpdated": 1788188533278,
-  "cached": false,
+  "updatedAt": "2026-08-31T16:02:13.108891+00:00",
+  "lastUpdated": 1788191551436,
+  "cached": true,
   "players": [
     {
       "Account ID": "A66BD8C64E04BA0C",
@@ -63,10 +63,10 @@
       "Account ID": "25458AF83BCE968D",
       "Player Name": "onebelowall",
       "Games Won": 24,
-      "Games Lost": 29,
-      "Kills": 1310,
-      "Deaths": 122,
-      "Score": 1119
+      "Games Lost": 30,
+      "Kills": 1311,
+      "Deaths": 126,
+      "Score": 1084
     },
     {
       "Account ID": "A5B78A583D8E0CCB",
@@ -144,10 +144,10 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 19,
-      "Games Lost": 36,
-      "Kills": 559,
-      "Deaths": 95,
-      "Score": 622
+      "Games Lost": 37,
+      "Kills": 562,
+      "Deaths": 97,
+      "Score": 613
     },
     {
       "Account ID": "63F1752232C1E743",
