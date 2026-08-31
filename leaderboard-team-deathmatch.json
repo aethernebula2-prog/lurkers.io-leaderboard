@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-31T03:02:00.716312+00:00",
-  "lastUpdated": 1788145231988,
-  "cached": true,
+  "updatedAt": "2026-08-31T04:02:13.494925+00:00",
+  "lastUpdated": 1788148927671,
+  "cached": false,
   "players": [
     {
       "Account ID": "A66BD8C64E04BA0C",
@@ -160,7 +160,7 @@
     },
     {
       "Account ID": "6978B52D92938CA4",
-      "Player Name": "Player16006VN",
+      "Player Name": "Hayun06VN",
       "Games Won": 0,
       "Games Lost": 6,
       "Kills": 125,
