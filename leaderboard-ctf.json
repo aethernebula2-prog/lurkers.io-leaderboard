@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-08-31T05:01:56.371712+00:00",
-  "lastUpdated": 1788152322250,
-  "cached": true,
+  "updatedAt": "2026-08-31T06:02:22.141429+00:00",
+  "lastUpdated": 1788156133380,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -141,6 +141,15 @@
       "Score": 294
     },
     {
+      "Account ID": "AF250DAC1B238320",
+      "Player Name": "Anonnymouss",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 107,
+      "Deaths": 43,
+      "Score": 268
+    },
+    {
       "Account ID": "844C476E593C7815",
       "Player Name": "vojenkomat3000",
       "Games Won": 11,
@@ -166,15 +175,6 @@
       "Kills": 52,
       "Deaths": 26,
       "Score": 235
-    },
-    {
-      "Account ID": "AF250DAC1B238320",
-      "Player Name": "Anonnymouss",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 85,
-      "Deaths": 42,
-      "Score": 227
     },
     {
       "Account ID": "E99D6DABC230FD6A",
