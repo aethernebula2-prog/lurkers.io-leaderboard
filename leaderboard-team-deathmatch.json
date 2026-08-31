@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-08-31T07:01:49.092150+00:00",
-  "lastUpdated": 1788159697851,
+  "updatedAt": "2026-08-31T08:02:22.014615+00:00",
+  "lastUpdated": 1788163336611,
   "cached": false,
   "players": [
     {
@@ -15,6 +15,15 @@
       "Score": 7162
     },
     {
+      "Account ID": "C1CC914D4BE6B501",
+      "Player Name": "XxjijibaoCNproxX",
+      "Games Won": 9,
+      "Games Lost": 15,
+      "Kills": 685,
+      "Deaths": 43,
+      "Score": 1630
+    },
+    {
       "Account ID": "C497319DFC894733",
       "Player Name": "Trench",
       "Games Won": 6,
@@ -22,15 +31,6 @@
       "Kills": 257,
       "Deaths": 17,
       "Score": 1586
-    },
-    {
-      "Account ID": "C1CC914D4BE6B501",
-      "Player Name": "XxjijibaoCNproxX",
-      "Games Won": 8,
-      "Games Lost": 14,
-      "Kills": 641,
-      "Deaths": 42,
-      "Score": 1562
     },
     {
       "Account ID": "1BBBBCC2E57236C3",
