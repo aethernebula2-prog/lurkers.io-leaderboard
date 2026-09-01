@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-01T15:02:43.989679+00:00",
-  "lastUpdated": 1788274961823,
+  "updatedAt": "2026-09-01T16:33:13.193226+00:00",
+  "lastUpdated": 1788280384036,
   "cached": false,
   "players": [
     {
@@ -24,6 +24,15 @@
       "Score": 529
     },
     {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 43,
+      "Deaths": 13,
+      "Score": 397
+    },
+    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 4,
@@ -31,6 +40,15 @@
       "Kills": 103,
       "Deaths": 33,
       "Score": 348
+    },
+    {
+      "Account ID": "A88E76CD07E55A5A",
+      "Player Name": "PlayeA88E",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 36,
+      "Deaths": 18,
+      "Score": 237
     },
     {
       "Account ID": "1F89746E9031C44B",
@@ -42,15 +60,6 @@
       "Score": 230
     },
     {
-      "Account ID": "A88E76CD07E55A5A",
-      "Player Name": "PlayeA88E",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 19,
-      "Deaths": 11,
-      "Score": 222
-    },
-    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "anhdu19bue",
       "Games Won": 9,
@@ -58,15 +67,6 @@
       "Kills": 67,
       "Deaths": 46,
       "Score": 181
-    },
-    {
-      "Account ID": "D1C703151C101015",
-      "Player Name": "Flamefrags1456",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 25,
-      "Deaths": 14,
-      "Score": 178
     },
     {
       "Account ID": "73DA77FD70D9DE42",
@@ -81,10 +81,10 @@
       "Account ID": "3D52CCD78FE4738E",
       "Player Name": "passatb8",
       "Games Won": 8,
-      "Games Lost": 10,
-      "Kills": 38,
-      "Deaths": 29,
-      "Score": 175
+      "Games Lost": 11,
+      "Kills": 39,
+      "Deaths": 31,
+      "Score": 167
     },
     {
       "Account ID": "64C70E3A70D83DF8",
@@ -99,10 +99,10 @@
       "Account ID": "6B09F468609AA675",
       "Player Name": "SSR322013",
       "Games Won": 5,
-      "Games Lost": 3,
+      "Games Lost": 4,
       "Kills": 18,
-      "Deaths": 27,
-      "Score": 129
+      "Deaths": 29,
+      "Score": 117
     },
     {
       "Account ID": "C2BBD8914C8B0400",
@@ -123,6 +123,15 @@
       "Score": 105
     },
     {
+      "Account ID": "D1C703151C101015",
+      "Player Name": "Flamefrags1456",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 39,
+      "Deaths": 44,
+      "Score": 99
+    },
+    {
       "Account ID": "458D3A9F2825F3A",
       "Player Name": "Grim0x",
       "Games Won": 4,
@@ -134,29 +143,20 @@
     {
       "Account ID": "605BAEA9870BCD3F",
       "Player Name": "sunny4416ultra",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 13,
-      "Kills": 36,
-      "Deaths": 63,
-      "Score": 92
+      "Kills": 38,
+      "Deaths": 68,
+      "Score": 93
     },
     {
-      "Account ID": "7BC13651AEDAB1D1",
-      "Player Name": "BlackProKing",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 4,
-      "Deaths": 33,
+      "Account ID": "238FD12291E684FF",
+      "Player Name": "freegam",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 18,
+      "Deaths": 50,
       "Score": 69
-    },
-    {
-      "Account ID": "2E6A895D9893339B",
-      "Player Name": "vipphong67vn2",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 10,
-      "Deaths": 27,
-      "Score": 65
     }
   ]
 }
