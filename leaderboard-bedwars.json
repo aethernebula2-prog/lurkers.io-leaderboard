@@ -1,18 +1,27 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-01T07:03:41.773995+00:00",
-  "lastUpdated": 1788245886312,
+  "updatedAt": "2026-09-01T08:03:22.898149+00:00",
+  "lastUpdated": 1788249446103,
   "cached": true,
   "players": [
     {
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
-      "Games Won": 7,
+      "Games Won": 10,
       "Games Lost": 4,
-      "Kills": 85,
-      "Deaths": 15,
-      "Score": 630
+      "Kills": 96,
+      "Deaths": 20,
+      "Score": 551
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 103,
+      "Deaths": 26,
+      "Score": 446
     },
     {
       "Account ID": "1F89746E9031C44B",
@@ -31,6 +40,15 @@
       "Kills": 18,
       "Deaths": 27,
       "Score": 129
+    },
+    {
+      "Account ID": "C2BBD8914C8B0400",
+      "Player Name": "Tenjigu",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 27,
+      "Deaths": 29,
+      "Score": 126
     },
     {
       "Account ID": "1FD2087E79D99EE0",
@@ -62,11 +80,11 @@
     {
       "Account ID": "B72C267156CC45BE",
       "Player Name": "ELMAZO097",
-      "Games Won": 5,
-      "Games Lost": 7,
+      "Games Won": 7,
+      "Games Lost": 8,
       "Kills": 0,
-      "Deaths": 18,
-      "Score": 41
+      "Deaths": 21,
+      "Score": 46
     }
   ]
 }
