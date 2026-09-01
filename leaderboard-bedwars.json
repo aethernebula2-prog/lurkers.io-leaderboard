@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-01T21:03:09.045517+00:00",
-  "lastUpdated": 1788296198612,
+  "updatedAt": "2026-09-01T22:02:57.132050+00:00",
+  "lastUpdated": 1788299691909,
   "cached": true,
   "players": [
     {
@@ -33,6 +33,15 @@
       "Score": 623
     },
     {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 33,
+      "Deaths": 6,
+      "Score": 578
+    },
+    {
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
       "Games Won": 11,
@@ -53,11 +62,11 @@
     {
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "PlayerA88E",
-      "Games Won": 3,
+      "Games Won": 5,
       "Games Lost": 6,
-      "Kills": 46,
-      "Deaths": 18,
-      "Score": 288
+      "Kills": 59,
+      "Deaths": 20,
+      "Score": 340
     },
     {
       "Account ID": "E76C93741C347AE1",
@@ -69,15 +78,6 @@
       "Score": 238
     },
     {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 8,
-      "Games Lost": 6,
-      "Kills": 123,
-      "Deaths": 71,
-      "Score": 230
-    },
-    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 3,
@@ -87,13 +87,22 @@
       "Score": 230
     },
     {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeoVN",
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
       "Games Won": 8,
       "Games Lost": 7,
+      "Kills": 127,
+      "Deaths": 76,
+      "Score": 220
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 10,
+      "Games Lost": 8,
       "Kills": 43,
-      "Deaths": 26,
-      "Score": 218
+      "Deaths": 29,
+      "Score": 203
     },
     {
       "Account ID": "3D52CCD78FE4738E",
@@ -175,15 +184,6 @@
       "Kills": 21,
       "Deaths": 20,
       "Score": 105
-    },
-    {
-      "Account ID": "D1C703151C101015",
-      "Player Name": "Flamefrags1456",
-      "Games Won": 4,
-      "Games Lost": 14,
-      "Kills": 79,
-      "Deaths": 97,
-      "Score": 103
     }
   ]
 }
