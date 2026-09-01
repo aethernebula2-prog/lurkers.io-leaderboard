@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-01T10:03:24.672442+00:00",
-  "lastUpdated": 1788256759564,
+  "updatedAt": "2026-09-01T11:03:16.137321+00:00",
+  "lastUpdated": 1788260484599,
   "cached": true,
   "players": [
     {
@@ -42,15 +42,6 @@
       "Score": 230
     },
     {
-      "Account ID": "776F2F3D6C38B2B",
-      "Player Name": "Kharabakh0x",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 19,
-      "Deaths": 11,
-      "Score": 229
-    },
-    {
       "Account ID": "64C70E3A70D83DF8",
       "Player Name": "SniperLoverr",
       "Games Won": 2,
@@ -60,13 +51,22 @@
       "Score": 160
     },
     {
+      "Account ID": "776F2F3D6C38B2B",
+      "Player Name": "Kharabakh0x",
+      "Games Won": 5,
+      "Games Lost": 5,
+      "Kills": 26,
+      "Deaths": 26,
+      "Score": 150
+    },
+    {
       "Account ID": "3D52CCD78FE4738E",
       "Player Name": "passatb8",
       "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 14,
-      "Deaths": 14,
-      "Score": 133
+      "Games Lost": 6,
+      "Kills": 22,
+      "Deaths": 18,
+      "Score": 147
     },
     {
       "Account ID": "6B09F468609AA675",
@@ -85,6 +85,15 @@
       "Kills": 34,
       "Deaths": 41,
       "Score": 116
+    },
+    {
+      "Account ID": "458D3A9F2825F3A",
+      "Player Name": "Grim0x",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 15,
+      "Deaths": 25,
+      "Score": 110
     },
     {
       "Account ID": "1FD2087E79D99EE0",
@@ -116,29 +125,29 @@
     {
       "Account ID": "7BC13651AEDAB1D1",
       "Player Name": "BlackProKing",
-      "Games Won": 3,
+      "Games Won": 4,
       "Games Lost": 3,
-      "Kills": 1,
-      "Deaths": 14,
-      "Score": 57
+      "Kills": 4,
+      "Deaths": 31,
+      "Score": 70
     },
     {
-      "Account ID": "458D3A9F2825F3A",
-      "Player Name": "Grim0x",
+      "Account ID": "2E6A895D9893339B",
+      "Player Name": "vipphong67vn2",
       "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 1,
-      "Deaths": 8,
-      "Score": 45
+      "Games Lost": 5,
+      "Kills": 10,
+      "Deaths": 27,
+      "Score": 65
     },
     {
       "Account ID": "B72C267156CC45BE",
       "Player Name": "ELMAZO097",
-      "Games Won": 11,
-      "Games Lost": 14,
+      "Games Won": 12,
+      "Games Lost": 17,
       "Kills": 0,
-      "Deaths": 35,
-      "Score": 44
+      "Deaths": 38,
+      "Score": 41
     }
   ]
 }
