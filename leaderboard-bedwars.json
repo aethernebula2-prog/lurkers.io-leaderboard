@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-01T18:03:58.526787+00:00",
-  "lastUpdated": 1788285836102,
-  "cached": false,
+  "updatedAt": "2026-09-01T19:02:46.088169+00:00",
+  "lastUpdated": 1788289236874,
+  "cached": true,
   "players": [
     {
       "Account ID": "3245EBAA0C77F900",
@@ -44,11 +44,11 @@
     {
       "Account ID": "D50E7835A6E45867",
       "Player Name": "longbeoVN",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 4,
       "Kills": 43,
-      "Deaths": 20,
-      "Score": 278
+      "Deaths": 21,
+      "Score": 271
     },
     {
       "Account ID": "A88E76CD07E55A5A",
@@ -78,6 +78,15 @@
       "Score": 219
     },
     {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "passatb8",
+      "Games Won": 10,
+      "Games Lost": 11,
+      "Kills": 51,
+      "Deaths": 32,
+      "Score": 206
+    },
+    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "anhdu19bue",
       "Games Won": 9,
@@ -90,19 +99,10 @@
       "Account ID": "73DA77FD70D9DE42",
       "Player Name": "whitemafia12YTGGGgHEHE",
       "Games Won": 6,
-      "Games Lost": 1,
+      "Games Lost": 2,
       "Kills": 39,
-      "Deaths": 43,
-      "Score": 176
-    },
-    {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "passatb8",
-      "Games Won": 8,
-      "Games Lost": 11,
-      "Kills": 39,
-      "Deaths": 31,
-      "Score": 167
+      "Deaths": 45,
+      "Score": 161
     },
     {
       "Account ID": "64C70E3A70D83DF8",
@@ -157,15 +157,6 @@
       "Kills": 21,
       "Deaths": 20,
       "Score": 105
-    },
-    {
-      "Account ID": "D1C703151C101015",
-      "Player Name": "Flamefrags1456",
-      "Games Won": 4,
-      "Games Lost": 10,
-      "Kills": 53,
-      "Deaths": 74,
-      "Score": 100
     },
     {
       "Account ID": "458D3A9F2825F3A",
