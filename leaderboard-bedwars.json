@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-02T21:02:56.330071+00:00",
-  "lastUpdated": 1788382974953,
-  "cached": false,
+  "updatedAt": "2026-09-02T22:02:53.252230+00:00",
+  "lastUpdated": 1788386415123,
+  "cached": true,
   "players": [
     {
       "Account ID": "3245EBAA0C77F900",
@@ -51,15 +51,6 @@
       "Score": 383
     },
     {
-      "Account ID": "9B89B7156A49CE96",
-      "Player Name": "S7iP3R",
-      "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 62,
-      "Deaths": 18,
-      "Score": 344
-    },
-    {
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "PlayerA88E",
       "Games Won": 5,
@@ -67,6 +58,15 @@
       "Kills": 59,
       "Deaths": 20,
       "Score": 340
+    },
+    {
+      "Account ID": "9B89B7156A49CE96",
+      "Player Name": "S7iP3R",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 62,
+      "Deaths": 20,
+      "Score": 321
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -150,6 +150,15 @@
       "Score": 168
     },
     {
+      "Account ID": "5B3146D7FB4431FB",
+      "Player Name": "xxGRYZENxx",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 21,
+      "Deaths": 22,
+      "Score": 151
+    },
+    {
       "Account ID": "E76C93741C347AE1",
       "Player Name": "ELESMATARAMOMILTON",
       "Games Won": 6,
@@ -174,15 +183,6 @@
       "Games Lost": 6,
       "Kills": 106,
       "Deaths": 121,
-      "Score": 144
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeoVN",
-      "Games Won": 10,
-      "Games Lost": 14,
-      "Kills": 43,
-      "Deaths": 42,
       "Score": 144
     }
   ]
