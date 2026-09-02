@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-02T14:03:15.941459+00:00",
-  "lastUpdated": 1788357381968,
+  "updatedAt": "2026-09-02T15:08:15.738329+00:00",
+  "lastUpdated": 1788361387617,
   "cached": true,
   "players": [
     {
@@ -45,10 +45,10 @@
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
       "Games Won": 20,
-      "Games Lost": 12,
-      "Kills": 171,
-      "Deaths": 49,
-      "Score": 411
+      "Games Lost": 15,
+      "Kills": 173,
+      "Deaths": 53,
+      "Score": 383
     },
     {
       "Account ID": "A88E76CD07E55A5A",
@@ -99,10 +99,10 @@
       "Account ID": "A523A8648781E309",
       "Player Name": "L1laXD",
       "Games Won": 5,
-      "Games Lost": 5,
-      "Kills": 66,
-      "Deaths": 42,
-      "Score": 207
+      "Games Lost": 7,
+      "Kills": 88,
+      "Deaths": 54,
+      "Score": 204
     },
     {
       "Account ID": "776F2F3D6C38B2B",
@@ -114,31 +114,31 @@
       "Score": 181
     },
     {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "passatb8",
-      "Games Won": 16,
-      "Games Lost": 18,
-      "Kills": 69,
-      "Deaths": 58,
-      "Score": 166
+      "Account ID": "142F38DEDA45AB75",
+      "Player Name": "loiuy567342109",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 44,
+      "Deaths": 34,
+      "Score": 179
     },
     {
-      "Account ID": "73DA77FD70D9DE42",
-      "Player Name": "whitemafia12YTGGGgHEHE",
-      "Games Won": 8,
-      "Games Lost": 4,
-      "Kills": 65,
-      "Deaths": 71,
-      "Score": 158
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "passatb8",
+      "Games Won": 17,
+      "Games Lost": 19,
+      "Kills": 79,
+      "Deaths": 62,
+      "Score": 174
     },
     {
       "Account ID": "D50E7835A6E45867",
       "Player Name": "longbeoVN",
       "Games Won": 10,
-      "Games Lost": 12,
+      "Games Lost": 13,
       "Kills": 43,
-      "Deaths": 39,
-      "Score": 155
+      "Deaths": 40,
+      "Score": 150
     },
     {
       "Account ID": "64C70E3A70D83DF8",
@@ -168,6 +168,15 @@
       "Score": 138
     },
     {
+      "Account ID": "73DA77FD70D9DE42",
+      "Player Name": "whitemafia12YTGGGgHEHE",
+      "Games Won": 8,
+      "Games Lost": 5,
+      "Kills": 80,
+      "Deaths": 107,
+      "Score": 136
+    },
+    {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
       "Games Won": 5,
@@ -175,15 +184,6 @@
       "Kills": 12,
       "Deaths": 19,
       "Score": 134
-    },
-    {
-      "Account ID": "DBC85305A3640D15",
-      "Player Name": "miku39vn",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 29,
-      "Deaths": 30,
-      "Score": 130
     }
   ]
 }
