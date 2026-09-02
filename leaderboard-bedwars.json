@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-02T07:03:04.540406+00:00",
-  "lastUpdated": 1788332423202,
+  "updatedAt": "2026-09-02T08:03:38.449771+00:00",
+  "lastUpdated": 1788336206042,
   "cached": true,
   "players": [
     {
@@ -24,6 +24,15 @@
       "Score": 3121
     },
     {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 55,
+      "Deaths": 9,
+      "Score": 648
+    },
+    {
       "Account ID": "51AFB9CF8BB28574",
       "Player Name": "Canucky",
       "Games Won": 4,
@@ -33,22 +42,13 @@
       "Score": 623
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 33,
-      "Deaths": 6,
-      "Score": 578
-    },
-    {
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
       "Games Won": 20,
-      "Games Lost": 10,
-      "Kills": 167,
-      "Deaths": 41,
-      "Score": 473
+      "Games Lost": 11,
+      "Kills": 169,
+      "Deaths": 45,
+      "Score": 440
     },
     {
       "Account ID": "579A17105156C3D6",
