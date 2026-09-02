@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-02T18:03:31.388226+00:00",
-  "lastUpdated": 1788372210092,
+  "updatedAt": "2026-09-02T19:02:39.647411+00:00",
+  "lastUpdated": 1788375758075,
   "cached": false,
   "players": [
     {
@@ -24,15 +24,6 @@
       "Score": 3121
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 55,
-      "Deaths": 9,
-      "Score": 648
-    },
-    {
       "Account ID": "51AFB9CF8BB28574",
       "Player Name": "Canucky",
       "Games Won": 4,
@@ -40,6 +31,15 @@
       "Kills": 34,
       "Deaths": 6,
       "Score": 623
+    },
+    {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 55,
+      "Deaths": 10,
+      "Score": 583
     },
     {
       "Account ID": "700F776F0EF50107",
@@ -67,15 +67,6 @@
       "Kills": 103,
       "Deaths": 38,
       "Score": 313
-    },
-    {
-      "Account ID": "E76C93741C347AE1",
-      "Player Name": "ELESMATARAMOMILTON",
-      "Games Won": 6,
-      "Games Lost": 4,
-      "Kills": 25,
-      "Deaths": 14,
-      "Score": 238
     },
     {
       "Account ID": "1F89746E9031C44B",
@@ -114,13 +105,22 @@
       "Score": 201
     },
     {
+      "Account ID": "3448D1154A300BA9",
+      "Player Name": "nosoyunplayer",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 14,
+      "Deaths": 11,
+      "Score": 184
+    },
+    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "Grim8x",
-      "Games Won": 10,
-      "Games Lost": 16,
-      "Kills": 68,
-      "Deaths": 46,
-      "Score": 186
+      "Games Won": 11,
+      "Games Lost": 17,
+      "Kills": 80,
+      "Deaths": 56,
+      "Score": 182
     },
     {
       "Account ID": "142F38DEDA45AB75",
@@ -139,6 +139,15 @@
       "Kills": 79,
       "Deaths": 64,
       "Score": 168
+    },
+    {
+      "Account ID": "E76C93741C347AE1",
+      "Player Name": "ELESMATARAMOMILTON",
+      "Games Won": 6,
+      "Games Lost": 5,
+      "Kills": 26,
+      "Deaths": 27,
+      "Score": 150
     },
     {
       "Account ID": "64C70E3A70D83DF8",
@@ -175,15 +184,6 @@
       "Kills": 53,
       "Deaths": 48,
       "Score": 143
-    },
-    {
-      "Account ID": "D4E2C8998B73DBDE",
-      "Player Name": "tomhisa",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 42,
-      "Deaths": 40,
-      "Score": 138
     }
   ]
 }
