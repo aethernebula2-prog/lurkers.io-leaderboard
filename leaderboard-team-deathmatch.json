@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-03T02:07:32.194330+00:00",
-  "lastUpdated": 1788401250218,
+  "updatedAt": "2026-09-03T05:22:42.387509+00:00",
+  "lastUpdated": 1788412960996,
   "cached": false,
   "players": [
     {
@@ -18,10 +18,10 @@
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
       "Games Won": 3,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 203,
-      "Deaths": 32,
-      "Score": 677
+      "Deaths": 33,
+      "Score": 652
     },
     {
       "Account ID": "42583071A8816117",
@@ -42,22 +42,40 @@
       "Score": 348
     },
     {
+      "Account ID": "166C117E4F66AA4",
+      "Player Name": "beliuBREADER",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 18,
+      "Deaths": 6,
+      "Score": 316
+    },
+    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 2,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 84,
-      "Deaths": 30,
-      "Score": 313
+      "Deaths": 31,
+      "Score": 299
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 9,
-      "Games Lost": 7,
-      "Kills": 77,
-      "Deaths": 37,
-      "Score": 264
+      "Games Won": 11,
+      "Games Lost": 9,
+      "Kills": 91,
+      "Deaths": 42,
+      "Score": 271
+    },
+    {
+      "Account ID": "9C3B1FC6B72F645E",
+      "Player Name": "PolishSausage",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 20,
+      "Deaths": 15,
+      "Score": 199
     }
   ]
 }
