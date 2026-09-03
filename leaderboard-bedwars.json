@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T14:03:20.784288+00:00",
-  "lastUpdated": 1788443665327,
+  "updatedAt": "2026-09-03T15:02:58.978966+00:00",
+  "lastUpdated": 1788447307098,
   "cached": true,
   "players": [
     {
@@ -54,19 +54,10 @@
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "PlayerA88E",
       "Games Won": 5,
-      "Games Lost": 7,
-      "Kills": 63,
-      "Deaths": 20,
-      "Score": 356
-    },
-    {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 10,
-      "Games Lost": 16,
-      "Kills": 139,
-      "Deaths": 51,
-      "Score": 311
+      "Games Lost": 10,
+      "Kills": 77,
+      "Deaths": 24,
+      "Score": 354
     },
     {
       "Account ID": "700F776F0EF50107",
@@ -76,6 +67,15 @@
       "Kills": 191,
       "Deaths": 77,
       "Score": 306
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 10,
+      "Games Lost": 16,
+      "Kills": 144,
+      "Deaths": 58,
+      "Score": 286
     },
     {
       "Account ID": "38FBB80FB942BEEF",
@@ -150,15 +150,6 @@
       "Score": 179
     },
     {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "passatb8",
-      "Games Won": 17,
-      "Games Lost": 22,
-      "Kills": 80,
-      "Deaths": 67,
-      "Score": 162
-    },
-    {
       "Account ID": "6B09F468609AA675",
       "Player Name": "SSR322013",
       "Games Won": 5,
@@ -177,12 +168,21 @@
       "Score": 158
     },
     {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "passatb8",
+      "Games Won": 17,
+      "Games Lost": 23,
+      "Kills": 81,
+      "Deaths": 71,
+      "Score": 156
+    },
+    {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
       "Games Won": 21,
-      "Games Lost": 17,
-      "Kills": 140,
-      "Deaths": 140,
+      "Games Lost": 18,
+      "Kills": 145,
+      "Deaths": 142,
       "Score": 155
     }
   ]
