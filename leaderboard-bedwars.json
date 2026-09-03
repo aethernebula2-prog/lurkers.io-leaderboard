@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T01:02:56.236665+00:00",
-  "lastUpdated": 1788397186593,
-  "cached": true,
+  "updatedAt": "2026-09-03T02:07:30.650639+00:00",
+  "lastUpdated": 1788401249267,
+  "cached": false,
   "players": [
     {
       "Account ID": "3245EBAA0C77F900",
@@ -46,9 +46,9 @@
       "Player Name": "JrcoolzYt",
       "Games Won": 20,
       "Games Lost": 15,
-      "Kills": 173,
-      "Deaths": 53,
-      "Score": 383
+      "Kills": 174,
+      "Deaths": 57,
+      "Score": 362
     },
     {
       "Account ID": "A88E76CD07E55A5A",
@@ -76,15 +76,6 @@
       "Kills": 103,
       "Deaths": 38,
       "Score": 313
-    },
-    {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 33,
-      "Deaths": 14,
-      "Score": 269
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -132,6 +123,15 @@
       "Score": 191
     },
     {
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 36,
+      "Deaths": 23,
+      "Score": 186
+    },
+    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "Grim8x",
       "Games Won": 13,
@@ -148,15 +148,6 @@
       "Kills": 44,
       "Deaths": 34,
       "Score": 179
-    },
-    {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 10,
-      "Games Lost": 2,
-      "Kills": 34,
-      "Deaths": 37,
-      "Score": 175
     },
     {
       "Account ID": "3448D1154A300BA9",
@@ -184,6 +175,15 @@
       "Kills": 42,
       "Deaths": 37,
       "Score": 158
+    },
+    {
+      "Account ID": "E76C93741C347AE1",
+      "Player Name": "ELESMATARAMOMILTON",
+      "Games Won": 6,
+      "Games Lost": 5,
+      "Kills": 26,
+      "Deaths": 27,
+      "Score": 150
     }
   ]
 }
