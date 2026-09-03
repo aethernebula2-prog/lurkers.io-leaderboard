@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-03T19:02:32.832097+00:00",
-  "lastUpdated": 1788462150831,
+  "updatedAt": "2026-09-03T20:02:57.582977+00:00",
+  "lastUpdated": 1788465773578,
   "cached": false,
   "players": [
     {
@@ -10,9 +10,9 @@
       "Player Name": "soujaboy1977",
       "Games Won": 12,
       "Games Lost": 3,
-      "Kills": 92,
-      "Deaths": 49,
-      "Score": 267
+      "Kills": 114,
+      "Deaths": 55,
+      "Score": 287
     },
     {
       "Account ID": "2E6A895D9893339B",
