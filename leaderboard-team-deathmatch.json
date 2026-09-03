@@ -1,13 +1,13 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-03T08:03:21.341469+00:00",
-  "lastUpdated": 1788422594491,
-  "cached": true,
+  "updatedAt": "2026-09-03T09:03:10.071077+00:00",
+  "lastUpdated": 1788426188868,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
-      "Player Name": "TDMxONLYxxBEDWARSxTRASH",
+      "Player Name": "zmr24xTdmOnlyBedwarsTrash",
       "Games Won": 5,
       "Games Lost": 2,
       "Kills": 409,
@@ -18,10 +18,10 @@
       "Account ID": "4BCB5C0C23D62CA",
       "Player Name": "SUSHIMINETA",
       "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 287,
-      "Deaths": 43,
-      "Score": 710
+      "Games Lost": 5,
+      "Kills": 320,
+      "Deaths": 46,
+      "Score": 733
     },
     {
       "Account ID": "DFFA1297586EE434",

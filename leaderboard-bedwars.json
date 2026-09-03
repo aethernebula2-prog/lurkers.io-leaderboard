@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T08:03:20.554589+00:00",
-  "lastUpdated": 1788422512937,
+  "updatedAt": "2026-09-03T09:03:08.643984+00:00",
+  "lastUpdated": 1788426044283,
   "cached": true,
   "players": [
     {
@@ -27,10 +27,10 @@
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
       "Games Won": 4,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 87,
-      "Deaths": 11,
-      "Score": 830
+      "Deaths": 12,
+      "Score": 761
     },
     {
       "Account ID": "51AFB9CF8BB28574",
@@ -114,6 +114,15 @@
       "Score": 201
     },
     {
+      "Account ID": "776F2F3D6C38B2B",
+      "Player Name": "Grim8x",
+      "Games Won": 13,
+      "Games Lost": 19,
+      "Kills": 121,
+      "Deaths": 76,
+      "Score": 199
+    },
+    {
       "Account ID": "CCD8E961D9209EAB",
       "Player Name": "XILL3R",
       "Games Won": 1,
@@ -132,15 +141,6 @@
       "Score": 186
     },
     {
-      "Account ID": "776F2F3D6C38B2B",
-      "Player Name": "Grim8x",
-      "Games Won": 13,
-      "Games Lost": 19,
-      "Kills": 106,
-      "Deaths": 73,
-      "Score": 185
-    },
-    {
       "Account ID": "142F38DEDA45AB75",
       "Player Name": "loiuy567342109",
       "Games Won": 4,
@@ -148,15 +148,6 @@
       "Kills": 44,
       "Deaths": 34,
       "Score": 179
-    },
-    {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 20,
-      "Games Lost": 12,
-      "Kills": 100,
-      "Deaths": 96,
-      "Score": 166
     },
     {
       "Account ID": "3D52CCD78FE4738E",
@@ -184,6 +175,15 @@
       "Kills": 23,
       "Deaths": 24,
       "Score": 154
+    },
+    {
+      "Account ID": "B789B916E95883F4",
+      "Player Name": "OHISASIBURI",
+      "Games Won": 20,
+      "Games Lost": 14,
+      "Kills": 110,
+      "Deaths": 119,
+      "Score": 151
     }
   ]
 }
