@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-03T09:03:10.071077+00:00",
-  "lastUpdated": 1788426188868,
+  "updatedAt": "2026-09-03T10:03:11.267242+00:00",
+  "lastUpdated": 1788429789187,
   "cached": false,
   "players": [
     {
@@ -15,15 +15,6 @@
       "Score": 13704
     },
     {
-      "Account ID": "4BCB5C0C23D62CA",
-      "Player Name": "SUSHIMINETA",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 320,
-      "Deaths": 46,
-      "Score": 733
-    },
-    {
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
       "Games Won": 3,
@@ -31,6 +22,15 @@
       "Kills": 203,
       "Deaths": 33,
       "Score": 652
+    },
+    {
+      "Account ID": "4BCB5C0C23D62CA",
+      "Player Name": "SUSHIMINETA",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 321,
+      "Deaths": 53,
+      "Score": 638
     },
     {
       "Account ID": "42583071A8816117",
