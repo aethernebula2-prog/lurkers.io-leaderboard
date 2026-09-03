@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T15:02:58.978966+00:00",
-  "lastUpdated": 1788447307098,
+  "updatedAt": "2026-09-03T16:03:56.321975+00:00",
+  "lastUpdated": 1788450928979,
   "cached": true,
   "players": [
     {
@@ -78,6 +78,15 @@
       "Score": 286
     },
     {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 11,
+      "Games Lost": 9,
+      "Kills": 191,
+      "Deaths": 104,
+      "Score": 238
+    },
+    {
       "Account ID": "38FBB80FB942BEEF",
       "Player Name": "xxAIDENxx",
       "Games Won": 4,
@@ -85,15 +94,6 @@
       "Kills": 114,
       "Deaths": 59,
       "Score": 233
-    },
-    {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 9,
-      "Games Lost": 9,
-      "Kills": 172,
-      "Deaths": 94,
-      "Score": 232
     },
     {
       "Account ID": "1F89746E9031C44B",
@@ -150,6 +150,15 @@
       "Score": 179
     },
     {
+      "Account ID": "26F04D53B39F9050",
+      "Player Name": "ARRozc0nLEchexD",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 33,
+      "Deaths": 21,
+      "Score": 167
+    },
+    {
       "Account ID": "6B09F468609AA675",
       "Player Name": "SSR322013",
       "Games Won": 5,
@@ -157,15 +166,6 @@
       "Kills": 45,
       "Deaths": 38,
       "Score": 160
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeoVN",
-      "Games Won": 10,
-      "Games Lost": 16,
-      "Kills": 59,
-      "Deaths": 49,
-      "Score": 158
     },
     {
       "Account ID": "3D52CCD78FE4738E",
@@ -177,12 +177,12 @@
       "Score": 156
     },
     {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 21,
-      "Games Lost": 18,
-      "Kills": 145,
-      "Deaths": 142,
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 10,
+      "Games Lost": 17,
+      "Kills": 59,
+      "Deaths": 50,
       "Score": 155
     }
   ]
