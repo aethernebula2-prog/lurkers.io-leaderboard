@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T18:03:36.954119+00:00",
-  "lastUpdated": 1788458614620,
-  "cached": false,
+  "updatedAt": "2026-09-03T19:02:31.989266+00:00",
+  "lastUpdated": 1788461795309,
+  "cached": true,
   "players": [
-    {
-      "Account ID": "FB155918BAFE3B5",
-      "Player Name": "KeratryX741",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 61,
-      "Deaths": 2,
-      "Score": 3112
-    },
     {
       "Account ID": "3245EBAA0C77F900",
       "Player Name": "theaccount21X",
@@ -22,6 +13,15 @@
       "Kills": 99,
       "Deaths": 4,
       "Score": 2541
+    },
+    {
+      "Account ID": "FB155918BAFE3B5",
+      "Player Name": "KeratryX741",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 61,
+      "Deaths": 3,
+      "Score": 2088
     },
     {
       "Account ID": "B35AF7290BDBCD54",
@@ -55,9 +55,9 @@
       "Player Name": "PlayerA88E",
       "Games Won": 5,
       "Games Lost": 10,
-      "Kills": 77,
-      "Deaths": 24,
-      "Score": 354
+      "Kills": 87,
+      "Deaths": 26,
+      "Score": 367
     },
     {
       "Account ID": "700F776F0EF50107",
@@ -91,9 +91,9 @@
       "Player Name": "vojenkomat3000",
       "Games Won": 5,
       "Games Lost": 2,
-      "Kills": 88,
-      "Deaths": 50,
-      "Score": 247
+      "Kills": 100,
+      "Deaths": 61,
+      "Score": 235
     },
     {
       "Account ID": "38FBB80FB942BEEF",
@@ -105,15 +105,6 @@
       "Score": 233
     },
     {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 11,
-      "Games Lost": 10,
-      "Kills": 191,
-      "Deaths": 106,
-      "Score": 232
-    },
-    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 3,
@@ -121,6 +112,15 @@
       "Kills": 36,
       "Deaths": 20,
       "Score": 230
+    },
+    {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 11,
+      "Games Lost": 11,
+      "Kills": 198,
+      "Deaths": 120,
+      "Score": 215
     },
     {
       "Account ID": "CCD8E961D9209EAB",
