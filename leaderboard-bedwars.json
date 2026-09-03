@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T17:02:51.879590+00:00",
-  "lastUpdated": 1788454482936,
-  "cached": true,
+  "updatedAt": "2026-09-03T18:03:36.954119+00:00",
+  "lastUpdated": 1788458614620,
+  "cached": false,
   "players": [
     {
       "Account ID": "FB155918BAFE3B5",
       "Player Name": "KeratryX741",
       "Games Won": 5,
-      "Games Lost": 2,
+      "Games Lost": 3,
       "Kills": 61,
       "Deaths": 2,
-      "Score": 3121
+      "Score": 3112
     },
     {
       "Account ID": "3245EBAA0C77F900",
@@ -76,6 +76,24 @@
       "Kills": 144,
       "Deaths": 58,
       "Score": 286
+    },
+    {
+      "Account ID": "A64B5361F926770",
+      "Player Name": "mahmut12",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 32,
+      "Deaths": 14,
+      "Score": 278
+    },
+    {
+      "Account ID": "844C476E593C7815",
+      "Player Name": "vojenkomat3000",
+      "Games Won": 5,
+      "Games Lost": 2,
+      "Kills": 88,
+      "Deaths": 50,
+      "Score": 247
     },
     {
       "Account ID": "38FBB80FB942BEEF",
@@ -144,19 +162,19 @@
       "Account ID": "A523A8648781E309",
       "Player Name": "L1laXD",
       "Games Won": 5,
-      "Games Lost": 11,
-      "Kills": 89,
-      "Deaths": 61,
-      "Score": 177
+      "Games Lost": 12,
+      "Kills": 99,
+      "Deaths": 68,
+      "Score": 175
     },
     {
       "Account ID": "26F04D53B39F9050",
       "Player Name": "ARRozc0nLEchexD",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 33,
-      "Deaths": 21,
-      "Score": 167
+      "Games Won": 2,
+      "Games Lost": 10,
+      "Kills": 35,
+      "Deaths": 23,
+      "Score": 168
     },
     {
       "Account ID": "6B09F468609AA675",
@@ -166,24 +184,6 @@
       "Kills": 45,
       "Deaths": 38,
       "Score": 160
-    },
-    {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "passatb8",
-      "Games Won": 17,
-      "Games Lost": 23,
-      "Kills": 81,
-      "Deaths": 71,
-      "Score": 156
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeoVN",
-      "Games Won": 10,
-      "Games Lost": 17,
-      "Kills": 59,
-      "Deaths": 50,
-      "Score": 155
     }
   ]
 }
