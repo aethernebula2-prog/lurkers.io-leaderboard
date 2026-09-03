@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T00:04:49.261068+00:00",
-  "lastUpdated": 1788393887952,
-  "cached": false,
+  "updatedAt": "2026-09-03T01:02:56.236665+00:00",
+  "lastUpdated": 1788397186593,
+  "cached": true,
   "players": [
     {
       "Account ID": "3245EBAA0C77F900",
@@ -78,6 +78,24 @@
       "Score": 313
     },
     {
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 33,
+      "Deaths": 14,
+      "Score": 269
+    },
+    {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 9,
+      "Games Lost": 9,
+      "Kills": 172,
+      "Deaths": 94,
+      "Score": 232
+    },
+    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 3,
@@ -85,15 +103,6 @@
       "Kills": 36,
       "Deaths": 20,
       "Score": 230
-    },
-    {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 9,
-      "Games Lost": 8,
-      "Kills": 157,
-      "Deaths": 89,
-      "Score": 229
     },
     {
       "Account ID": "38FBB80FB942BEEF",
@@ -114,6 +123,15 @@
       "Score": 201
     },
     {
+      "Account ID": "CCD8E961D9209EAB",
+      "Player Name": "XILL3R",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 14,
+      "Deaths": 8,
+      "Score": 191
+    },
+    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "Grim8x",
       "Games Won": 13,
@@ -130,6 +148,15 @@
       "Kills": 44,
       "Deaths": 34,
       "Score": 179
+    },
+    {
+      "Account ID": "B789B916E95883F4",
+      "Player Name": "OHISASIBURI",
+      "Games Won": 10,
+      "Games Lost": 2,
+      "Kills": 34,
+      "Deaths": 37,
+      "Score": 175
     },
     {
       "Account ID": "3448D1154A300BA9",
@@ -157,33 +184,6 @@
       "Kills": 42,
       "Deaths": 37,
       "Score": 158
-    },
-    {
-      "Account ID": "E76C93741C347AE1",
-      "Player Name": "ELESMATARAMOMILTON",
-      "Games Won": 6,
-      "Games Lost": 5,
-      "Kills": 26,
-      "Deaths": 27,
-      "Score": 150
-    },
-    {
-      "Account ID": "64C70E3A70D83DF8",
-      "Player Name": "SniperLoverr",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 25,
-      "Deaths": 21,
-      "Score": 147
-    },
-    {
-      "Account ID": "73DA77FD70D9DE42",
-      "Player Name": "whitemafia12YTGGGgHEHE",
-      "Games Won": 8,
-      "Games Lost": 6,
-      "Kills": 106,
-      "Deaths": 121,
-      "Score": 144
     }
   ]
 }
