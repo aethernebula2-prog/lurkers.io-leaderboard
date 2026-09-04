@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-04T09:03:15.560409+00:00",
-  "lastUpdated": 1788512590189,
+  "updatedAt": "2026-09-04T10:03:16.494660+00:00",
+  "lastUpdated": 1788516192592,
   "cached": false,
   "players": [
     {
@@ -109,9 +109,9 @@
       "Player Name": "inshanegaming13",
       "Games Won": 0,
       "Games Lost": 7,
-      "Kills": 61,
-      "Deaths": 38,
-      "Score": 160
+      "Kills": 62,
+      "Deaths": 40,
+      "Score": 155
     }
   ]
 }

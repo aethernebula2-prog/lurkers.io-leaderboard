@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-04T09:03:14.229885+00:00",
-  "lastUpdated": 1788512591200,
+  "updatedAt": "2026-09-04T10:03:15.316432+00:00",
+  "lastUpdated": 1788516192707,
   "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
       "Player Name": "theaccount32l",
       "Games Won": 4,
-      "Games Lost": 2,
-      "Kills": 88,
+      "Games Lost": 3,
+      "Kills": 119,
       "Deaths": 1,
-      "Score": 8866
+      "Score": 11957
     },
     {
       "Account ID": "3245EBAA0C77F900",
@@ -71,11 +71,11 @@
     {
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
-      "Games Won": 26,
-      "Games Lost": 23,
-      "Kills": 248,
-      "Deaths": 103,
-      "Score": 293
+      "Games Won": 28,
+      "Games Lost": 25,
+      "Kills": 265,
+      "Deaths": 114,
+      "Score": 285
     },
     {
       "Account ID": "ABC920483AE3583",
@@ -98,11 +98,11 @@
     {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
-      "Games Won": 12,
-      "Games Lost": 20,
-      "Kills": 177,
-      "Deaths": 81,
-      "Score": 256
+      "Games Won": 13,
+      "Games Lost": 21,
+      "Kills": 189,
+      "Deaths": 83,
+      "Score": 265
     },
     {
       "Account ID": "844C476E593C7815",
@@ -133,7 +133,7 @@
     },
     {
       "Account ID": "776F2F3D6C38B2B",
-      "Player Name": "Grim3x",
+      "Player Name": "Grim0x",
       "Games Won": 14,
       "Games Lost": 20,
       "Kills": 156,
