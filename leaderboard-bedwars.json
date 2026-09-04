@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-04T12:03:45.493793+00:00",
-  "lastUpdated": 1788523289132,
-  "cached": true,
+  "updatedAt": "2026-09-04T13:02:52.933049+00:00",
+  "lastUpdated": 1788526970177,
+  "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -42,6 +42,15 @@
       "Score": 761
     },
     {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 94,
+      "Deaths": 15,
+      "Score": 676
+    },
+    {
       "Account ID": "51AFB9CF8BB28574",
       "Player Name": "Canucky",
       "Games Won": 4,
@@ -60,13 +69,22 @@
       "Score": 402
     },
     {
+      "Account ID": "3AEB08EEAFF1B9DC",
+      "Player Name": "tiameny",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 42,
+      "Deaths": 12,
+      "Score": 400
+    },
+    {
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "PlayerA88E",
       "Games Won": 5,
-      "Games Lost": 11,
-      "Kills": 88,
+      "Games Lost": 12,
+      "Kills": 91,
       "Deaths": 27,
-      "Score": 357
+      "Score": 366
     },
     {
       "Account ID": "700F776F0EF50107",
@@ -114,15 +132,6 @@
       "Score": 235
     },
     {
-      "Account ID": "38FBB80FB942BEEF",
-      "Player Name": "xxAIDENxx",
-      "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 114,
-      "Deaths": 59,
-      "Score": 233
-    },
-    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 3,
@@ -130,6 +139,15 @@
       "Kills": 36,
       "Deaths": 20,
       "Score": 230
+    },
+    {
+      "Account ID": "38FBB80FB942BEEF",
+      "Player Name": "xxAIDENxx",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 114,
+      "Deaths": 60,
+      "Score": 226
     },
     {
       "Account ID": "776F2F3D6C38B2B",
@@ -166,24 +184,6 @@
       "Kills": 14,
       "Deaths": 8,
       "Score": 191
-    },
-    {
-      "Account ID": "142F38DEDA45AB75",
-      "Player Name": "1thplayerbedwarstop",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 44,
-      "Deaths": 34,
-      "Score": 179
-    },
-    {
-      "Account ID": "A523A8648781E309",
-      "Player Name": "L1laXD",
-      "Games Won": 5,
-      "Games Lost": 13,
-      "Kills": 109,
-      "Deaths": 72,
-      "Score": 179
     }
   ]
 }
