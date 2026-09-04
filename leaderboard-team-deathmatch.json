@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-04T22:02:59.507516+00:00",
-  "lastUpdated": 1788559375150,
+  "updatedAt": "2026-09-04T23:02:48.442370+00:00",
+  "lastUpdated": 1788562962600,
   "cached": false,
   "players": [
     {
@@ -42,6 +42,15 @@
       "Score": 615
     },
     {
+      "Account ID": "42583071A8816117",
+      "Player Name": "matagayxd",
+      "Games Won": 3,
+      "Games Lost": 12,
+      "Kills": 466,
+      "Deaths": 86,
+      "Score": 561
+    },
+    {
       "Account ID": "4BCB5C0C23D62CA",
       "Player Name": "SUSHIMINETA",
       "Games Won": 5,
@@ -51,24 +60,6 @@
       "Score": 509
     },
     {
-      "Account ID": "42583071A8816117",
-      "Player Name": "matagayxd",
-      "Games Won": 2,
-      "Games Lost": 12,
-      "Kills": 393,
-      "Deaths": 80,
-      "Score": 505
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 133,
-      "Deaths": 38,
-      "Score": 393
-    },
-    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 3,
@@ -76,6 +67,15 @@
       "Kills": 120,
       "Deaths": 35,
       "Score": 376
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 7,
+      "Games Lost": 11,
+      "Kills": 143,
+      "Deaths": 46,
+      "Score": 349
     },
     {
       "Account ID": "82B47A576A0B527E",
