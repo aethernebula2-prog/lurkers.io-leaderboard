@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-03T23:02:39.823031+00:00",
-  "lastUpdated": 1788476115870,
+  "updatedAt": "2026-09-04T00:04:29.242253+00:00",
+  "lastUpdated": 1788479798237,
   "cached": true,
   "players": [
     {
@@ -72,10 +72,10 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 10,
-      "Games Lost": 16,
+      "Games Lost": 17,
       "Kills": 144,
-      "Deaths": 58,
-      "Score": 286
+      "Deaths": 59,
+      "Score": 281
     },
     {
       "Account ID": "A64B5361F926770",
@@ -132,6 +132,15 @@
       "Score": 202
     },
     {
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 39,
+      "Deaths": 24,
+      "Score": 192
+    },
+    {
       "Account ID": "CCD8E961D9209EAB",
       "Player Name": "XILL3R",
       "Games Won": 1,
@@ -139,15 +148,6 @@
       "Kills": 14,
       "Deaths": 8,
       "Score": 191
-    },
-    {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 36,
-      "Deaths": 23,
-      "Score": 186
     },
     {
       "Account ID": "142F38DEDA45AB75",
