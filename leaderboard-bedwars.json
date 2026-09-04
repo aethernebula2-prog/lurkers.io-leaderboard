@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-04T13:02:52.933049+00:00",
-  "lastUpdated": 1788526970177,
+  "updatedAt": "2026-09-04T14:02:58.537860+00:00",
+  "lastUpdated": 1788530573360,
   "cached": false,
   "players": [
     {
@@ -45,10 +45,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 3,
-      "Games Lost": 3,
+      "Games Lost": 4,
       "Kills": 94,
-      "Deaths": 15,
-      "Score": 676
+      "Deaths": 16,
+      "Score": 630
     },
     {
       "Account ID": "51AFB9CF8BB28574",
@@ -69,22 +69,22 @@
       "Score": 402
     },
     {
+      "Account ID": "A88E76CD07E55A5A",
+      "Player Name": "PlayerA88E",
+      "Games Won": 6,
+      "Games Lost": 13,
+      "Kills": 94,
+      "Deaths": 29,
+      "Score": 355
+    },
+    {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "tiameny",
       "Games Won": 4,
       "Games Lost": 4,
-      "Kills": 42,
-      "Deaths": 12,
-      "Score": 400
-    },
-    {
-      "Account ID": "A88E76CD07E55A5A",
-      "Player Name": "PlayerA88E",
-      "Games Won": 5,
-      "Games Lost": 12,
-      "Kills": 91,
-      "Deaths": 27,
-      "Score": 366
+      "Kills": 50,
+      "Deaths": 17,
+      "Score": 344
     },
     {
       "Account ID": "700F776F0EF50107",
@@ -97,7 +97,7 @@
     },
     {
       "Account ID": "ABC920483AE3583",
-      "Player Name": "coldified",
+      "Player Name": "Airman911",
       "Games Won": 3,
       "Games Lost": 3,
       "Kills": 57,
@@ -141,15 +141,6 @@
       "Score": 230
     },
     {
-      "Account ID": "38FBB80FB942BEEF",
-      "Player Name": "xxAIDENxx",
-      "Games Won": 4,
-      "Games Lost": 7,
-      "Kills": 114,
-      "Deaths": 60,
-      "Score": 226
-    },
-    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "Grim0x",
       "Games Won": 14,
@@ -157,6 +148,15 @@
       "Kills": 156,
       "Deaths": 87,
       "Score": 220
+    },
+    {
+      "Account ID": "38FBB80FB942BEEF",
+      "Player Name": "xxAIDENxx",
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 120,
+      "Deaths": 71,
+      "Score": 204
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
