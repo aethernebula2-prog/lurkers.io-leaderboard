@@ -43,6 +43,10 @@ jobs:
           cat leaderboard-team-deathmatch.json
 
           echo ""
+          echo "Generated HTML files:"
+          ls -lh data/
+
+          echo ""
           echo "Git status:"
           git status --short
 
@@ -51,7 +55,8 @@ jobs:
           git diff -- \
             leaderboard-bedwars.json \
             leaderboard-ctf.json \
-            leaderboard-team-deathmatch.json
+            leaderboard-team-deathmatch.json \
+            data/
 
       - name: Commit changes
         run: |
@@ -61,7 +66,8 @@ jobs:
           git add \
             leaderboard-bedwars.json \
             leaderboard-ctf.json \
-            leaderboard-team-deathmatch.json
+            leaderboard-team-deathmatch.json \
+            data/
 
           if git diff --cached --quiet; then
             echo "No changes."
