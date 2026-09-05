@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T10:02:43.064920+00:00",
-  "lastUpdated": 1788602153036,
+  "updatedAt": "2026-09-05T11:02:43.655283+00:00",
+  "lastUpdated": 1788605983731,
   "cached": true,
   "players": [
     {
@@ -96,15 +96,6 @@
       "Score": 344
     },
     {
-      "Account ID": "700F776F0EF50107",
-      "Player Name": "JrcoolzYt",
-      "Games Won": 31,
-      "Games Lost": 28,
-      "Kills": 292,
-      "Deaths": 121,
-      "Score": 293
-    },
-    {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 5,
@@ -112,6 +103,24 @@
       "Kills": 53,
       "Deaths": 24,
       "Score": 283
+    },
+    {
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 4,
+      "Games Lost": 6,
+      "Kills": 43,
+      "Deaths": 18,
+      "Score": 278
+    },
+    {
+      "Account ID": "700F776F0EF50107",
+      "Player Name": "JrcoolzYt",
+      "Games Won": 32,
+      "Games Lost": 31,
+      "Kills": 296,
+      "Deaths": 139,
+      "Score": 263
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -174,15 +183,6 @@
       "Games Lost": 12,
       "Kills": 202,
       "Deaths": 131,
-      "Score": 202
-    },
-    {
-      "Account ID": "ABC920483AE3583",
-      "Player Name": "Elmerizzz",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 115,
-      "Deaths": 68,
       "Score": 202
     }
   ]
