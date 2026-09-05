@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-05T20:02:45.241685+00:00",
-  "lastUpdated": 1788638376070,
+  "updatedAt": "2026-09-05T21:02:47.128348+00:00",
+  "lastUpdated": 1788641928700,
   "cached": true,
   "players": [
     {
@@ -143,10 +143,10 @@
     {
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
-      "Games Won": 2,
+      "Games Won": 3,
       "Games Lost": 4,
       "Kills": 2,
-      "Deaths": 7,
+      "Deaths": 11,
       "Score": 61
     },
     {
