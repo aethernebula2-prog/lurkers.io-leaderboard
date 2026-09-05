@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T06:03:32.843264+00:00",
-  "lastUpdated": 1788588124468,
+  "updatedAt": "2026-09-05T07:02:33.436157+00:00",
+  "lastUpdated": 1788591724534,
   "cached": true,
   "players": [
     {
@@ -24,6 +24,15 @@
       "Score": 2541
     },
     {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 160,
+      "Deaths": 22,
+      "Score": 777
+    },
+    {
       "Account ID": "FB155918BAFE3B5",
       "Player Name": "KeratryX741",
       "Games Won": 6,
@@ -31,15 +40,6 @@
       "Kills": 66,
       "Deaths": 11,
       "Score": 650
-    },
-    {
-      "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "EqaqeG",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 94,
-      "Deaths": 16,
-      "Score": 630
     },
     {
       "Account ID": "51AFB9CF8BB28574",
@@ -98,11 +98,11 @@
     {
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
-      "Games Won": 29,
+      "Games Won": 31,
       "Games Lost": 26,
-      "Kills": 276,
+      "Kills": 288,
       "Deaths": 118,
-      "Score": 286
+      "Score": 298
     },
     {
       "Account ID": "3AEB08EEAFF1B9DC",
@@ -112,15 +112,6 @@
       "Kills": 100,
       "Deaths": 41,
       "Score": 283
-    },
-    {
-      "Account ID": "ABC920483AE3583",
-      "Player Name": "Airman911",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 58,
-      "Deaths": 27,
-      "Score": 264
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -139,6 +130,15 @@
       "Kills": 38,
       "Deaths": 18,
       "Score": 253
+    },
+    {
+      "Account ID": "ABC920483AE3583",
+      "Player Name": "Airman911",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 97,
+      "Deaths": 49,
+      "Score": 235
     },
     {
       "Account ID": "844C476E593C7815",
@@ -177,13 +177,13 @@
       "Score": 202
     },
     {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 39,
-      "Deaths": 24,
-      "Score": 192
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 10,
+      "Games Lost": 18,
+      "Kills": 91,
+      "Deaths": 56,
+      "Score": 198
     }
   ]
 }
