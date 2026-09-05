@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T19:02:31.263529+00:00",
-  "lastUpdated": 1788634946315,
-  "cached": false,
+  "updatedAt": "2026-09-05T20:02:44.940226+00:00",
+  "lastUpdated": 1788638019085,
+  "cached": true,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -63,10 +63,10 @@
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
       "Games Won": 5,
-      "Games Lost": 11,
+      "Games Lost": 12,
       "Kills": 105,
-      "Deaths": 19,
-      "Score": 583
+      "Deaths": 21,
+      "Score": 529
     },
     {
       "Account ID": "3269A895916819CE",
@@ -87,15 +87,6 @@
       "Score": 409
     },
     {
-      "Account ID": "A88E76CD07E55A5A",
-      "Player Name": "xxDollxx",
-      "Games Won": 7,
-      "Games Lost": 14,
-      "Kills": 130,
-      "Deaths": 35,
-      "Score": 404
-    },
-    {
       "Account ID": "9B89B7156A49CE96",
       "Player Name": "S7iP3R",
       "Games Won": 4,
@@ -103,6 +94,15 @@
       "Kills": 85,
       "Deaths": 23,
       "Score": 402
+    },
+    {
+      "Account ID": "A88E76CD07E55A5A",
+      "Player Name": "xxDollxx",
+      "Games Won": 7,
+      "Games Lost": 14,
+      "Kills": 130,
+      "Deaths": 36,
+      "Score": 394
     },
     {
       "Account ID": "8BADAFD29166F55D",
