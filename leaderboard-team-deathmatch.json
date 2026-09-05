@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-05T16:03:03.767253+00:00",
-  "lastUpdated": 1788624175263,
+  "updatedAt": "2026-09-05T17:02:48.677124+00:00",
+  "lastUpdated": 1788627762387,
   "cached": false,
   "players": [
     {
@@ -117,10 +117,10 @@
       "Account ID": "166C117E4F66AA4",
       "Player Name": "beliuBREADER",
       "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 27,
-      "Deaths": 11,
-      "Score": 257
+      "Games Lost": 8,
+      "Kills": 28,
+      "Deaths": 12,
+      "Score": 244
     },
     {
       "Account ID": "6837BCF2F57B6A38",

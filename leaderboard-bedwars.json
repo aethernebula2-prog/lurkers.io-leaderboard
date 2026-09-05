@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T16:03:02.216741+00:00",
-  "lastUpdated": 1788623717616,
+  "updatedAt": "2026-09-05T17:02:46.163452+00:00",
+  "lastUpdated": 1788627711739,
   "cached": true,
   "players": [
     {
@@ -27,10 +27,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 5,
-      "Games Lost": 5,
+      "Games Lost": 6,
       "Kills": 216,
-      "Deaths": 29,
-      "Score": 794
+      "Deaths": 30,
+      "Score": 765
     },
     {
       "Account ID": "FB155918BAFE3B5",
@@ -63,10 +63,10 @@
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
       "Games Won": 4,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 87,
-      "Deaths": 16,
-      "Score": 574
+      "Deaths": 17,
+      "Score": 540
     },
     {
       "Account ID": "3269A895916819CE",
@@ -99,10 +99,19 @@
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 1,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 97,
-      "Deaths": 30,
-      "Score": 333
+      "Deaths": 31,
+      "Score": 321
+    },
+    {
+      "Account ID": "8BADAFD29166F55D",
+      "Player Name": "lmoa1",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 76,
+      "Deaths": 29,
+      "Score": 319
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -150,6 +159,15 @@
       "Score": 246
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 85,
+      "Deaths": 43,
+      "Score": 235
+    },
+    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 3,
@@ -166,24 +184,6 @@
       "Kills": 104,
       "Deaths": 64,
       "Score": 233
-    },
-    {
-      "Account ID": "3AEB08EEAFF1B9DC",
-      "Player Name": "tiameny",
-      "Games Won": 4,
-      "Games Lost": 9,
-      "Kills": 143,
-      "Deaths": 77,
-      "Score": 216
-    },
-    {
-      "Account ID": "776F2F3D6C38B2B",
-      "Player Name": "sadadasd",
-      "Games Won": 14,
-      "Games Lost": 21,
-      "Kills": 157,
-      "Deaths": 89,
-      "Score": 216
     }
   ]
 }
