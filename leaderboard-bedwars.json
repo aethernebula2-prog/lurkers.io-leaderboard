@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T03:02:59.421590+00:00",
-  "lastUpdated": 1788577359190,
-  "cached": true,
+  "updatedAt": "2026-09-05T04:02:55.303404+00:00",
+  "lastUpdated": 1788580970686,
+  "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -60,6 +60,15 @@
       "Score": 574
     },
     {
+      "Account ID": "3269A895916819CE",
+      "Player Name": "xxZenYor911xx",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 38,
+      "Deaths": 10,
+      "Score": 430
+    },
+    {
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "xxDollxx",
       "Games Won": 7,
@@ -98,20 +107,11 @@
     {
       "Account ID": "700F776F0EF50107",
       "Player Name": "JrcoolzYt",
-      "Games Won": 28,
-      "Games Lost": 25,
-      "Kills": 265,
-      "Deaths": 114,
-      "Score": 285
-    },
-    {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 13,
-      "Games Lost": 21,
-      "Kills": 189,
-      "Deaths": 83,
-      "Score": 265
+      "Games Won": 29,
+      "Games Lost": 26,
+      "Kills": 276,
+      "Deaths": 118,
+      "Score": 286
     },
     {
       "Account ID": "ABC920483AE3583",
@@ -121,6 +121,15 @@
       "Kills": 58,
       "Deaths": 27,
       "Score": 264
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 13,
+      "Games Lost": 23,
+      "Kills": 191,
+      "Deaths": 86,
+      "Score": 258
     },
     {
       "Account ID": "A64B5361F926770",
@@ -141,15 +150,6 @@
       "Score": 235
     },
     {
-      "Account ID": "1F89746E9031C44B",
-      "Player Name": "XXxDYLANxXX",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 36,
-      "Deaths": 20,
-      "Score": 230
-    },
-    {
       "Account ID": "776F2F3D6C38B2B",
       "Player Name": "Grim0x",
       "Games Won": 14,
@@ -157,6 +157,15 @@
       "Kills": 157,
       "Deaths": 89,
       "Score": 216
+    },
+    {
+      "Account ID": "1F89746E9031C44B",
+      "Player Name": "XXxDYLANxXX",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 36,
+      "Deaths": 22,
+      "Score": 206
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -174,15 +183,6 @@
       "Games Lost": 7,
       "Kills": 39,
       "Deaths": 24,
-      "Score": 192
-    },
-    {
-      "Account ID": "38FBB80FB942BEEF",
-      "Player Name": "xxAIDENxx",
-      "Games Won": 5,
-      "Games Lost": 10,
-      "Kills": 121,
-      "Deaths": 76,
       "Score": 192
     }
   ]
