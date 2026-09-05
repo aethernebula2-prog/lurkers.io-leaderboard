@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T18:03:15.805066+00:00",
-  "lastUpdated": 1788631394612,
+  "updatedAt": "2026-09-05T19:02:31.263529+00:00",
+  "lastUpdated": 1788634946315,
   "cached": false,
   "players": [
     {
@@ -62,11 +62,11 @@
     {
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
-      "Games Won": 4,
-      "Games Lost": 10,
-      "Kills": 87,
-      "Deaths": 17,
-      "Score": 540
+      "Games Won": 5,
+      "Games Lost": 11,
+      "Kills": 105,
+      "Deaths": 19,
+      "Score": 583
     },
     {
       "Account ID": "3269A895916819CE",
@@ -76,6 +76,15 @@
       "Kills": 38,
       "Deaths": 10,
       "Score": 430
+    },
+    {
+      "Account ID": "26F04D53B39F9050",
+      "Player Name": "ARRozc0nLEchexD",
+      "Games Won": 3,
+      "Games Lost": 12,
+      "Kills": 113,
+      "Deaths": 29,
+      "Score": 409
     },
     {
       "Account ID": "A88E76CD07E55A5A",
@@ -96,22 +105,13 @@
       "Score": 402
     },
     {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 1,
-      "Games Lost": 10,
-      "Kills": 97,
-      "Deaths": 31,
-      "Score": 321
-    },
-    {
       "Account ID": "8BADAFD29166F55D",
       "Player Name": "lmoa1",
-      "Games Won": 4,
+      "Games Won": 5,
       "Games Lost": 3,
-      "Kills": 76,
-      "Deaths": 29,
-      "Score": 319
+      "Kills": 82,
+      "Deaths": 31,
+      "Score": 327
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -130,6 +130,15 @@
       "Kills": 43,
       "Deaths": 19,
       "Score": 266
+    },
+    {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 1,
+      "Games Lost": 12,
+      "Kills": 97,
+      "Deaths": 38,
+      "Score": 262
     },
     {
       "Account ID": "711F0DC522C942F6",
@@ -175,15 +184,6 @@
       "Kills": 147,
       "Deaths": 73,
       "Score": 234
-    },
-    {
-      "Account ID": "844C476E593C7815",
-      "Player Name": "vojenkomat3000",
-      "Games Won": 5,
-      "Games Lost": 2,
-      "Kills": 104,
-      "Deaths": 64,
-      "Score": 233
     }
   ]
 }
