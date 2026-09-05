@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-05T00:04:22.497676+00:00",
-  "lastUpdated": 1788566243801,
+  "updatedAt": "2026-09-05T01:02:38.833183+00:00",
+  "lastUpdated": 1788569561533,
   "cached": true,
   "players": [
     {
@@ -132,15 +132,6 @@
       "Score": 253
     },
     {
-      "Account ID": "88F23DEAD3F51703",
-      "Player Name": "NEYMAR3422",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 43,
-      "Deaths": 19,
-      "Score": 242
-    },
-    {
       "Account ID": "844C476E593C7815",
       "Player Name": "vojenkomat3000",
       "Games Won": 5,
@@ -157,6 +148,15 @@
       "Kills": 36,
       "Deaths": 20,
       "Score": 230
+    },
+    {
+      "Account ID": "88F23DEAD3F51703",
+      "Player Name": "NEYMAR3422",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 43,
+      "Deaths": 21,
+      "Score": 219
     },
     {
       "Account ID": "776F2F3D6C38B2B",
