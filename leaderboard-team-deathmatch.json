@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T08:03:15.377197+00:00",
-  "lastUpdated": 1788681794260,
+  "updatedAt": "2026-09-06T09:02:53.508054+00:00",
+  "lastUpdated": 1788685366648,
   "cached": false,
   "players": [
     {
@@ -17,11 +17,11 @@
     {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
-      "Games Won": 3,
+      "Games Won": 4,
       "Games Lost": 7,
-      "Kills": 355,
+      "Kills": 384,
       "Deaths": 9,
-      "Score": 3974
+      "Score": 4303
     },
     {
       "Account ID": "C1CC914D4BE6B501",
@@ -90,10 +90,19 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 11,
-      "Games Lost": 21,
-      "Kills": 712,
-      "Deaths": 223,
-      "Score": 353
+      "Games Lost": 22,
+      "Kills": 792,
+      "Deaths": 236,
+      "Score": 368
+    },
+    {
+      "Account ID": "6A1043D7B9612B82",
+      "Player Name": "mio974",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 24,
+      "Deaths": 7,
+      "Score": 359
     },
     {
       "Account ID": "E340F1474433376A",
@@ -175,15 +184,6 @@
       "Kills": 32,
       "Deaths": 95,
       "Score": 51
-    },
-    {
-      "Account ID": "50EFF2183EB21A6D",
-      "Player Name": "Mizucible",
-      "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 2,
-      "Deaths": 6,
-      "Score": 33
     }
   ]
 }
