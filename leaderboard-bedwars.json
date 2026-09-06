@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-06T20:02:56.803484+00:00",
-  "lastUpdated": 1788724975091,
-  "cached": false,
+  "updatedAt": "2026-09-06T21:02:49.781306+00:00",
+  "lastUpdated": 1788728093954,
+  "cached": true,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -87,15 +87,6 @@
       "Score": 431
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 5,
-      "Games Lost": 13,
-      "Kills": 107,
-      "Deaths": 27,
-      "Score": 424
-    },
-    {
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "xxDollxx",
       "Games Won": 9,
@@ -112,6 +103,15 @@
       "Kills": 85,
       "Deaths": 23,
       "Score": 402
+    },
+    {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 5,
+      "Games Lost": 14,
+      "Kills": 107,
+      "Deaths": 29,
+      "Score": 395
     },
     {
       "Account ID": "26F04D53B39F9050",
@@ -150,15 +150,6 @@
       "Score": 281
     },
     {
-      "Account ID": "891AEC8338452106",
-      "Player Name": "hueto",
-      "Games Won": 5,
-      "Games Lost": 12,
-      "Kills": 105,
-      "Deaths": 42,
-      "Score": 279
-    },
-    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 14,
@@ -175,6 +166,15 @@
       "Kills": 97,
       "Deaths": 38,
       "Score": 262
+    },
+    {
+      "Account ID": "891AEC8338452106",
+      "Player Name": "hueto",
+      "Games Won": 5,
+      "Games Lost": 13,
+      "Kills": 105,
+      "Deaths": 46,
+      "Score": 256
     },
     {
       "Account ID": "A64B5361F926770",
