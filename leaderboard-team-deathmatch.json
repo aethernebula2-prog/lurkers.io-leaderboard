@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T19:02:21.979352+00:00",
-  "lastUpdated": 1788721335494,
-  "cached": false,
+  "updatedAt": "2026-09-06T20:02:57.717609+00:00",
+  "lastUpdated": 1788724640712,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -31,6 +31,15 @@
       "Kills": 515,
       "Deaths": 31,
       "Score": 1721
+    },
+    {
+      "Account ID": "42A4EE7168959FF7",
+      "Player Name": "KINGOFBURGERS",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 94,
+      "Deaths": 11,
+      "Score": 897
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -169,21 +178,12 @@
     },
     {
       "Account ID": "6EEB703E65BA417B",
-      "Player Name": "saraplus333333",
+      "Player Name": "EMANUEL73567",
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 20,
       "Deaths": 28,
       "Score": 88
-    },
-    {
-      "Account ID": "2E6A895D9893339B",
-      "Player Name": "vipphong67vn2",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 3,
-      "Deaths": 4,
-      "Score": 75
     }
   ]
 }
