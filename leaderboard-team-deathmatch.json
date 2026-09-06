@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T02:02:58.162145+00:00",
-  "lastUpdated": 1788659821274,
+  "updatedAt": "2026-09-06T03:03:03.670034+00:00",
+  "lastUpdated": 1788663354260,
   "cached": true,
   "players": [
     {
@@ -87,15 +87,6 @@
       "Score": 376
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 11,
-      "Games Lost": 15,
-      "Kills": 488,
-      "Deaths": 155,
-      "Score": 357
-    },
-    {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 7,
@@ -103,6 +94,15 @@
       "Kills": 143,
       "Deaths": 46,
       "Score": 349
+    },
+    {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 11,
+      "Games Lost": 16,
+      "Kills": 530,
+      "Deaths": 177,
+      "Score": 340
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
@@ -132,15 +132,6 @@
       "Score": 215
     },
     {
-      "Account ID": "9C3B1FC6B72F645E",
-      "Player Name": "PolishSausage",
-      "Games Won": 7,
-      "Games Lost": 5,
-      "Kills": 33,
-      "Deaths": 28,
-      "Score": 176
-    },
-    {
       "Account ID": "BF768EDCA3C4709C",
       "Player Name": "soujaboy1977",
       "Games Won": 1,
@@ -148,6 +139,15 @@
       "Kills": 27,
       "Deaths": 17,
       "Score": 175
+    },
+    {
+      "Account ID": "9C3B1FC6B72F645E",
+      "Player Name": "PolishSausage",
+      "Games Won": 7,
+      "Games Lost": 6,
+      "Kills": 33,
+      "Deaths": 29,
+      "Score": 167
     },
     {
       "Account ID": "6EEB703E65BA417B",
@@ -162,10 +162,10 @@
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
       "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 3,
+      "Games Lost": 6,
+      "Kills": 4,
       "Deaths": 14,
-      "Score": 58
+      "Score": 61
     },
     {
       "Account ID": "50EFF2183EB21A6D",
