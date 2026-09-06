@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T01:03:00.538048+00:00",
-  "lastUpdated": 1788656166643,
+  "updatedAt": "2026-09-06T02:02:58.162145+00:00",
+  "lastUpdated": 1788659821274,
   "cached": true,
   "players": [
     {
@@ -134,11 +134,11 @@
     {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "PolishSausage",
-      "Games Won": 6,
-      "Games Lost": 4,
+      "Games Won": 7,
+      "Games Lost": 5,
       "Kills": 33,
       "Deaths": 28,
-      "Score": 177
+      "Score": 176
     },
     {
       "Account ID": "BF768EDCA3C4709C",
@@ -164,17 +164,17 @@
       "Games Won": 3,
       "Games Lost": 5,
       "Kills": 3,
-      "Deaths": 13,
-      "Score": 60
+      "Deaths": 14,
+      "Score": 58
     },
     {
       "Account ID": "50EFF2183EB21A6D",
       "Player Name": "Mizucible",
       "Games Won": 0,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 2,
-      "Deaths": 5,
-      "Score": 40
+      "Deaths": 6,
+      "Score": 33
     },
     {
       "Account ID": "5F6F44C36B3744A7",
