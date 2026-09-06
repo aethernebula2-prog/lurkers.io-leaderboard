@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T00:04:55.328194+00:00",
-  "lastUpdated": 1788653086966,
-  "cached": false,
+  "updatedAt": "2026-09-06T01:03:00.538048+00:00",
+  "lastUpdated": 1788656166643,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -135,10 +135,10 @@
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "PolishSausage",
       "Games Won": 6,
-      "Games Lost": 3,
+      "Games Lost": 4,
       "Kills": 33,
-      "Deaths": 26,
-      "Score": 193
+      "Deaths": 28,
+      "Score": 177
     },
     {
       "Account ID": "BF768EDCA3C4709C",
@@ -151,7 +151,7 @@
     },
     {
       "Account ID": "6EEB703E65BA417B",
-      "Player Name": "EMANUELELMATAVIPS3ALDJUW",
+      "Player Name": "saraplus333333",
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 20,
@@ -162,10 +162,19 @@
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
       "Games Won": 3,
-      "Games Lost": 4,
+      "Games Lost": 5,
+      "Kills": 3,
+      "Deaths": 13,
+      "Score": 60
+    },
+    {
+      "Account ID": "50EFF2183EB21A6D",
+      "Player Name": "Mizucible",
+      "Games Won": 0,
+      "Games Lost": 6,
       "Kills": 2,
-      "Deaths": 12,
-      "Score": 59
+      "Deaths": 5,
+      "Score": 40
     },
     {
       "Account ID": "5F6F44C36B3744A7",
@@ -175,15 +184,6 @@
       "Kills": 0,
       "Deaths": 57,
       "Score": 25
-    },
-    {
-      "Account ID": "A759F3FEFB59F5F1",
-      "Player Name": "error504",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 1,
-      "Deaths": 5,
-      "Score": 20
     }
   ]
 }
