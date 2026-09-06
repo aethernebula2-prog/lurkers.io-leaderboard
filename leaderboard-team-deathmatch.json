@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T03:03:03.670034+00:00",
-  "lastUpdated": 1788663354260,
-  "cached": true,
+  "updatedAt": "2026-09-06T04:02:55.125992+00:00",
+  "lastUpdated": 1788667370229,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -18,19 +18,19 @@
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 3,
-      "Games Lost": 5,
+      "Games Lost": 7,
       "Kills": 355,
-      "Deaths": 8,
-      "Score": 4475
+      "Deaths": 9,
+      "Score": 3974
     },
     {
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
-      "Games Won": 4,
+      "Games Won": 6,
       "Games Lost": 2,
-      "Kills": 375,
-      "Deaths": 29,
-      "Score": 1359
+      "Kills": 460,
+      "Deaths": 31,
+      "Score": 1558
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -72,10 +72,10 @@
       "Account ID": "6310F74D9FC47BC8",
       "Player Name": "Alvi117",
       "Games Won": 4,
-      "Games Lost": 2,
-      "Kills": 180,
-      "Deaths": 41,
-      "Score": 505
+      "Games Lost": 3,
+      "Kills": 201,
+      "Deaths": 46,
+      "Score": 494
     },
     {
       "Account ID": "113785E98F35679A",
@@ -87,6 +87,15 @@
       "Score": 376
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 11,
+      "Games Lost": 19,
+      "Kills": 650,
+      "Deaths": 198,
+      "Score": 364
+    },
+    {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 7,
@@ -94,15 +103,6 @@
       "Kills": 143,
       "Deaths": 46,
       "Score": 349
-    },
-    {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 11,
-      "Games Lost": 16,
-      "Kills": 530,
-      "Deaths": 177,
-      "Score": 340
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
@@ -136,9 +136,9 @@
       "Player Name": "soujaboy1977",
       "Games Won": 1,
       "Games Lost": 5,
-      "Kills": 27,
-      "Deaths": 17,
-      "Score": 175
+      "Kills": 33,
+      "Deaths": 19,
+      "Score": 190
     },
     {
       "Account ID": "9C3B1FC6B72F645E",
@@ -146,8 +146,8 @@
       "Games Won": 7,
       "Games Lost": 6,
       "Kills": 33,
-      "Deaths": 29,
-      "Score": 167
+      "Deaths": 32,
+      "Score": 156
     },
     {
       "Account ID": "6EEB703E65BA417B",
@@ -162,10 +162,10 @@
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
       "Games Won": 3,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 4,
-      "Deaths": 14,
-      "Score": 61
+      "Deaths": 15,
+      "Score": 56
     },
     {
       "Account ID": "50EFF2183EB21A6D",
@@ -180,10 +180,10 @@
       "Account ID": "5F6F44C36B3744A7",
       "Player Name": "HAVVK",
       "Games Won": 2,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 0,
-      "Deaths": 57,
-      "Score": 25
+      "Deaths": 73,
+      "Score": 22
     }
   ]
 }
