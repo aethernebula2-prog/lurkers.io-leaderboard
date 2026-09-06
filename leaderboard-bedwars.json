@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-06T06:03:27.007145+00:00",
-  "lastUpdated": 1788674513671,
+  "updatedAt": "2026-09-06T07:02:45.113531+00:00",
+  "lastUpdated": 1788677919787,
   "cached": true,
   "players": [
     {
@@ -132,15 +132,6 @@
       "Score": 286
     },
     {
-      "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
-      "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 43,
-      "Deaths": 19,
-      "Score": 266
-    },
-    {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 5,
@@ -175,6 +166,15 @@
       "Kills": 305,
       "Deaths": 156,
       "Score": 244
+    },
+    {
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 43,
+      "Deaths": 21,
+      "Score": 241
     },
     {
       "Account ID": "ABC920483AE3583",
