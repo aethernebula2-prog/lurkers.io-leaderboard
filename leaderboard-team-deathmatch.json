@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-06T13:02:34.039060+00:00",
-  "lastUpdated": 1788699751305,
-  "cached": false,
+  "updatedAt": "2026-09-06T14:02:49.271790+00:00",
+  "lastUpdated": 1788703066139,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -87,15 +87,6 @@
       "Score": 474
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 11,
-      "Games Lost": 24,
-      "Kills": 855,
-      "Deaths": 245,
-      "Score": 380
-    },
-    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 3,
@@ -105,13 +96,13 @@
       "Score": 376
     },
     {
-      "Account ID": "6A1043D7B9612B82",
-      "Player Name": "mio974",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 24,
-      "Deaths": 7,
-      "Score": 359
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 11,
+      "Games Lost": 24,
+      "Kills": 855,
+      "Deaths": 249,
+      "Score": 374
     },
     {
       "Account ID": "E340F1474433376A",
@@ -141,6 +132,15 @@
       "Score": 244
     },
     {
+      "Account ID": "6A1043D7B9612B82",
+      "Player Name": "mio974",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 29,
+      "Deaths": 14,
+      "Score": 221
+    },
+    {
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 1,
@@ -153,10 +153,10 @@
       "Account ID": "BF768EDCA3C4709C",
       "Player Name": "soujaboy1977",
       "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 34,
-      "Deaths": 23,
-      "Score": 160
+      "Games Lost": 8,
+      "Kills": 41,
+      "Deaths": 27,
+      "Score": 162
     },
     {
       "Account ID": "9C3B1FC6B72F645E",
