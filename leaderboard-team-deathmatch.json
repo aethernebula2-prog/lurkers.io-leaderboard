@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-07T15:02:53.502324+00:00",
-  "lastUpdated": 1788792927247,
-  "cached": true,
+  "updatedAt": "2026-09-07T16:02:59.847430+00:00",
+  "lastUpdated": 1788796976233,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -70,7 +70,7 @@
     },
     {
       "Account ID": "2E5124E426786319",
-      "Player Name": "ddddddtucdanadddddddd",
+      "Player Name": "alphabetaeeeeaeaee",
       "Games Won": 0,
       "Games Lost": 6,
       "Kills": 117,
@@ -153,10 +153,10 @@
       "Account ID": "7F2BBCE06C123377",
       "Player Name": "Shaxk",
       "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 97,
-      "Deaths": 48,
-      "Score": 227
+      "Games Lost": 7,
+      "Kills": 114,
+      "Deaths": 56,
+      "Score": 225
     },
     {
       "Account ID": "166C117E4F66AA4",
