@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-07T11:02:59.007653+00:00",
-  "lastUpdated": 1788778969963,
+  "updatedAt": "2026-09-07T12:03:55.535242+00:00",
+  "lastUpdated": 1788782633115,
   "cached": false,
   "players": [
     {
@@ -105,6 +105,15 @@
       "Score": 473
     },
     {
+      "Account ID": "3DAA7E5450C066C8",
+      "Player Name": "mob000",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 25,
+      "Deaths": 6,
+      "Score": 416
+    },
+    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 3,
@@ -175,15 +184,6 @@
       "Kills": 113,
       "Deaths": 55,
       "Score": 215
-    },
-    {
-      "Account ID": "9C3B1FC6B72F645E",
-      "Player Name": "PolishSausage",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 49,
-      "Deaths": 38,
-      "Score": 172
     }
   ]
 }
