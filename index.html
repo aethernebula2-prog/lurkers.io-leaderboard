@@ -170,10 +170,12 @@
         max-width: 600px;
         margin: 10% auto;
         padding: 25px;
-        background: #161b22;
-        border: 1px solid #303a51;
+    
+        background: var(--modal-bg);
+        border: 1px solid var(--border-color);
         border-radius: 12px;
-        color: #e6e6e6;
+    
+        color: var(--text-color);
     }
 
     .modal-content h2 {
@@ -810,11 +812,19 @@ document.querySelectorAll('input[name="gamemode"]').forEach(input => {
 
 document.querySelectorAll('input[name="theme"]').forEach(input => {
     input.addEventListener("change", function() {
-        localStorage.setItem("theme", this.value);
-        if (this.value === "light") {
+        const theme = this.value;
+
+        localStorage.setItem("theme", theme);
+
+        document.body.classList.remove(
+            "light-theme",
+            "dark-theme"
+        );
+
+        if (theme === "light") {
             document.body.classList.add("light-theme");
-        } else {
-            document.body.classList.remove("light-theme");
+        } else if (theme === "dark") {
+            document.body.classList.add("dark-theme");
         }
     });
 });
@@ -837,6 +847,8 @@ document.querySelector(
 
 if (savedTheme === "light") {
     document.body.classList.add("light-theme");
+} else if (savedTheme === "dark") {
+    document.body.classList.add("dark-theme");
 }
 
 setLanguage(currentLanguage);
