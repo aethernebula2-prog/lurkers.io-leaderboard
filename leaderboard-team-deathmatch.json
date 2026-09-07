@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-07T16:02:59.847430+00:00",
-  "lastUpdated": 1788796976233,
+  "updatedAt": "2026-09-07T17:02:46.846032+00:00",
+  "lastUpdated": 1788800568046,
   "cached": false,
   "players": [
     {
@@ -69,15 +69,6 @@
       "Score": 590
     },
     {
-      "Account ID": "2E5124E426786319",
-      "Player Name": "alphabetaeeeeaeaee",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 117,
-      "Deaths": 22,
-      "Score": 531
-    },
-    {
       "Account ID": "4BCB5C0C23D62CA",
       "Player Name": "SUSHIMINETA",
       "Games Won": 5,
@@ -85,6 +76,15 @@
       "Kills": 489,
       "Deaths": 105,
       "Score": 496
+    },
+    {
+      "Account ID": "2E5124E426786319",
+      "Player Name": "alphabetaeeeeaeaee",
+      "Games Won": 0,
+      "Games Lost": 7,
+      "Kills": 122,
+      "Deaths": 25,
+      "Score": 488
     },
     {
       "Account ID": "6310F74D9FC47BC8",
@@ -150,22 +150,13 @@
       "Score": 264
     },
     {
-      "Account ID": "7F2BBCE06C123377",
-      "Player Name": "Shaxk",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 114,
-      "Deaths": 56,
-      "Score": 225
-    },
-    {
       "Account ID": "166C117E4F66AA4",
       "Player Name": "beliuBREADER",
       "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 28,
-      "Deaths": 13,
-      "Score": 225
+      "Games Lost": 10,
+      "Kills": 31,
+      "Deaths": 14,
+      "Score": 230
     },
     {
       "Account ID": "6A1043D7B9612B82",
@@ -175,6 +166,15 @@
       "Kills": 29,
       "Deaths": 14,
       "Score": 221
+    },
+    {
+      "Account ID": "7F2BBCE06C123377",
+      "Player Name": "Shaxk",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 114,
+      "Deaths": 57,
+      "Score": 220
     },
     {
       "Account ID": "6837BCF2F57B6A38",
