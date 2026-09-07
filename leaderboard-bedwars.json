@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-07T20:03:11.872563+00:00",
-  "lastUpdated": 1788811160345,
+  "updatedAt": "2026-09-07T21:03:07.956444+00:00",
+  "lastUpdated": 1788814785453,
   "cached": true,
   "players": [
     {
@@ -26,11 +26,11 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 6,
+      "Games Won": 7,
       "Games Lost": 6,
-      "Kills": 270,
-      "Deaths": 33,
-      "Score": 868
+      "Kills": 275,
+      "Deaths": 42,
+      "Score": 708
     },
     {
       "Account ID": "FB155918BAFE3B5",
@@ -54,10 +54,10 @@
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 15,
-      "Games Lost": 12,
+      "Games Lost": 13,
       "Kills": 269,
-      "Deaths": 70,
-      "Score": 439
+      "Deaths": 71,
+      "Score": 432
     },
     {
       "Account ID": "6709465940687CA1",
@@ -141,15 +141,6 @@
       "Score": 291
     },
     {
-      "Account ID": "8BADAFD29166F55D",
-      "Player Name": "lmoa1",
-      "Games Won": 5,
-      "Games Lost": 6,
-      "Kills": 125,
-      "Deaths": 54,
-      "Score": 276
-    },
-    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 14,
@@ -168,6 +159,15 @@
       "Score": 269
     },
     {
+      "Account ID": "8BADAFD29166F55D",
+      "Player Name": "lmoa1",
+      "Games Won": 5,
+      "Games Lost": 7,
+      "Kills": 129,
+      "Deaths": 58,
+      "Score": 264
+    },
+    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 1,
@@ -177,13 +177,13 @@
       "Score": 262
     },
     {
-      "Account ID": "700F776F0EF50107",
-      "Player Name": "JrcoolzYt",
-      "Games Won": 36,
-      "Games Lost": 41,
-      "Kills": 321,
-      "Deaths": 167,
-      "Score": 238
+      "Account ID": "891AEC8338452106",
+      "Player Name": "hueto2",
+      "Games Won": 10,
+      "Games Lost": 24,
+      "Kills": 193,
+      "Deaths": 90,
+      "Score": 243
     }
   ]
 }
