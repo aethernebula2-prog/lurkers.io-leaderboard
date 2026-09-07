@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-07T08:03:34.892219+00:00",
-  "lastUpdated": 1788768210831,
+  "updatedAt": "2026-09-07T09:03:18.337300+00:00",
+  "lastUpdated": 1788771796130,
   "cached": false,
   "players": [
     {
@@ -31,6 +31,15 @@
       "Kills": 515,
       "Deaths": 31,
       "Score": 1721
+    },
+    {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 90,
+      "Deaths": 6,
+      "Score": 1516
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -74,8 +83,8 @@
       "Games Won": 5,
       "Games Lost": 11,
       "Kills": 489,
-      "Deaths": 104,
-      "Score": 501
+      "Deaths": 105,
+      "Score": 496
     },
     {
       "Account ID": "6310F74D9FC47BC8",
@@ -116,11 +125,11 @@
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 12,
-      "Kills": 153,
+      "Kills": 161,
       "Deaths": 49,
-      "Score": 349
+      "Score": 368
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
@@ -132,15 +141,6 @@
       "Score": 264
     },
     {
-      "Account ID": "166C117E4F66AA4",
-      "Player Name": "beliuBREADER",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 28,
-      "Deaths": 12,
-      "Score": 244
-    },
-    {
       "Account ID": "7F2BBCE06C123377",
       "Player Name": "Shaxk",
       "Games Won": 2,
@@ -148,6 +148,15 @@
       "Kills": 79,
       "Deaths": 39,
       "Score": 231
+    },
+    {
+      "Account ID": "166C117E4F66AA4",
+      "Player Name": "beliuBREADER",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 28,
+      "Deaths": 13,
+      "Score": 225
     },
     {
       "Account ID": "6A1043D7B9612B82",
@@ -175,15 +184,6 @@
       "Kills": 49,
       "Deaths": 38,
       "Score": 172
-    },
-    {
-      "Account ID": "BF768EDCA3C4709C",
-      "Player Name": "soujaboy1977",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 41,
-      "Deaths": 27,
-      "Score": 162
     }
   ]
 }
