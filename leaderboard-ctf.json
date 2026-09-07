@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-07T02:02:50.584816+00:00",
-  "lastUpdated": 1788746562781,
+  "updatedAt": "2026-09-07T03:03:08.831544+00:00",
+  "lastUpdated": 1788750186824,
   "cached": false,
   "players": [
     {
@@ -36,10 +36,10 @@
       "Account ID": "1CFF3D64393C5EB5",
       "Player Name": "ELIMPERIOGATO",
       "Games Won": 1,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 0,
-      "Deaths": 8,
-      "Score": 14
+      "Deaths": 9,
+      "Score": 12
     }
   ]
 }
