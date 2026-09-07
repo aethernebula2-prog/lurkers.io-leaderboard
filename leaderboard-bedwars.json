@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-07T00:04:38.832823+00:00",
-  "lastUpdated": 1788739477720,
+  "updatedAt": "2026-09-07T01:03:40.331580+00:00",
+  "lastUpdated": 1788743018415,
   "cached": false,
   "players": [
     {
@@ -69,6 +69,15 @@
       "Score": 605
     },
     {
+      "Account ID": "1F89746E9031C44B",
+      "Player Name": "XXxDYLANxXX",
+      "Games Won": 6,
+      "Games Lost": 5,
+      "Kills": 176,
+      "Deaths": 43,
+      "Score": 463
+    },
+    {
       "Account ID": "3269A895916819CE",
       "Player Name": "xxZenYor911xx",
       "Games Won": 3,
@@ -76,15 +85,6 @@
       "Kills": 59,
       "Deaths": 14,
       "Score": 454
-    },
-    {
-      "Account ID": "1F89746E9031C44B",
-      "Player Name": "XXxDYLANxXX",
-      "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 147,
-      "Deaths": 38,
-      "Score": 431
     },
     {
       "Account ID": "A88E76CD07E55A5A",
@@ -159,15 +159,6 @@
       "Score": 274
     },
     {
-      "Account ID": "891AEC8338452106",
-      "Player Name": "hueto",
-      "Games Won": 7,
-      "Games Lost": 17,
-      "Kills": 127,
-      "Deaths": 54,
-      "Score": 264
-    },
-    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 1,
@@ -184,6 +175,15 @@
       "Kills": 38,
       "Deaths": 18,
       "Score": 253
+    },
+    {
+      "Account ID": "700F776F0EF50107",
+      "Player Name": "JrcoolzYt",
+      "Games Won": 36,
+      "Games Lost": 39,
+      "Kills": 310,
+      "Deaths": 159,
+      "Score": 242
     }
   ]
 }
