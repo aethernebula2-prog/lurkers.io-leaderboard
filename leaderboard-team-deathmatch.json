@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-07T21:03:08.798755+00:00",
-  "lastUpdated": 1788814792211,
-  "cached": true,
+  "updatedAt": "2026-09-07T22:02:47.801926+00:00",
+  "lastUpdated": 1788818569067,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -40,6 +40,15 @@
       "Kills": 90,
       "Deaths": 6,
       "Score": 1516
+    },
+    {
+      "Account ID": "545083C5768882B1",
+      "Player Name": "sarmata",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 175,
+      "Deaths": 20,
+      "Score": 908
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -114,15 +123,6 @@
       "Score": 416
     },
     {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 153,
-      "Deaths": 44,
-      "Score": 387
-    },
-    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 11,
@@ -130,6 +130,15 @@
       "Kills": 909,
       "Deaths": 256,
       "Score": 384
+    },
+    {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 153,
+      "Deaths": 45,
+      "Score": 376
     },
     {
       "Account ID": "E340F1474433376A",
@@ -168,22 +177,13 @@
       "Score": 221
     },
     {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 113,
-      "Deaths": 55,
-      "Score": 215
-    },
-    {
       "Account ID": "7F2BBCE06C123377",
       "Player Name": "Shaxk",
       "Games Won": 3,
       "Games Lost": 8,
-      "Kills": 125,
-      "Deaths": 67,
-      "Score": 213
+      "Kills": 136,
+      "Deaths": 71,
+      "Score": 218
     }
   ]
 }
