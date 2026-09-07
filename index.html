@@ -27,11 +27,25 @@
         --hover-bg: #f0f4f8;
         --modal-bg: #ffffff;
 
-        --border-color: #cbd5e1;
+        --border-color: #d7dee8;
         --text-color: #334155;
         --secondary-text: #64748b;
         --primary-text-color: #1e293b;
         --error-color: #dc2626;
+    }
+
+    body.dark-theme {
+        --body-bg: #202020;
+        --table-bg: #1a1a1a;
+        --header-bg: #2c2c2c;
+        --hover-bg: #252525;
+        --modal-bg: #171717;
+
+        --border-color: #383838;
+        --text-color: #d1d5db;
+        --secondary-text: #9ca3af;
+        --primary-text-color: #f3f4f6;
+        --error-color: #ef4444;
     }
         
     * {
@@ -147,7 +161,7 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.65);
+        background: var(--modal-bg);
     }
 
     .modal-content {
@@ -198,13 +212,6 @@
 
     .site-header {
         text-align: center;
-    }
-
-    .lurkers-logo {
-        display: block;
-        width: 100px;
-        height: auto;
-        margin: 0 auto 10px;
     }
 
     h1 {
@@ -408,7 +415,7 @@
 
             <label>
                 <input type="radio" name="theme" value="dark-blue" checked>
-                <span data-i18n="darkblue">Dark Blue</span>
+                <span data-i18n="darkblue">Default</span>
             </label>
 
             <br>
@@ -416,6 +423,13 @@
             <label>
                 <input type="radio" name="theme" value="light">
                 <span data-i18n="lighttheme">Light</span>
+            </label>
+
+            <br>
+
+            <label>
+                <input type="radio" name="theme" value="dark">
+                <span data-i18n="darktheme">Dark</span>
             </label>
     </div>
 </div>  
@@ -519,10 +533,11 @@ const translations = {
         datasource: "Data source",
         scorenote: "If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io",
         theme: "Theme",
-        darkblue: "Dark Blue",
+        darkblue: "Default",
         lighttheme: "Light",
         languages: "Languages",
-        gamemode: "Gamemode"
+        gamemode: "Gamemode",
+        darktheme: "Dark"
     },
 
     zh: {
@@ -548,10 +563,11 @@ const translations = {
         datasource: "数据来源",
         scorenote: "若 K/D 比率显示为 N/A，计算时将按 1.00 计。本统计数据仅供参考，由 Lurkers.io 提供计算",
         theme: "主题",
-        darkblue: "深蓝",
+        darkblue: "默认",
         lighttheme: "浅色",
         languages: "语言",
-        gamemode: "游戏模式"
+        gamemode: "游戏模式",
+        darktheme: "黑暗"
     },
     
     ja: {
@@ -577,10 +593,11 @@ const translations = {
         datasource: "データ供給元",
         scorenote: "K/D比率がN/Aの場合、計算上は1.00として扱われます。この統計は参考値であり、Lurkers.ioによって算出されています",
         theme: "テーマ",
-        darkblue: "ダークブルー",
-        lighttheme: "ライト",
+        darkblue: "しょきせってい",
+        lighttheme: "ライトモード",
         languages: "言語",
-        gamemode: "ゲームモード"
+        gamemode: "ゲームモード",
+        darktheme: "ダークテーマ“
     },
 
     es:{
@@ -606,10 +623,11 @@ const translations = {
         datasource: "Fuente de datos",
         scorenote: "Si el ratio K/D aparece como N/A, se calculará como 1.00. Estas estadísticas son solo de referencia y son calculadas por Lurkers.io",
         theme: "Tema",
-        darkblue: "Azul oscuro",
+        darkblue: "Defecto",
         lighttheme: "Claro",
         languages: "Idiomas",
-        gamemode: "Modo de Juego"
+        gamemode: "Modo de Juego",
+        darktheme: "Oscuro"
     },
 
     de:{
@@ -635,10 +653,11 @@ const translations = {
         datasource: "Datenquelle",
         scorenote: "Wird das K/D Rate als N/A angezeigt, wird es als 1,00 berechnet. Diese Statistiken dienen nur als Richtwert und werden von Lurkers.io berechnet",
         theme: "Farbschema",
-        darkblue: "Dunkelblau",
+        darkblue: "Voreinstellung",
         lighttheme: "Hell",
         languages: "Sprachen",
-        gamemode: "Spielmodus"
+        gamemode: "Spielmodus",
+        darktheme: "Dunkel"
     },
 
     fr: {
@@ -664,10 +683,11 @@ const translations = {
         datasource: "Source des données",
         scorenote: "Si le ratio K/D est N/A, il est traité comme 1,00 pour le calcul. À titre de référence uniquement, les statistiques sont calculées par Lurkers.io",
         theme: "Thèmes",
-        darkblue: "Bleu Nuit",
-        lighttheme: "Clair",
+        darkblue: "Défaut",
+        lighttheme: "Mode Clair",
         languages: "Langues",
-        gamemode: "Mode de Jeu"
+        gamemode: "Mode de Jeu",
+        darktheme: "Mode Sombre"
     },
 
     ru: {
@@ -693,10 +713,11 @@ const translations = {
         datasource: "Источник данных",
         scorenote: "Если соотношение K/D указано как N/A, для расчётов оно принимается равным 1,00. Только для справки: статистика рассчитывается Lurkers.io",
         theme: "Тема",
-        darkblue: "Тёмно-синяя",
-        lighttheme: "Светлая",
+        darkblue: "По Умолчанию",
+        lighttheme: "Светлая Pежим",
         languages: "Языки",
-        gamemode: "Pежим Игры"
+        gamemode: "Pежим Игры",
+        darktheme: "Тёмный Pежим"
     }
 };
 
