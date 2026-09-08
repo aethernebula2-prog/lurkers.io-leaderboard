@@ -270,6 +270,13 @@
         gap: 10px;
         margin-top: 25px;
     }
+
+    .player-role {
+        font-size: 0.7em;
+        color: var(--secondary-text);
+        font-weight: normal;
+        margin-left: 5px;
+    }
         
 </style>
 </head>
@@ -439,16 +446,25 @@
 <script>
 async function loadLeaderboard() {
     try {
-        const response = await fetch(
-            leaderboardFiles[currentGamemode] + "?cache=" + Date.now()
-        );
+        const [response, rolesResponse] = await Promise.all([
+            fetch(
+                leaderboardFiles[currentGamemode] + "?cache=" + Date.now()
+            ),
+            fetch(
+                "roles.json?cache=" + Date.now()
+            )
+        ]);
 
         if (!response.ok) {
-            throw new Error("HTTP " + response.status);
+            throw new Error("Leaderboard HTTP " + response.status);
+        }
+
+        if (!rolesResponse.ok) {
+            throw new Error("Roles HTTP " + rolesResponse.status);
         }
 
         const data = await response.json();
-
+        const roles = await rolesResponse.json();
         const leaderboard = document.getElementById("leaderboard");
         leaderboard.innerHTML = "";
 
@@ -473,10 +489,17 @@ async function loadLeaderboard() {
                     ? 0
                     : (player["Games Won"] / totalGames) * 100;
 
+            const playerId = player["Account ID"];
+            const roleInfo = roles[playerId];
+            
+            const roleHtml = roleInfo
+                ? `<span class="player-role">${escapeHtml(roleInfo.role)}</span>`
+                : "";
+
             row.innerHTML = `
                 <td>${index + 1}</td>
-                <td title="Account ID: ${escapeHtml(player["Account ID"])}">
-                    ${escapeHtml(player["Player Name"])}
+                <td title="Account ID: ${escapeHtml(playerId)}">
+                    ${escapeHtml(player["Player Name"])}${roleHtml}
                 </td>
                 <td>${player["Score"].toLocaleString()}</td>
                 <td>${player["Kills"].toLocaleString()}</td>
