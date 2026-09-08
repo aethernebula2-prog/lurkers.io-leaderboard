@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-07T23:03:34.933391+00:00",
-  "lastUpdated": 1788822191685,
-  "cached": true,
+  "updatedAt": "2026-09-08T00:04:28.438679+00:00",
+  "lastUpdated": 1788825865325,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -53,11 +53,11 @@
     {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "KINGOFBURGERS",
-      "Games Won": 3,
+      "Games Won": 4,
       "Games Lost": 6,
-      "Kills": 107,
-      "Deaths": 15,
-      "Score": 746
+      "Kills": 122,
+      "Deaths": 18,
+      "Score": 717
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -96,6 +96,15 @@
       "Score": 488
     },
     {
+      "Account ID": "42583071A8816117",
+      "Player Name": "matagayxd",
+      "Games Won": 4,
+      "Games Lost": 19,
+      "Kills": 631,
+      "Deaths": 136,
+      "Score": 481
+    },
+    {
       "Account ID": "6310F74D9FC47BC8",
       "Player Name": "Alvi117",
       "Games Won": 4,
@@ -103,15 +112,6 @@
       "Kills": 208,
       "Deaths": 49,
       "Score": 474
-    },
-    {
-      "Account ID": "42583071A8816117",
-      "Player Name": "matagayxd",
-      "Games Won": 4,
-      "Games Lost": 18,
-      "Kills": 615,
-      "Deaths": 135,
-      "Score": 473
     },
     {
       "Account ID": "3DAA7E5450C066C8",
@@ -123,6 +123,15 @@
       "Score": 416
     },
     {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 5,
+      "Games Lost": 7,
+      "Kills": 188,
+      "Deaths": 52,
+      "Score": 403
+    },
+    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 11,
@@ -130,15 +139,6 @@
       "Kills": 909,
       "Deaths": 256,
       "Score": 384
-    },
-    {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 4,
-      "Games Lost": 7,
-      "Kills": 153,
-      "Deaths": 45,
-      "Score": 376
     },
     {
       "Account ID": "E340F1474433376A",
@@ -168,6 +168,15 @@
       "Score": 230
     },
     {
+      "Account ID": "7F2BBCE06C123377",
+      "Player Name": "Shaxk",
+      "Games Won": 4,
+      "Games Lost": 8,
+      "Kills": 148,
+      "Deaths": 76,
+      "Score": 228
+    },
+    {
       "Account ID": "6A1043D7B9612B82",
       "Player Name": "mio974",
       "Games Won": 1,
@@ -175,15 +184,6 @@
       "Kills": 29,
       "Deaths": 14,
       "Score": 221
-    },
-    {
-      "Account ID": "7F2BBCE06C123377",
-      "Player Name": "Shaxk",
-      "Games Won": 3,
-      "Games Lost": 8,
-      "Kills": 136,
-      "Deaths": 71,
-      "Score": 218
     }
   ]
 }
