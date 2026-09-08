@@ -465,6 +465,7 @@ async function loadLeaderboard() {
 
         const data = await response.json();
         const roles = await rolesResponse.json();
+
         const leaderboard = document.getElementById("leaderboard");
         leaderboard.innerHTML = "";
 
@@ -483,30 +484,41 @@ async function loadLeaderboard() {
                     ? null
                     : player["Kills"] / player["Deaths"];
 
-            const totalGames = player["Games Won"] + player["Games Lost"];
+            const totalGames =
+                player["Games Won"] + player["Games Lost"];
 
             const winRate = totalGames === 0
                     ? 0
                     : (player["Games Won"] / totalGames) * 100;
 
+            // Use Account ID to find the player's role
             const playerId = player["Account ID"];
             const roleInfo = roles[playerId];
-            
+
+            // Only display the role if this Account ID exists in roles.json
             const roleHtml = roleInfo
                 ? `<span class="player-role">${escapeHtml(roleInfo.role)}</span>`
                 : "";
 
             row.innerHTML = `
                 <td>${index + 1}</td>
+
                 <td title="Account ID: ${escapeHtml(playerId)}">
                     ${escapeHtml(player["Player Name"])}${roleHtml}
                 </td>
+
                 <td>${player["Score"].toLocaleString()}</td>
+
                 <td>${player["Kills"].toLocaleString()}</td>
+
                 <td>${player["Deaths"].toLocaleString()}</td>
+
                 <td>${kd === null ? "N/A" : kd.toFixed(2)}</td>
+
                 <td>${player["Games Won"].toLocaleString()}</td>
+
                 <td>${player["Games Lost"].toLocaleString()}</td>
+
                 <td>${winRate.toFixed(2)}%</td>
             `;
 
@@ -518,14 +530,14 @@ async function loadLeaderboard() {
 
             document.getElementById("updated").textContent =
                 "Last fetched: " + date.toLocaleString();
-            }
-
-        } catch (error) {
-            console.error(error);
-
-            document.getElementById("updatedLabel").textContent =
-                "Failed to load leaderboard.";
         }
+
+    } catch (error) {
+        console.error(error);
+
+        document.getElementById("updatedLabel").textContent =
+            "Failed to load leaderboard.";
+    }
 }
 
 function escapeHtml(text) {
