@@ -1,6 +1,31 @@
 {
-    "CF397F06198F9D72": "DEV",
-    "10F525F29942FC2": "MOD",
-    "F7FC8B8A9EB46B5": "SUP",
-    "4168386EDF09386A": "VIP"
+    "CF397F06198F9D72": {
+        "name": "bergice",
+        "role": "DEV"
+    },
+
+    "10F525F29942FC2": {
+        "name": "white000",
+        "role": "MOD"
+    },
+
+    "3D7A5DDF0E8013F7": {
+        "name": "EqaqeG",
+        "role": "MOD"
+    },
+
+    "F7FC8B8A9EB46B5": {
+        "name": "ArrozConLecheXD",
+        "role": "SUP"
+    },
+
+    "3A6AFD6428A78982": {
+        "name": "SEIKO"
+        "role": "SUP"
+    },
+
+    "4168386EDF09386A": {
+        "name": "Clayboy",
+        "role": "VIP"
+    }
 }
