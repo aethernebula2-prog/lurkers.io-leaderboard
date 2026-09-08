@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-08T14:04:02.941389+00:00",
-  "lastUpdated": 1788875725168,
-  "cached": true,
+  "updatedAt": "2026-09-08T15:04:32.688486+00:00",
+  "lastUpdated": 1788879868566,
+  "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -60,6 +60,15 @@
       "Score": 623
     },
     {
+      "Account ID": "6709465940687CA1",
+      "Player Name": "lazyturtle0602",
+      "Games Won": 4,
+      "Games Lost": 9,
+      "Kills": 105,
+      "Deaths": 22,
+      "Score": 508
+    },
+    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 15,
@@ -69,6 +78,15 @@
       "Score": 432
     },
     {
+      "Account ID": "26545DBE95274149",
+      "Player Name": "Above",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 51,
+      "Deaths": 13,
+      "Score": 420
+    },
+    {
       "Account ID": "A88E76CD07E55A5A",
       "Player Name": "xxDollxx",
       "Games Won": 9,
@@ -76,15 +94,6 @@
       "Kills": 144,
       "Deaths": 38,
       "Score": 418
-    },
-    {
-      "Account ID": "6709465940687CA1",
-      "Player Name": "lazyturtle0602",
-      "Games Won": 4,
-      "Games Lost": 8,
-      "Kills": 73,
-      "Deaths": 19,
-      "Score": 417
     },
     {
       "Account ID": "9B89B7156A49CE96",
@@ -107,11 +116,11 @@
     {
       "Account ID": "26F04D53B39F9050",
       "Player Name": "ARRozc0nLEchexD",
-      "Games Won": 6,
+      "Games Won": 7,
       "Games Lost": 14,
-      "Kills": 170,
-      "Deaths": 52,
-      "Score": 356
+      "Kills": 191,
+      "Deaths": 59,
+      "Score": 357
     },
     {
       "Account ID": "3269A895916819CE",
@@ -159,13 +168,13 @@
       "Score": 291
     },
     {
-      "Account ID": "26545DBE95274149",
-      "Player Name": "Above",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 26,
-      "Deaths": 11,
-      "Score": 269
+      "Account ID": "891AEC8338452106",
+      "Player Name": "hueto2",
+      "Games Won": 14,
+      "Games Lost": 28,
+      "Kills": 255,
+      "Deaths": 104,
+      "Score": 278
     },
     {
       "Account ID": "8BADAFD29166F55D",
@@ -175,15 +184,6 @@
       "Kills": 129,
       "Deaths": 58,
       "Score": 264
-    },
-    {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 1,
-      "Games Lost": 12,
-      "Kills": 97,
-      "Deaths": 38,
-      "Score": 262
     }
   ]
 }
