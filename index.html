@@ -27,6 +27,7 @@
         --primary-text-color: #ffffff;
         --error-color: #ff6b6b;
         --role-color: #FAFF1F;
+        --th-color: #CCD6DD;
     }
 
     body.light-theme {
@@ -42,6 +43,7 @@
         --primary-text-color: #1e293b;
         --error-color: #dc2626;
         --role-color: #D7A93D;
+        --th-color: #5D6672;
     }
 
     body.dark-theme {
@@ -57,6 +59,7 @@
         --primary-text-color: #f3f4f6;
         --error-color: #ef4444;
         --role-color: #FAFF1F;
+        --th-color: #E4E4E4;
     }
         
     * {
@@ -96,8 +99,9 @@
 
     th {
         padding: 13px 10px;
+        font-size: 10px;
         background: var(--header-bg);
-        color: var(--primary-text-color);
+        color: var(--th-color);
         border-bottom: 1px solid var(--border-color);
     }
 
