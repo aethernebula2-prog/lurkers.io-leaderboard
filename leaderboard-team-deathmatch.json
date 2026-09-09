@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-09T03:03:16.417335+00:00",
-  "lastUpdated": 1788922979492,
-  "cached": false,
+  "updatedAt": "2026-09-09T04:03:10.287125+00:00",
+  "lastUpdated": 1788926510190,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -63,10 +63,10 @@
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
       "Games Won": 4,
-      "Games Lost": 9,
-      "Kills": 342,
-      "Deaths": 54,
-      "Score": 664
+      "Games Lost": 10,
+      "Kills": 350,
+      "Deaths": 56,
+      "Score": 653
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -96,15 +96,6 @@
       "Score": 488
     },
     {
-      "Account ID": "42583071A8816117",
-      "Player Name": "matagayxd",
-      "Games Won": 4,
-      "Games Lost": 19,
-      "Kills": 631,
-      "Deaths": 137,
-      "Score": 477
-    },
-    {
       "Account ID": "6310F74D9FC47BC8",
       "Player Name": "Alvi117",
       "Games Won": 4,
@@ -112,6 +103,15 @@
       "Kills": 208,
       "Deaths": 49,
       "Score": 474
+    },
+    {
+      "Account ID": "42583071A8816117",
+      "Player Name": "matagayxd",
+      "Games Won": 4,
+      "Games Lost": 19,
+      "Kills": 631,
+      "Deaths": 139,
+      "Score": 471
     },
     {
       "Account ID": "113785E98F35679A",
@@ -168,15 +168,6 @@
       "Score": 264
     },
     {
-      "Account ID": "7F2BBCE06C123377",
-      "Player Name": "Shaxk",
-      "Games Won": 5,
-      "Games Lost": 10,
-      "Kills": 188,
-      "Deaths": 96,
-      "Score": 229
-    },
-    {
       "Account ID": "166C117E4F66AA4",
       "Player Name": "beliuBREADER",
       "Games Won": 1,
@@ -184,6 +175,15 @@
       "Kills": 40,
       "Deaths": 18,
       "Score": 229
+    },
+    {
+      "Account ID": "7F2BBCE06C123377",
+      "Player Name": "Shaxk",
+      "Games Won": 5,
+      "Games Lost": 10,
+      "Kills": 188,
+      "Deaths": 97,
+      "Score": 227
     }
   ]
 }
