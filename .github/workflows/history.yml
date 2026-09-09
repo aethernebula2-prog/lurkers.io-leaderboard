@@ -1,0 +1,51 @@
+name: Save Daily History
+
+on:
+  schedule:
+    # Every day at 00:00 UTC
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  save-history:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Save today's leaderboard
+        run: |
+          DATE=$(date -u +"%Y-%m-%d")
+
+          mkdir -p history/bedwars
+          mkdir -p history/ctf
+          mkdir -p history/team-deathmatch
+
+          cp data/leaderboard-bedwars.json \
+             "history/bedwars/${DATE}.json"
+
+          cp data/leaderboard-ctf.json \
+             "history/ctf/${DATE}.json"
+
+          cp data/leaderboard-team-deathmatch.json \
+             "history/team-deathmatch/${DATE}.json"
+
+      - name: Commit history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add history/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Save daily leaderboard history"
+          git push
