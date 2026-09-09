@@ -1,10 +1,11 @@
-name: Save Daily History
+name: Save Daily Leaderboard History
 
 on:
   schedule:
-    # Every day at 00:00 UTC
-    - cron: "0 0 * * *"
+    # 每天 UTC 00:30 运行
+    - cron: "30 0 * * *"
 
+  # 允许手动运行，方便测试
   workflow_dispatch:
 
 permissions:
@@ -15,26 +16,50 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 获取仓库
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Save today's leaderboard
+      # 检查三个排行榜
+      - name: Validate leaderboard data
+        run: |
+          for file in \
+            data/leaderboard-bedwars.json \
+            data/leaderboard-ctf.json \
+            data/leaderboard-team-deathmatch.json
+          do
+            echo "Checking $file..."
+
+            # 检查 JSON 是否有效
+            jq empty "$file"
+
+            # 检查是否为空
+            if [ "$(jq 'length' "$file")" -eq 0 ]; then
+              echo "ERROR: $file is empty!"
+              exit 1
+            fi
+
+            echo "$file is valid."
+          done
+
+      # 保存历史
+      - name: Save today's history
         run: |
           DATE=$(date -u +"%Y-%m-%d")
 
-          mkdir -p history/bedwars
-          mkdir -p history/ctf
-          mkdir -p history/team-deathmatch
+          mkdir -p history
 
-          cp data/leaderboard-bedwars.json \
-             "history/bedwars/${DATE}.json"
+          jq -n \
+            --slurpfile bedwars data/leaderboard-bedwars.json \
+            --slurpfile ctf data/leaderboard-ctf.json \
+            --slurpfile tdm data/leaderboard-team-deathmatch.json \
+            '{
+              bedwars: $bedwars[0],
+              ctf: $ctf[0],
+              "team-deathmatch": $tdm[0]
+            }' > "history/${DATE}.json"
 
-          cp data/leaderboard-ctf.json \
-             "history/ctf/${DATE}.json"
-
-          cp data/leaderboard-team-deathmatch.json \
-             "history/team-deathmatch/${DATE}.json"
-
+      # 提交到 GitHub
       - name: Commit history
         run: |
           git config user.name "github-actions[bot]"
