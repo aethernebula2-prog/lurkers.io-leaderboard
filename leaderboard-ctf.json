@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-09T12:03:45.251818+00:00",
-  "lastUpdated": 1788955415529,
-  "cached": false,
+  "updatedAt": "2026-09-09T13:03:51.307791+00:00",
+  "lastUpdated": 1788959010994,
+  "cached": true,
   "players": [
     {
       "Account ID": "9C3B1FC6B72F645E",
@@ -29,8 +29,8 @@
       "Games Won": 5,
       "Games Lost": 6,
       "Kills": 69,
-      "Deaths": 27,
-      "Score": 301
+      "Deaths": 30,
+      "Score": 275
     },
     {
       "Account ID": "BF768EDCA3C4709C",
@@ -73,9 +73,9 @@
       "Player Name": "OHISASIBURI",
       "Games Won": 5,
       "Games Lost": 7,
-      "Kills": 56,
-      "Deaths": 78,
-      "Score": 113
+      "Kills": 58,
+      "Deaths": 86,
+      "Score": 109
     },
     {
       "Account ID": "2E6A895D9893339B",
@@ -94,6 +94,15 @@
       "Kills": 17,
       "Deaths": 26,
       "Score": 87
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 7,
+      "Deaths": 16,
+      "Score": 43
     },
     {
       "Account ID": "1CFF3D64393C5EB5",
