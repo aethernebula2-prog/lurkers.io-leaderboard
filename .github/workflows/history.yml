@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "0 3 * * *"
 
-  # 允许手动运行，方便测试
   workflow_dispatch:
 
 permissions:
@@ -23,16 +22,14 @@ jobs:
       - name: Validate leaderboard data
         run: |
           for file in \
-            data/leaderboard-bedwars.json \
-            data/leaderboard-ctf.json \
-            data/leaderboard-team-deathmatch.json
+            leaderboard-bedwars.json \
+            leaderboard-ctf.json \
+            leaderboard-team-deathmatch.json
           do
             echo "Checking $file..."
 
-            # 检查 JSON 是否有效
             jq empty "$file"
 
-            # 检查是否为空
             if [ "$(jq 'length' "$file")" -eq 0 ]; then
               echo "ERROR: $file is empty!"
               exit 1
