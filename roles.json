@@ -100,7 +100,12 @@
     },
 
     "AF250DAC1B238320": {
-        "name"Anonnymouss",
+        "name": "Anonnymouss",
+        "role": "VIP"
+    },
+
+    "467F890E718672E1": {
+        "name": "zmr242",
         "role": "VIP"
     }
 }
