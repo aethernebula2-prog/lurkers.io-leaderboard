@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-10T13:03:01.870890+00:00",
-  "lastUpdated": 1789045227516,
+  "updatedAt": "2026-09-10T14:03:27.886767+00:00",
+  "lastUpdated": 1789048605528,
   "cached": true,
   "players": [
     {
@@ -33,6 +33,15 @@
       "Score": 2541
     },
     {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 9,
+      "Games Lost": 8,
+      "Kills": 411,
+      "Deaths": 51,
+      "Score": 858
+    },
+    {
       "Account ID": "72E16E3595293FB9",
       "Player Name": "deVVVV",
       "Games Won": 2,
@@ -40,15 +49,6 @@
       "Kills": 38,
       "Deaths": 5,
       "Score": 788
-    },
-    {
-      "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "EqaqeG",
-      "Games Won": 8,
-      "Games Lost": 8,
-      "Kills": 312,
-      "Deaths": 47,
-      "Score": 713
     },
     {
       "Account ID": "FB155918BAFE3B5",
@@ -69,6 +69,15 @@
       "Score": 623
     },
     {
+      "Account ID": "1BBBBCC2E57236C3",
+      "Player Name": "Dolgoon",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 14,
+      "Deaths": 3,
+      "Score": 479
+    },
+    {
       "Account ID": "6709465940687CA1",
       "Player Name": "lazyturtle0602",
       "Games Won": 8,
@@ -81,10 +90,10 @@
       "Account ID": "9B89B7156A49CE96",
       "Player Name": "S7iP3R",
       "Games Won": 7,
-      "Games Lost": 11,
+      "Games Lost": 12,
       "Kills": 127,
       "Deaths": 31,
-      "Score": 448
+      "Score": 446
     },
     {
       "Account ID": "1F89746E9031C44B",
@@ -166,15 +175,6 @@
       "Kills": 84,
       "Deaths": 28,
       "Score": 327
-    },
-    {
-      "Account ID": "1BBBBCC2E57236C3",
-      "Player Name": "Dolgoon",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 6,
-      "Deaths": 2,
-      "Score": 314
     },
     {
       "Account ID": "B14E2C01FCD13975",
