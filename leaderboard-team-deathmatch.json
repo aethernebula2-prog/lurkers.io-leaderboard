@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-10T09:02:57.653859+00:00",
-  "lastUpdated": 1789030448142,
-  "cached": true,
+  "updatedAt": "2026-09-10T10:03:01.952344+00:00",
+  "lastUpdated": 1789034578683,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -141,6 +141,15 @@
       "Score": 435
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 12,
+      "Games Lost": 29,
+      "Kills": 1147,
+      "Deaths": 283,
+      "Score": 434
+    },
+    {
       "Account ID": "3DAA7E5450C066C8",
       "Player Name": "mob000",
       "Games Won": 0,
@@ -148,15 +157,6 @@
       "Kills": 25,
       "Deaths": 6,
       "Score": 416
-    },
-    {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 11,
-      "Games Lost": 27,
-      "Kills": 961,
-      "Deaths": 268,
-      "Score": 387
     },
     {
       "Account ID": "E340F1474433376A",
@@ -177,13 +177,13 @@
       "Score": 346
     },
     {
-      "Account ID": "F22B6CE103812CED",
-      "Player Name": "tbhcreaturexd",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 40,
-      "Deaths": 14,
-      "Score": 315
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 101,
+      "Deaths": 31,
+      "Score": 325
     }
   ]
 }
