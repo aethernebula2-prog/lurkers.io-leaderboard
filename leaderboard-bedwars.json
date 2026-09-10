@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-10T20:03:01.009485+00:00",
-  "lastUpdated": 1789070571715,
+  "updatedAt": "2026-09-10T21:03:04.449244+00:00",
+  "lastUpdated": 1789074176012,
   "cached": false,
   "players": [
     {
@@ -33,6 +33,15 @@
       "Score": 2541
     },
     {
+      "Account ID": "72E16E3595293FB9",
+      "Player Name": "deVVVV",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 59,
+      "Deaths": 6,
+      "Score": 1011
+    },
+    {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 1,
@@ -47,17 +56,8 @@
       "Games Won": 9,
       "Games Lost": 9,
       "Kills": 411,
-      "Deaths": 54,
-      "Score": 811
-    },
-    {
-      "Account ID": "72E16E3595293FB9",
-      "Player Name": "deVVVV",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 38,
-      "Deaths": 5,
-      "Score": 788
+      "Deaths": 55,
+      "Score": 797
     },
     {
       "Account ID": "FB155918BAFE3B5",
@@ -150,15 +150,6 @@
       "Score": 348
     },
     {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 2,
-      "Games Lost": 17,
-      "Kills": 184,
-      "Deaths": 57,
-      "Score": 333
-    },
-    {
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
       "Games Won": 5,
@@ -174,6 +165,15 @@
       "Games Lost": 8,
       "Kills": 84,
       "Deaths": 28,
+      "Score": 327
+    },
+    {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 2,
+      "Games Lost": 17,
+      "Kills": 184,
+      "Deaths": 58,
       "Score": 327
     },
     {
