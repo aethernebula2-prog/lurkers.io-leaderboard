@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-10T16:03:26.722390+00:00",
-  "lastUpdated": 1789056175402,
-  "cached": true,
+  "updatedAt": "2026-09-10T17:02:58.507527+00:00",
+  "lastUpdated": 1789059765802,
+  "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -33,13 +33,22 @@
       "Score": 2541
     },
     {
+      "Account ID": "1BBBBCC2E57236C3",
+      "Player Name": "Dolgoon",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 67,
+      "Deaths": 8,
+      "Score": 848
+    },
+    {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 9,
-      "Games Lost": 8,
+      "Games Lost": 9,
       "Kills": 411,
-      "Deaths": 52,
-      "Score": 843
+      "Deaths": 53,
+      "Score": 825
     },
     {
       "Account ID": "72E16E3595293FB9",
@@ -53,8 +62,8 @@
     {
       "Account ID": "FB155918BAFE3B5",
       "Player Name": "KeratryX741",
-      "Games Won": 6,
-      "Games Lost": 7,
+      "Games Won": 7,
+      "Games Lost": 8,
       "Kills": 66,
       "Deaths": 11,
       "Score": 646
@@ -136,9 +145,9 @@
       "Player Name": "ARRozc0nLEchexD",
       "Games Won": 7,
       "Games Lost": 15,
-      "Kills": 191,
-      "Deaths": 60,
-      "Score": 350
+      "Kills": 224,
+      "Deaths": 69,
+      "Score": 356
     },
     {
       "Account ID": "CD351B4225733D45",
@@ -166,15 +175,6 @@
       "Kills": 84,
       "Deaths": 28,
       "Score": 327
-    },
-    {
-      "Account ID": "1BBBBCC2E57236C3",
-      "Player Name": "Dolgoon",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 17,
-      "Deaths": 6,
-      "Score": 294
     },
     {
       "Account ID": "B14E2C01FCD13975",
