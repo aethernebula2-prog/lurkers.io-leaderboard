@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-10T12:03:59.285396+00:00",
-  "lastUpdated": 1789041827332,
-  "cached": false,
+  "updatedAt": "2026-09-10T13:03:01.870890+00:00",
+  "lastUpdated": 1789045227516,
+  "cached": true,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -44,11 +44,11 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 8,
-      "Kills": 307,
-      "Deaths": 46,
-      "Score": 714
+      "Kills": 312,
+      "Deaths": 47,
+      "Score": 713
     },
     {
       "Account ID": "FB155918BAFE3B5",
@@ -78,6 +78,15 @@
       "Score": 474
     },
     {
+      "Account ID": "9B89B7156A49CE96",
+      "Player Name": "S7iP3R",
+      "Games Won": 7,
+      "Games Lost": 11,
+      "Kills": 127,
+      "Deaths": 31,
+      "Score": 448
+    },
+    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 17,
@@ -105,31 +114,13 @@
       "Score": 420
     },
     {
-      "Account ID": "9B89B7156A49CE96",
-      "Player Name": "S7iP3R",
-      "Games Won": 6,
-      "Games Lost": 10,
-      "Kills": 97,
-      "Deaths": 26,
-      "Score": 410
-    },
-    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 2,
       "Games Lost": 16,
-      "Kills": 178,
-      "Deaths": 47,
-      "Score": 389
-    },
-    {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 5,
-      "Games Lost": 14,
-      "Kills": 107,
-      "Deaths": 31,
-      "Score": 371
+      "Kills": 180,
+      "Deaths": 51,
+      "Score": 364
     },
     {
       "Account ID": "711F0DC522C942F6",
@@ -157,6 +148,15 @@
       "Kills": 16,
       "Deaths": 5,
       "Score": 348
+    },
+    {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 5,
+      "Games Lost": 16,
+      "Kills": 107,
+      "Deaths": 34,
+      "Score": 338
     },
     {
       "Account ID": "3269A895916819CE",

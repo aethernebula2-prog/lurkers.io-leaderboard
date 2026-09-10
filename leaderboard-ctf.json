@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-10T12:03:59.999701+00:00",
-  "lastUpdated": 1789041844619,
+  "updatedAt": "2026-09-10T13:03:02.623134+00:00",
+  "lastUpdated": 1789045378349,
   "cached": false,
   "players": [
     {
@@ -83,8 +83,8 @@
       "Games Won": 7,
       "Games Lost": 4,
       "Kills": 103,
-      "Deaths": 74,
-      "Score": 202
+      "Deaths": 75,
+      "Score": 200
     },
     {
       "Account ID": "610C8AF156C60C84",
@@ -124,7 +124,7 @@
     },
     {
       "Account ID": "BC1F611B01E03D2F",
-      "Player Name": "COOLBOY12345",
+      "Player Name": "skeletonpremıum1234567890",
       "Games Won": 2,
       "Games Lost": 4,
       "Kills": 18,
@@ -141,15 +141,6 @@
       "Score": 97
     },
     {
-      "Account ID": "2E6A895D9893339B",
-      "Player Name": "vipphong67vn2",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 23,
-      "Deaths": 32,
-      "Score": 91
-    },
-    {
       "Account ID": "B76307ACF0AC718D",
       "Player Name": "kaanatabay",
       "Games Won": 2,
@@ -157,6 +148,15 @@
       "Kills": 17,
       "Deaths": 26,
       "Score": 87
+    },
+    {
+      "Account ID": "2E6A895D9893339B",
+      "Player Name": "vipphong67vn2",
+      "Games Won": 2,
+      "Games Lost": 9,
+      "Kills": 25,
+      "Deaths": 37,
+      "Score": 85
     },
     {
       "Account ID": "1CFF3D64393C5EB5",
