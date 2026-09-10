@@ -1,86 +1,203 @@
-# Lurkers.io Bedwars Leaderboard
+# Lurkers.io Leaderboard
 
-A live leaderboard lookup website for Lurkers.io Bedwars.
+A live leaderboard for **Lurkers.io**, providing rankings and statistics across multiple game modes.
 
-This project provides a simple and convenient way to view Bedwars leaderboard data and look up individual players without having to manually check the game.
+The project is independently developed and maintained by **AethericNebula**.
 
-## ✨ Features
-
-* 📊 **Live leaderboard**
-
-  * View the latest available Bedwars leaderboard data.
-  * Check top 20 players scores and statistics.
-
-* ⚡ **Fast and lightweight**
-
-  * Simple interface with minimal overhead.
-  * Designed to load leaderboard data quickly.
-
-* 📱 **Responsive design**
-
-  * Works on desktop, tablet, and mobile browsers.
-
-* 🔄 **Live data**
-
-  * Retrieves the latest available data from Lurkers.io's leaderboard services.
-
-## 🌐 Website
-
-**Live Website:**
+### Website Right Here:
 https://aethernebula2-prog.github.io/lurkers.io-leaderboard/
 
-## 📖 Usage
+## Features
 
-Simply open the website to view the current Bedwars leaderboard.
+### 🏆 Live Leaderboards
 
-## 📊 Data
+The leaderboard currently supports:
 
-Leaderboard data is retrieved from Lurkers.io's available online data services.
+* **Bedwars**
+* **Capture the Flag**
+* **Team Deathmatch**
 
-Because the data depends on external services:
+Each leaderboard displays up to the **top 20 players** and includes:
 
-* Rankings may change at any time.
-* Player statistics may be updated or delayed.
-* Some players may temporarily be unavailable.
-* Changes to Lurkers.io's API or leaderboard system may affect the website.
+* Rank
+* Player
+* Score
+* Kills
+* Deaths
+* K/D Ratio
+* Games Won
+* Games Lost
+* Win Rate
 
-The project does not guarantee that all displayed data will always be completely accurate or up to date.
+Leaderboard data is automatically updated on a regular schedule.
 
-## 🛠️ Technologies
+### 📊 Daily History
 
-This project is built using:
+The project also maintains a daily snapshot of leaderboard data.
 
-* **HTML**
-* **CSS**
-* **JavaScript**
-* **GitHub Pages**
+Each day's leaderboard is stored separately:
 
-The website is designed to run as a static web application.
+```text
+history/
+├── 2026-09-08.json
+├── 2026-09-09.json
+└── ...
+```
 
-## ⚠️ Disclaimer
+Each snapshot contains the leaderboard data for all supported game modes:
 
-This is an **unofficial third-party project** made by AethericNebula.
+```json
+{
+    "bedwars": [],
+    "ctf": [],
+    "team-deathmatch": []
+}
+```
 
-This project is not affiliated with, endorsed by, or officially associated with Lurkers.io or its developers unless explicitly stated otherwise.
+This allows historical leaderboard data to be preserved independently from the current live leaderboard.
 
-Lurkers.io and its related names, trademarks, and game content belong to their respective owners, which is Bergice Productions.
+The history system is handled by a separate GitHub Actions workflow, so a failure in the history system does not interfere with the regular leaderboard data update process.
 
-This project is intended solely to provide a convenient interface for viewing and searching leaderboard information.
+### 🎨 Themes
 
-If Lurkers.io changes its API, leaderboard system, or related services, this project may stop working or require updates.
+The leaderboard includes multiple visual themes:
 
-## 🤝 Contributing
+* Default （Lurkers.io style dark-blue)
+* Light
+* Dark
 
-Contributions, bug reports, and suggestions are welcome.
+The selected theme is saved locally, so it can be preserved between visits.
 
-If you encounter:
+### 🌐 Multiple Languages
 
-* Incorrect leaderboard data
-* Player search problems
-* Data loading errors
-* UI or functionality bugs
-* Feature requests
+The interface supports multiple languages:
 
-feel free to open an **Issue** or submit a **Pull Request**.
+* English
+* Chinese
+* Japanese
+* Spanish
+* German
+* French
+* Russian
 
-Made for the Lurkers.io community.Made by AethericNebula.
+Language settings are available through the Settings menu.
+
+### 👤 Player Roles
+
+Players can have roles displayed alongside their names.
+
+Supported roles may include:
+
+* DEV
+* MOD
+* SUP
+* VIP
+* POO (xD)
+
+Roles are managed separately from the leaderboard data and are identified using the player's `playerId`.
+
+Role assignments are primarily based on the player's actual in-game role in Lurkers.io.
+
+Requests or begging for roles will not be accepted.
+
+### 🔤 Better Font?
+
+The roles uses **Lurkers** font for the role displays.
+
+This helps give the leaderboard a visual style consistent with Lurkers.io.
+
+### ⚙️ About & Settings
+
+The website includes:
+
+* About panel
+* Settings panel
+* Language selection
+* Theme selection
+* Project information
+
+## Data
+
+Leaderboard data is stored in JSON files and updated automatically.
+
+The current leaderboard files are:
+
+```text
+leaderboard-bedwars.json
+leaderboard-ctf.json
+leaderboard-team-deathmatch.json
+```
+
+Historical snapshots are stored separately under:
+
+```text
+history/
+```
+
+The leaderboard and history systems are intentionally separated so that the live data update process remains independent from historical data collection.
+
+## Technology
+
+The project is built using standard web technologies:
+
+* HTML
+* CSS
+* JavaScript
+* JSON
+* GitHub Pages
+* GitHub Actions
+
+No backend server is required for the website itself.
+
+## Project Structure
+
+```text
+Lurkers.io-Leaderboard/
+├── data
+    ├──leaderboard-bedwars.html
+    ├── leaderboard-ctf.html
+    ├── leaderboard-team-deathmatch.html
+├── index.html
+├── lurkers.ttf
+├── leaderboard-bedwars.json
+├── leaderboard-ctf.json
+├── leaderboard-team-deathmatch.json
+├── roles.json
+└── history/
+    ├── 2026-09-09.json
+    ├── 2026-09-010.json
+    └── ...
+```
+
+## Updates
+
+The leaderboard data is automatically refreshed on a regular schedule.
+
+A separate daily workflow creates a historical snapshot of the current leaderboards.
+
+This means the project maintains both:
+
+**Current data**
+
+```text
+leaderboard-*.json
+```
+
+and
+
+**Historical data**
+
+```text
+history/YYYY-MM-DD.json
+```
+
+## Disclaimer
+
+This project is an independent community project and is not officially affiliated with or endorsed by the developers of Lurkers.io.
+
+Leaderboard data and player statistics are provided for informational purposes.
+
+---
+
+**Lurkers.io Leaderboard**
+Made by **AethericNebula**
