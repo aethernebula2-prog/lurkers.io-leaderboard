@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-10T02:02:50.283214+00:00",
-  "lastUpdated": 1789005764597,
+  "updatedAt": "2026-09-10T04:02:56.131315+00:00",
+  "lastUpdated": 1789012971855,
   "cached": false,
   "players": [
     {
@@ -78,6 +78,15 @@
       "Score": 590
     },
     {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 114,
+      "Deaths": 21,
+      "Score": 559
+    },
+    {
       "Account ID": "4BCB5C0C23D62CA",
       "Player Name": "SUSHIMINETA",
       "Games Won": 5,
@@ -117,10 +126,10 @@
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 6,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 231,
       "Deaths": 58,
-      "Score": 438
+      "Score": 435
     },
     {
       "Account ID": "3DAA7E5450C066C8",
@@ -135,10 +144,10 @@
       "Account ID": "AF250DAC1B238320",
       "Player Name": "Anonnymouss",
       "Games Won": 3,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 163,
       "Deaths": 44,
-      "Score": 413
+      "Score": 407
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -175,15 +184,6 @@
       "Kills": 87,
       "Deaths": 30,
       "Score": 306
-    },
-    {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 2,
-      "Games Lost": 14,
-      "Kills": 238,
-      "Deaths": 89,
-      "Score": 279
     }
   ]
 }
