@@ -28,6 +28,7 @@
         --error-color: #ff6b6b;
         --role-color: #FAFF1F;
         --th-color: #CCD6DD;
+        --playername-color: #BFBFBF;
     }
 
     body.light-theme {
@@ -44,6 +45,7 @@
         --error-color: #dc2626;
         --role-color: #D7A93D;
         --th-color: #5D6672;
+        --playername-color: #465263;
     }
 
     body.dark-theme {
@@ -60,6 +62,7 @@
         --error-color: #ef4444;
         --role-color: #FAFF1F;
         --th-color: #E4E4E4;
+        --playername-color: #BFBFBF;
     }
         
     * {
@@ -122,7 +125,8 @@
     td:nth-child(2) {
         text-align: left;
         font-weight: bold;
-        color: var(--primary-text-color);
+        font-family: "Lurkers", sans-serif;
+        color: var(--playername-color);
     }
 
     td:nth-child(3) {
