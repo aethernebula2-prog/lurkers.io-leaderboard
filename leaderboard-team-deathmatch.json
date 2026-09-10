@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-09T23:02:42.182053+00:00",
-  "lastUpdated": 1788994947676,
+  "updatedAt": "2026-09-10T00:04:21.680842+00:00",
+  "lastUpdated": 1788998661613,
   "cached": false,
   "players": [
     {
@@ -159,6 +159,24 @@
       "Score": 349
     },
     {
+      "Account ID": "F22B6CE103812CED",
+      "Player Name": "tbhcreaturexd",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 40,
+      "Deaths": 14,
+      "Score": 315
+    },
+    {
+      "Account ID": "AB3E47856B5B1FE7",
+      "Player Name": "connor13",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 87,
+      "Deaths": 30,
+      "Score": 306
+    },
+    {
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 2,
@@ -166,24 +184,6 @@
       "Kills": 238,
       "Deaths": 89,
       "Score": 279
-    },
-    {
-      "Account ID": "BA59CBB19FCDA4B4",
-      "Player Name": "Redman",
-      "Games Won": 11,
-      "Games Lost": 9,
-      "Kills": 92,
-      "Deaths": 44,
-      "Score": 264
-    },
-    {
-      "Account ID": "166C117E4F66AA4",
-      "Player Name": "beliuBREADER",
-      "Games Won": 1,
-      "Games Lost": 15,
-      "Kills": 57,
-      "Deaths": 23,
-      "Score": 254
     }
   ]
 }

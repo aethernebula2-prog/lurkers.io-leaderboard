@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-09T23:02:41.306004+00:00",
-  "lastUpdated": 1788994954685,
+  "updatedAt": "2026-09-10T00:04:21.026387+00:00",
+  "lastUpdated": 1788998655915,
   "cached": false,
   "players": [
     {
@@ -22,6 +22,24 @@
       "Kills": 79,
       "Deaths": 21,
       "Score": 420
+    },
+    {
+      "Account ID": "3AEB08EEAFF1B9DC",
+      "Player Name": "Tiameron",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 66,
+      "Deaths": 17,
+      "Score": 404
+    },
+    {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 7,
+      "Games Lost": 21,
+      "Kills": 148,
+      "Deaths": 52,
+      "Score": 309
     },
     {
       "Account ID": "BF768EDCA3C4709C",
@@ -51,15 +69,6 @@
       "Score": 211
     },
     {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 6,
-      "Games Lost": 20,
-      "Kills": 57,
-      "Deaths": 44,
-      "Score": 152
-    },
-    {
       "Account ID": "4E6829E16E9EE440",
       "Player Name": "ellurkerteroxx76",
       "Games Won": 1,
@@ -73,9 +82,9 @@
       "Player Name": "OHISASIBURI",
       "Games Won": 7,
       "Games Lost": 10,
-      "Kills": 72,
-      "Deaths": 101,
-      "Score": 112
+      "Kills": 104,
+      "Deaths": 137,
+      "Score": 117
     },
     {
       "Account ID": "2E6A895D9893339B",
