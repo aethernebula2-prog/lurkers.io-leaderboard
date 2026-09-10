@@ -2,7 +2,7 @@ name: Save Daily Leaderboard History
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 3 * * *"
 
   workflow_dispatch:
 
@@ -46,9 +46,9 @@ jobs:
           mkdir -p history
 
           jq -n \
-            --slurpfile bedwars data/leaderboard-bedwars.json \
-            --slurpfile ctf data/leaderboard-ctf.json \
-            --slurpfile tdm data/leaderboard-team-deathmatch.json \
+            --slurpfile bedwars leaderboard-bedwars.json \
+            --slurpfile ctf leaderboard-ctf.json \
+            --slurpfile tdm leaderboard-team-deathmatch.json \
             '{
               bedwars: $bedwars[0],
               ctf: $ctf[0],
