@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-10T14:03:28.189737+00:00",
-  "lastUpdated": 1789048601353,
-  "cached": true,
+  "updatedAt": "2026-09-10T15:03:11.200269+00:00",
+  "lastUpdated": 1789052583009,
+  "cached": false,
   "players": [
     {
       "Account ID": "9C3B1FC6B72F645E",
@@ -31,6 +31,15 @@
       "Kills": 105,
       "Deaths": 28,
       "Score": 389
+    },
+    {
+      "Account ID": "E99D6DABC230FD6A",
+      "Player Name": "JettySekit",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 74,
+      "Deaths": 22,
+      "Score": 369
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -83,8 +92,17 @@
       "Games Won": 7,
       "Games Lost": 4,
       "Kills": 103,
-      "Deaths": 75,
-      "Score": 200
+      "Deaths": 77,
+      "Score": 197
+    },
+    {
+      "Account ID": "BC1F611B01E03D2F",
+      "Player Name": "skeletonpremıum1234567890",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 44,
+      "Deaths": 27,
+      "Score": 196
     },
     {
       "Account ID": "610C8AF156C60C84",
@@ -121,15 +139,6 @@
       "Kills": 3,
       "Deaths": 6,
       "Score": 116
-    },
-    {
-      "Account ID": "BC1F611B01E03D2F",
-      "Player Name": "skeletonpremıum1234567890",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 18,
-      "Deaths": 22,
-      "Score": 115
     },
     {
       "Account ID": "D50E7835A6E45867",
