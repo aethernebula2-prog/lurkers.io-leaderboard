@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-11T14:03:09.067532+00:00",
-  "lastUpdated": 1789135387210,
+  "updatedAt": "2026-09-11T15:03:09.010013+00:00",
+  "lastUpdated": 1789138986422,
   "cached": false,
   "players": [
     {
@@ -18,10 +18,10 @@
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 7,
-      "Games Lost": 12,
-      "Kills": 677,
-      "Deaths": 15,
-      "Score": 4550
+      "Games Lost": 14,
+      "Kills": 702,
+      "Deaths": 20,
+      "Score": 3543
     },
     {
       "Account ID": "C1CC914D4BE6B501",
@@ -38,8 +38,8 @@
       "Games Won": 3,
       "Games Lost": 5,
       "Kills": 218,
-      "Deaths": 18,
-      "Score": 1248
+      "Deaths": 19,
+      "Score": 1184
     },
     {
       "Account ID": "545083C5768882B1",
@@ -115,7 +115,7 @@
     },
     {
       "Account ID": "2E5124E426786319",
-      "Player Name": "alphabetaeeeeaeaee",
+      "Player Name": "alphabetaee",
       "Games Won": 0,
       "Games Lost": 7,
       "Kills": 122,
@@ -141,15 +141,6 @@
       "Score": 474
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 15,
-      "Games Lost": 29,
-      "Kills": 1348,
-      "Deaths": 319,
-      "Score": 456
-    },
-    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 8,
@@ -157,6 +148,15 @@
       "Kills": 331,
       "Deaths": 80,
       "Score": 453
+    },
+    {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 15,
+      "Games Lost": 30,
+      "Kills": 1348,
+      "Deaths": 324,
+      "Score": 449
     },
     {
       "Account ID": "3DAA7E5450C066C8",
@@ -177,13 +177,13 @@
       "Score": 412
     },
     {
-      "Account ID": "AF250DAC1B238320",
-      "Player Name": "Anonnymouss",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 215,
-      "Deaths": 67,
-      "Score": 354
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 9,
+      "Games Lost": 16,
+      "Kills": 209,
+      "Deaths": 63,
+      "Score": 367
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-11T14:03:07.584762+00:00",
-  "lastUpdated": 1789135204209,
+  "updatedAt": "2026-09-11T15:03:07.392361+00:00",
+  "lastUpdated": 1789138803915,
   "cached": true,
   "players": [
     {
@@ -60,15 +60,6 @@
       "Score": 797
     },
     {
-      "Account ID": "FB155918BAFE3B5",
-      "Player Name": "KeratryX741",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 66,
-      "Deaths": 11,
-      "Score": 643
-    },
-    {
       "Account ID": "51AFB9CF8BB28574",
       "Player Name": "Canucky",
       "Games Won": 4,
@@ -76,6 +67,15 @@
       "Kills": 34,
       "Deaths": 6,
       "Score": 623
+    },
+    {
+      "Account ID": "FB155918BAFE3B5",
+      "Player Name": "KeratryX741",
+      "Games Won": 7,
+      "Games Lost": 10,
+      "Kills": 66,
+      "Deaths": 12,
+      "Score": 591
     },
     {
       "Account ID": "6709465940687CA1",
@@ -177,13 +177,13 @@
       "Score": 327
     },
     {
-      "Account ID": "B14E2C01FCD13975",
-      "Player Name": "tomorrow",
-      "Games Won": 6,
-      "Games Lost": 4,
-      "Kills": 95,
-      "Deaths": 41,
-      "Score": 291
+      "Account ID": "3AEB08EEAFF1B9DC",
+      "Player Name": "Tiameron",
+      "Games Won": 8,
+      "Games Lost": 14,
+      "Kills": 298,
+      "Deaths": 120,
+      "Score": 284
     }
   ]
 }
