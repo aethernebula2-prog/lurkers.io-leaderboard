@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-11T15:03:09.010013+00:00",
-  "lastUpdated": 1789138986422,
-  "cached": false,
+  "updatedAt": "2026-09-11T16:03:30.229032+00:00",
+  "lastUpdated": 1789142286076,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -18,10 +18,10 @@
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
       "Games Won": 7,
-      "Games Lost": 14,
-      "Kills": 702,
-      "Deaths": 20,
-      "Score": 3543
+      "Games Lost": 15,
+      "Kills": 782,
+      "Deaths": 21,
+      "Score": 3755
     },
     {
       "Account ID": "C1CC914D4BE6B501",
@@ -49,6 +49,15 @@
       "Kills": 175,
       "Deaths": 21,
       "Score": 866
+    },
+    {
+      "Account ID": "78BABA217BB13315",
+      "Player Name": "player2947",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 148,
+      "Deaths": 18,
+      "Score": 855
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -105,6 +114,15 @@
       "Score": 559
     },
     {
+      "Account ID": "2E5124E426786319",
+      "Player Name": "alphabetaee",
+      "Games Won": 0,
+      "Games Lost": 8,
+      "Kills": 136,
+      "Deaths": 27,
+      "Score": 503
+    },
+    {
       "Account ID": "4BCB5C0C23D62CA",
       "Player Name": "SUSHIMINETA",
       "Games Won": 5,
@@ -112,15 +130,6 @@
       "Kills": 489,
       "Deaths": 105,
       "Score": 496
-    },
-    {
-      "Account ID": "2E5124E426786319",
-      "Player Name": "alphabetaee",
-      "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 122,
-      "Deaths": 25,
-      "Score": 488
     },
     {
       "Account ID": "6310F74D9FC47BC8",
@@ -175,15 +184,6 @@
       "Kills": 66,
       "Deaths": 16,
       "Score": 412
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 9,
-      "Games Lost": 16,
-      "Kills": 209,
-      "Deaths": 63,
-      "Score": 367
     }
   ]
 }
