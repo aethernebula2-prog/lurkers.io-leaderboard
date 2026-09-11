@@ -1,10 +1,19 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-11T05:03:06.603086+00:00",
-  "lastUpdated": 1789102950815,
-  "cached": true,
+  "updatedAt": "2026-09-11T06:03:45.305527+00:00",
+  "lastUpdated": 1789106623250,
+  "cached": false,
   "players": [
+    {
+      "Account ID": "891AEC8338452106",
+      "Player Name": "hueto2",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 99,
+      "Deaths": 15,
+      "Score": 671
+    },
     {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "PolishSausage",
@@ -87,15 +96,6 @@
       "Score": 220
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 7,
-      "Games Lost": 4,
-      "Kills": 103,
-      "Deaths": 77,
-      "Score": 197
-    },
-    {
       "Account ID": "BC1F611B01E03D2F",
       "Player Name": "skeletonpremıum1234567890",
       "Games Won": 2,
@@ -103,6 +103,15 @@
       "Kills": 44,
       "Deaths": 27,
       "Score": 196
+    },
+    {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 8,
+      "Games Lost": 6,
+      "Kills": 125,
+      "Deaths": 111,
+      "Score": 169
     },
     {
       "Account ID": "4E6829E16E9EE440",
@@ -150,15 +159,6 @@
       "Score": 97
     },
     {
-      "Account ID": "EE4A440605B751E9",
-      "Player Name": "goat1vs9",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 33,
-      "Deaths": 62,
-      "Score": 96
-    },
-    {
       "Account ID": "B76307ACF0AC718D",
       "Player Name": "kaanatabay",
       "Games Won": 2,
@@ -168,6 +168,15 @@
       "Score": 87
     },
     {
+      "Account ID": "EE4A440605B751E9",
+      "Player Name": "goat1vs9",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 42,
+      "Deaths": 83,
+      "Score": 86
+    },
+    {
       "Account ID": "2E6A895D9893339B",
       "Player Name": "vipphong67vn2",
       "Games Won": 2,
@@ -175,15 +184,6 @@
       "Kills": 25,
       "Deaths": 37,
       "Score": 85
-    },
-    {
-      "Account ID": "1CFF3D64393C5EB5",
-      "Player Name": "ELIMPERIOGATO",
-      "Games Won": 2,
-      "Games Lost": 9,
-      "Kills": 0,
-      "Deaths": 14,
-      "Score": 18
     }
   ]
 }
