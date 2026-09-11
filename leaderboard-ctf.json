@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-11T01:03:14.680655+00:00",
-  "lastUpdated": 1789088593901,
+  "updatedAt": "2026-09-11T02:03:12.697422+00:00",
+  "lastUpdated": 1789092191121,
   "cached": false,
   "players": [
     {
@@ -24,6 +24,15 @@
       "Score": 420
     },
     {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 10,
+      "Games Lost": 23,
+      "Kills": 231,
+      "Deaths": 60,
+      "Score": 415
+    },
+    {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
       "Games Won": 1,
@@ -31,15 +40,6 @@
       "Kills": 146,
       "Deaths": 40,
       "Score": 377
-    },
-    {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 8,
-      "Games Lost": 22,
-      "Kills": 173,
-      "Deaths": 55,
-      "Score": 341
     },
     {
       "Account ID": "E99D6DABC230FD6A",
@@ -69,6 +69,15 @@
       "Score": 257
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 6,
+      "Games Lost": 3,
+      "Kills": 72,
+      "Deaths": 40,
+      "Score": 246
+    },
+    {
       "Account ID": "F4EE58DC80678777",
       "Player Name": "AethericNebula",
       "Games Won": 2,
@@ -76,15 +85,6 @@
       "Kills": 60,
       "Deaths": 32,
       "Score": 220
-    },
-    {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 54,
-      "Deaths": 35,
-      "Score": 211
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -105,6 +105,15 @@
       "Score": 196
     },
     {
+      "Account ID": "4E6829E16E9EE440",
+      "Player Name": "ellurkerteroxx76",
+      "Games Won": 3,
+      "Games Lost": 8,
+      "Kills": 82,
+      "Deaths": 60,
+      "Score": 163
+    },
+    {
       "Account ID": "610C8AF156C60C84",
       "Player Name": "cammanyt2",
       "Games Won": 2,
@@ -112,15 +121,6 @@
       "Kills": 7,
       "Deaths": 6,
       "Score": 150
-    },
-    {
-      "Account ID": "4E6829E16E9EE440",
-      "Player Name": "ellurkerteroxx76",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 65,
-      "Deaths": 59,
-      "Score": 130
     },
     {
       "Account ID": "B789B916E95883F4",
