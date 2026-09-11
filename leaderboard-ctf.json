@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-11T12:03:29.827254+00:00",
-  "lastUpdated": 1789128208516,
+  "updatedAt": "2026-09-11T13:02:53.053287+00:00",
+  "lastUpdated": 1789131771639,
   "cached": false,
   "players": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "Account ID": "BC1F611B01E03D2F",
-      "Player Name": "azrailskeleton123",
+      "Player Name": "doorseek123",
       "Games Won": 2,
       "Games Lost": 5,
       "Kills": 141,
