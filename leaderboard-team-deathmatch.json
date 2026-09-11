@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-11T22:03:14.022278+00:00",
-  "lastUpdated": 1789164191634,
+  "updatedAt": "2026-09-11T23:02:26.531338+00:00",
+  "lastUpdated": 1789167743781,
   "cached": false,
   "players": [
     {
@@ -150,15 +150,6 @@
       "Score": 474
     },
     {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 8,
-      "Games Lost": 12,
-      "Kills": 331,
-      "Deaths": 80,
-      "Score": 453
-    },
-    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 15,
@@ -168,6 +159,24 @@
       "Score": 449
     },
     {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 8,
+      "Games Lost": 12,
+      "Kills": 331,
+      "Deaths": 81,
+      "Score": 448
+    },
+    {
+      "Account ID": "F22B6CE103812CED",
+      "Player Name": "tbhcreaturexd",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 57,
+      "Deaths": 14,
+      "Score": 443
+    },
+    {
       "Account ID": "3DAA7E5450C066C8",
       "Player Name": "mob000",
       "Games Won": 0,
@@ -175,15 +184,6 @@
       "Kills": 25,
       "Deaths": 6,
       "Score": 416
-    },
-    {
-      "Account ID": "5AE726D7DB6E6C20",
-      "Player Name": "eer4dotorg",
-      "Games Won": 0,
-      "Games Lost": 9,
-      "Kills": 66,
-      "Deaths": 16,
-      "Score": 412
     }
   ]
 }
