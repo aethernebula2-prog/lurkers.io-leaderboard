@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-10T23:02:15.817529+00:00",
-  "lastUpdated": 1789080878474,
-  "cached": true,
+  "updatedAt": "2026-09-11T00:04:15.510286+00:00",
+  "lastUpdated": 1789085054045,
+  "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -97,7 +97,7 @@
     },
     {
       "Account ID": "1F89746E9031C44B",
-      "Player Name": "XXxDYLANxXX",
+      "Player Name": "PrimeDylan",
       "Games Won": 17,
       "Games Lost": 14,
       "Kills": 291,
