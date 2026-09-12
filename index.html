@@ -587,7 +587,7 @@ async function loadLeaderboard() {
             
             if (previousRank === undefined) {
                 rankChangeHtml = `
-                    <span class="rank-change new rank-change-number">NEW</span>
+                    <span class="rank-change new rank-change-number" data-i18n="new">NEW</span>
                 `;
             } else if (currentRank < previousRank) {
                 rankChangeHtml = `
@@ -743,7 +743,8 @@ const translations = {
         lighttheme: "Light",
         languages: "Languages",
         gamemode: "Gamemode",
-        darktheme: "Dark"
+        darktheme: "Dark",
+        new: "NEW"
     },
 
     zh: {
@@ -773,7 +774,8 @@ const translations = {
         lighttheme: "浅色",
         languages: "语言",
         gamemode: "游戏模式",
-        darktheme: "黑暗"
+        darktheme: "黑暗",
+        new: "NEW"
     },
     
     ja: {
@@ -803,7 +805,8 @@ const translations = {
         lighttheme: "ライトモード",
         languages: "言語",
         gamemode: "ゲームモード",
-        darktheme: "ダークテーマ"
+        darktheme: "ダークテーマ",
+        new: "NEW"
     },
 
     es:{
@@ -833,7 +836,8 @@ const translations = {
         lighttheme: "Claro",
         languages: "Idiomas",
         gamemode: "Modo de Juego",
-        darktheme: "Oscuro"
+        darktheme: "Oscuro",
+        new: "NUEVO"
     },
 
     de:{
@@ -863,7 +867,8 @@ const translations = {
         lighttheme: "Hell",
         languages: "Sprachen",
         gamemode: "Spielmodus",
-        darktheme: "Dunkel"
+        darktheme: "Dunkel",
+        new: "NEU"
     },
 
     fr: {
@@ -893,7 +898,8 @@ const translations = {
         lighttheme: "Mode Clair",
         languages: "Langues",
         gamemode: "Mode de Jeu",
-        darktheme: "Mode Sombre"
+        darktheme: "Mode Sombre",
+        new: "NEW"
     },
 
     ru: {
@@ -923,7 +929,8 @@ const translations = {
         lighttheme: "Светлая Pежим",
         languages: "Языки",
         gamemode: "Pежим Игры",
-        darktheme: "Тёмный Pежим"
+        darktheme: "Тёмный Pежим",
+        new: "НОВЫЙ"
     }
 };
 
