@@ -598,7 +598,12 @@ async function loadLeaderboard() {
                 `;
             } else {
                 rankChangeHtml = `
-                    <span class="rank-change same">=</span>
+                    <span class="rank-change same">
+                        <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                            <rect x="1" y="2.5" width="8" height="1.2"></rect>
+                            <rect x="1" y="6.3" width="8" height="1.2"></rect>
+                        </svg>
+                    </span>
                 `;
             }
 
