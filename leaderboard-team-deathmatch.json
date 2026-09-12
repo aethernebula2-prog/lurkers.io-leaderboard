@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-11T23:02:26.531338+00:00",
-  "lastUpdated": 1789167743781,
+  "updatedAt": "2026-09-12T00:03:56.249416+00:00",
+  "lastUpdated": 1789171433765,
   "cached": false,
   "players": [
     {
@@ -117,10 +117,10 @@
       "Account ID": "42583071A8816117",
       "Player Name": "matagayxd",
       "Games Won": 5,
-      "Games Lost": 25,
+      "Games Lost": 26,
       "Kills": 758,
-      "Deaths": 152,
-      "Score": 515
+      "Deaths": 154,
+      "Score": 508
     },
     {
       "Account ID": "2E5124E426786319",
@@ -162,19 +162,10 @@
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 8,
-      "Games Lost": 12,
+      "Games Lost": 13,
       "Kills": 331,
-      "Deaths": 81,
-      "Score": 448
-    },
-    {
-      "Account ID": "F22B6CE103812CED",
-      "Player Name": "tbhcreaturexd",
-      "Games Won": 4,
-      "Games Lost": 7,
-      "Kills": 57,
-      "Deaths": 14,
-      "Score": 443
+      "Deaths": 82,
+      "Score": 441
     },
     {
       "Account ID": "3DAA7E5450C066C8",
@@ -184,6 +175,15 @@
       "Kills": 25,
       "Deaths": 6,
       "Score": 416
+    },
+    {
+      "Account ID": "F22B6CE103812CED",
+      "Player Name": "tbhcreaturexd",
+      "Games Won": 4,
+      "Games Lost": 8,
+      "Kills": 57,
+      "Deaths": 15,
+      "Score": 413
     }
   ]
 }
