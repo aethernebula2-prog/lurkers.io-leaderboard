@@ -716,7 +716,10 @@ async function loadLeaderboard() {
                     ${showAllChanges
                         ? formatChange(
                             player["Deaths"],
-                            previousPlayer?.["Deaths"]
+                            previousPlayer?.["Deaths"],
+                            0,
+                            "",
+                            true
                         )
                         : ""}
                 </td>
@@ -749,7 +752,10 @@ async function loadLeaderboard() {
                     ${showAllChanges
                         ? formatChange(
                             player["Games Lost"],
-                            previousPlayer?.["Games Lost"]
+                            previousPlayer?.["Games Lost"],
+                            0,
+                            "",
+                            true
                         )
                         : ""}
                 </td>
@@ -817,7 +823,7 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-function formatChange(current, previous, decimals = 0, suffix = "") {
+function formatChange(current, previous, decimals = 0, suffix = "", reverse = false) {
     if (previous === undefined || previous === null) {
         return "";
     }
@@ -848,7 +854,9 @@ function formatChange(current, previous, decimals = 0, suffix = "") {
         `;
 
     return `
-        <span class="rank-change ${change > 0 ? "increase" : "decrease"}">
+        <span class="rank-change ${
+            (change > 0) !== reverse ? "increase" : "decrease"
+        }">
             ${arrow}
             <span class="rank-change-number">
                 ${Math.abs(change).toFixed(decimals)}${suffix}
