@@ -299,6 +299,35 @@
         font-weight: bold;
         margin-right: 6px;
     }
+
+    .game-mode-selector {
+        display: flex;
+        justify-content: center;
+        gap: 4px;
+        margin: 18px 0 25px;
+    }
+    
+    .mode-button {
+        padding: 9px 16px;
+        background: transparent;
+        color: var(--secondary-text);
+        border: 1px solid transparent;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: 0.15s ease;
+    }
+    
+    .mode-button:hover {
+        color: var(--primary-text-color);
+        background: var(--hover-bg);
+    }
+    
+    .mode-button.active {
+        color: var(--primary-text-color);
+        background: var(--header-bg);
+        border-color: var(--border-color);
+    }
         
 </style>
 </head>
@@ -306,6 +335,20 @@
 <body>
 
 <h1 data-i18n="title">Lurkers.io Leaderboard</h1>
+
+<div class="game-mode-selector">
+    <button class="mode-button active" data-mode="bedwars">
+        Bedwars
+    </button>
+
+    <button class="mode-button" data-mode="ctf">
+        Capture the Flag
+    </button>
+
+    <button class="mode-button" data-mode="team-deathmatch">
+        Team Deathmatch
+    </button>
+</div>
     
 <div id="updated">
     <span id="updatedLabel" data-i18n="loadingLeaderboard">Loading leaderboard...</span>
@@ -372,26 +415,6 @@
             <span class="settings-close">&times;</span>
 
             <h2 data-i18n="settings">Settings</h2>
-            
-            <h3 data-i18n="gamemode">Gamemode</h3>
-            <label>
-                <input type="radio" name="gamemode" value="Bedwars" checked>
-                Bedwars
-            </label>
-
-            <br>
-            
-            <label>
-                <input type="radio" name="gamemode" value="Capture The Flag">
-                Capture The Flag
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="gamemode" value="Team Deathmatch">
-                Team Deathmatch
-            </label>
 
             <h3 data-i18n="languages">Languages</h3>
 
@@ -859,10 +882,26 @@ const leaderboardFiles = {
     "Team Deathmatch": "leaderboard-team-deathmatch.json"
 };
 
-document.querySelectorAll('input[name="gamemode"]').forEach(input => {
-    input.addEventListener("change", function() {
-        currentGamemode = this.value;
+document.querySelectorAll(".mode-button").forEach(button => {
+    button.addEventListener("click", function() {
+        const mode = this.dataset.mode;
+
+        if (mode === "bedwars") {
+            currentGamemode = "Bedwars";
+        } else if (mode === "ctf") {
+            currentGamemode = "Capture The Flag";
+        } else if (mode === "team-deathmatch") {
+            currentGamemode = "Team Deathmatch";
+        }
+
         localStorage.setItem("gamemode", currentGamemode);
+
+        document.querySelectorAll(".mode-button").forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
         loadLeaderboard();
     });
 });
@@ -894,9 +933,16 @@ let currentGamemode =
 const savedTheme =
     localStorage.getItem("theme") || "dark-blue";
 
-document.querySelector(
-    `input[name="gamemode"][value="${currentGamemode}"]`
-).checked = true;
+document.querySelectorAll(".mode-button").forEach(button => {
+    button.classList.toggle(
+        "active",
+        button.dataset.mode === {
+            "Bedwars": "bedwars",
+            "Capture The Flag": "ctf",
+            "Team Deathmatch": "team-deathmatch"
+        }[currentGamemode]
+    );
+});
 
 document.querySelector(
     `input[name="theme"][value="${savedTheme}"]`
@@ -946,9 +992,6 @@ window.onclick = function(event) {
 };
     
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
