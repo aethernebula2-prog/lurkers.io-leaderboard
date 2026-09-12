@@ -651,12 +651,13 @@ async function loadPreviousHistory() {
 
     for (let i = 1; i <= 365; i++) {
         const date = new Date(today);
-        date.setDate(date.getDate() - i);
+
+        date.setUTCDate(date.getUTCDate() - i);
 
         const dateString =
-            date.getFullYear() + "-" +
-            String(date.getMonth() + 1).padStart(2, "0") + "-" +
-            String(date.getDate()).padStart(2, "0");
+            date.getUTCFullYear() + "-" +
+            String(date.getUTCMonth() + 1).padStart(2, "0") + "-" +
+            String(date.getUTCDate()).padStart(2, "0");
 
         try {
             const response = await fetch(
@@ -673,7 +674,7 @@ async function loadPreviousHistory() {
 
     return null;
 }
-
+    
 function escapeHtml(text) {
     const div = document.createElement("div");
     div.textContent = text;
