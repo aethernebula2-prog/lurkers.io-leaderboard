@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-12T14:02:53.125896+00:00",
-  "lastUpdated": 1789221768902,
-  "cached": false,
+  "updatedAt": "2026-09-12T15:02:35.968620+00:00",
+  "lastUpdated": 1789224795385,
+  "cached": true,
   "players": [
     {
       "Account ID": "891AEC8338452106",
@@ -13,6 +13,15 @@
       "Kills": 99,
       "Deaths": 15,
       "Score": 671
+    },
+    {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "BRATJA",
+      "Games Won": 5,
+      "Games Lost": 5,
+      "Kills": 120,
+      "Deaths": 24,
+      "Score": 550
     },
     {
       "Account ID": "9C3B1FC6B72F645E",
@@ -31,15 +40,6 @@
       "Kills": 272,
       "Deaths": 67,
       "Score": 435
-    },
-    {
-      "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "BRATJA",
-      "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 79,
-      "Deaths": 21,
-      "Score": 420
     },
     {
       "Account ID": "3AEB08EEAFF1B9DC",
@@ -108,10 +108,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 9,
-      "Games Lost": 7,
-      "Kills": 139,
-      "Deaths": 112,
-      "Score": 180
+      "Games Lost": 8,
+      "Kills": 140,
+      "Deaths": 115,
+      "Score": 174
     },
     {
       "Account ID": "4E6829E16E9EE440",
@@ -171,10 +171,10 @@
       "Account ID": "2E6A895D9893339B",
       "Player Name": "vipphong67vn2",
       "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 26,
-      "Deaths": 43,
-      "Score": 77
+      "Games Lost": 11,
+      "Kills": 27,
+      "Deaths": 45,
+      "Score": 75
     },
     {
       "Account ID": "B76307ACF0AC718D",
