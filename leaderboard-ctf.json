@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-12T16:03:13.936887+00:00",
-  "lastUpdated": 1789228988677,
-  "cached": false,
+  "updatedAt": "2026-09-12T17:02:30.711566+00:00",
+  "lastUpdated": 1789232141752,
+  "cached": true,
   "players": [
     {
       "Account ID": "891AEC8338452106",
@@ -15,15 +15,6 @@
       "Score": 671
     },
     {
-      "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "BRATJA",
-      "Games Won": 5,
-      "Games Lost": 5,
-      "Kills": 120,
-      "Deaths": 24,
-      "Score": 550
-    },
-    {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "PolishSausage",
       "Games Won": 4,
@@ -31,6 +22,15 @@
       "Kills": 21,
       "Deaths": 5,
       "Score": 477
+    },
+    {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "BRATJA",
+      "Games Won": 5,
+      "Games Lost": 6,
+      "Kills": 126,
+      "Deaths": 30,
+      "Score": 465
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -78,15 +78,6 @@
       "Score": 328
     },
     {
-      "Account ID": "BF768EDCA3C4709C",
-      "Player Name": "soujaboy1977",
-      "Games Won": 12,
-      "Games Lost": 4,
-      "Kills": 124,
-      "Deaths": 67,
-      "Score": 260
-    },
-    {
       "Account ID": "4310D19AB57621D0",
       "Player Name": "ahmetko",
       "Games Won": 5,
@@ -94,6 +85,15 @@
       "Kills": 69,
       "Deaths": 32,
       "Score": 257
+    },
+    {
+      "Account ID": "BF768EDCA3C4709C",
+      "Player Name": "soujaboy1977",
+      "Games Won": 12,
+      "Games Lost": 4,
+      "Kills": 125,
+      "Deaths": 69,
+      "Score": 256
     },
     {
       "Account ID": "F4EE58DC80678777",
