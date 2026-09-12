@@ -653,19 +653,19 @@ async function loadLeaderboard() {
             const totalGames =
                 player["Games Won"] + player["Games Lost"];
 
-            const previousTotalGames =
-                previousPlayer
-                    ? previousPlayer["Games Won"] + previousPlayer["Games Lost"]
-                    : 0;
-
             const winRate = totalGames === 0
                     ? 0
                     : (player["Games Won"] / totalGames) * 100;
 
+            const previousTotalGames =
+                previousPlayer
+                    ? previousPlayer["Games Won"] + previousPlayer["Games Lost"]
+                    : 0;
+            
             const previousWinRate =
-                previousTotalGames === 0
-                    ? 0
-                    : (previousPlayer["Games Won"] / previousTotalGames) * 100;
+                previousPlayer && previousTotalGames > 0
+                    ? (previousPlayer["Games Won"] / previousTotalGames) * 100
+                    : null;
 
             // Use Account ID to find the player's role
             const roleInfo = roles[playerId];
@@ -758,7 +758,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${winRate.toFixed(2)}%
                     </span>
-                    ${showAllChanges
+                    ${showAllChanges && previousWinRate !== null
                         ? formatChange(winRate, previousWinRate, 2, "%")
                         : ""}
                 </td>
