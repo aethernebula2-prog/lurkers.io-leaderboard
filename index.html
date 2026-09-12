@@ -604,6 +604,7 @@ async function loadLeaderboard() {
             const currentRank = index + 1;
             const playerId = player["Account ID"];
             const previousRank = previousRanks[playerId];
+            const previousPlayer = previousPlayersById[playerId];
             
             let rankChangeHtml = "";
             
@@ -651,6 +652,11 @@ async function loadLeaderboard() {
 
             const totalGames =
                 player["Games Won"] + player["Games Lost"];
+
+            const previousTotalGames =
+                previousPlayer
+                    ? previousPlayer["Games Won"] + previousPlayer["Games Lost"]
+                    : 0;
 
             const winRate = totalGames === 0
                     ? 0
@@ -820,7 +826,7 @@ function formatChange(current, previous, decimals = 0) {
 
     if (change === 0) {
         return `
-            <span class="stat-change same">
+            <span class="rank-change same">
                 <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
                     <rect x="1" y="2.5" width="8" height="1.2"></rect>
                     <rect x="1" y="6.3" width="8" height="1.2"></rect>
@@ -842,7 +848,7 @@ function formatChange(current, previous, decimals = 0) {
         `;
 
     return `
-        <span class="stat-change ${change > 0 ? "increase" : "decrease"}">
+        <span class="rank-change ${change > 0 ? "increase" : "decrease"}">
             ${arrow}
             <span class="rank-change-number">
                 ${Math.abs(change).toFixed(decimals)}
