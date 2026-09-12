@@ -320,6 +320,18 @@
     .rank-change.decrease {
         color: #f85149;
     }
+
+    .rank-arrow {
+        width: 8px;
+        height: 8px;
+        vertical-align: middle;
+        fill: currentColor;
+        margin-right: 2px;
+    }
+
+    .rank-arrow.down {
+        transform: translateY(1px);
+    }
     
     .rank-change.same {
         color: var(--secondary-text);
@@ -569,13 +581,19 @@ async function loadLeaderboard() {
             } else if (currentRank < previousRank) {
                 rankChangeHtml = `
                     <span class="rank-change increase">
-                        ↑ ${previousRank - currentRank}
+                        <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                            <polygon points="5,1 9,8 1,8"></polygon>
+                        </svg>
+                        ${previousRank - currentRank}
                     </span>
                 `;
             } else if (currentRank > previousRank) {
                 rankChangeHtml = `
                     <span class="rank-change decrease">
-                        ↓ ${currentRank - previousRank}
+                        <svg class="rank-arrow down" viewBox="0 0 10 10" aria-hidden="true">
+                            <polygon points="1,2 9,2 5,9"></polygon>
+                        </svg>
+                        ${currentRank - previousRank}
                     </span>
                 `;
             } else {
