@@ -300,6 +300,35 @@
         margin-right: 6px;
     }
 
+    .rank-number {
+        display: block;
+        line-height: 1;
+        transform: translateY(-2px);
+    }
+    
+    .rank-change {
+        display: block;
+        margin-top: 2px;
+        font-size: 10px;
+        line-height: 1;
+    }
+    
+    .rank-change.increase {
+        color: #3fb950;
+    }
+    
+    .rank-change.decrease {
+        color: #f85149;
+    }
+    
+    .rank-change.same {
+        color: var(--secondary-text);
+    }
+    
+    .rank-change.new {
+        color: #58a6ff;
+    }
+
     .game-mode-selector {
         display: flex;
         justify-content: center;
@@ -491,13 +520,14 @@
 <script>
 async function loadLeaderboard() {
     try {
-        const [response, rolesResponse] = await Promise.all([
+        const [response, rolesResponse, previousHistory] = await Promise.all([
             fetch(
                 leaderboardFiles[currentGamemode] + "?cache=" + Date.now()
             ),
             fetch(
                 "roles.json?cache=" + Date.now()
-            )
+            ),
+            loadPreviousHistory()
         ]);
 
         if (!response.ok) {
@@ -510,19 +540,48 @@ async function loadLeaderboard() {
 
         const data = await response.json();
         const roles = await rolesResponse.json();
+        const previousPlayers =
+            previousHistory
+                ? previousHistory[historyModes[currentGamemode]] || []
+                : [];
+
+        const previousRanks = {};
+
+        previousPlayers.forEach((player, index) => {
+            previousRanks[player["Account ID"]] = index + 1;
+        });
 
         const leaderboard = document.getElementById("leaderboard");
         leaderboard.innerHTML = "";
 
         data.players.forEach((player, index) => {
             const row = document.createElement("tr");
-
-            if (index === 0) {
-                row.classList.add("rank-1");
-            } else if (index === 1) {
-                row.classList.add("rank-2");
-            } else if (index === 2) {
-                row.classList.add("rank-3");
+            const currentRank = index + 1;
+            const playerId = player["Account ID"];
+            const previousRank = previousRanks[playerId];
+            
+            let rankChangeHtml = "";
+            
+            if (previousRank === undefined) {
+                rankChangeHtml = `
+                    <span class="rank-change new">NEW</span>
+                `;
+            } else if (currentRank < previousRank) {
+                rankChangeHtml = `
+                    <span class="rank-change increase">
+                        ↑ ${previousRank - currentRank}
+                    </span>
+                `;
+            } else if (currentRank > previousRank) {
+                rankChangeHtml = `
+                    <span class="rank-change decrease">
+                        ↓ ${currentRank - previousRank}
+                    </span>
+                `;
+            } else {
+                rankChangeHtml = `
+                    <span class="rank-change same">—</span>
+                `;
             }
 
             const kd = player["Deaths"] === 0
@@ -546,7 +605,10 @@ async function loadLeaderboard() {
                 : "";
 
             row.innerHTML = `
-                <td>${index + 1}</td>
+                <td>
+                    <span class="rank-number">${currentRank}</span>
+                    ${rankChangeHtml}
+                </td>
 
                 <td title="Account ID: ${escapeHtml(playerId)}">
                     ${roleHtml}${escapeHtml(player["Player Name"])}
@@ -583,6 +645,34 @@ async function loadLeaderboard() {
         document.getElementById("updatedLabel").textContent =
             "Failed to load leaderboard.";
     }
+}
+
+async function loadPreviousHistory() {
+    const today = new Date();
+
+    for (let i = 1; i <= 365; i++) {
+        const date = new Date(today);
+        date.setDate(date.getDate() - i);
+
+        const dateString =
+            date.getFullYear() + "-" +
+            String(date.getMonth() + 1).padStart(2, "0") + "-" +
+            String(date.getDate()).padStart(2, "0");
+
+        try {
+            const response = await fetch(
+                `history/${dateString}.json?cache=${Date.now()}`
+            );
+
+            if (response.ok) {
+                return await response.json();
+            }
+        } catch (error) {
+            // Try the previous date
+        }
+    }
+
+    return null;
 }
 
 function escapeHtml(text) {
@@ -880,6 +970,12 @@ const leaderboardFiles = {
     "Bedwars": "leaderboard-bedwars.json",
     "Capture The Flag": "leaderboard-ctf.json",
     "Team Deathmatch": "leaderboard-team-deathmatch.json"
+};
+
+const historyModes = {
+    "Bedwars": "bedwars",
+    "Capture The Flag": "ctf",
+    "Team Deathmatch": "team-deathmatch"
 };
 
 document.querySelectorAll(".mode-button").forEach(button => {
