@@ -759,7 +759,7 @@ async function loadLeaderboard() {
                         ${winRate.toFixed(2)}%
                     </span>
                     ${showAllChanges
-                        ? formatChange(winRate, previousWinRate, 2)
+                        ? formatChange(winRate, previousWinRate, 2, "%")
                         : ""}
                 </td>
             `;
@@ -817,7 +817,7 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-function formatChange(current, previous, decimals = 0) {
+function formatChange(current, previous, decimals = 0, suffix = "") {
     if (previous === undefined || previous === null) {
         return "";
     }
@@ -851,7 +851,7 @@ function formatChange(current, previous, decimals = 0) {
         <span class="rank-change ${change > 0 ? "increase" : "decrease"}">
             ${arrow}
             <span class="rank-change-number">
-                ${Math.abs(change).toFixed(decimals)}
+                ${Math.abs(change).toFixed(decimals)}${suffix}
             </span>
         </span>
     `;
