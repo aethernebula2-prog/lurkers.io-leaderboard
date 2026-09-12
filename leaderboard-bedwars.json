@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-12T21:02:25.453090+00:00",
-  "lastUpdated": 1789246941398,
-  "cached": false,
+  "updatedAt": "2026-09-12T22:03:07.357430+00:00",
+  "lastUpdated": 1789250529818,
+  "cached": true,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -96,6 +96,15 @@
       "Score": 464
     },
     {
+      "Account ID": "8A5D0855BB722AA7",
+      "Player Name": "BUNKERbuilder",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 40,
+      "Deaths": 10,
+      "Score": 450
+    },
+    {
       "Account ID": "26545DBE95274149",
       "Player Name": "Above",
       "Games Won": 3,
@@ -175,15 +184,6 @@
       "Kills": 16,
       "Deaths": 6,
       "Score": 291
-    },
-    {
-      "Account ID": "3AEB08EEAFF1B9DC",
-      "Player Name": "Tiameron",
-      "Games Won": 8,
-      "Games Lost": 14,
-      "Kills": 298,
-      "Deaths": 120,
-      "Score": 284
     }
   ]
 }
