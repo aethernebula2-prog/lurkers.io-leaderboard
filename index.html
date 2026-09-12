@@ -596,7 +596,6 @@ async function loadLeaderboard() {
                     : (player["Games Won"] / totalGames) * 100;
 
             // Use Account ID to find the player's role
-            const playerId = player["Account ID"];
             const roleInfo = roles[playerId];
 
             // Only display the role if this Account ID exists in roles.json
