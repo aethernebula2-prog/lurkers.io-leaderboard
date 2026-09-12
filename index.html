@@ -587,7 +587,7 @@ async function loadLeaderboard() {
             
             if (previousRank === undefined) {
                 rankChangeHtml = `
-                    <span class="rank-change new">NEW</span>
+                    <span class="rank-change new rank-change-number">NEW</span>
                 `;
             } else if (currentRank < previousRank) {
                 rankChangeHtml = `
