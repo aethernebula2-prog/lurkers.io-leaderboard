@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-12T13:02:23.359167+00:00",
-  "lastUpdated": 1789218139772,
+  "updatedAt": "2026-09-12T14:02:53.125896+00:00",
+  "lastUpdated": 1789221768902,
   "cached": false,
   "players": [
     {
@@ -33,15 +33,6 @@
       "Score": 435
     },
     {
-      "Account ID": "BC1F611B01E03D2F",
-      "Player Name": "doorseek123",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 166,
-      "Deaths": 41,
-      "Score": 429
-    },
-    {
       "Account ID": "7E7D93C59BA6DEF9",
       "Player Name": "BRATJA",
       "Games Won": 4,
@@ -60,6 +51,15 @@
       "Score": 377
     },
     {
+      "Account ID": "BC1F611B01E03D2F",
+      "Player Name": "doorseek123",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 179,
+      "Deaths": 52,
+      "Score": 369
+    },
+    {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 6,
@@ -72,10 +72,10 @@
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 76,
-      "Deaths": 27,
-      "Score": 310
+      "Games Lost": 6,
+      "Kills": 94,
+      "Deaths": 31,
+      "Score": 328
     },
     {
       "Account ID": "BF768EDCA3C4709C",
@@ -172,9 +172,9 @@
       "Player Name": "vipphong67vn2",
       "Games Won": 2,
       "Games Lost": 10,
-      "Kills": 25,
-      "Deaths": 38,
-      "Score": 82
+      "Kills": 26,
+      "Deaths": 43,
+      "Score": 77
     },
     {
       "Account ID": "B76307ACF0AC718D",
