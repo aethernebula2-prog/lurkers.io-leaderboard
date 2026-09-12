@@ -29,6 +29,7 @@
         --role-color: #FAFF1F;
         --th-color: #CCD6DD;
         --playername-color: #BFBFBF;
+        --button-hover: #ffffff;
     }
 
     body.light-theme {
@@ -46,6 +47,7 @@
         --role-color: #D7A93D;
         --th-color: #5D6672;
         --playername-color: #465263;
+        --button-hover: #5D6672;
     }
 
     body.dark-theme {
@@ -63,6 +65,7 @@
         --role-color: #FAFF1F;
         --th-color: #E4E4E4;
         --playername-color: #BFBFBF;
+        --button-hover: #ffffff;
     }
         
     * {
@@ -169,7 +172,7 @@
     #aboutButton:hover,
     #settingsButton:hover {
         background: transparent;
-        color: #ffffff;
+        color: var(--button-hover);
     }
 
     .modal {
