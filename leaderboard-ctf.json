@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-12T03:02:49.133397+00:00",
-  "lastUpdated": 1789182165368,
+  "updatedAt": "2026-09-12T04:02:49.581375+00:00",
+  "lastUpdated": 1789185765895,
   "cached": false,
   "players": [
     {
@@ -27,10 +27,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 11,
-      "Games Lost": 25,
-      "Kills": 260,
-      "Deaths": 63,
-      "Score": 443
+      "Games Lost": 26,
+      "Kills": 272,
+      "Deaths": 67,
+      "Score": 435
     },
     {
       "Account ID": "BC1F611B01E03D2F",
@@ -60,6 +60,15 @@
       "Score": 377
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 6,
+      "Games Lost": 5,
+      "Kills": 142,
+      "Deaths": 47,
+      "Score": 356
+    },
+    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 2,
@@ -87,15 +96,6 @@
       "Score": 257
     },
     {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 6,
-      "Games Lost": 4,
-      "Kills": 73,
-      "Deaths": 42,
-      "Score": 233
-    },
-    {
       "Account ID": "F4EE58DC80678777",
       "Player Name": "AethericNebula",
       "Games Won": 2,
@@ -117,10 +117,10 @@
       "Account ID": "4E6829E16E9EE440",
       "Player Name": "ellurkerteroxx76",
       "Games Won": 3,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 82,
-      "Deaths": 61,
-      "Score": 159
+      "Deaths": 64,
+      "Score": 151
     },
     {
       "Account ID": "610C8AF156C60C84",

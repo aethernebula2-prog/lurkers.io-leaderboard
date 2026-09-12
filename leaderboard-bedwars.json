@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-12T03:02:48.491614+00:00",
-  "lastUpdated": 1789182166703,
-  "cached": false,
+  "updatedAt": "2026-09-12T04:02:48.692500+00:00",
+  "lastUpdated": 1789185661236,
+  "cached": true,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -177,13 +177,13 @@
       "Score": 322
     },
     {
-      "Account ID": "3AEB08EEAFF1B9DC",
-      "Player Name": "Tiameron",
-      "Games Won": 8,
-      "Games Lost": 14,
-      "Kills": 298,
-      "Deaths": 120,
-      "Score": 284
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 16,
+      "Games Lost": 33,
+      "Kills": 332,
+      "Deaths": 126,
+      "Score": 296
     }
   ]
 }
