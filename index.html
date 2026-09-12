@@ -544,6 +544,14 @@
                 <input type="radio" name="theme" value="dark">
                 <span data-i18n="darktheme">Dark</span>
             </label>
+
+            <div class="setting-item">
+                <label for="show-all-changes" data-i18n="showAllChanges">
+                    Show All Changes
+                </label>
+
+                <input type="checkbox" id="show-all-changes">
+            </div>
     </div>
 </div>  
 
@@ -580,6 +588,12 @@ async function loadLeaderboard() {
 
         previousPlayers.forEach((player, index) => {
             previousRanks[player["Account ID"]] = index + 1;
+        });
+
+        const previousPlayersById = {};
+
+        previousPlayers.forEach(player => {
+            previousPlayersById[player["Account ID"]] = player;
         });
 
         const leaderboard = document.getElementById("leaderboard");
@@ -630,12 +644,22 @@ async function loadLeaderboard() {
                     ? null
                     : player["Kills"] / player["Deaths"];
 
+            const previousKd =
+                previousPlayer && previousPlayer["Deaths"] !== 0
+                    ? previousPlayer["Kills"] / previousPlayer["Deaths"]
+                    : null;
+
             const totalGames =
                 player["Games Won"] + player["Games Lost"];
 
             const winRate = totalGames === 0
                     ? 0
                     : (player["Games Won"] / totalGames) * 100;
+
+            const previousWinRate =
+                previousTotalGames === 0
+                    ? 0
+                    : (previousPlayer["Games Won"] / previousTotalGames) * 100;
 
             // Use Account ID to find the player's role
             const roleInfo = roles[playerId];
@@ -655,19 +679,83 @@ async function loadLeaderboard() {
                     ${roleHtml}${escapeHtml(player["Player Name"])}
                 </td>
 
-                <td>${player["Score"].toLocaleString()}</td>
+                <td>
+                    <span class="stat-value">
+                        ${player["Score"].toLocaleString()}
+                    </span>
+                    ${showAllChanges
+                        ? formatChange(
+                            player["Score"],
+                            previousPlayer?.["Score"]
+                        )
+                        : ""}
+                </td>
 
-                <td>${player["Kills"].toLocaleString()}</td>
+                <td>
+                    <span class="stat-value">
+                        ${player["Kills"].toLocaleString()}
+                    </span>
+                    ${showAllChanges
+                        ? formatChange(
+                            player["Kills"],
+                            previousPlayer?.["Kills"]
+                        )
+                        : ""}
+                </td>
 
-                <td>${player["Deaths"].toLocaleString()}</td>
+                <td>
+                    <span class="stat-value">
+                        ${player["Deaths"].toLocaleString()}
+                    </span>
+                    ${showAllChanges
+                        ? formatChange(
+                            player["Deaths"],
+                            previousPlayer?.["Deaths"]
+                        )
+                        : ""}
+                </td>
 
-                <td>${kd === null ? "N/A" : kd.toFixed(2)}</td>
+                <td>
+                    <span class="stat-value">
+                        ${kd === null ? "N/A" : kd.toFixed(2)}
+                    </span>
+                    ${showAllChanges && kd !== null && previousKd !== null
+                        ? formatChange(kd, previousKd, 2)
+                        : ""}
+                </td>
 
-                <td>${player["Games Won"].toLocaleString()}</td>
+                <td>
+                    <span class="stat-value">
+                        ${player["Games Won"].toLocaleString()}
+                    </span>
+                    ${showAllChanges
+                        ? formatChange(
+                            player["Games Won"],
+                            previousPlayer?.["Games Won"]
+                        )
+                        : ""}
+                </td>
 
-                <td>${player["Games Lost"].toLocaleString()}</td>
+                <td>
+                    <span class="stat-value">
+                        ${player["Games Lost"].toLocaleString()}
+                    </span>
+                    ${showAllChanges
+                        ? formatChange(
+                            player["Games Lost"],
+                            previousPlayer?.["Games Lost"]
+                        )
+                        : ""}
+                </td>
 
-                <td>${winRate.toFixed(2)}%</td>
+                <td>
+                    <span class="stat-value">
+                        ${winRate.toFixed(2)}%
+                    </span>
+                    ${showAllChanges
+                        ? formatChange(winRate, previousWinRate, 2)
+                        : ""}
+                </td>
             `;
 
             leaderboard.appendChild(row);
@@ -721,6 +809,46 @@ function escapeHtml(text) {
     const div = document.createElement("div");
     div.textContent = text;
     return div.innerHTML;
+}
+
+function formatChange(current, previous, decimals = 0) {
+    if (previous === undefined || previous === null) {
+        return "";
+    }
+
+    const change = current - previous;
+
+    if (change === 0) {
+        return `
+            <span class="stat-change same">
+                <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                    <rect x="1" y="2.5" width="8" height="1.2"></rect>
+                    <rect x="1" y="6.3" width="8" height="1.2"></rect>
+                </svg>
+            </span>
+        `;
+    }
+
+    const arrow = change > 0
+        ? `
+            <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                <polygon points="5,1 9,8 1,8"></polygon>
+            </svg>
+        `
+        : `
+            <svg class="rank-arrow down" viewBox="0 0 10 10" aria-hidden="true">
+                <polygon points="1,2 9,2 5,9"></polygon>
+            </svg>
+        `;
+
+    return `
+        <span class="stat-change ${change > 0 ? "increase" : "decrease"}">
+            ${arrow}
+            <span class="rank-change-number">
+                ${Math.abs(change).toFixed(decimals)}
+            </span>
+        </span>
+    `;
 }
 
 const translations = {
@@ -1106,6 +1234,9 @@ let currentLanguage = localStorage.getItem("language") || "en";
 let currentGamemode =
     localStorage.getItem("gamemode") || "Bedwars";
 
+let showAllChanges =
+    localStorage.getItem("showAllChanges") === "true";
+
 const savedTheme =
     localStorage.getItem("theme") || "dark-blue";
 
@@ -1129,6 +1260,21 @@ if (savedTheme === "light") {
 } else if (savedTheme === "dark") {
     document.body.classList.add("dark-theme");
 }
+
+document.getElementById("show-all-changes").checked =
+    showAllChanges;
+
+document.getElementById("show-all-changes")
+    .addEventListener("change", function () {
+        showAllChanges = this.checked;
+
+        localStorage.setItem(
+            "showAllChanges",
+            showAllChanges
+        );
+
+        loadLeaderboard();
+    });
 
 setLanguage(currentLanguage);
 loadLeaderboard();
