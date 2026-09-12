@@ -542,7 +542,7 @@ async function loadLeaderboard() {
         const roles = await rolesResponse.json();
         const previousPlayers =
             previousHistory
-                ? previousHistory[historyModes[currentGamemode]] || []
+                ? previousHistory[historyModes[currentGamemode]]?.players || []
                 : [];
 
         const previousRanks = {};
