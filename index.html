@@ -931,16 +931,45 @@ async function loadLeaderboard() {
 }
 
 async function loadPreviousHistory(daysAgo = 1) {
-    const today = new Date();
+    const now = new Date();
 
-    const date = new Date(today);
+    // Get current Vancouver time
+    const vancouverTime = new Date(
+        now.toLocaleString("en-US", {
+            timeZone: "America/Vancouver"
+        })
+    );
 
-    date.setUTCDate(date.getUTCDate() - daysAgo);
+    // Today's snapshot time: 20:30 Vancouver time
+    const snapshotTime = new Date(vancouverTime);
+
+    snapshotTime.setHours(20, 30, 0, 0);
+
+    // If today's snapshot has not happened yet,
+    // the latest snapshot is yesterday's.
+    if (vancouverTime < snapshotTime) {
+        snapshotTime.setDate(snapshotTime.getDate() - 1);
+    }
+
+    // Go back the requested number of snapshots
+    snapshotTime.setDate(
+        snapshotTime.getDate() - (daysAgo - 1)
+    );
+
+    // Convert the snapshot time to UTC
+    const utcTime = new Date(
+        snapshotTime.toLocaleString("en-US", {
+            timeZone: "UTC"
+        })
+    );
 
     const dateString =
-        date.getUTCFullYear() + "-" +
-        String(date.getUTCMonth() + 1).padStart(2, "0") + "-" +
-        String(date.getUTCDate()).padStart(2, "0");
+        utcTime.getUTCFullYear() + "-" +
+        String(utcTime.getUTCMonth() + 1).padStart(2, "0") + "-" +
+        String(utcTime.getUTCDate()).padStart(2, "0");
+
+    console.log("daysAgo:", daysAgo);
+    console.log("Loading history:", dateString);
 
     try {
         const response = await fetch(
