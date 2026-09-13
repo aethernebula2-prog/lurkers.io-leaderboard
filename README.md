@@ -25,6 +25,7 @@ Each leaderboard displays up to the **top 20 players** and includes:
 * Kills
 * Deaths
 * K/D Ratio
+* Total Games
 * Games Won
 * Games Lost
 * Win Rate
@@ -39,8 +40,8 @@ Each day's leaderboard is stored separately:
 
 ```text
 history/
-├── 2026-09-08.json
 ├── 2026-09-09.json
+├── 2026-09-10.json
 └── ...
 ```
 
@@ -120,6 +121,7 @@ The website includes:
 * Language selection
 * Theme selection
 * Project information
+* Other Settings
 
 ## Data
 
@@ -159,7 +161,7 @@ No backend server is required for the website itself.
 ```text
 Lurkers.io-Leaderboard/
 ├── data
-    ├──leaderboard-bedwars.html
+    ├── leaderboard-bedwars.html
     ├── leaderboard-ctf.html
     ├── leaderboard-team-deathmatch.html
 ├── index.html
@@ -168,6 +170,7 @@ Lurkers.io-Leaderboard/
 ├── leaderboard-ctf.json
 ├── leaderboard-team-deathmatch.json
 ├── roles.json
+├── ArchivoBlack-Regular.ttf
 └── history/
     ├── 2026-09-09.json
     ├── 2026-09-010.json
@@ -203,6 +206,8 @@ This project is an independent community project and is not officially affiliate
 Leaderboard data and player statistics are provided for informational purposes.
 
 ---
-
+**All Rights Reserved**
+**Thanks Bergice Productions**
 **Lurkers.io Leaderboard**
 Made by **AethericNebula**
+Data from **lurkers.io** via **Microsoft PlayFab**
