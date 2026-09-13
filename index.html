@@ -430,6 +430,56 @@
     .toggle input:checked + .toggle-slider::before {
         transform: translateX(18px);
     }
+
+    #changeComparison {
+        appearance: none;
+        -webkit-appearance: none;
+    
+        min-width: 130px;
+        padding: 7px 32px 7px 10px;
+    
+        font-family: inherit;
+        font-size: 13px;
+        color: var(--primary-text);
+    
+        background-color: var(--secondary-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+    
+        cursor: pointer;
+        outline: none;
+    
+        /* 下拉箭头 */
+        background-image:
+            linear-gradient(45deg, transparent 50%, var(--secondary-text) 50%),
+            linear-gradient(135deg, var(--secondary-text) 50%, transparent 50%);
+        background-position:
+            calc(100% - 13px) 50%,
+            calc(100% - 9px) 50%;
+        background-size:
+            4px 4px,
+            4px 4px;
+        background-repeat: no-repeat;
+    
+        transition:
+            border-color 0.15s ease,
+            background-color 0.15s ease;
+    }
+    
+    #changeComparison:hover {
+        border-color: var(--accent-color);
+    }
+    
+    #changeComparison:focus {
+        border-color: var(--accent-color);
+    }
+    
+    #changeComparison option {
+        font-family: inherit;
+        font-size: 13px;
+        color: var(--primary-text);
+        background-color: var(--secondary-bg);
+    }
         
 </style>
 </head>
@@ -608,6 +658,17 @@
                     <span class="toggle-slider"></span>
                 </label>
             </div>
+
+            <div class="setting-row" id="changeComparisonSetting">
+                <span class="setting-label" data-i18n="compareChangesAgainst">
+                    Compare changes against
+                </span>
+            
+                <select id="changeComparison">
+                    <option value="1" data-i18n="oneDayAgo">1 day ago</option>
+                    <option value="2" data-i18n="twoDaysAgo">2 days ago</option>
+                </select>
+            </div>
     </div>
 </div>  
 
@@ -622,7 +683,9 @@ async function loadLeaderboard() {
             fetch(
                 "roles.json?cache=" + Date.now()
             ),
-            loadPreviousHistory()
+            loadPreviousHistory(
+                Number(localStorage.getItem("changeComparison") || 1)
+            )
         ]);
 
         if (!response.ok) {
@@ -864,30 +927,28 @@ async function loadLeaderboard() {
     }
 }
 
-async function loadPreviousHistory() {
+async function loadPreviousHistory(daysAgo = 1) {
     const today = new Date();
 
-    for (let i = 0; i <= 365; i++) {
-        const date = new Date(today);
+    const date = new Date(today);
 
-        date.setUTCDate(date.getUTCDate() - i);
+    date.setUTCDate(date.getUTCDate() - daysAgo);
 
-        const dateString =
-            date.getUTCFullYear() + "-" +
-            String(date.getUTCMonth() + 1).padStart(2, "0") + "-" +
-            String(date.getUTCDate()).padStart(2, "0");
+    const dateString =
+        date.getUTCFullYear() + "-" +
+        String(date.getUTCMonth() + 1).padStart(2, "0") + "-" +
+        String(date.getUTCDate()).padStart(2, "0");
 
-        try {
-            const response = await fetch(
-                `history/${dateString}.json?cache=${Date.now()}`
-            );
+    try {
+        const response = await fetch(
+            `history/${dateString}.json?cache=${Date.now()}`
+        );
 
-            if (response.ok) {
-                return await response.json();
-            }
-        } catch (error) {
-            // Try the previous date
+        if (response.ok) {
+            return await response.json();
         }
+    } catch (error) {
+        console.error("Failed to load history:", error);
     }
 
     return null;
@@ -1390,6 +1451,21 @@ document.getElementById("showAllChanges")
 
         loadLeaderboard();
     });
+
+const changeComparison =
+    document.getElementById("changeComparison");
+
+changeComparison.value =
+    localStorage.getItem("changeComparison") || "1";
+
+changeComparison.addEventListener("change", function () {
+    localStorage.setItem(
+        "changeComparison",
+        this.value
+    );
+
+    loadLeaderboard();
+});
 
 setLanguage(currentLanguage);
 loadLeaderboard();
