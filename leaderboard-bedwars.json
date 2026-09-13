@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-13T13:02:18.522471+00:00",
-  "lastUpdated": 1789304018014,
+  "updatedAt": "2026-09-13T14:03:02.074343+00:00",
+  "lastUpdated": 1789307609599,
   "cached": true,
   "players": [
     {
@@ -96,15 +96,6 @@
       "Score": 464
     },
     {
-      "Account ID": "26545DBE95274149",
-      "Player Name": "Above",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 61,
-      "Deaths": 15,
-      "Score": 444
-    },
-    {
       "Account ID": "1F89746E9031C44B",
       "Player Name": "XXxDYLANxXX",
       "Games Won": 17,
@@ -150,13 +141,22 @@
       "Score": 393
     },
     {
+      "Account ID": "26545DBE95274149",
+      "Player Name": "Above",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 68,
+      "Deaths": 21,
+      "Score": 357
+    },
+    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 2,
       "Games Lost": 19,
-      "Kills": 212,
-      "Deaths": 63,
-      "Score": 346
+      "Kills": 217,
+      "Deaths": 65,
+      "Score": 343
     },
     {
       "Account ID": "26F04D53B39F9050",
