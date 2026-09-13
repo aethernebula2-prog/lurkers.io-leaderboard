@@ -108,7 +108,7 @@ You can see the changes of Rank directly on the leaderboard. In settings you can
 
 ### 🔤 Better Font?
 
-The roles uses **Lurkers** font for the role displays.
+The roles uses **Lurkers** font for the role displays and player names.
 
 This helps give the leaderboard a visual style consistent with Lurkers.io.
 
@@ -173,7 +173,7 @@ Lurkers.io-Leaderboard/
 ├── ArchivoBlack-Regular.ttf
 └── history/
     ├── 2026-09-09.json
-    ├── 2026-09-010.json
+    ├── 2026-09-10.json
     └── ...
 ```
 
