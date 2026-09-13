@@ -380,6 +380,56 @@
         background: var(--header-bg);
         border-color: var(--border-color);
     }
+
+    .setting-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .toggle {
+        position: relative;
+        display: inline-block;
+        width: 42px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+    
+    .toggle input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .toggle-slider {
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
+        background: var(--secondary-text);
+        border-radius: 999px;
+        transition: 0.2s;
+    }
+    
+    .toggle-slider::before {
+        content: "";
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 3px;
+        top: 3px;
+        background: white;
+        border-radius: 50%;
+        transition: 0.2s;
+    }
+    
+    .toggle input:checked + .toggle-slider {
+        background: #58a6ff;
+    }
+    
+    .toggle input:checked + .toggle-slider::before {
+        transform: translateX(18px);
+    }
         
 </style>
 </head>
@@ -548,12 +598,15 @@
 
             <h3 data-i18n="othersettings">Other Settings</h3>
 
-            <div class="setting-item">
-                <label for="show-all-changes" data-i18n="showallchanges">
+            <div class="setting-row">
+                <span class="setting-label" data-i18n="showAllChanges">
                     Show All Changes
+                </span>
+            
+                <label class="toggle">
+                    <input type="checkbox" id="showAllChanges">
+                    <span class="toggle-slider"></span>
                 </label>
-
-                <input type="checkbox" id="show-all-changes">
             </div>
     </div>
 </div>  
