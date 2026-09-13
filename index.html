@@ -612,9 +612,13 @@ async function loadLeaderboard() {
                 "DEBUG:",
                 player["Player Name"],
                 playerId,
-                previousPlayer
+                "Kills:", previousPlayer?.["Kills"],
+                "Deaths:", previousPlayer?.["Deaths"],
+                "Score:", previousPlayer?.["Score"],
+                "Games Won:", previousPlayer?.["Games Won"],
+                "Games Lost:", previousPlayer?.["Games Lost"]
             );
-                        
+                                    
             let rankChangeHtml = "";
             
             if (previousRank === undefined) {
