@@ -1464,6 +1464,15 @@ if (savedTheme === "light") {
     document.body.classList.add("dark-theme");
 }
 
+const changeComparison =
+    document.getElementById("changeComparison");
+
+const changeComparisonSetting =
+    document.getElementById("changeComparisonSetting");
+
+changeComparison.value =
+    localStorage.getItem("changeComparison") || "1";
+
 document.getElementById("showAllChanges").checked =
     showAllChanges;
 
@@ -1494,24 +1503,6 @@ document.getElementById("showAllChanges")
 
         loadLeaderboard();
     });
-
-const changeComparison =
-    document.getElementById("changeComparison");
-
-const changeComparisonSetting =
-    document.getElementById("changeComparisonSetting");
-
-changeComparison.value =
-    localStorage.getItem("changeComparison") || "1";
-
-changeComparison.addEventListener("change", function () {
-    localStorage.setItem(
-        "changeComparison",
-        this.value
-    );
-
-    loadLeaderboard();
-});
 
 setLanguage(currentLanguage);
 loadLeaderboard();
