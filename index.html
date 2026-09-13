@@ -608,7 +608,13 @@ async function loadLeaderboard() {
             const playerId = player["Account ID"];
             const previousRank = previousRanks[playerId];
             const previousPlayer = previousPlayersById[playerId];
-            
+            console.log(
+                "DEBUG:",
+                player["Player Name"],
+                playerId,
+                previousPlayer
+            );
+                        
             let rankChangeHtml = "";
             
             if (previousRank === undefined) {
