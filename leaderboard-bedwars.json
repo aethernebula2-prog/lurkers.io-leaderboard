@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-13T19:02:15.022938+00:00",
-  "lastUpdated": 1789326130764,
+  "updatedAt": "2026-09-13T20:03:15.205392+00:00",
+  "lastUpdated": 1789329793704,
   "cached": false,
   "players": [
     {
@@ -154,9 +154,9 @@
       "Player Name": "white000",
       "Games Won": 2,
       "Games Lost": 19,
-      "Kills": 217,
-      "Deaths": 65,
-      "Score": 343
+      "Kills": 224,
+      "Deaths": 66,
+      "Score": 348
     },
     {
       "Account ID": "26F04D53B39F9050",
