@@ -1504,6 +1504,15 @@ document.getElementById("showAllChanges")
         loadLeaderboard();
     });
 
+changeComparison.addEventListener("change", function () {
+    localStorage.setItem(
+        "changeComparison",
+        this.value
+    );
+
+    loadLeaderboard();
+});
+
 setLanguage(currentLanguage);
 loadLeaderboard();
 
