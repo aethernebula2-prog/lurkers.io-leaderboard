@@ -78,6 +78,7 @@ The interface supports multiple languages:
 * Spanish
 * German
 * French
+* Italian
 * Russian
 
 Language settings are available through the Settings menu.
@@ -99,6 +100,10 @@ Roles are managed separately from the leaderboard data and are identified using 
 Role assignments are primarily based on the player's actual in-game role in Lurkers.io.
 
 Requests or begging for roles will not be accepted.
+
+### 🔼 Changes
+
+You can see the changes of Rank directly on the leaderboard. In settings you can check Show All Changes to see all changes.
 
 ### 🔤 Better Font?
 
