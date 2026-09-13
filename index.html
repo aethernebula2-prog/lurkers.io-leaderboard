@@ -1467,6 +1467,9 @@ if (savedTheme === "light") {
 document.getElementById("showAllChanges").checked =
     showAllChanges;
 
+changeComparisonSetting.style.display =
+    showAllChanges ? "flex" : "none";
+
 document.getElementById("showAllChanges")
     .addEventListener("change", function () {
         showAllChanges = this.checked;
@@ -1476,11 +1479,27 @@ document.getElementById("showAllChanges")
             showAllChanges
         );
 
+        if (showAllChanges) {
+            changeComparisonSetting.style.display = "flex";
+        } else {
+            changeComparisonSetting.style.display = "none";
+
+            localStorage.setItem(
+                "changeComparison",
+                "1"
+            );
+
+            changeComparison.value = "1";
+        }
+
         loadLeaderboard();
     });
 
 const changeComparison =
     document.getElementById("changeComparison");
+
+const changeComparisonSetting =
+    document.getElementById("changeComparisonSetting");
 
 changeComparison.value =
     localStorage.getItem("changeComparison") || "1";
