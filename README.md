@@ -94,17 +94,13 @@ Supported roles may include:
 * MOD
 * SUP
 * VIP
-* POO (xD)
+* POO
 
 Roles are managed separately from the leaderboard data and are identified using the player's `playerId`.
 
 Role assignments are primarily based on the player's actual in-game role in Lurkers.io.
 
 Requests or begging for roles will not be accepted.
-
-### 🔼 Changes
-
-You can see the changes of Rank directly on the leaderboard. In settings you can check Show All Changes to see all changes.
 
 ### 🔤 Better Font?
 
@@ -122,6 +118,17 @@ The website includes:
 * Theme selection
 * Project information
 * Other Settings
+* Changes selection
+
+## What is Show All Changes
+
+When "Show All Changes" enabled, change indicators are displayed underneath the player's statistics, which includes score, kills, deaths, total games, K/D Ratio, etc. 
+
+An ▲ indicates an increase, a ▼ indicates a decrease, and = indicates that the value has not changed. Generally, increase is represented by green, decrease represented by red. However, in Deaths and Games Lost, increase will be repersented in red, because our design philosophy leans towards green as good and red as bad.
+
+## What is Compare Changes Against (Beta)
+
+it lets you choose which previous leaderboard snapshot is used to calculate these changes, such as yesterday, 2 days ago, etc.
 
 ## Data
 
