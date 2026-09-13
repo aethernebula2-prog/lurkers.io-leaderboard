@@ -207,7 +207,11 @@ Leaderboard data and player statistics are provided for informational purposes.
 
 ---
 **All Rights Reserved**
+
 **Thanks Bergice Productions**
+
 **Lurkers.io Leaderboard**
+
 Made by **AethericNebula**
+
 Data from **lurkers.io** via **Microsoft PlayFab**
