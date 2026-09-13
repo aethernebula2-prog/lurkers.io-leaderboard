@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-13T22:02:56.465993+00:00",
-  "lastUpdated": 1789336377820,
-  "cached": true,
+  "updatedAt": "2026-09-13T23:02:36.362968+00:00",
+  "lastUpdated": 1789340552076,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -81,10 +81,10 @@
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 3,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 165,
-      "Deaths": 25,
-      "Score": 683
+      "Deaths": 26,
+      "Score": 656
     },
     {
       "Account ID": "DFFA1297586EE434",
