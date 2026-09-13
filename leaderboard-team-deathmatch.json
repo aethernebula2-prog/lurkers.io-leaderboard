@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-13T04:03:12.616730+00:00",
-  "lastUpdated": 1789272051172,
-  "cached": true,
+  "updatedAt": "2026-09-13T05:02:42.520840+00:00",
+  "lastUpdated": 1789275761776,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -17,20 +17,20 @@
     {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
-      "Games Won": 11,
+      "Games Won": 12,
       "Games Lost": 18,
-      "Kills": 1232,
-      "Deaths": 27,
-      "Score": 4600
+      "Kills": 1251,
+      "Deaths": 29,
+      "Score": 4353
     },
     {
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
       "Games Won": 6,
-      "Games Lost": 6,
-      "Kills": 620,
-      "Deaths": 40,
-      "Score": 1600
+      "Games Lost": 7,
+      "Kills": 655,
+      "Deaths": 41,
+      "Score": 1643
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -171,10 +171,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 15,
-      "Games Lost": 30,
-      "Kills": 1348,
-      "Deaths": 324,
-      "Score": 449
+      "Games Lost": 31,
+      "Kills": 1381,
+      "Deaths": 338,
+      "Score": 441
     },
     {
       "Account ID": "3DAA7E5450C066C8",
