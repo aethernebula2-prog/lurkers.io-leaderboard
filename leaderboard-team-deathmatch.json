@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-13T21:02:50.582520+00:00",
-  "lastUpdated": 1789333364450,
-  "cached": false,
+  "updatedAt": "2026-09-13T22:02:56.465993+00:00",
+  "lastUpdated": 1789336377820,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -78,6 +78,15 @@
       "Score": 750
     },
     {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 3,
+      "Games Lost": 10,
+      "Kills": 165,
+      "Deaths": 25,
+      "Score": 683
+    },
+    {
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
       "Games Won": 4,
@@ -112,15 +121,6 @@
       "Kills": 527,
       "Deaths": 99,
       "Score": 570
-    },
-    {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 124,
-      "Deaths": 24,
-      "Score": 533
     },
     {
       "Account ID": "42583071A8816117",
