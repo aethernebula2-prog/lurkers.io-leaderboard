@@ -415,6 +415,7 @@
             <th data-i18n="kills">Kills</th>
             <th data-i18n="deaths">Deaths</th>
             <th data-i18n="kd">K/D Ratio</th>
+            <th data-i18n="totalgames">Total Games</th>
             <th data-i18n="wins">Games Won</th>
             <th data-i18n="losses">Games Lost</th>
             <th data-i18n="winRate">Win Rate</th>
@@ -736,6 +737,16 @@ async function loadLeaderboard() {
                 </td>
 
                 <td>
+                    <span class="rank-number">${totalGames}</span>
+                    ${showAllChanges && previousPlayer
+                        ? formatChange(
+                            totalGames,
+                            previousPlayer["Games Won"] + previousPlayer["Games Lost"]
+                        )
+                        : ""}
+                </td>
+
+                <td>
                     <span class="stat-value">
                         ${player["Games Won"].toLocaleString()}
                     </span>
@@ -898,7 +909,8 @@ const translations = {
         darktheme: "Dark",
         new: "NEW",
         showallchanges: "Show All Changes",
-        othersettings: "Other Settings"
+        othersettings: "Other Settings",
+        totalgames: "Total Games"
     },
 
     zh: {
@@ -931,7 +943,8 @@ const translations = {
         darktheme: "黑暗",
         new: "NEW",
         showallchanges: "显示所有变化",
-        othersettings: "其他设置"
+        othersettings: "其他设置",
+        totalgames: "总场数"
     },
     
     ja: {
@@ -964,7 +977,8 @@ const translations = {
         darktheme: "ダークテーマ",
         new: "NEW",
         showallchanges: "すべての変化を表示",
-        othersettings: "その他の設定"
+        othersettings: "その他の設定",
+        totalgames: "総ゲーム数"
     },
 
     es:{
@@ -997,7 +1011,8 @@ const translations = {
         darktheme: "Oscuro",
         new: "NUEVO",
         showallchanges: "Mostrar todos los Cambios",
-        othersettings: "Otros Ajustes"
+        othersettings: "Otros Ajustes",
+        totalgames: "Partidas Totales"
     },
 
     de:{
@@ -1030,7 +1045,8 @@ const translations = {
         darktheme: "Dunkel",
         new: "NEU",
         showallchanges: "Alle Änderungen Anzeigen",
-        othersettings: "Weitere Einstellungen"
+        othersettings: "Weitere Einstellungen",
+        totalgames: "Spiele Insgesamt"
     },
 
     fr: {
@@ -1063,7 +1079,8 @@ const translations = {
         darktheme: "Mode Sombre",
         new: "NEW",
         showallchanges: "Afficher tous les Changements",
-        othersettings: "Plus de Paramètres"
+        othersettings: "Plus de Paramètres",
+        totalgames: "Parties Totales"
     },
 
     it: {
@@ -1096,7 +1113,8 @@ const translations = {
         darktheme: "Scuro",
         new: "NUOVO",
         showallchanges: "Mostra tutte le Variazioni",
-        othersettings: "Ulteriori Impostazioni"
+        othersettings: "Ulteriori Impostazioni",
+        totalgames: "Partite Totali"
     },
 
     ru: {
@@ -1129,7 +1147,8 @@ const translations = {
         darktheme: "Тёмный Pежим",
         new: "NEW",
         showallchanges: "Показывать все Изменения",
-        othersettings: "Дополнительные Настройки"
+        othersettings: "Дополнительные Настройки",
+        totalgames: "Всего Игр"
     }
 };
 
