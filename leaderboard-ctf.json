@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-13T08:02:56.200323+00:00",
-  "lastUpdated": 1789286571896,
+  "updatedAt": "2026-09-13T10:10:53.914245+00:00",
+  "lastUpdated": 1789294251656,
   "cached": false,
   "players": [
     {
@@ -117,10 +117,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 9,
-      "Games Lost": 8,
-      "Kills": 140,
-      "Deaths": 115,
-      "Score": 174
+      "Games Lost": 9,
+      "Kills": 141,
+      "Deaths": 118,
+      "Score": 169
     },
     {
       "Account ID": "4E6829E16E9EE440",
