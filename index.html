@@ -847,6 +847,7 @@ function escapeHtml(text) {
 }
 
 function formatChange(current, previous, decimals = 0, suffix = "", reverse = false) {
+    console.log("CHANGE:", current, previous);
     if (previous === undefined || previous === null) {
         return "";
     }
