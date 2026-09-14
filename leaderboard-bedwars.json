@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-14T00:04:25.591137+00:00",
-  "lastUpdated": 1789343968324,
+  "updatedAt": "2026-09-14T01:03:39.103223+00:00",
+  "lastUpdated": 1789347589371,
   "cached": true,
   "players": [
     {
@@ -123,15 +123,6 @@
       "Score": 413
     },
     {
-      "Account ID": "5A4355E00DDA611D",
-      "Player Name": "TonyMontanaOfficial",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 91,
-      "Deaths": 27,
-      "Score": 399
-    },
-    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 18,
@@ -148,6 +139,15 @@
       "Kills": 26,
       "Deaths": 7,
       "Score": 393
+    },
+    {
+      "Account ID": "5A4355E00DDA611D",
+      "Player Name": "TonyMontanaOfficial",
+      "Games Won": 5,
+      "Games Lost": 3,
+      "Kills": 91,
+      "Deaths": 28,
+      "Score": 387
     },
     {
       "Account ID": "26545DBE95274149",
