@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-14T17:02:17.285215+00:00",
-  "lastUpdated": 1789405330452,
-  "cached": false,
+  "updatedAt": "2026-09-14T18:03:11.421078+00:00",
+  "lastUpdated": 1789408924722,
+  "cached": true,
   "players": [
     {
       "Account ID": "891AEC8338452106",
@@ -15,6 +15,15 @@
       "Score": 671
     },
     {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "BRATJA",
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 197,
+      "Deaths": 44,
+      "Score": 497
+    },
+    {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "PolishSausage",
       "Games Won": 4,
@@ -22,15 +31,6 @@
       "Kills": 21,
       "Deaths": 5,
       "Score": 477
-    },
-    {
-      "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "BRATJA",
-      "Games Won": 5,
-      "Games Lost": 6,
-      "Kills": 126,
-      "Deaths": 30,
-      "Score": 465
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -60,15 +60,6 @@
       "Score": 369
     },
     {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 6,
-      "Games Lost": 5,
-      "Kills": 142,
-      "Deaths": 47,
-      "Score": 356
-    },
-    {
       "Account ID": "B03473189C37732B",
       "Player Name": "bamolui23",
       "Games Won": 1,
@@ -94,6 +85,15 @@
       "Kills": 38,
       "Deaths": 14,
       "Score": 325
+    },
+    {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 160,
+      "Deaths": 66,
+      "Score": 292
     },
     {
       "Account ID": "BF768EDCA3C4709C",
