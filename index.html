@@ -755,6 +755,7 @@ async function loadLeaderboard() {
 
         const data = await response.json();
         const roles = await rolesResponse.json();
+        
         const previousPlayers =
             previousHistory
                 ? previousHistory[historyModes[currentGamemode]]?.players || []
