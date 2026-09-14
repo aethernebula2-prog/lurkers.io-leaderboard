@@ -722,8 +722,8 @@
                 </span>
             
                 <select id="changeComparison">
-                    <option value="1" data-i18n="oneDayAgo">yesterday</option>
-                    <option value="2" data-i18n="twoDaysAgo">2 days ago</option>
+                    <option value="1" data-i18n="newest">newest</option>
+                    <option value="2" data-i18n="oneDayAgo">yesterday</option>
                 </select>
             </div>
     </div>
@@ -741,7 +741,7 @@ async function loadLeaderboard() {
                 "roles.json?cache=" + Date.now()
             ),
             loadPreviousHistory(
-                Number(localStorage.getItem("changeComparison") || 1)
+                Number(localStorage.getItem("changeComparison") || 2)
             )
         ]);
 
@@ -1211,7 +1211,7 @@ const translations = {
         totalgames: "Total Games",
         compareChangesAgainst: "Compare Changes Against:",
         oneDayAgo: "yesterday",
-        twoDaysAgo: "two days ago"
+        newest: "newest"
     },
 
     zh: {
@@ -1246,7 +1246,7 @@ const translations = {
         totalgames: "总场数",
         compareChangesAgainst: "变化比较：",
         oneDayAgo: "昨天",
-        twoDaysAgo: "前天"
+        newest: "最新"
     },
     
     ja: {
@@ -1281,7 +1281,7 @@ const translations = {
         totalgames: "総ゲーム数",
         compareChangesAgainst: "変化の比較",
         oneDayAgo: "昨日",
-        twoDaysAgo: "一昨日"
+        newest: "最新"
     },
 
     es:{
@@ -1316,7 +1316,7 @@ const translations = {
         totalgames: "Partidas Totales",
         compareChangesAgainst: "Comparar Cambios:",
         oneDayAgo: "ayer",
-        twoDaysAgo: "anteayer"
+        newest: "más reciente"
     },
 
     de:{
@@ -1351,7 +1351,7 @@ const translations = {
         totalgames: "Spiele Insgesamt",
         compareChangesAgainst: "Änderungen Vergleichen:",
         oneDayAgo: "gestern",
-        twoDaysAgo: "vorgestern"
+        newest: "neueste"
     },
 
     fr: {
@@ -1386,7 +1386,7 @@ const translations = {
         totalgames: "Parties Totales",
         compareChangesAgainst: "Comparer les Changements:",
         oneDayAgo: "hier",
-        twoDaysAgo: "avant-hier"
+        newest: "plus récent"
     },
 
     it: {
@@ -1421,7 +1421,7 @@ const translations = {
         totalgames: "Partite Totali",
         compareChangesAgainst: "Confronta le Variazioni:",
         oneDayAgo: "ieri",
-        twoDaysAgo: "l'altroieri"
+        newest: "più recente"
     },
 
     ru: {
@@ -1456,7 +1456,7 @@ const translations = {
         totalgames: "Всего Игр",
         compareChangesAgainst: "Сравнение Изменений:",
         oneDayAgo: "вчера",
-        twoDaysAgo: "позавчера"
+        newest: "cамый новый"
     }
 };
 
@@ -1643,7 +1643,7 @@ const changeComparisonSetting =
     document.getElementById("changeComparisonSetting");
 
 changeComparison.value =
-    localStorage.getItem("changeComparison") || "1";
+    localStorage.getItem("changeComparison") || "2";
 
 document.getElementById("showAllChanges").checked =
     showAllChanges;
