@@ -514,14 +514,14 @@
         <tr>
             <th data-i18n="rank">Rank</th>
             <th data-i18n="player">Player</th>
-            <th data-i18n="score">Score</th>
-            <th data-i18n="kills">Kills</th>
-            <th data-i18n="deaths">Deaths</th>
-            <th data-i18n="kd">K/D Ratio</th>
-            <th data-i18n="totalgames">Total Games</th>
-            <th data-i18n="wins">Games Won</th>
-            <th data-i18n="losses">Games Lost</th>
-            <th data-i18n="winRate">Win Rate</th>
+            <th data-sort="score" data-i18n="score">Score</th>
+            <th data-sort="kills" data-i18n="kills">Kills</th>
+            <th data-sort="deaths" data-i18n="deaths">Deaths</th>
+            <th data-sort="kd" data-i18n="kd">K/D Ratio</th>
+            <th data-sort="wins" data-i18n="wins">Games Won</th>
+            <th data-sort="losses" data-i18n="losses">Games Lost</th>
+            <th data-sort="totalGames" data-i18n="totalgames">Total Games</th>
+            <th data-sort="winRate" data-i18n="winRate">Win Rate</th>
         </tr>
     </thead>
 
@@ -718,9 +718,98 @@ async function loadLeaderboard() {
         const leaderboard = document.getElementById("leaderboard");
         leaderboard.innerHTML = "";
 
+        const currentRanks = {};
+
         data.players.forEach((player, index) => {
+            currentRanks[player["Account ID"]] = index + 1;
+        });
+
+        let sortedPlayers = [...data.players];
+
+        if (sortColumn) {
+            sortedPlayers.sort((a, b) => {
+                let valueA;
+                let valueB;
+        
+                switch (sortColumn) {
+                    case "score":
+                        valueA = a["Score"];
+                        valueB = b["Score"];
+                        break;
+        
+                    case "kills":
+                        valueA = a["Kills"];
+                        valueB = b["Kills"];
+                        break;
+        
+                    case "deaths":
+                        valueA = a["Deaths"];
+                        valueB = b["Deaths"];
+                        break;
+        
+                    case "kd":
+                        valueA = a["Deaths"] === 0
+                            ? Infinity
+                            : a["Kills"] / a["Deaths"];
+        
+                        valueB = b["Deaths"] === 0
+                            ? Infinity
+                            : b["Kills"] / b["Deaths"];
+                        break;
+        
+                    case "wins":
+                        valueA = a["Games Won"];
+                        valueB = b["Games Won"];
+                        break;
+        
+                    case "losses":
+                        valueA = a["Games Lost"];
+                        valueB = b["Games Lost"];
+                        break;
+        
+                    case "totalGames":
+                        valueA =
+                            a["Games Won"] + a["Games Lost"];
+        
+                        valueB =
+                            b["Games Won"] + b["Games Lost"];
+                        break;
+        
+                    case "winRate":
+                        const totalA =
+                            a["Games Won"] + a["Games Lost"];
+        
+                        const totalB =
+                            b["Games Won"] + b["Games Lost"];
+        
+                        valueA = totalA === 0
+                            ? 0
+                            : a["Games Won"] / totalA;
+        
+                        valueB = totalB === 0
+                            ? 0
+                            : b["Games Won"] / totalB;
+                        break;
+        
+                    default:
+                        return 0;
+                }
+        
+                if (valueA < valueB) {
+                    return sortDirection === "asc" ? -1 : 1;
+                }
+        currentRanks[player["Account ID"]];
+                if (valueA > valueB) {
+                    return sortDirection === "asc" ? 1 : -1;
+                }
+        
+                return 0;
+            });
+        }
+
+        sortedPlayers.forEach((player, index) => {
             const row = document.createElement("tr");
-            const currentRank = index + 1;
+            const currentRank = currentRanks[player["Account ID"]];
             const playerId = player["Account ID"];
             const previousRank = previousRanks[playerId];
             const previousPlayer = previousPlayersById[playerId];
@@ -1443,15 +1532,31 @@ document.querySelectorAll('input[name="theme"]').forEach(input => {
 });
     
 let currentLanguage = localStorage.getItem("language") || "en";
-
 let currentGamemode =
     localStorage.getItem("gamemode") || "Bedwars";
-
 let showAllChanges =
     localStorage.getItem("showAllChanges") === "true";
+let sortColumn = null;
+let sortDirection = "desc";
 
 const savedTheme =
     localStorage.getItem("theme") || "dark-blue";
+
+document.querySelectorAll("th[data-sort]").forEach(th => {
+    th.addEventListener("click", function () {
+        const column = this.dataset.sort;
+
+        if (sortColumn === column) {
+            sortDirection =
+                sortDirection === "desc" ? "asc" : "desc";
+        } else {
+            sortColumn = column;
+            sortDirection = "desc";
+        }
+
+        loadLeaderboard();
+    });
+});
 
 document.querySelectorAll(".mode-button").forEach(button => {
     button.classList.toggle(
