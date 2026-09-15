@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-15T03:03:35.167061+00:00",
-  "lastUpdated": 1789441416274,
+  "updatedAt": "2026-09-15T04:03:33.803319+00:00",
+  "lastUpdated": 1789445003917,
   "cached": false,
   "players": [
     {
@@ -117,10 +117,10 @@
       "Account ID": "F4EE58DC80678777",
       "Player Name": "AethericNebula",
       "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 60,
-      "Deaths": 32,
-      "Score": 220
+      "Games Lost": 5,
+      "Kills": 64,
+      "Deaths": 34,
+      "Score": 216
     },
     {
       "Account ID": "82B47A576A0B527E",
