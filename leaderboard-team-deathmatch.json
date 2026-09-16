@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-16T12:03:55.103411+00:00",
-  "lastUpdated": 1789560230333,
-  "cached": false,
+  "updatedAt": "2026-09-16T13:04:33.152060+00:00",
+  "lastUpdated": 1789563276147,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
