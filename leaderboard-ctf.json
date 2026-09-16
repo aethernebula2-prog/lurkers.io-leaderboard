@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-16T18:03:31.886235+00:00",
-  "lastUpdated": 1789581807012,
+  "updatedAt": "2026-09-16T19:02:39.115390+00:00",
+  "lastUpdated": 1789585349097,
   "cached": false,
   "players": [
     {
@@ -33,15 +33,6 @@
       "Score": 477
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 82,
-      "Deaths": 23,
-      "Score": 399
-    },
-    {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
       "Games Won": 1,
@@ -49,6 +40,15 @@
       "Kills": 146,
       "Deaths": 40,
       "Score": 377
+    },
+    {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 82,
+      "Deaths": 25,
+      "Score": 370
     },
     {
       "Account ID": "BC1F611B01E03D2F",
@@ -96,15 +96,6 @@
       "Score": 331
     },
     {
-      "Account ID": "4310D19AB57621D0",
-      "Player Name": "ahmetko",
-      "Games Won": 7,
-      "Games Lost": 8,
-      "Kills": 109,
-      "Deaths": 39,
-      "Score": 326
-    },
-    {
       "Account ID": "D77A0E04B18C4A04",
       "Player Name": "spadel",
       "Games Won": 6,
@@ -112,6 +103,15 @@
       "Kills": 38,
       "Deaths": 14,
       "Score": 325
+    },
+    {
+      "Account ID": "4310D19AB57621D0",
+      "Player Name": "ahmetko",
+      "Games Won": 7,
+      "Games Lost": 9,
+      "Kills": 109,
+      "Deaths": 40,
+      "Score": 316
     },
     {
       "Account ID": "A565A7F63901C930",
