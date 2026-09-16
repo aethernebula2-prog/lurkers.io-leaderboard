@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-16T01:03:09.262985+00:00",
-  "lastUpdated": 1789520577841,
+  "updatedAt": "2026-09-16T02:03:07.503247+00:00",
+  "lastUpdated": 1789524175965,
   "cached": false,
   "players": [
     {
@@ -58,6 +58,15 @@
       "Kills": 588,
       "Deaths": 94,
       "Score": 673
+    },
+    {
+      "Account ID": "96CA6AEAB4D59DB",
+      "Player Name": "8ovexs",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 80,
+      "Deaths": 13,
+      "Score": 643
     },
     {
       "Account ID": "51AFB9CF8BB28574",
@@ -141,15 +150,6 @@
       "Score": 392
     },
     {
-      "Account ID": "5A4355E00DDA611D",
-      "Player Name": "TonyMontanaOfficial",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 91,
-      "Deaths": 28,
-      "Score": 387
-    },
-    {
       "Account ID": "467F890E718672E1",
       "Player Name": "zmr242",
       "Games Won": 6,
@@ -168,21 +168,21 @@
       "Score": 351
     },
     {
+      "Account ID": "5A4355E00DDA611D",
+      "Player Name": "TonyMontanaOfficial",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 102,
+      "Deaths": 36,
+      "Score": 338
+    },
+    {
       "Account ID": "26F04D53B39F9050",
       "Player Name": "ARRozc0nLEchexD",
       "Games Won": 7,
       "Games Lost": 19,
       "Kills": 224,
       "Deaths": 72,
-      "Score": 338
-    },
-    {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 3,
-      "Games Lost": 24,
-      "Kills": 291,
-      "Deaths": 89,
       "Score": 338
     }
   ]
