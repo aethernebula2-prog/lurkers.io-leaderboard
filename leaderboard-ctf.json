@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-16T20:03:24.623604+00:00",
-  "lastUpdated": 1789589003897,
+  "updatedAt": "2026-09-16T21:03:06.217247+00:00",
+  "lastUpdated": 1789592578339,
   "cached": false,
   "players": [
     {
@@ -33,6 +33,15 @@
       "Score": 477
     },
     {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 19,
+      "Games Lost": 40,
+      "Kills": 427,
+      "Deaths": 119,
+      "Score": 391
+    },
+    {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
       "Games Won": 1,
@@ -60,15 +69,6 @@
       "Score": 369
     },
     {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 18,
-      "Games Lost": 39,
-      "Kills": 386,
-      "Deaths": 115,
-      "Score": 367
-    },
-    {
       "Account ID": "B03473189C37732B",
       "Player Name": "bamolui23",
       "Games Won": 1,
@@ -76,15 +76,6 @@
       "Kills": 108,
       "Deaths": 33,
       "Score": 343
-    },
-    {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 11,
-      "Games Lost": 12,
-      "Kills": 301,
-      "Deaths": 106,
-      "Score": 331
     },
     {
       "Account ID": "E99D6DABC230FD6A",
@@ -112,6 +103,15 @@
       "Kills": 109,
       "Deaths": 40,
       "Score": 316
+    },
+    {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 11,
+      "Games Lost": 13,
+      "Kills": 314,
+      "Deaths": 120,
+      "Score": 307
     },
     {
       "Account ID": "A565A7F63901C930",
