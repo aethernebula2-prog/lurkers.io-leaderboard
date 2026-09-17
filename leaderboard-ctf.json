@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-17T12:03:48.819017+00:00",
-  "lastUpdated": 1789646620427,
-  "cached": false,
+  "updatedAt": "2026-09-17T13:04:23.210435+00:00",
+  "lastUpdated": 1789649706366,
+  "cached": true,
   "players": [
     {
       "Account ID": "72E16E3595293FB9",
@@ -87,15 +87,6 @@
       "Score": 343
     },
     {
-      "Account ID": "D77A0E04B18C4A04",
-      "Player Name": "spadel",
-      "Games Won": 6,
-      "Games Lost": 5,
-      "Kills": 38,
-      "Deaths": 14,
-      "Score": 325
-    },
-    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 2,
@@ -112,6 +103,15 @@
       "Kills": 109,
       "Deaths": 40,
       "Score": 316
+    },
+    {
+      "Account ID": "D77A0E04B18C4A04",
+      "Player Name": "spadel",
+      "Games Won": 6,
+      "Games Lost": 5,
+      "Kills": 38,
+      "Deaths": 15,
+      "Score": 307
     },
     {
       "Account ID": "711F0DC522C942F6",
