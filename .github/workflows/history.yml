@@ -55,18 +55,17 @@ jobs:
               "team-deathmatch": $tdm[0]
             }' > "history/${DATE}.json"
 
-      # 提交到 GitHub
-      - name: Commit history
+
+      # 上传到 Filebase
+      - name: Upload history to Filebase
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.FILEBASE_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.FILEBASE_SECRET_KEY }}
+          AWS_DEFAULT_REGION: auto
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          DATE=$(date -u +"%Y-%m-%d")
 
-          git add history/
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "Save daily leaderboard history"
-          git push
+          aws --endpoint https://s3.filebase.io \
+            s3 cp \
+            "history/${DATE}.json" \
+            "s3://lurkersio-leaderboard-history/${DATE}.json"
