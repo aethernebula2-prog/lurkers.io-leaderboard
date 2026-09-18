@@ -55,9 +55,7 @@ jobs:
               "team-deathmatch": $tdm[0]
             }' > "history/${DATE}.json"
 
-
-      # 上传到 Filebase
-            # 提交到 GitHub
+      # 提交到 GitHub
       - name: Commit history
         run: |
           git config user.name "github-actions[bot]"
