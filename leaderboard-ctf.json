@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-18T05:22:53.063086+00:00",
-  "lastUpdated": 1789708971717,
-  "cached": false,
+  "updatedAt": "2026-09-18T10:12:28.225662+00:00",
+  "lastUpdated": 1789725883985,
+  "cached": true,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -69,15 +69,6 @@
       "Score": 377
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 82,
-      "Deaths": 25,
-      "Score": 370
-    },
-    {
       "Account ID": "BC1F611B01E03D2F",
       "Player Name": "doorseek123",
       "Games Won": 2,
@@ -85,6 +76,15 @@
       "Kills": 179,
       "Deaths": 52,
       "Score": 369
+    },
+    {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 90,
+      "Deaths": 28,
+      "Score": 354
     },
     {
       "Account ID": "B03473189C37732B",
@@ -159,6 +159,15 @@
       "Score": 216
     },
     {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 4,
+      "Games Lost": 16,
+      "Kills": 114,
+      "Deaths": 71,
+      "Score": 180
+    },
+    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 9,
@@ -168,22 +177,13 @@
       "Score": 166
     },
     {
-      "Account ID": "4E6829E16E9EE440",
-      "Player Name": "ellurkerteroxx76",
+      "Account ID": "7BE9548D123EE8C2",
+      "Player Name": "CalmaCalabreso",
       "Games Won": 3,
-      "Games Lost": 10,
-      "Kills": 85,
-      "Deaths": 67,
-      "Score": 149
-    },
-    {
-      "Account ID": "610C8AF156C60C84",
-      "Player Name": "cammanyt2",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 8,
-      "Deaths": 8,
-      "Score": 133
+      "Games Lost": 3,
+      "Kills": 16,
+      "Deaths": 14,
+      "Score": 164
     }
   ]
 }

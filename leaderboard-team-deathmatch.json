@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-18T05:22:53.750967+00:00",
-  "lastUpdated": 1789708971731,
-  "cached": false,
+  "updatedAt": "2026-09-18T10:12:28.361535+00:00",
+  "lastUpdated": 1789725877141,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -45,10 +45,10 @@
       "Account ID": "C8863FC33A060E2B",
       "Player Name": "Shodan",
       "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 170,
-      "Deaths": 16,
-      "Score": 1092
+      "Games Lost": 8,
+      "Kills": 192,
+      "Deaths": 18,
+      "Score": 1093
     },
     {
       "Account ID": "545083C5768882B1",
