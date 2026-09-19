@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-19T00:45:35.321237+00:00",
-  "lastUpdated": 1789778734714,
+  "updatedAt": "2026-09-19T05:15:21.846653+00:00",
+  "lastUpdated": 1789794918485,
   "cached": false,
   "players": [
     {
@@ -18,7 +18,7 @@
       "Account ID": "72E16E3595293FB9",
       "Player Name": "deVVVV",
       "Games Won": 0,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 44,
       "Deaths": 6,
       "Score": 733
@@ -55,9 +55,9 @@
       "Player Name": "XxROSAxX",
       "Games Won": 21,
       "Games Lost": 45,
-      "Kills": 457,
-      "Deaths": 126,
-      "Score": 394
+      "Kills": 458,
+      "Deaths": 127,
+      "Score": 392
     },
     {
       "Account ID": "3AEB08EEAFF1B9DC",
@@ -76,6 +76,15 @@
       "Kills": 179,
       "Deaths": 52,
       "Score": 369
+    },
+    {
+      "Account ID": "D77A0E04B18C4A04",
+      "Player Name": "spadel",
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 52,
+      "Deaths": 17,
+      "Score": 355
     },
     {
       "Account ID": "B35AF7290BDBCD54",
@@ -105,15 +114,6 @@
       "Score": 316
     },
     {
-      "Account ID": "D77A0E04B18C4A04",
-      "Player Name": "spadel",
-      "Games Won": 6,
-      "Games Lost": 5,
-      "Kills": 38,
-      "Deaths": 15,
-      "Score": 307
-    },
-    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 2,
@@ -135,10 +135,10 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 11,
-      "Games Lost": 18,
-      "Kills": 384,
-      "Deaths": 165,
-      "Score": 270
+      "Games Lost": 19,
+      "Kills": 398,
+      "Deaths": 167,
+      "Score": 274
     },
     {
       "Account ID": "BF768EDCA3C4709C",
@@ -168,6 +168,15 @@
       "Score": 180
     },
     {
+      "Account ID": "CF301CDD91D0E8F7",
+      "Player Name": "Zoey1230",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 66,
+      "Deaths": 42,
+      "Score": 173
+    },
+    {
       "Account ID": "7BE9548D123EE8C2",
       "Player Name": "CalmaCalabreso",
       "Games Won": 3,
@@ -175,15 +184,6 @@
       "Kills": 16,
       "Deaths": 14,
       "Score": 164
-    },
-    {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 9,
-      "Games Lost": 10,
-      "Kills": 141,
-      "Deaths": 123,
-      "Score": 162
     }
   ]
 }

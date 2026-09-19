@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-19T00:45:35.441960+00:00",
-  "lastUpdated": 1789778581722,
-  "cached": true,
+  "updatedAt": "2026-09-19T05:15:22.514289+00:00",
+  "lastUpdated": 1789794921628,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -24,6 +24,15 @@
       "Score": 3353
     },
     {
+      "Account ID": "C1CC914D4BE6B501",
+      "Player Name": "XxjijibaoCNproxX",
+      "Games Won": 7,
+      "Games Lost": 11,
+      "Kills": 849,
+      "Deaths": 53,
+      "Score": 1640
+    },
+    {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 5,
@@ -31,15 +40,6 @@
       "Kills": 345,
       "Deaths": 22,
       "Score": 1609
-    },
-    {
-      "Account ID": "C1CC914D4BE6B501",
-      "Player Name": "XxjijibaoCNproxX",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 785,
-      "Deaths": 51,
-      "Score": 1582
     },
     {
       "Account ID": "C8863FC33A060E2B",
@@ -81,7 +81,7 @@
       "Account ID": "8DAADB1EDBEAE7EC",
       "Player Name": "Ecttttt",
       "Games Won": 0,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 15,
       "Deaths": 2,
       "Score": 750
@@ -108,10 +108,10 @@
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 12,
-      "Games Lost": 22,
+      "Games Lost": 23,
       "Kills": 636,
       "Deaths": 114,
-      "Score": 593
+      "Score": 592
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -123,15 +123,6 @@
       "Score": 542
     },
     {
-      "Account ID": "42583071A8816117",
-      "Player Name": "matagayxd",
-      "Games Won": 6,
-      "Games Lost": 40,
-      "Kills": 1011,
-      "Deaths": 204,
-      "Score": 508
-    },
-    {
       "Account ID": "2E5124E426786319",
       "Player Name": "alphabetaee",
       "Games Won": 0,
@@ -139,6 +130,15 @@
       "Kills": 136,
       "Deaths": 27,
       "Score": 503
+    },
+    {
+      "Account ID": "42583071A8816117",
+      "Player Name": "matagayxd",
+      "Games Won": 6,
+      "Games Lost": 41,
+      "Kills": 1031,
+      "Deaths": 211,
+      "Score": 501
     },
     {
       "Account ID": "4BCB5C0C23D62CA",
