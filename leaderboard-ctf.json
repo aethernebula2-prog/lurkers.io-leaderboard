@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-19T13:33:07.048375+00:00",
-  "lastUpdated": 1789824249742,
-  "cached": true,
+  "updatedAt": "2026-09-19T16:52:41.553854+00:00",
+  "lastUpdated": 1789836759036,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -37,9 +37,9 @@
       "Player Name": "vojenkomat3000",
       "Games Won": 3,
       "Games Lost": 4,
-      "Kills": 182,
-      "Deaths": 39,
-      "Score": 509
+      "Kills": 194,
+      "Deaths": 42,
+      "Score": 504
     },
     {
       "Account ID": "7E7D93C59BA6DEF9",
@@ -87,22 +87,13 @@
       "Score": 369
     },
     {
-      "Account ID": "D77A0E04B18C4A04",
-      "Player Name": "spadel",
-      "Games Won": 6,
-      "Games Lost": 6,
-      "Kills": 52,
-      "Deaths": 17,
-      "Score": 355
-    },
-    {
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
       "Games Won": 3,
       "Games Lost": 6,
       "Kills": 90,
-      "Deaths": 28,
-      "Score": 354
+      "Deaths": 29,
+      "Score": 343
     },
     {
       "Account ID": "B03473189C37732B",
@@ -114,13 +105,13 @@
       "Score": 343
     },
     {
-      "Account ID": "4310D19AB57621D0",
-      "Player Name": "ahmetko",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 109,
-      "Deaths": 40,
-      "Score": 316
+      "Account ID": "D77A0E04B18C4A04",
+      "Player Name": "spadel",
+      "Games Won": 6,
+      "Games Lost": 7,
+      "Kills": 52,
+      "Deaths": 18,
+      "Score": 335
     },
     {
       "Account ID": "E99D6DABC230FD6A",
@@ -130,6 +121,15 @@
       "Kills": 149,
       "Deaths": 51,
       "Score": 306
+    },
+    {
+      "Account ID": "4310D19AB57621D0",
+      "Player Name": "ahmetko",
+      "Games Won": 8,
+      "Games Lost": 10,
+      "Kills": 112,
+      "Deaths": 43,
+      "Score": 304
     },
     {
       "Account ID": "A565A7F63901C930",
@@ -159,6 +159,15 @@
       "Score": 256
     },
     {
+      "Account ID": "CF301CDD91D0E8F7",
+      "Player Name": "Zoey1230",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 87,
+      "Deaths": 44,
+      "Score": 231
+    },
+    {
       "Account ID": "F4EE58DC80678777",
       "Player Name": "AethericNebula",
       "Games Won": 2,
@@ -175,15 +184,6 @@
       "Kills": 114,
       "Deaths": 71,
       "Score": 180
-    },
-    {
-      "Account ID": "CF301CDD91D0E8F7",
-      "Player Name": "Zoey1230",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 66,
-      "Deaths": 42,
-      "Score": 173
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-19T13:33:06.905178+00:00",
-  "lastUpdated": 1789824249620,
+  "updatedAt": "2026-09-19T16:52:40.855858+00:00",
+  "lastUpdated": 1789836205666,
   "cached": true,
   "players": [
     {
@@ -60,15 +60,6 @@
       "Score": 770
     },
     {
-      "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "EqaqeG",
-      "Games Won": 15,
-      "Games Lost": 16,
-      "Kills": 606,
-      "Deaths": 105,
-      "Score": 625
-    },
-    {
       "Account ID": "51AFB9CF8BB28574",
       "Player Name": "Canucky",
       "Games Won": 4,
@@ -76,6 +67,15 @@
       "Kills": 34,
       "Deaths": 6,
       "Score": 623
+    },
+    {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 15,
+      "Games Lost": 16,
+      "Kills": 606,
+      "Deaths": 106,
+      "Score": 620
     },
     {
       "Account ID": "9B89B7156A49CE96",
@@ -132,15 +132,6 @@
       "Score": 376
     },
     {
-      "Account ID": "26F04D53B39F9050",
-      "Player Name": "ARRozc0nLEchexD",
-      "Games Won": 8,
-      "Games Lost": 28,
-      "Kills": 287,
-      "Deaths": 81,
-      "Score": 376
-    },
-    {
       "Account ID": "467F890E718672E1",
       "Player Name": "zmr242",
       "Games Won": 6,
@@ -159,12 +150,21 @@
       "Score": 352
     },
     {
+      "Account ID": "26F04D53B39F9050",
+      "Player Name": "ARRozc0nLEchexD",
+      "Games Won": 8,
+      "Games Lost": 28,
+      "Kills": 290,
+      "Deaths": 88,
+      "Score": 351
+    },
+    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 4,
-      "Games Lost": 27,
-      "Kills": 302,
-      "Deaths": 92,
+      "Games Lost": 28,
+      "Kills": 309,
+      "Deaths": 94,
       "Score": 341
     },
     {
