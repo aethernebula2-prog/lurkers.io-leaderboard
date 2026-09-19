@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-19T05:15:22.514289+00:00",
-  "lastUpdated": 1789794921628,
-  "cached": false,
+  "updatedAt": "2026-09-19T09:53:47.233440+00:00",
+  "lastUpdated": 1789811212651,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -44,11 +44,11 @@
     {
       "Account ID": "C8863FC33A060E2B",
       "Player Name": "Shodan",
-      "Games Won": 3,
+      "Games Won": 5,
       "Games Lost": 8,
-      "Kills": 228,
-      "Deaths": 22,
-      "Score": 1063
+      "Kills": 306,
+      "Deaths": 26,
+      "Score": 1215
     },
     {
       "Account ID": "545083C5768882B1",
@@ -81,7 +81,7 @@
       "Account ID": "8DAADB1EDBEAE7EC",
       "Player Name": "Ecttttt",
       "Games Won": 0,
-      "Games Lost": 8,
+      "Games Lost": 10,
       "Kills": 15,
       "Deaths": 2,
       "Score": 750
@@ -141,15 +141,6 @@
       "Score": 501
     },
     {
-      "Account ID": "4BCB5C0C23D62CA",
-      "Player Name": "SUSHIMINETA",
-      "Games Won": 5,
-      "Games Lost": 11,
-      "Kills": 489,
-      "Deaths": 105,
-      "Score": 496
-    },
-    {
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 3,
@@ -157,6 +148,15 @@
       "Kills": 205,
       "Deaths": 43,
       "Score": 495
+    },
+    {
+      "Account ID": "4BCB5C0C23D62CA",
+      "Player Name": "SUSHIMINETA",
+      "Games Won": 5,
+      "Games Lost": 12,
+      "Kills": 490,
+      "Deaths": 106,
+      "Score": 491
     },
     {
       "Account ID": "6310F74D9FC47BC8",
