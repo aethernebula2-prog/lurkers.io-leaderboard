@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-20T17:05:39.647975+00:00",
-  "lastUpdated": 1789923530850,
-  "cached": true,
+  "updatedAt": "2026-09-20T19:56:28.513105+00:00",
+  "lastUpdated": 1789934182424,
+  "cached": false,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -54,10 +54,10 @@
       "Account ID": "FB155918BAFE3B5",
       "Player Name": "KeratryX741",
       "Games Won": 8,
-      "Games Lost": 16,
+      "Games Lost": 17,
       "Kills": 177,
       "Deaths": 24,
-      "Score": 770
+      "Score": 769
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -85,6 +85,15 @@
       "Kills": 153,
       "Deaths": 33,
       "Score": 502
+    },
+    {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 7,
+      "Games Lost": 31,
+      "Kills": 494,
+      "Deaths": 110,
+      "Score": 467
     },
     {
       "Account ID": "6709465940687CA1",
@@ -132,15 +141,6 @@
       "Score": 412
     },
     {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 6,
-      "Games Lost": 30,
-      "Kills": 410,
-      "Deaths": 106,
-      "Score": 403
-    },
-    {
       "Account ID": "D168E70AB19CD87F",
       "Player Name": "Xxunstoppable123xX",
       "Games Won": 3,
@@ -150,15 +150,6 @@
       "Score": 387
     },
     {
-      "Account ID": "96CA6AEAB4D59DB",
-      "Player Name": "8ovexs",
-      "Games Won": 4,
-      "Games Lost": 8,
-      "Kills": 123,
-      "Deaths": 36,
-      "Score": 374
-    },
-    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 19,
@@ -166,6 +157,15 @@
       "Kills": 570,
       "Deaths": 168,
       "Score": 372
+    },
+    {
+      "Account ID": "96CA6AEAB4D59DB",
+      "Player Name": "8ovexs",
+      "Games Won": 4,
+      "Games Lost": 9,
+      "Kills": 124,
+      "Deaths": 37,
+      "Score": 365
     },
     {
       "Account ID": "467F890E718672E1",
