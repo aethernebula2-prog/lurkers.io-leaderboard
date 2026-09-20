@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-20T19:56:29.219089+00:00",
-  "lastUpdated": 1789934185490,
+  "updatedAt": "2026-09-20T22:05:08.289741+00:00",
+  "lastUpdated": 1789941905112,
   "cached": false,
   "players": [
     {
@@ -145,9 +145,9 @@
       "Player Name": "BELLnuv",
       "Games Won": 14,
       "Games Lost": 21,
-      "Kills": 424,
-      "Deaths": 173,
-      "Score": 285
+      "Kills": 438,
+      "Deaths": 175,
+      "Score": 290
     },
     {
       "Account ID": "A565A7F63901C930",
