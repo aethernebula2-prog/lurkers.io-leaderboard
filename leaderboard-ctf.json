@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-20T08:00:55.746438+00:00",
-  "lastUpdated": 1789891250667,
-  "cached": false,
+  "updatedAt": "2026-09-20T13:17:09.058997+00:00",
+  "lastUpdated": 1789910182063,
+  "cached": true,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -19,9 +19,9 @@
       "Player Name": "deVVVV",
       "Games Won": 0,
       "Games Lost": 8,
-      "Kills": 44,
-      "Deaths": 6,
-      "Score": 733
+      "Kills": 47,
+      "Deaths": 7,
+      "Score": 671
     },
     {
       "Account ID": "891AEC8338452106",
@@ -87,15 +87,6 @@
       "Score": 369
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 90,
-      "Deaths": 29,
-      "Score": 343
-    },
-    {
       "Account ID": "B03473189C37732B",
       "Player Name": "bamolui23",
       "Games Won": 1,
@@ -114,6 +105,15 @@
       "Score": 335
     },
     {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 90,
+      "Deaths": 30,
+      "Score": 330
+    },
+    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 2,
@@ -123,15 +123,6 @@
       "Score": 306
     },
     {
-      "Account ID": "4310D19AB57621D0",
-      "Player Name": "ahmetko",
-      "Games Won": 8,
-      "Games Lost": 10,
-      "Kills": 112,
-      "Deaths": 43,
-      "Score": 304
-    },
-    {
       "Account ID": "A69C811E302B9820",
       "Player Name": "pi314159",
       "Games Won": 2,
@@ -139,6 +130,15 @@
       "Kills": 50,
       "Deaths": 19,
       "Score": 296
+    },
+    {
+      "Account ID": "4310D19AB57621D0",
+      "Player Name": "ahmetko",
+      "Games Won": 9,
+      "Games Lost": 11,
+      "Kills": 121,
+      "Deaths": 49,
+      "Score": 291
     },
     {
       "Account ID": "A565A7F63901C930",

@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-20T08:00:55.102418+00:00",
-  "lastUpdated": 1789891251456,
-  "cached": false,
+  "updatedAt": "2026-09-20T13:17:08.906026+00:00",
+  "lastUpdated": 1789909954297,
+  "cached": true,
   "players": [
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -27,10 +27,10 @@
       "Account ID": "72E16E3595293FB9",
       "Player Name": "deVVVV",
       "Games Won": 5,
-      "Games Lost": 13,
+      "Games Lost": 15,
       "Kills": 126,
-      "Deaths": 7,
-      "Score": 1827
+      "Deaths": 8,
+      "Score": 1600
     },
     {
       "Account ID": "113785E98F35679A",
@@ -65,8 +65,8 @@
       "Games Won": 17,
       "Games Lost": 16,
       "Kills": 614,
-      "Deaths": 106,
-      "Score": 630
+      "Deaths": 107,
+      "Score": 625
     },
     {
       "Account ID": "51AFB9CF8BB28574",
@@ -96,15 +96,6 @@
       "Score": 453
     },
     {
-      "Account ID": "A88E76CD07E55A5A",
-      "Player Name": "xxDollxx",
-      "Games Won": 10,
-      "Games Lost": 15,
-      "Kills": 146,
-      "Deaths": 38,
-      "Score": 424
-    },
-    {
       "Account ID": "8DAADB1EDBEAE7EC",
       "Player Name": "Ecttttt",
       "Games Won": 4,
@@ -112,6 +103,15 @@
       "Kills": 139,
       "Deaths": 34,
       "Score": 424
+    },
+    {
+      "Account ID": "A88E76CD07E55A5A",
+      "Player Name": "xxDollxx",
+      "Games Won": 10,
+      "Games Lost": 15,
+      "Kills": 146,
+      "Deaths": 39,
+      "Score": 414
     },
     {
       "Account ID": "8A5D0855BB722AA7",
@@ -141,6 +141,24 @@
       "Score": 387
     },
     {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 5,
+      "Games Lost": 30,
+      "Kills": 386,
+      "Deaths": 104,
+      "Score": 385
+    },
+    {
+      "Account ID": "DCAF3B90A783022",
+      "Player Name": "nsrdl",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 114,
+      "Deaths": 32,
+      "Score": 381
+    },
+    {
       "Account ID": "96CA6AEAB4D59DB",
       "Player Name": "8ovexs",
       "Games Won": 4,
@@ -166,24 +184,6 @@
       "Kills": 130,
       "Deaths": 42,
       "Score": 355
-    },
-    {
-      "Account ID": "26F04D53B39F9050",
-      "Player Name": "ARRozc0nLEchexD",
-      "Games Won": 8,
-      "Games Lost": 29,
-      "Kills": 290,
-      "Deaths": 88,
-      "Score": 351
-    },
-    {
-      "Account ID": "26545DBE95274149",
-      "Player Name": "Above",
-      "Games Won": 4,
-      "Games Lost": 9,
-      "Kills": 94,
-      "Deaths": 30,
-      "Score": 344
     }
   ]
 }
