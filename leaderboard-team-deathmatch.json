@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-20T13:17:09.236649+00:00",
-  "lastUpdated": 1789910182601,
-  "cached": true,
+  "updatedAt": "2026-09-20T17:05:41.143825+00:00",
+  "lastUpdated": 1789923936813,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -38,17 +38,17 @@
       "Games Won": 5,
       "Games Lost": 7,
       "Kills": 345,
-      "Deaths": 22,
-      "Score": 1609
+      "Deaths": 23,
+      "Score": 1541
     },
     {
       "Account ID": "C8863FC33A060E2B",
       "Player Name": "Shodan",
       "Games Won": 6,
-      "Games Lost": 9,
-      "Kills": 392,
-      "Deaths": 33,
-      "Score": 1227
+      "Games Lost": 10,
+      "Kills": 415,
+      "Deaths": 39,
+      "Score": 1101
     },
     {
       "Account ID": "545083C5768882B1",
@@ -123,22 +123,13 @@
       "Score": 542
     },
     {
-      "Account ID": "2E5124E426786319",
-      "Player Name": "alphabetaee",
-      "Games Won": 0,
-      "Games Lost": 8,
-      "Kills": 136,
-      "Deaths": 27,
-      "Score": 503
-    },
-    {
       "Account ID": "42583071A8816117",
       "Player Name": "matagayxd",
       "Games Won": 6,
       "Games Lost": 44,
-      "Kills": 1051,
-      "Deaths": 216,
-      "Score": 498
+      "Kills": 1072,
+      "Deaths": 218,
+      "Score": 503
     },
     {
       "Account ID": "A91E77D5DCB0A823",
@@ -157,6 +148,15 @@
       "Kills": 205,
       "Deaths": 43,
       "Score": 495
+    },
+    {
+      "Account ID": "2E5124E426786319",
+      "Player Name": "alphabetaeee",
+      "Games Won": 0,
+      "Games Lost": 9,
+      "Kills": 148,
+      "Deaths": 30,
+      "Score": 493
     },
     {
       "Account ID": "4BCB5C0C23D62CA",
@@ -181,9 +181,9 @@
       "Player Name": "superkiller36",
       "Games Won": 19,
       "Games Lost": 37,
-      "Kills": 1765,
-      "Deaths": 415,
-      "Score": 459
+      "Kills": 1821,
+      "Deaths": 417,
+      "Score": 470
     }
   ]
 }
