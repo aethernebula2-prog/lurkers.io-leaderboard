@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-19T23:45:28.739217+00:00",
-  "lastUpdated": 1789861418038,
+  "updatedAt": "2026-09-20T02:12:42.760999+00:00",
+  "lastUpdated": 1789870009106,
   "cached": true,
   "players": [
     {
@@ -105,6 +105,15 @@
       "Score": 424
     },
     {
+      "Account ID": "8DAADB1EDBEAE7EC",
+      "Player Name": "Ecttttt",
+      "Games Won": 4,
+      "Games Lost": 21,
+      "Kills": 139,
+      "Deaths": 34,
+      "Score": 424
+    },
+    {
       "Account ID": "8A5D0855BB722AA7",
       "Player Name": "BUNKERbuilder",
       "Games Won": 3,
@@ -121,6 +130,15 @@
       "Kills": 295,
       "Deaths": 82,
       "Score": 412
+    },
+    {
+      "Account ID": "D168E70AB19CD87F",
+      "Player Name": "Xxunstoppable123xX",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 188,
+      "Deaths": 54,
+      "Score": 398
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -166,24 +184,6 @@
       "Kills": 94,
       "Deaths": 30,
       "Score": 344
-    },
-    {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 4,
-      "Games Lost": 28,
-      "Kills": 309,
-      "Deaths": 96,
-      "Score": 334
-    },
-    {
-      "Account ID": "3269A895916819CE",
-      "Player Name": "xxZenYor911xx",
-      "Games Won": 3,
-      "Games Lost": 8,
-      "Kills": 84,
-      "Deaths": 28,
-      "Score": 327
     }
   ]
 }
