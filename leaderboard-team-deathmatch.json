@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-20T22:05:08.928021+00:00",
-  "lastUpdated": 1789941908507,
+  "updatedAt": "2026-09-21T00:37:49.642386+00:00",
+  "lastUpdated": 1789951068014,
   "cached": false,
   "players": [
     {
@@ -110,8 +110,17 @@
       "Games Won": 12,
       "Games Lost": 23,
       "Kills": 636,
-      "Deaths": 114,
-      "Score": 592
+      "Deaths": 115,
+      "Score": 587
+    },
+    {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 4,
+      "Games Lost": 14,
+      "Kills": 234,
+      "Deaths": 45,
+      "Score": 542
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -130,24 +139,6 @@
       "Kills": 1133,
       "Deaths": 225,
       "Score": 514
-    },
-    {
-      "Account ID": "A91E77D5DCB0A823",
-      "Player Name": "henrytheperson1234",
-      "Games Won": 5,
-      "Games Lost": 2,
-      "Kills": 141,
-      "Deaths": 32,
-      "Score": 512
-    },
-    {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 3,
-      "Games Lost": 13,
-      "Kills": 205,
-      "Deaths": 43,
-      "Score": 495
     },
     {
       "Account ID": "2E5124E426786319",
@@ -184,6 +175,15 @@
       "Kills": 1821,
       "Deaths": 417,
       "Score": 470
+    },
+    {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "Passatb8",
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 275,
+      "Deaths": 67,
+      "Score": 446
     }
   ]
 }
