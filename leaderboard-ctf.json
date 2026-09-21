@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-21T17:21:29.289830+00:00",
-  "lastUpdated": 1790011283656,
+  "updatedAt": "2026-09-21T21:21:23.680272+00:00",
+  "lastUpdated": 1790025681747,
   "cached": false,
   "players": [
     {
@@ -33,6 +33,15 @@
       "Score": 591
     },
     {
+      "Account ID": "3AEB08EEAFF1B9DC",
+      "Player Name": "Tiameron",
+      "Games Won": 6,
+      "Games Lost": 16,
+      "Kills": 334,
+      "Deaths": 67,
+      "Score": 525
+    },
+    {
       "Account ID": "7E7D93C59BA6DEF9",
       "Player Name": "BRATJA",
       "Games Won": 6,
@@ -58,15 +67,6 @@
       "Kills": 243,
       "Deaths": 57,
       "Score": 470
-    },
-    {
-      "Account ID": "3AEB08EEAFF1B9DC",
-      "Player Name": "Tiameron",
-      "Games Won": 5,
-      "Games Lost": 11,
-      "Kills": 245,
-      "Deaths": 58,
-      "Score": 453
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -135,10 +135,10 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 15,
-      "Games Lost": 22,
+      "Games Lost": 23,
       "Kills": 449,
       "Deaths": 183,
-      "Score": 285
+      "Score": 284
     },
     {
       "Account ID": "A565A7F63901C930",
@@ -150,22 +150,22 @@
       "Score": 282
     },
     {
-      "Account ID": "4310D19AB57621D0",
-      "Player Name": "ahmetko",
-      "Games Won": 9,
-      "Games Lost": 13,
-      "Kills": 127,
-      "Deaths": 59,
-      "Score": 256
-    },
-    {
       "Account ID": "BF768EDCA3C4709C",
       "Player Name": "soujaboy1977",
       "Games Won": 12,
       "Games Lost": 4,
-      "Kills": 125,
-      "Deaths": 69,
-      "Score": 256
+      "Kills": 126,
+      "Deaths": 70,
+      "Score": 255
+    },
+    {
+      "Account ID": "4310D19AB57621D0",
+      "Player Name": "ahmetko",
+      "Games Won": 11,
+      "Games Lost": 13,
+      "Kills": 127,
+      "Deaths": 62,
+      "Score": 250
     },
     {
       "Account ID": "CF301CDD91D0E8F7",
