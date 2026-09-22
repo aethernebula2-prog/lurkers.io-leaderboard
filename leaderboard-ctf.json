@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-22T10:31:04.223109+00:00",
-  "lastUpdated": 1790073059549,
-  "cached": false,
+  "updatedAt": "2026-09-22T15:13:56.054846+00:00",
+  "lastUpdated": 1790089773368,
+  "cached": true,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -26,11 +26,11 @@
     {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
-      "Games Won": 16,
-      "Games Lost": 18,
-      "Kills": 399,
-      "Deaths": 71,
-      "Score": 609
+      "Games Won": 21,
+      "Games Lost": 22,
+      "Kills": 546,
+      "Deaths": 96,
+      "Score": 617
     },
     {
       "Account ID": "891AEC8338452106",
@@ -87,15 +87,6 @@
       "Score": 369
     },
     {
-      "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
-      "Games Won": 6,
-      "Games Lost": 7,
-      "Kills": 97,
-      "Deaths": 32,
-      "Score": 349
-    },
-    {
       "Account ID": "B03473189C37732B",
       "Player Name": "bamolui23",
       "Games Won": 1,
@@ -103,6 +94,15 @@
       "Kills": 108,
       "Deaths": 33,
       "Score": 343
+    },
+    {
+      "Account ID": "A69C811E302B9820",
+      "Player Name": "pi314159",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 78,
+      "Deaths": 26,
+      "Score": 336
     },
     {
       "Account ID": "D77A0E04B18C4A04",
@@ -114,6 +114,15 @@
       "Score": 335
     },
     {
+      "Account ID": "B35AF7290BDBCD54",
+      "Player Name": "tegin",
+      "Games Won": 7,
+      "Games Lost": 7,
+      "Kills": 107,
+      "Deaths": 38,
+      "Score": 331
+    },
+    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 2,
@@ -121,15 +130,6 @@
       "Kills": 149,
       "Deaths": 51,
       "Score": 306
-    },
-    {
-      "Account ID": "A69C811E302B9820",
-      "Player Name": "pi314159",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 50,
-      "Deaths": 20,
-      "Score": 287
     },
     {
       "Account ID": "711F0DC522C942F6",
@@ -162,10 +162,10 @@
       "Account ID": "4310D19AB57621D0",
       "Player Name": "ahmetko",
       "Games Won": 11,
-      "Games Lost": 13,
+      "Games Lost": 14,
       "Kills": 127,
-      "Deaths": 62,
-      "Score": 250
+      "Deaths": 63,
+      "Score": 245
     },
     {
       "Account ID": "CF301CDD91D0E8F7",
