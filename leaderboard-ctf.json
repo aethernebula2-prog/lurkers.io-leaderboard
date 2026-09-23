@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-23T01:01:39.008599+00:00",
-  "lastUpdated": 1790125296602,
+  "updatedAt": "2026-09-23T06:55:06.319587+00:00",
+  "lastUpdated": 1790146503657,
   "cached": false,
   "players": [
     {
@@ -26,20 +26,20 @@
     {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
-      "Games Won": 27,
-      "Games Lost": 23,
-      "Kills": 610,
-      "Deaths": 100,
-      "Score": 664
+      "Games Won": 33,
+      "Games Lost": 25,
+      "Kills": 670,
+      "Deaths": 106,
+      "Score": 688
     },
     {
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
-      "Games Won": 6,
-      "Games Lost": 13,
-      "Kills": 167,
-      "Deaths": 30,
-      "Score": 588
+      "Games Won": 7,
+      "Games Lost": 14,
+      "Kills": 169,
+      "Deaths": 32,
+      "Score": 561
     },
     {
       "Account ID": "7E7D93C59BA6DEF9",
@@ -72,10 +72,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 21,
-      "Games Lost": 46,
-      "Kills": 458,
-      "Deaths": 128,
-      "Score": 389
+      "Games Lost": 49,
+      "Kills": 467,
+      "Deaths": 131,
+      "Score": 386
     },
     {
       "Account ID": "BC1F611B01E03D2F",
@@ -135,10 +135,19 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 17,
-      "Games Lost": 27,
+      "Games Lost": 28,
       "Kills": 477,
-      "Deaths": 189,
-      "Score": 291
+      "Deaths": 191,
+      "Score": 287
+    },
+    {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 7,
+      "Games Lost": 5,
+      "Kills": 78,
+      "Deaths": 34,
+      "Score": 287
     },
     {
       "Account ID": "A565A7F63901C930",
@@ -148,15 +157,6 @@
       "Kills": 58,
       "Deaths": 25,
       "Score": 282
-    },
-    {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 7,
-      "Games Lost": 4,
-      "Kills": 62,
-      "Deaths": 30,
-      "Score": 270
     },
     {
       "Account ID": "BF768EDCA3C4709C",
