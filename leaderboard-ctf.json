@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-24T12:59:55.179073+00:00",
-  "lastUpdated": 1790254793632,
+  "updatedAt": "2026-09-24T17:46:36.382088+00:00",
+  "lastUpdated": 1790271995091,
   "cached": false,
   "players": [
     {
@@ -62,11 +62,11 @@
     {
       "Account ID": "844C476E593C7815",
       "Player Name": "vojenkomat3000",
-      "Games Won": 4,
+      "Games Won": 5,
       "Games Lost": 5,
-      "Kills": 243,
-      "Deaths": 57,
-      "Score": 470
+      "Kills": 256,
+      "Deaths": 62,
+      "Score": 462
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -115,12 +115,12 @@
     },
     {
       "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "tegin",
+      "Player Name": "iskender",
       "Games Won": 8,
       "Games Lost": 8,
       "Kills": 109,
-      "Deaths": 39,
-      "Score": 329
+      "Deaths": 40,
+      "Score": 322
     },
     {
       "Account ID": "E99D6DABC230FD6A",
@@ -162,10 +162,10 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 18,
-      "Games Lost": 29,
+      "Games Lost": 30,
       "Kills": 487,
-      "Deaths": 202,
-      "Score": 279
+      "Deaths": 203,
+      "Score": 277
     },
     {
       "Account ID": "BF768EDCA3C4709C",
