@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-24T20:54:11.110844+00:00",
-  "lastUpdated": 1790283249282,
+  "updatedAt": "2026-09-24T23:39:02.048858+00:00",
+  "lastUpdated": 1790293139881,
   "cached": false,
   "players": [
     {
@@ -74,8 +74,8 @@
       "Games Won": 21,
       "Games Lost": 49,
       "Kills": 467,
-      "Deaths": 131,
-      "Score": 386
+      "Deaths": 132,
+      "Score": 383
     },
     {
       "Account ID": "BC1F611B01E03D2F",
@@ -123,15 +123,6 @@
       "Score": 322
     },
     {
-      "Account ID": "E99D6DABC230FD6A",
-      "Player Name": "JettySekit",
-      "Games Won": 2,
-      "Games Lost": 12,
-      "Kills": 149,
-      "Deaths": 51,
-      "Score": 306
-    },
-    {
       "Account ID": "6341AD39D8FD472F",
       "Player Name": "XxGRYZENxX",
       "Games Won": 4,
@@ -139,6 +130,15 @@
       "Kills": 47,
       "Deaths": 18,
       "Score": 305
+    },
+    {
+      "Account ID": "E99D6DABC230FD6A",
+      "Player Name": "JettySekit",
+      "Games Won": 2,
+      "Games Lost": 12,
+      "Kills": 151,
+      "Deaths": 53,
+      "Score": 299
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -168,6 +168,15 @@
       "Score": 277
     },
     {
+      "Account ID": "42583071A8816117",
+      "Player Name": "matagayxd",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 22,
+      "Deaths": 9,
+      "Score": 277
+    },
+    {
       "Account ID": "BF768EDCA3C4709C",
       "Player Name": "soujaboy1977",
       "Games Won": 12,
@@ -175,15 +184,6 @@
       "Kills": 126,
       "Deaths": 70,
       "Score": 255
-    },
-    {
-      "Account ID": "4310D19AB57621D0",
-      "Player Name": "ahmetko",
-      "Games Won": 11,
-      "Games Lost": 14,
-      "Kills": 127,
-      "Deaths": 63,
-      "Score": 245
     }
   ]
 }
