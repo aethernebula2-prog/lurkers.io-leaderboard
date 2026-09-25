@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,9 +120,6 @@
             background-image: url("flags.png");
             background-repeat: no-repeat;
 
-            /*
-             * Keep pixel art sharp.
-             */
             image-rendering: pixelated;
 
             /*
@@ -152,15 +150,13 @@
             font-family: monospace;
         }
 
-        .flag-position {
-            margin-top: 5px;
+        .flag-number {
+            margin-top: 3px;
 
             color: var(--secondary-text);
 
             font-size: 10px;
             font-family: monospace;
-
-            opacity: 0.7;
         }
 
         .empty {
@@ -206,7 +202,6 @@
         </div>
     </header>
 
-
     <div class="search-container">
         <input
             type="search"
@@ -216,12 +211,10 @@
         >
     </div>
 
-
     <section
         class="flags-grid"
         id="flagsGrid"
     ></section>
-
 
     <div
         class="empty"
@@ -230,13 +223,11 @@
         No flags found.
     </div>
 
-
     <footer class="site-footer">
         Lurkers.io Flags · Community reference
     </footer>
 
 </main>
-
 
 <script>
 
@@ -257,24 +248,10 @@
 
     /*
      * Distance from one flag to the next.
-     *
-     * Flag width  = 16px
-     * Horizontal gap ≈ 2px
-     *
-     * Flag height = 11px
-     * Vertical gap ≈ 2px
      */
     const STEP_X = 18;
     const STEP_Y = 13;
 
-    /*
-     * Sprite sheet:
-     *
-     * 28 columns
-     * 9 rows
-     *
-     * 28 × 9 = 252 positions
-     */
     const COLUMNS = 28;
     const ROWS = 9;
 
@@ -282,22 +259,277 @@
     /*
      * ==========================================================
      * Flag data
+     *
+     * Format:
+     *
+     * number: ["Country / Region", "Code"]
      * ==========================================================
-     *
-     * For now the flags are unidentified.
-     *
-     * Later you can change:
-     *
-     * {
-     *     name: "Canada",
-     *     code: "CA"
-     * }
-     *
-     * The column and row should NOT be changed.
+     */
+
+    const flagData = {
+
+        1: ["United Nations", "UN"],
+        2: ["Guinea-Bissau", "GW"],
+        3: ["Bhutan", "BT"],
+        4: ["Zimbabwe", "ZW"],
+        5: ["Tajikistan", "TJ"],
+        6: ["United States", "US"],
+        7: ["Zimbabwe", "ZW"],
+        8: ["Bangladesh", "BD"],
+        9: ["Liberia", "LR"],
+        10: ["China", "CN"],
+        11: ["Isle of Man", "IM"],
+        12: ["Ghana", "GH"],
+        13: ["Nigeria", "NG"],
+        14: ["Azerbaijan", "AZ"],
+        15: ["Laos", "LA"],
+        16: ["French Polynesia", "PF"],
+        17: ["Kuwait", "KW"],
+        18: ["Slovakia", "SK"],
+        19: ["Peru", "PE"],
+        20: ["Gibraltar", "GI"],
+        21: ["Mongolia", "MN"],
+        22: ["Afghanistan", "AF"],
+        23: ["Falkland Islands", "FK"],
+        24: ["Marshall Islands", "MH"],
+        25: ["Pitcairn Islands", "PN"],
+        26: ["Faroe Islands", "FO"],
+        27: ["Iceland", "IS"],
+        29: ["Australia", "AU"],
+        30: ["Niger", "NE"],
+        31: ["Australia", "AU"],
+        32: ["French Guiana", "GF"],
+        33: ["Bermuda", "BM"],
+        34: ["Cyprus", "CY"],
+        35: ["Antigua and Barbuda", "AG"],
+        36: ["Comoros", "KM"],
+        37: ["Saint Kitts and Nevis", "KN"],
+        38: ["Turks and Caicos Islands", "TC"],
+        39: ["Denmark", "DK"],
+        40: ["Kenya", "KE"],
+        41: ["Sahrawi Arab Democratic Republic", "EH"],
+        42: ["Vanuatu", "VU"],
+        43: ["Uruguay", "UY"],
+        44: ["Greenland", "GL"],
+        45: ["Georgia", "GE"],
+        46: ["Martinique", "MQ"],
+        47: ["Uganda", "UG"],
+        48: ["Sint Maarten", "SX"],
+        49: ["Costa Rica", "CR"],
+        50: ["Bahamas", "BS"],
+        51: ["Saint Lucia", "LC"],
+        52: ["Armenia", "AM"],
+        53: ["Sweden", "SE"],
+        54: ["Myanmar", "MM"],
+        55: ["Nepal", "NP"],
+        56: ["Ethiopia", "ET"],
+        57: ["New Zealand", "NZ"],
+        58: ["Bulgaria", "BG"],
+        59: ["Latvia", "LV"],
+        60: ["Oman", "OM"],
+        61: ["Pakistan", "PK"],
+        62: ["Tristan da Cunha", "SH-TA"],
+        63: ["Hong Kong", "HK"],
+        64: ["South Georgia and the South Sandwich Islands", "GS"],
+        65: ["Canada", "CA"],
+        66: ["Equatorial Guinea", "GQ"],
+        67: ["Norway", "NO"],
+        68: ["Sierra Leone", "SL"],
+        69: ["Morocco", "MA"],
+        70: ["Jamaica", "JM"],
+        71: ["Mali", "ML"],
+        72: ["Cameroon", "CM"],
+        73: ["Botswana", "BW"],
+        74: ["Barbados", "BB"],
+        75: ["Saint Pierre and Miquelon", "PM"],
+        76: ["Serbia", "RS"],
+        77: ["Belize", "BZ"],
+        78: ["Israel", "IL"],
+        79: ["Iraq", "IQ"],
+        80: ["Estonia", "EE"],
+        81: ["Djibouti", "DJ"],
+        82: ["Eritrea", "ER"],
+        83: ["Suriname", "SR"],
+        84: ["Mauritius", "MU"],
+        85: ["Mozambique", "MZ"],
+        86: ["Yemen", "YE"],
+        87: ["Montenegro", "ME"],
+        88: ["Lebanon", "LB"],
+        89: ["Cocos (Keeling) Islands", "CC"],
+        90: ["Mauritania", "MR"],
+        91: ["Zambia", "ZM"],
+        92: ["Slovenia", "SI"],
+        93: ["Honduras", "HN"],
+        94: ["Madagascar", "MG"],
+        95: ["South Korea", "KR"],
+        96: ["Switzerland", "CH"],
+        97: ["Guernsey", "GG"],
+        98: ["Turkmenistan", "TM"],
+        99: ["Paraguay", "PY"],
+        100: ["Bonaire", "BQ"],
+        101: ["Puerto Rico", "PR"],
+        102: ["Tokelau", "TK"],
+        103: ["Iran", "IR"],
+        104: ["Grenada", "GD"],
+        105: ["Central African Republic", "CF"],
+        106: ["Indonesia", "ID"],
+        107: ["Burkina Faso", "BF"],
+        108: ["Romania", "RO"],
+        109: ["Réunion", "RE"],
+        110: ["British Virgin Islands", "VG"],
+        111: ["Monaco", "MC"],
+        112: ["U.S. Virgin Islands", "VI"],
+        113: ["Malawi", "MW"],
+        114: ["Chad", "TD"],
+        115: ["Qatar", "QA"],
+        116: ["Christmas Island", "CX"],
+        117: ["Montserrat", "MS"],
+        118: ["North Macedonia", "MK"],
+        119: ["Russia", "RU"],
+        120: ["Guam", "GU"],
+        121: ["France", "FR"],
+        122: ["Niue", "NU"],
+        123: ["Curaçao", "CW"],
+        124: ["Benin", "BJ"],
+        125: ["Saudi Arabia", "SA"],
+        126: ["French Southern and Antarctic Lands", "TF"],
+        127: ["Tonga", "TO"],
+        128: ["Albania", "AL"],
+        129: ["Philippines", "PH"],
+        130: ["Jersey", "JE"],
+        131: ["Trinidad and Tobago", "TT"],
+        132: ["Antarctica", "AQ"],
+        133: ["Bolivia", "BO"],
+        134: ["Colombia", "CO"],
+        135: ["Seychelles", "SC"],
+        136: ["Jordan", "JO"],
+        137: ["Micronesia", "FM"],
+        138: ["Italy", "IT"],
+        139: ["San Marino", "SM"],
+        140: ["Mexico", "MX"],
+        141: ["Sudan", "SD"],
+        142: ["Argentina", "AR"],
+        143: ["Norway", "NO"],
+        144: ["Democratic Republic of the Congo", "CD"],
+        145: ["Poland", "PL"],
+        146: ["Angola", "AO"],
+        147: ["Papua New Guinea", "PG"],
+        148: ["Anguilla", "AI"],
+        149: ["Syria", "SY"],
+        150: ["Wallis and Futuna", "WF"],
+        151: ["Tunisia", "TN"],
+        152: ["Taiwan", "TW"],
+        153: ["Brunei", "BN"],
+        154: ["Ecuador", "EC"],
+        155: ["Luxembourg", "LU"],
+        156: ["Namibia", "NA"],
+        157: ["Kyrgyzstan", "KG"],
+        158: ["Eswatini / Swaziland", "SZ"],
+        159: ["Finland", "FI"],
+        160: ["Burundi", "BI"],
+        161: ["Lesotho", "LS"],
+        162: ["Venezuela", "VE"],
+        163: ["Panama", "PA"],
+        164: ["Vancouver Island", "VI"],
+        165: ["Dominican Republic", "DO"],
+        166: ["Vatican City", "VA"],
+        167: ["American Samoa", "AS"],
+        168: ["Solomon Islands", "SB"],
+        169: ["Lithuania", "LT"],
+        170: ["Vietnam", "VN"],
+        171: ["Canary Islands", "IC"],
+        172: ["Somalia", "SO"],
+        173: ["Thailand", "TH"],
+        174: ["Kiribati", "KI"],
+        175: ["Rwanda", "RW"],
+        176: ["Mayotte", "YT"],
+        177: ["Saint Vincent and the Grenadines", "VC"],
+        178: ["Saint Helena", "SH"],
+        179: ["Malaysia", "MY"],
+        180: ["São Tomé and Príncipe", "ST"],
+        181: ["Croatia", "HR"],
+        182: ["Belgium", "BE"],
+        183: ["Malta", "MT"],
+        184: ["Brazil", "BR"],
+        185: ["Senegal", "SN"],
+        186: ["Liechtenstein", "LI"],
+        187: ["New Caledonia", "NC"],
+        188: ["Ireland", "IE"],
+        189: ["Hungary", "HU"],
+        190: ["Guyana", "GY"],
+        191: ["Tanzania", "TZ"],
+        192: ["Gabon", "GA"],
+        193: ["Maldives", "MV"],
+        194: ["Algeria", "DZ"],
+        195: ["Colombia", "CO"],
+        196: ["Cayman Islands", "KY"],
+        197: ["Samoa", "WS"],
+        198: ["Egypt", "EG"],
+        199: ["Cook Islands", "CK"],
+        200: ["Guinea", "GN"],
+        201: ["Fiji", "FJ"],
+        202: ["Cambodia", "KH"],
+        203: ["Kazakhstan", "KZ"],
+        204: ["Åland Islands", "AX"],
+        205: ["Macau", "MO"],
+        206: ["Singapore", "SG"],
+        207: ["Libya", "LY"],
+        208: ["Portugal", "PT"],
+        209: ["Bahrain", "BH"],
+        210: ["Saint Barthélemy", "BL"],
+        211: ["未识别", "—"],
+        212: ["Kosovo", "XK"],
+        213: ["British Indian Ocean Territory", "IO"],
+        214: ["Norfolk Island", "NF"],
+        215: ["Guatemala", "GT"],
+        216: ["Netherlands", "NL"],
+        217: ["Andorra", "AD"],
+        218: ["South Sudan", "SS"],
+        219: ["Republic of the Congo", "CG"],
+        220: ["Timor-Leste", "TL"],
+        221: ["North Korea", "KP"],
+        222: ["Gambia", "GM"],
+        223: ["Sri Lanka", "LK"],
+        224: ["South Africa", "ZA"],
+        225: ["Aruba", "AW"],
+        226: ["Cape Verde", "CV"],
+        227: ["Nauru", "NR"],
+        228: ["Ukraine", "UA"],
+        229: ["Palestine", "PS"],
+        230: ["India", "IN"],
+        231: ["Türkiye / Turkey", "TR"],
+        232: ["Japan", "JP"],
+        233: ["Chile", "CL"],
+        234: ["Palau", "PW"],
+        235: ["United Kingdom", "GB"],
+        236: ["European Union", "EU"],
+        237: ["United Arab Emirates", "AE"],
+        238: ["未识别", "—"],
+        239: ["El Salvador", "SV"],
+        240: ["Austria", "AT"],
+        241: ["Belarus", "BY"],
+        242: ["Germany", "DE"],
+        243: ["Cuba", "CU"],
+        244: ["Côte d’Ivoire / Ivory Coast", "CI"],
+        245: ["Togo", "TG"],
+        246: ["Guadeloupe", "GP"],
+        247: ["Czechia / Czech Republic", "CZ"],
+        248: ["Greece", "GR"],
+        249: ["Bosnia and Herzegovina", "BA"],
+        250: ["Haiti", "HT"],
+        251: ["Dominica", "DM"],
+        252: ["Nicaragua", "NI"]
+
+    };
+
+
+    /*
+     * ==========================================================
+     * Build flag list
+     * ==========================================================
      */
 
     const flags = [];
-
 
     for (let row = 0; row < ROWS; row++) {
 
@@ -306,49 +538,38 @@
             const number =
                 row * COLUMNS + column + 1;
 
+            if (number === 28) {
+                continue;
+            }
+
+            const data =
+                flagData[number] || ["Unknown Flag", "—"];
+
             flags.push({
                 number: number,
-
                 row: row,
                 column: column,
 
-                name: `Unknown Flag #${number}`,
-                code: ""
+                name: data[0],
+                code: data[1]
             });
-
         }
     }
 
 
     /*
      * ==========================================================
-     * Example of how we'll identify flags later
-     * ==========================================================
-     *
-     * Uncomment/edit entries like this:
-     *
-     * flags[0].name = "Canada";
-     * flags[0].code = "CA";
-     *
-     * flags[1].name = "United States";
-     * flags[1].code = "US";
-     *
-     * flags[2].name = "China";
-     * flags[2].code = "CN";
-     */
-
-
-    /*
-     * ==========================================================
-     * Create one flag card
+     * Create flag card
      * ==========================================================
      */
 
     function createFlagCard(flag) {
 
-        const card = document.createElement("div");
+        const card =
+            document.createElement("div");
 
         card.className = "flag-card";
+
 
         /*
          * Search text.
@@ -361,23 +582,14 @@
         /*
          * Sprite viewport.
          */
-        const image = document.createElement("div");
+        const image =
+            document.createElement("div");
 
         image.className = "flag";
 
 
         /*
          * Calculate sprite position.
-         *
-         * Example:
-         *
-         * column 0 → x = 2
-         * column 1 → x = 20
-         * column 2 → x = 38
-         *
-         * row 0 → y = 2
-         * row 1 → y = 15
-         * row 2 → y = 28
          */
         const x =
             START_X +
@@ -417,25 +629,21 @@
 
 
         /*
-         * Sprite position information.
-         *
-         * Useful while we're identifying
-         * the flags.
+         * Sprite number.
          */
-        const position =
+        const number =
             document.createElement("div");
 
-        position.className =
-            "flag-position";
+        number.className = "flag-number";
 
-        position.textContent =
-            `R${flag.row + 1} · C${flag.column + 1}`;
+        number.textContent =
+            `#${flag.number}`;
 
 
         card.appendChild(image);
         card.appendChild(name);
         card.appendChild(code);
-        card.appendChild(position);
+        card.appendChild(number);
 
 
         return card;
@@ -474,6 +682,9 @@
     }
 
 
+    /*
+     * Initial render.
+     */
     renderFlags(flags);
 
 
@@ -519,3 +730,5 @@
 
 </body>
 </html>
+```
+
