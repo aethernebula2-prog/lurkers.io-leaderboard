@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lurkers.io Flags</title>
+
+    <style>
+        :root {
+            --background: #0d1117;
+            --card: #161b22;
+            --card-hover: #1c2430;
+            --border: #30363d;
+            --text: #f0f6fc;
+            --secondary-text: #8b949e;
+            --accent: #58a6ff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            margin-bottom: 28px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            margin-top: 8px;
+            color: var(--secondary-text);
+            font-size: 14px;
+        }
+
+        .search-container {
+            margin-bottom: 24px;
+        }
+
+        #search {
+            width: 100%;
+            padding: 10px 12px;
+
+            background: var(--card);
+            color: var(--text);
+
+            border: 1px solid var(--border);
+            border-radius: 7px;
+
+            outline: none;
+            font-size: 14px;
+        }
+
+        #search:focus {
+            border-color: var(--accent);
+        }
+
+        .flags-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fill, minmax(150px, 1fr));
+
+            gap: 12px;
+        }
+
+        .flag-card {
+            min-height: 125px;
+
+            padding: 16px;
+
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            transition:
+                background 0.15s ease,
+                border-color 0.15s ease,
+                transform 0.15s ease;
+        }
+
+        .flag-card:hover {
+            background: var(--card-hover);
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /*
+         * One flag in the sprite sheet:
+         *
+         * Width:  16px
+         * Height: 11px
+         */
+        .flag {
+            width: 16px;
+            height: 11px;
+
+            background-image: url("flags.png");
+            background-repeat: no-repeat;
+
+            /*
+             * Keep pixel art sharp.
+             */
+            image-rendering: pixelated;
+
+            /*
+             * Display at 4× size:
+             * 16 × 11 → 64 × 44
+             */
+            transform: scale(4);
+            transform-origin: center;
+
+            margin: 22px 0;
+        }
+
+        .flag-name {
+            margin-top: 4px;
+
+            font-size: 14px;
+            font-weight: 600;
+
+            text-align: center;
+        }
+
+        .flag-code {
+            margin-top: 4px;
+
+            color: var(--secondary-text);
+
+            font-size: 11px;
+            font-family: monospace;
+        }
+
+        .flag-position {
+            margin-top: 5px;
+
+            color: var(--secondary-text);
+
+            font-size: 10px;
+            font-family: monospace;
+
+            opacity: 0.7;
+        }
+
+        .empty {
+            display: none;
+            padding: 30px 0;
+
+            color: var(--secondary-text);
+            text-align: center;
+        }
+
+        .site-footer {
+            margin-top: 35px;
+            padding: 15px 0;
+
+            text-align: center;
+
+            color: var(--secondary-text);
+            font-size: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 12px;
+            }
+
+            .flags-grid {
+                grid-template-columns:
+                    repeat(2, minmax(0, 1fr));
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="container">
+
+    <header>
+        <h1>Lurkers.io Flags</h1>
+
+        <div class="subtitle">
+            Pixel flags used by Lurkers.io
+        </div>
+    </header>
+
+
+    <div class="search-container">
+        <input
+            type="search"
+            id="search"
+            placeholder="Search flags..."
+            autocomplete="off"
+        >
+    </div>
+
+
+    <section
+        class="flags-grid"
+        id="flagsGrid"
+    ></section>
+
+
+    <div
+        class="empty"
+        id="emptyMessage"
+    >
+        No flags found.
+    </div>
+
+
+    <footer class="site-footer">
+        Lurkers.io Flags · Community reference
+    </footer>
+
+</main>
+
+
+<script>
+
+    /*
+     * ==========================================================
+     * Sprite sheet configuration
+     * ==========================================================
+     */
+
+    const FLAG_WIDTH = 16;
+    const FLAG_HEIGHT = 11;
+
+    /*
+     * Position of the first flag in the sprite sheet.
+     */
+    const START_X = 2;
+    const START_Y = 2;
+
+    /*
+     * Distance from one flag to the next.
+     *
+     * Flag width  = 16px
+     * Horizontal gap ≈ 2px
+     *
+     * Flag height = 11px
+     * Vertical gap ≈ 2px
+     */
+    const STEP_X = 18;
+    const STEP_Y = 13;
+
+    /*
+     * Sprite sheet:
+     *
+     * 28 columns
+     * 9 rows
+     *
+     * 28 × 9 = 252 positions
+     */
+    const COLUMNS = 28;
+    const ROWS = 9;
+
+
+    /*
+     * ==========================================================
+     * Flag data
+     * ==========================================================
+     *
+     * For now the flags are unidentified.
+     *
+     * Later you can change:
+     *
+     * {
+     *     name: "Canada",
+     *     code: "CA"
+     * }
+     *
+     * The column and row should NOT be changed.
+     */
+
+    const flags = [];
+
+
+    for (let row = 0; row < ROWS; row++) {
+
+        for (let column = 0; column < COLUMNS; column++) {
+
+            const number =
+                row * COLUMNS + column + 1;
+
+            flags.push({
+                number: number,
+
+                row: row,
+                column: column,
+
+                name: `Unknown Flag #${number}`,
+                code: ""
+            });
+
+        }
+    }
+
+
+    /*
+     * ==========================================================
+     * Example of how we'll identify flags later
+     * ==========================================================
+     *
+     * Uncomment/edit entries like this:
+     *
+     * flags[0].name = "Canada";
+     * flags[0].code = "CA";
+     *
+     * flags[1].name = "United States";
+     * flags[1].code = "US";
+     *
+     * flags[2].name = "China";
+     * flags[2].code = "CN";
+     */
+
+
+    /*
+     * ==========================================================
+     * Create one flag card
+     * ==========================================================
+     */
+
+    function createFlagCard(flag) {
+
+        const card = document.createElement("div");
+
+        card.className = "flag-card";
+
+        /*
+         * Search text.
+         */
+        card.dataset.search =
+            `${flag.name} ${flag.code} ${flag.number}`
+                .toLowerCase();
+
+
+        /*
+         * Sprite viewport.
+         */
+        const image = document.createElement("div");
+
+        image.className = "flag";
+
+
+        /*
+         * Calculate sprite position.
+         *
+         * Example:
+         *
+         * column 0 → x = 2
+         * column 1 → x = 20
+         * column 2 → x = 38
+         *
+         * row 0 → y = 2
+         * row 1 → y = 15
+         * row 2 → y = 28
+         */
+        const x =
+            START_X +
+            flag.column * STEP_X;
+
+        const y =
+            START_Y +
+            flag.row * STEP_Y;
+
+
+        image.style.backgroundPosition =
+            `-${x}px -${y}px`;
+
+
+        /*
+         * Country / region name.
+         */
+        const name =
+            document.createElement("div");
+
+        name.className = "flag-name";
+
+        name.textContent =
+            flag.name;
+
+
+        /*
+         * Country / region code.
+         */
+        const code =
+            document.createElement("div");
+
+        code.className = "flag-code";
+
+        code.textContent =
+            flag.code;
+
+
+        /*
+         * Sprite position information.
+         *
+         * Useful while we're identifying
+         * the flags.
+         */
+        const position =
+            document.createElement("div");
+
+        position.className =
+            "flag-position";
+
+        position.textContent =
+            `R${flag.row + 1} · C${flag.column + 1}`;
+
+
+        card.appendChild(image);
+        card.appendChild(name);
+        card.appendChild(code);
+        card.appendChild(position);
+
+
+        return card;
+    }
+
+
+    /*
+     * ==========================================================
+     * Render flags
+     * ==========================================================
+     */
+
+    const flagsGrid =
+        document.getElementById("flagsGrid");
+
+    const emptyMessage =
+        document.getElementById("emptyMessage");
+
+
+    function renderFlags(list) {
+
+        flagsGrid.innerHTML = "";
+
+        for (const flag of list) {
+
+            flagsGrid.appendChild(
+                createFlagCard(flag)
+            );
+
+        }
+
+        emptyMessage.style.display =
+            list.length === 0
+                ? "block"
+                : "none";
+    }
+
+
+    renderFlags(flags);
+
+
+    /*
+     * ==========================================================
+     * Search
+     * ==========================================================
+     */
+
+    const search =
+        document.getElementById("search");
+
+
+    search.addEventListener("input", function () {
+
+        const query =
+            this.value
+                .trim()
+                .toLowerCase();
+
+
+        if (!query) {
+
+            renderFlags(flags);
+
+            return;
+        }
+
+
+        const filtered =
+            flags.filter(flag =>
+                `${flag.name} ${flag.code} ${flag.number}`
+                    .toLowerCase()
+                    .includes(query)
+            );
+
+
+        renderFlags(filtered);
+
+    });
+
+</script>
+
+</body>
+</html>
