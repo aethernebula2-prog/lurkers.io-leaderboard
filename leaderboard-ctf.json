@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-25T08:18:19.614574+00:00",
-  "lastUpdated": 1790324140889,
-  "cached": true,
+  "updatedAt": "2026-09-25T14:16:56.158003+00:00",
+  "lastUpdated": 1790345813682,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -26,11 +26,11 @@
     {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
-      "Games Won": 36,
-      "Games Lost": 30,
-      "Kills": 774,
-      "Deaths": 122,
-      "Score": 688
+      "Games Won": 38,
+      "Games Lost": 34,
+      "Kills": 822,
+      "Deaths": 135,
+      "Score": 661
     },
     {
       "Account ID": "891AEC8338452106",
@@ -124,7 +124,7 @@
     },
     {
       "Account ID": "B35AF7290BDBCD54",
-      "Player Name": "iskender",
+      "Player Name": "tegin",
       "Games Won": 8,
       "Games Lost": 8,
       "Kills": 109,
