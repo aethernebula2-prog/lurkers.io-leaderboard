@@ -597,6 +597,7 @@
 <div class="bottom-buttons">
     <button id="aboutButton" data-i18n="about">About</button>
     <button id="settingsButton" data-i18n="settings">Settings</button>
+    <button id="flagsButton" data-i18n="flags">Flags</button>
 </div>
 
     <div id="aboutModal" class="modal">
@@ -1231,7 +1232,8 @@ const translations = {
         totalgames: "Total Games",
         compareChangesAgainst: "Compare Changes Against:",
         oneDayAgo: "yesterday",
-        newest: "newest"
+        newest: "newest",
+        flags: "Flaglist"
     },
 
     zh: {
@@ -1266,7 +1268,8 @@ const translations = {
         totalgames: "总场数",
         compareChangesAgainst: "变化比较：",
         oneDayAgo: "昨天",
-        newest: "最新"
+        newest: "最新",
+        flags: "旗帜列表"
     },
     
     ja: {
@@ -1301,7 +1304,8 @@ const translations = {
         totalgames: "総ゲーム数",
         compareChangesAgainst: "変化の比較",
         oneDayAgo: "昨日",
-        newest: "最新"
+        newest: "最新",
+        flags: "国旗の一覧"
     },
 
     es:{
@@ -1336,7 +1340,8 @@ const translations = {
         totalgames: "Partidas Totales",
         compareChangesAgainst: "Comparar Cambios:",
         oneDayAgo: "ayer",
-        newest: "más reciente"
+        newest: "más reciente",
+        flags: "Lista de Banderas"
     },
 
     de:{
@@ -1371,7 +1376,8 @@ const translations = {
         totalgames: "Spiele Insgesamt",
         compareChangesAgainst: "Änderungen Vergleichen:",
         oneDayAgo: "gestern",
-        newest: "neueste"
+        newest: "neueste",
+        flags: "Liste der Flaggen"
     },
 
     fr: {
@@ -1406,7 +1412,8 @@ const translations = {
         totalgames: "Parties Totales",
         compareChangesAgainst: "Comparer les Changements:",
         oneDayAgo: "hier",
-        newest: "plus récent"
+        newest: "plus récent",
+        flags: "Liste des Drapeaux"
     },
 
     it: {
@@ -1441,7 +1448,8 @@ const translations = {
         totalgames: "Partite Totali",
         compareChangesAgainst: "Confronta le Variazioni:",
         oneDayAgo: "ieri",
-        newest: "più recente"
+        newest: "più recente",
+        flags: "Lista delle Bandiere"
     },
 
     ru: {
@@ -1476,7 +1484,8 @@ const translations = {
         totalgames: "Всего Игр",
         compareChangesAgainst: "Сравнение Изменений:",
         oneDayAgo: "вчера",
-        newest: "cамый новый"
+        newest: "cамый новый",
+        flags: "Список Флагов"
     },
 
     pt: {
@@ -1511,7 +1520,8 @@ const translations = {
         totalgames: "Total de Partidas",
         compareChangesAgainst: "Comparar Alterações com:",
         oneDayAgo: "ontem",
-        newest: "Mais Recente"
+        newest: "Mais Recente",
+        flags: "Lista de Bandeiras"
     }
 };
 
@@ -1751,6 +1761,8 @@ const settingsButton = document.getElementById("settingsButton");
 const settingsModal = document.getElementById("settingsModal");
 const settingsCloseButton = document.querySelector(".settings-close");
 
+const flagsButton = document.getElementById("flagsButton");
+
 aboutButton.onclick = function() {
     aboutModal.style.display = "block";
 };
@@ -1766,6 +1778,10 @@ settingsButton.onclick = function() {
 settingsCloseButton.onclick = function() {
     settingsModal.style.display = "none";
 };
+
+flagsButton.addEventListener("click", () => {
+    window.location.href = "flag.html";
+});
 
 window.onclick = function(event) {
     if (event.target === aboutModal) {
