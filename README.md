@@ -59,6 +59,10 @@ This allows historical leaderboard data to be preserved independently from the c
 
 The history system is handled by a separate GitHub Actions workflow, so a failure in the history system does not interfere with the regular leaderboard data update process.
 
+### 🇺🇳 Flaglist
+
+List of all flags with lurkers.io style, maybe you can find any cool flags through there, and you can search the flag name.
+
 ### 🎨 Themes
 
 The leaderboard includes multiple visual themes:
