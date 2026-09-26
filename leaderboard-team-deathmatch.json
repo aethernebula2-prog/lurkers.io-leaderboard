@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-25T22:55:41.547754+00:00",
-  "lastUpdated": 1790376937477,
+  "updatedAt": "2026-09-26T01:03:42.414230+00:00",
+  "lastUpdated": 1790384620713,
   "cached": false,
   "players": [
     {
@@ -105,6 +105,15 @@
       "Score": 604
     },
     {
+      "Account ID": "72FFE2009A66195E",
+      "Player Name": "DeathLive",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 38,
+      "Deaths": 7,
+      "Score": 576
+    },
+    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 12,
@@ -132,15 +141,6 @@
       "Score": 499
     },
     {
-      "Account ID": "42583071A8816117",
-      "Player Name": "matagayxd",
-      "Games Won": 6,
-      "Games Lost": 59,
-      "Kills": 1348,
-      "Deaths": 276,
-      "Score": 497
-    },
-    {
       "Account ID": "2E5124E426786319",
       "Player Name": "alphabetaee",
       "Games Won": 0,
@@ -150,13 +150,22 @@
       "Score": 493
     },
     {
+      "Account ID": "42583071A8816117",
+      "Player Name": "matagayxd",
+      "Games Won": 6,
+      "Games Lost": 59,
+      "Kills": 1368,
+      "Deaths": 283,
+      "Score": 492
+    },
+    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 19,
-      "Games Lost": 37,
+      "Games Lost": 38,
       "Kills": 1879,
-      "Deaths": 421,
-      "Score": 480
+      "Deaths": 422,
+      "Score": 478
     },
     {
       "Account ID": "6310F74D9FC47BC8",
@@ -173,17 +182,8 @@
       "Games Won": 13,
       "Games Lost": 35,
       "Kills": 577,
-      "Deaths": 130,
-      "Score": 470
-    },
-    {
-      "Account ID": "4BCB5C0C23D62CA",
-      "Player Name": "SUSHIMINETA",
-      "Games Won": 5,
-      "Games Lost": 16,
-      "Kills": 565,
       "Deaths": 131,
-      "Score": 455
+      "Score": 467
     }
   ]
 }
