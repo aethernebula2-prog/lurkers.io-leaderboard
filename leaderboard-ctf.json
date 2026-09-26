@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-26T18:48:56.154185+00:00",
-  "lastUpdated": 1790448084800,
-  "cached": true,
+  "updatedAt": "2026-09-26T21:41:46.232759+00:00",
+  "lastUpdated": 1790458901289,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -29,8 +29,8 @@
       "Games Won": 39,
       "Games Lost": 37,
       "Kills": 916,
-      "Deaths": 147,
-      "Score": 674
+      "Deaths": 148,
+      "Score": 670
     },
     {
       "Account ID": "891AEC8338452106",
@@ -69,15 +69,6 @@
       "Score": 448
     },
     {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 21,
-      "Games Lost": 49,
-      "Kills": 467,
-      "Deaths": 132,
-      "Score": 383
-    },
-    {
       "Account ID": "AE050C6E85B2E773",
       "Player Name": "UnderCover911",
       "Games Won": 2,
@@ -85,6 +76,15 @@
       "Kills": 141,
       "Deaths": 39,
       "Score": 381
+    },
+    {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 23,
+      "Games Lost": 50,
+      "Kills": 467,
+      "Deaths": 134,
+      "Score": 380
     },
     {
       "Account ID": "BC1F611B01E03D2F",
@@ -141,6 +141,15 @@
       "Score": 305
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 20,
+      "Games Lost": 32,
+      "Kills": 550,
+      "Deaths": 209,
+      "Score": 301
+    },
+    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 2,
@@ -175,15 +184,6 @@
       "Kills": 58,
       "Deaths": 25,
       "Score": 282
-    },
-    {
-      "Account ID": "42583071A8816117",
-      "Player Name": "matagayxd",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 22,
-      "Deaths": 9,
-      "Score": 277
     }
   ]
 }
