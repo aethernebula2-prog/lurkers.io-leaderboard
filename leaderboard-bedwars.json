@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-26T06:48:30.746580+00:00",
-  "lastUpdated": 1790405307987,
+  "updatedAt": "2026-09-26T11:55:43.469421+00:00",
+  "lastUpdated": 1790423741498,
   "cached": false,
   "players": [
     {
@@ -60,13 +60,22 @@
       "Score": 744
     },
     {
+      "Account ID": "E9996A4CD59C53C3",
+      "Player Name": "banned",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 78,
+      "Deaths": 13,
+      "Score": 650
+    },
+    {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 27,
       "Games Lost": 24,
       "Kills": 728,
-      "Deaths": 126,
-      "Score": 630
+      "Deaths": 127,
+      "Score": 626
     },
     {
       "Account ID": "51AFB9CF8BB28574",
@@ -85,6 +94,15 @@
       "Kills": 153,
       "Deaths": 33,
       "Score": 502
+    },
+    {
+      "Account ID": "26545DBE95274149",
+      "Player Name": "Above",
+      "Games Won": 5,
+      "Games Lost": 13,
+      "Kills": 183,
+      "Deaths": 39,
+      "Score": 497
     },
     {
       "Account ID": "96CA6AEAB4D59DB",
@@ -123,15 +141,6 @@
       "Score": 414
     },
     {
-      "Account ID": "8DAADB1EDBEAE7EC",
-      "Player Name": "Ecttttt",
-      "Games Won": 4,
-      "Games Lost": 24,
-      "Kills": 141,
-      "Deaths": 36,
-      "Score": 405
-    },
-    {
       "Account ID": "467F890E718672E1",
       "Player Name": "zmr242",
       "Games Won": 8,
@@ -141,6 +150,15 @@
       "Score": 402
     },
     {
+      "Account ID": "8DAADB1EDBEAE7EC",
+      "Player Name": "Ecttttt",
+      "Games Won": 4,
+      "Games Lost": 25,
+      "Kills": 141,
+      "Deaths": 37,
+      "Score": 394
+    },
+    {
       "Account ID": "D168E70AB19CD87F",
       "Player Name": "Xxunstoppable123xX",
       "Games Won": 3,
@@ -148,15 +166,6 @@
       "Kills": 193,
       "Deaths": 56,
       "Score": 387
-    },
-    {
-      "Account ID": "26545DBE95274149",
-      "Player Name": "Above",
-      "Games Won": 5,
-      "Games Lost": 12,
-      "Kills": 122,
-      "Deaths": 35,
-      "Score": 377
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -175,15 +184,6 @@
       "Kills": 317,
       "Deaths": 102,
       "Score": 358
-    },
-    {
-      "Account ID": "26F04D53B39F9050",
-      "Player Name": "ARRozc0nLEchexD",
-      "Games Won": 11,
-      "Games Lost": 37,
-      "Kills": 450,
-      "Deaths": 139,
-      "Score": 346
     }
   ]
 }
