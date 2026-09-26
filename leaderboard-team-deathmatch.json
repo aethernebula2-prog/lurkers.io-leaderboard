@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-26T01:03:42.414230+00:00",
-  "lastUpdated": 1790384620713,
-  "cached": false,
+  "updatedAt": "2026-09-26T06:48:31.524700+00:00",
+  "lastUpdated": 1790405051606,
+  "cached": true,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -27,10 +27,10 @@
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
       "Games Won": 8,
-      "Games Lost": 12,
-      "Kills": 987,
-      "Deaths": 54,
-      "Score": 1867
+      "Games Lost": 13,
+      "Kills": 1010,
+      "Deaths": 55,
+      "Score": 1874
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -67,6 +67,15 @@
       "Kills": 175,
       "Deaths": 21,
       "Score": 866
+    },
+    {
+      "Account ID": "B14E2C01FCD13975",
+      "Player Name": "tomorrow",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 77,
+      "Deaths": 10,
+      "Score": 803
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -123,6 +132,15 @@
       "Score": 572
     },
     {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 5,
+      "Games Lost": 17,
+      "Kills": 272,
+      "Deaths": 52,
+      "Score": 545
+    },
+    {
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
       "Games Won": 6,
@@ -130,15 +148,6 @@
       "Kills": 440,
       "Deaths": 88,
       "Score": 533
-    },
-    {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 4,
-      "Games Lost": 17,
-      "Kills": 250,
-      "Deaths": 52,
-      "Score": 499
     },
     {
       "Account ID": "2E5124E426786319",
@@ -175,15 +184,6 @@
       "Kills": 208,
       "Deaths": 49,
       "Score": 474
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 13,
-      "Games Lost": 35,
-      "Kills": 577,
-      "Deaths": 131,
-      "Score": 467
     }
   ]
 }
