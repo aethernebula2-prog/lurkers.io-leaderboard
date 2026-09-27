@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-27T00:01:07.515575+00:00",
-  "lastUpdated": 1790467264461,
+  "updatedAt": "2026-09-27T05:57:16.976858+00:00",
+  "lastUpdated": 1790488634594,
   "cached": false,
   "players": [
     {
@@ -31,6 +31,15 @@
       "Kills": 916,
       "Deaths": 148,
       "Score": 670
+    },
+    {
+      "Account ID": "C0A242975B7897FD",
+      "Player Name": "srblaze11",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 244,
+      "Deaths": 43,
+      "Score": 600
     },
     {
       "Account ID": "891AEC8338452106",
@@ -83,8 +92,8 @@
       "Games Won": 24,
       "Games Lost": 52,
       "Kills": 467,
-      "Deaths": 140,
-      "Score": 365
+      "Deaths": 141,
+      "Score": 362
     },
     {
       "Account ID": "BC1F611B01E03D2F",
@@ -143,11 +152,11 @@
     {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
-      "Games Won": 20,
-      "Games Lost": 32,
-      "Kills": 550,
-      "Deaths": 209,
-      "Score": 301
+      "Games Won": 22,
+      "Games Lost": 35,
+      "Kills": 579,
+      "Deaths": 218,
+      "Score": 304
     },
     {
       "Account ID": "427398D2482C568D",
@@ -166,15 +175,6 @@
       "Kills": 151,
       "Deaths": 53,
       "Score": 299
-    },
-    {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 7,
-      "Games Lost": 5,
-      "Kills": 78,
-      "Deaths": 34,
-      "Score": 287
     },
     {
       "Account ID": "A565A7F63901C930",

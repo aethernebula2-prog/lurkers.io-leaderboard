@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-27T00:01:08.229658+00:00",
-  "lastUpdated": 1790467264487,
+  "updatedAt": "2026-09-27T05:57:17.608572+00:00",
+  "lastUpdated": 1790488635341,
   "cached": false,
   "players": [
     {
@@ -89,11 +89,11 @@
     {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 77,
-      "Deaths": 11,
-      "Score": 728
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 187,
+      "Deaths": 27,
+      "Score": 722
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -177,13 +177,13 @@
       "Score": 488
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 19,
-      "Games Lost": 38,
-      "Kills": 1879,
-      "Deaths": 422,
-      "Score": 478
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 2,
+      "Games Lost": 10,
+      "Kills": 172,
+      "Deaths": 37,
+      "Score": 481
     }
   ]
 }
