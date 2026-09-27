@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-09-27T19:29:34.442869+00:00",
-  "lastUpdated": 1790537371953,
+  "updatedAt": "2026-09-27T22:39:56.611312+00:00",
+  "lastUpdated": 1790548793477,
   "cached": false,
   "players": [
     {
@@ -180,10 +180,10 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 23,
-      "Games Lost": 35,
-      "Kills": 562,
-      "Deaths": 174,
-      "Score": 362
+      "Games Lost": 36,
+      "Kills": 563,
+      "Deaths": 175,
+      "Score": 360
     }
   ]
 }
