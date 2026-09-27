@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-26T21:41:46.987250+00:00",
-  "lastUpdated": 1790458906618,
+  "updatedAt": "2026-09-27T00:01:08.229658+00:00",
+  "lastUpdated": 1790467264487,
   "cached": false,
   "players": [
     {
@@ -114,6 +114,15 @@
       "Score": 604
     },
     {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 13,
+      "Games Lost": 26,
+      "Kills": 701,
+      "Deaths": 125,
+      "Score": 594
+    },
+    {
       "Account ID": "72FFE2009A66195E",
       "Player Name": "DeathLive",
       "Games Won": 2,
@@ -123,22 +132,13 @@
       "Score": 576
     },
     {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 12,
-      "Games Lost": 25,
-      "Kills": 636,
-      "Deaths": 120,
-      "Score": 562
-    },
-    {
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 5,
-      "Games Lost": 17,
-      "Kills": 272,
-      "Deaths": 52,
-      "Score": 545
+      "Games Lost": 18,
+      "Kills": 278,
+      "Deaths": 54,
+      "Score": 536
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -148,6 +148,15 @@
       "Kills": 440,
       "Deaths": 88,
       "Score": 533
+    },
+    {
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 134,
+      "Deaths": 27,
+      "Score": 496
     },
     {
       "Account ID": "2E5124E426786319",
@@ -175,15 +184,6 @@
       "Kills": 1879,
       "Deaths": 422,
       "Score": 478
-    },
-    {
-      "Account ID": "6310F74D9FC47BC8",
-      "Player Name": "Alvi117",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 208,
-      "Deaths": 49,
-      "Score": 474
     }
   ]
 }
