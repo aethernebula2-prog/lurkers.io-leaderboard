@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-28T16:12:42.374242+00:00",
-  "lastUpdated": 1790611842090,
-  "cached": true,
+  "updatedAt": "2026-09-28T22:19:34.891879+00:00",
+  "lastUpdated": 1790633967196,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -60,15 +60,6 @@
       "Score": 500
     },
     {
-      "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "BRATJA",
-      "Games Won": 8,
-      "Games Lost": 8,
-      "Kills": 223,
-      "Deaths": 52,
-      "Score": 478
-    },
-    {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "PolishSausage",
       "Games Won": 4,
@@ -76,6 +67,15 @@
       "Kills": 21,
       "Deaths": 5,
       "Score": 477
+    },
+    {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "BRATJA",
+      "Games Won": 8,
+      "Games Lost": 9,
+      "Kills": 230,
+      "Deaths": 55,
+      "Score": 465
     },
     {
       "Account ID": "844C476E593C7815",
