@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-27T22:39:56.914699+00:00",
-  "lastUpdated": 1790548264054,
-  "cached": true,
+  "updatedAt": "2026-09-28T01:16:59.684320+00:00",
+  "lastUpdated": 1790558215227,
+  "cached": false,
   "players": [
     {
       "Account ID": "E158975038260771",
@@ -45,7 +45,7 @@
       "Account ID": "8DAADB1EDBEAE7EC",
       "Player Name": "Ecttttt",
       "Games Won": 0,
-      "Games Lost": 14,
+      "Games Lost": 15,
       "Kills": 48,
       "Deaths": 4,
       "Score": 1200
@@ -105,24 +105,6 @@
       "Score": 637
     },
     {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 118,
-      "Deaths": 20,
-      "Score": 604
-    },
-    {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 13,
-      "Games Lost": 26,
-      "Kills": 701,
-      "Deaths": 125,
-      "Score": 594
-    },
-    {
       "Account ID": "72FFE2009A66195E",
       "Player Name": "DeathLive",
       "Games Won": 2,
@@ -130,6 +112,24 @@
       "Kills": 38,
       "Deaths": 7,
       "Score": 576
+    },
+    {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 15,
+      "Games Lost": 26,
+      "Kills": 746,
+      "Deaths": 142,
+      "Score": 561
+    },
+    {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 140,
+      "Deaths": 26,
+      "Score": 549
     },
     {
       "Account ID": "6896AF24B8EE135C",
