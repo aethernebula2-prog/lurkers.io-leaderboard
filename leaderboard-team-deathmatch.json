@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-28T01:16:59.684320+00:00",
-  "lastUpdated": 1790558215227,
+  "updatedAt": "2026-09-28T07:53:47.776536+00:00",
+  "lastUpdated": 1790582025998,
   "cached": false,
   "players": [
     {
@@ -42,15 +42,6 @@
       "Score": 1461
     },
     {
-      "Account ID": "8DAADB1EDBEAE7EC",
-      "Player Name": "Ecttttt",
-      "Games Won": 0,
-      "Games Lost": 15,
-      "Kills": 48,
-      "Deaths": 4,
-      "Score": 1200
-    },
-    {
       "Account ID": "C8863FC33A060E2B",
       "Player Name": "Shodan",
       "Games Won": 9,
@@ -58,6 +49,15 @@
       "Kills": 581,
       "Deaths": 50,
       "Score": 1199
+    },
+    {
+      "Account ID": "8DAADB1EDBEAE7EC",
+      "Player Name": "Ecttttt",
+      "Games Won": 0,
+      "Games Lost": 15,
+      "Kills": 55,
+      "Deaths": 5,
+      "Score": 1100
     },
     {
       "Account ID": "545083C5768882B1",
@@ -96,6 +96,15 @@
       "Score": 722
     },
     {
+      "Account ID": "4E17E7E5FCF9A1A7",
+      "Player Name": "FrostEmperor",
+      "Games Won": 0,
+      "Games Lost": 14,
+      "Kills": 33,
+      "Deaths": 5,
+      "Score": 660
+    },
+    {
       "Account ID": "FACD62C2F5808FEF",
       "Player Name": "nach12",
       "Games Won": 3,
@@ -103,6 +112,15 @@
       "Kills": 346,
       "Deaths": 57,
       "Score": 637
+    },
+    {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 171,
+      "Deaths": 30,
+      "Score": 590
     },
     {
       "Account ID": "72FFE2009A66195E",
@@ -117,19 +135,10 @@
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 15,
-      "Games Lost": 26,
+      "Games Lost": 27,
       "Kills": 746,
-      "Deaths": 142,
-      "Score": 561
-    },
-    {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 140,
-      "Deaths": 26,
-      "Score": 549
+      "Deaths": 143,
+      "Score": 557
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -174,15 +183,6 @@
       "Games Lost": 60,
       "Kills": 1376,
       "Deaths": 287,
-      "Score": 488
-    },
-    {
-      "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
-      "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 184,
-      "Deaths": 39,
       "Score": 488
     }
   ]

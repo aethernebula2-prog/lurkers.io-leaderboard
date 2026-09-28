@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-09-28T01:16:58.982044+00:00",
-  "lastUpdated": 1790558218394,
+  "updatedAt": "2026-09-28T07:53:47.036171+00:00",
+  "lastUpdated": 1790582022876,
   "cached": false,
   "players": [
     {
@@ -36,28 +36,28 @@
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
       "Games Won": 41,
-      "Games Lost": 41,
-      "Kills": 988,
-      "Deaths": 161,
-      "Score": 663
+      "Games Lost": 42,
+      "Kills": 1006,
+      "Deaths": 166,
+      "Score": 655
     },
     {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 3,
       "Games Lost": 6,
-      "Kills": 244,
-      "Deaths": 44,
-      "Score": 587
+      "Kills": 251,
+      "Deaths": 46,
+      "Score": 578
     },
     {
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 15,
-      "Kills": 183,
-      "Deaths": 35,
-      "Score": 554
+      "Kills": 191,
+      "Deaths": 41,
+      "Score": 500
     },
     {
       "Account ID": "7E7D93C59BA6DEF9",
@@ -96,15 +96,6 @@
       "Score": 381
     },
     {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 25,
-      "Games Lost": 55,
-      "Kills": 467,
-      "Deaths": 144,
-      "Score": 355
-    },
-    {
       "Account ID": "BC1F611B01E03D2F",
       "Player Name": "doorseek123",
       "Games Won": 2,
@@ -121,6 +112,15 @@
       "Kills": 108,
       "Deaths": 33,
       "Score": 343
+    },
+    {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 25,
+      "Games Lost": 57,
+      "Kills": 473,
+      "Deaths": 153,
+      "Score": 339
     },
     {
       "Account ID": "A69C811E302B9820",
