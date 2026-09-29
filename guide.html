@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lurkers.io Guide</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+
+        /* ===== Header ===== */
+
+        header {
+            background: #111827;
+            border-bottom: 1px solid #263244;
+            padding: 18px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .logo span {
+            color: #60a5fa;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            background: #1e293b;
+            color: white;
+        }
+
+        nav a.active {
+            background: #2563eb;
+            color: white;
+        }
+
+        /* ===== Main ===== */
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 25px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 35px 20px 50px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin: 0 0 12px;
+            color: white;
+        }
+
+        .hero p {
+            margin: 0;
+            color: #94a3b8;
+            font-size: 17px;
+        }
+
+        /* ===== Categories ===== */
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .category {
+            background: #172033;
+            border: 1px solid #263244;
+            border-radius: 10px;
+            padding: 24px;
+            min-height: 150px;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+
+        .category:hover {
+            transform: translateY(-3px);
+            border-color: #3b82f6;
+            background: #1b2940;
+        }
+
+        .category-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        .category h3 {
+            margin: 0 0 8px;
+            color: white;
+            font-size: 19px;
+        }
+
+        .category p {
+            margin: 0;
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* ===== Coming Soon ===== */
+
+        .empty {
+            margin-top: 45px;
+            text-align: center;
+            padding: 45px 20px;
+            border: 1px dashed #334155;
+            border-radius: 10px;
+            color: #64748b;
+        }
+
+        .empty h2 {
+            margin-top: 0;
+            color: #94a3b8;
+        }
+
+        /* ===== Footer ===== */
+
+        footer {
+            margin-top: 50px;
+            padding: 25px;
+            text-align: center;
+            border-top: 1px solid #263244;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        /* ===== Mobile ===== */
+
+        @media (max-width: 650px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        Lurkers.io <span>Guide</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Leaderboard</a>
+        <a href="guide.html" class="active">Guide</a>
+        <a href="flags.html">Flags</a>
+    </nav>
+</header>
+
+
+<main>
+
+    <section class="hero">
+        <h1>Lurkers.io Guide</h1>
+        <p>Learn how to play, improve your skills, and explore the game.</p>
+    </section>
+
+
+    <h2 class="section-title">Explore the Guide</h2>
+
+    <div class="categories">
+
+        <div class="category">
+            <div class="category-icon">🆕</div>
+            <h3>Getting Started</h3>
+            <p>Everything you need to know as a new player.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🎮</div>
+            <h3>Game Modes</h3>
+            <p>Learn how the different game modes work.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🔫</div>
+            <h3>Weapons & Items</h3>
+            <p>Explore weapons, items, and their uses.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🗺️</div>
+            <h3>Maps</h3>
+            <p>Learn about the maps and important locations.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🏃</div>
+            <h3>Movement</h3>
+            <p>Learn movement techniques and mechanics.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">⚔️</div>
+            <h3>Combat</h3>
+            <p>Improve your combat and fighting skills.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">💡</div>
+            <h3>Tips & Tricks</h3>
+            <p>Useful tricks and lesser-known game mechanics.</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">❓</div>
+            <h3>FAQ</h3>
+            <p>Frequently asked questions about Lurkers.io.</p>
+        </div>
+
+    </div>
+
+
+    <div class="empty">
+        <h2>Guides are coming soon...</h2>
+        <p>This section is currently under construction.</p>
+    </div>
+
+</main>
+
+
+<footer>
+    Lurkers.io Guide
+</footer>
+
+</body>
+</html>
