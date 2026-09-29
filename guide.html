@@ -108,6 +108,9 @@
             min-height: 150px;
             transition: 0.2s;
             cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: inherit;
         }
 
         .category:hover {
@@ -191,7 +194,7 @@
     <nav>
         <a href="index.html">Leaderboard</a>
         <a href="guide.html" class="active">Guide</a>
-        <a href="flags.html">Flags</a>
+        <a href="flag.html">Flags</a>
     </nav>
 </header>
 
@@ -200,7 +203,7 @@
 
     <section class="hero">
         <h1>Lurkers.io Guide</h1>
-        <p>Learn how to play, improve your skills, and explore the game.</p>
+        <p>Learn how to play, improve your skills, and explore the game</p>
     </section>
 
 
@@ -208,11 +211,11 @@
 
     <div class="categories">
 
-        <div class="category">
-            <div class="category-icon">🆕</div>
-            <h3>Getting Started</h3>
-            <p>Everything you need to know as a new player.</p>
-        </div>
+        <a href="survival.html" class="category">
+            <div class="category-icon">🌲</div>
+            <h3>Survival Guide</h3>
+            <p>Learn how to survive, build a base, gather resources, and progress.</p>
+        </a>
 
         <div class="category">
             <div class="category-icon">🎮</div>
