@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-29T09:13:44.495393+00:00",
-  "lastUpdated": 1790672716617,
+  "updatedAt": "2026-09-29T16:12:36.319361+00:00",
+  "lastUpdated": 1790697936006,
   "cached": true,
   "players": [
     {
@@ -35,11 +35,11 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 9,
-      "Kills": 481,
-      "Deaths": 34,
-      "Score": 1458
+      "Kills": 571,
+      "Deaths": 37,
+      "Score": 1590
     },
     {
       "Account ID": "A2B6D8A33470A4BF",
@@ -114,15 +114,6 @@
       "Score": 637
     },
     {
-      "Account ID": "EC1D49B321638908",
-      "Player Name": "Keptpon",
-      "Games Won": 3,
-      "Games Lost": 11,
-      "Kills": 241,
-      "Deaths": 41,
-      "Score": 609
-    },
-    {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 2,
@@ -139,6 +130,15 @@
       "Kills": 38,
       "Deaths": 7,
       "Score": 576
+    },
+    {
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 3,
+      "Games Lost": 12,
+      "Kills": 262,
+      "Deaths": 49,
+      "Score": 554
     },
     {
       "Account ID": "4E17E7E5FCF9A1A7",
