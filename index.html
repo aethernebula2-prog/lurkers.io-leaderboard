@@ -1631,6 +1631,10 @@ function linkifyLurkers() {
             continue;
         }
 
+        if (node.parentElement.closest("header")) {
+            continue;
+        }
+
         if (node.nodeValue.includes("Lurkers.io")) {
             textNodes.push(node);
         }
