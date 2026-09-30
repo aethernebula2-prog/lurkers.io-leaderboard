@@ -482,6 +482,11 @@
                 <li>Check your report and send it.</li>
             </ol>
 
+            <div class="tip">
+                <strong>Tip:</strong>
+                Don't just mention <span class="support-mention">@Support-latino</span>
+            </div>
+
         </section>
 
         <section id:"howtogetplayfab">
@@ -491,8 +496,38 @@
             <p>Right click player's name in the Scoreboard, and click <strong>View account</strong></p>
 
             <img src="https://i.ibb.co/TBNPMS3d/Screenshot-From-2026-09-30-16-07-43.png" alt="View Account" class="guide-image">
+
+            <p>Then, click <strong>View JSON</strong> to copy that player's PlayFab ID.</p>
             
         </section>
+
+        <div class="success">
+            
+            <h2>Example of JSON</h2>
+            
+            <pre><code>{
+              "PlayFabId": "XXXXXXXXXXXXXXX",
+              "InfoResultPayload": {
+                "AccountInfo": {
+                  "PlayFabId": "XXXXXXXXXXXXXXX",
+                  "Created": "YYYY-MM-DDTHH:MM:SS.MSZ",
+                  "TitleInfo": {
+                    "Created": "YYYY-MM-DDTHH:MM:SS.MSZ",
+                    "TitlePlayerAccount": {
+                      "Id": "...",
+                      "Type": "title_player_account",
+                      "TypeString": "title_player_account"
+                    }
+                  }
+                },
+                "UserData": {},
+                "UserDataVersion": 0,
+                "UserReadOnlyData": {},
+                "UserReadOnlyDataVersion": 0
+              }
+            }</code></pre>
+            
+        </div>
 
     </article>
 
