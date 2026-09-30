@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-09-30T00:51:30.310781+00:00",
-  "lastUpdated": 1790729485260,
+  "updatedAt": "2026-09-30T06:07:42.925311+00:00",
+  "lastUpdated": 1790748457832,
   "cached": false,
   "players": [
     {
@@ -63,10 +63,10 @@
       "Account ID": "8DAADB1EDBEAE7EC",
       "Player Name": "Ecttttt",
       "Games Won": 0,
-      "Games Lost": 15,
+      "Games Lost": 16,
       "Kills": 55,
-      "Deaths": 5,
-      "Score": 1100
+      "Deaths": 6,
+      "Score": 916
     },
     {
       "Account ID": "545083C5768882B1",
@@ -132,6 +132,15 @@
       "Score": 576
     },
     {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 17,
+      "Games Lost": 28,
+      "Kills": 793,
+      "Deaths": 152,
+      "Score": 559
+    },
+    {
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 3,
@@ -139,24 +148,6 @@
       "Kills": 262,
       "Deaths": 49,
       "Score": 554
-    },
-    {
-      "Account ID": "4E17E7E5FCF9A1A7",
-      "Player Name": "FrostEmperor",
-      "Games Won": 0,
-      "Games Lost": 16,
-      "Kills": 33,
-      "Deaths": 6,
-      "Score": 550
-    },
-    {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 16,
-      "Games Lost": 27,
-      "Kills": 747,
-      "Deaths": 147,
-      "Score": 545
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -171,10 +162,19 @@
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
       "Games Won": 6,
-      "Games Lost": 12,
-      "Kills": 440,
-      "Deaths": 88,
-      "Score": 533
+      "Games Lost": 13,
+      "Kills": 474,
+      "Deaths": 96,
+      "Score": 525
+    },
+    {
+      "Account ID": "4E17E7E5FCF9A1A7",
+      "Player Name": "FrostEmperor",
+      "Games Won": 0,
+      "Games Lost": 17,
+      "Kills": 50,
+      "Deaths": 10,
+      "Score": 500
     },
     {
       "Account ID": "2E5124E426786319",
