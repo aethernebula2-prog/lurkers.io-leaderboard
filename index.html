@@ -81,7 +81,6 @@
 
     body {
         font-family: Arial, sans-serif;
-        max-width: 1100px;
         margin: 0 auto;
         padding: 40px 20px;
         background: var(--body-bg);
@@ -100,6 +99,8 @@
         position: sticky;
         top: 0;
         z-index: 100;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .logo {
@@ -585,244 +586,248 @@
     </nav>
 </header>
 
-<h1 data-i18n="title">Lurkers.io Leaderboard</h1>
+<div class="content">
 
-<div class="game-mode-selector">
-    <button class="mode-button active" data-mode="bedwars">
-        Bedwars
-    </button>
-
-    <button class="mode-button" data-mode="ctf">
-        Capture the Flag
-    </button>
-
-    <button class="mode-button" data-mode="team-deathmatch">
-        Team Deathmatch
-    </button>
-</div>
+    <h1 data-i18n="title">Lurkers.io Leaderboard</h1>
     
-<div id="updated">
-    <span id="updatedLabel" data-i18n="loadingLeaderboard">Loading leaderboard...</span>
-</div>
-
-<table>
-    <thead>
-        <tr>
-            <th data-i18n="rank">Rank</th>
-            <th data-i18n="player">Player</th>
-            <th data-sort="score">
-                <span data-i18n="score">Score</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="kills">
-                <span data-i18n="kills">Kills</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="deaths">
-                <span data-i18n="deaths">Deaths</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="kd">
-                <span data-i18n="kd">K/D Ratio</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="totalGames">
-                <span data-i18n="totalgames">Total Games</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="wins">
-                <span data-i18n="wins">Games Won</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="losses">
-                <span data-i18n="losses">Games Lost</span>
-                <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-            <th data-sort="winRate">
-                <span data-i18n="winRate">Win Rate</span>
-                  <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
-                    <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
-                    <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
-                </svg>
-            </th>
-        </tr>
-    </thead>
-
-    <tbody id="leaderboard">
-    </tbody>
-</table>
-
-<div class="bottom-buttons">
-    <button id="aboutButton" data-i18n="about">About</button>
-    <button id="settingsButton" data-i18n="settings">Settings</button>
-    <button id="flagsButton" data-i18n="flags">Flags</button>
-</div>
-
-    <div id="aboutModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-
-            <h2 data-i18n="about">About</h2>
-
-            <h3 data-i18n="scorecalculation">Score calculation</h3>
-            
-            <p data-i18n="scorecalculateformula">
-                (Win Rate × 100) + (K/D Ratio × 100)
-            </p>
-            
-            <small style="color: #8b949e;" data-i18n="scorenote">
-                If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io
-            </small>
-
-            <h3 data-i18n="datasource">Data source</h3>
-            <p data-i18n="datafrom">
-                Data sourced from Lurkers.io via PlayFab
-            </p>
-
-            <h3 data-i18n="build">Build</h3>
-
-            <p data-i18n="createdbyaethericnebula">
-                Created by AethericNebula
-            </p>
-        </div>
+    <div class="game-mode-selector">
+        <button class="mode-button active" data-mode="bedwars">
+            Bedwars
+        </button>
+    
+        <button class="mode-button" data-mode="ctf">
+            Capture the Flag
+        </button>
+    
+        <button class="mode-button" data-mode="team-deathmatch">
+            Team Deathmatch
+        </button>
     </div>
-
-    <div id="settingsModal" class="modal">
-        <div class="modal-content">
-            <span class="settings-close">&times;</span>
-
-            <h2 data-i18n="settings">Settings</h2>
-
-            <h3 data-i18n="languages">Languages</h3>
-
-            <label>
-                <input type="radio" name="language" value="en" checked>
-                English
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="zh">
-                简体中文
-            </label>
         
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="ja">
-                日本語
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="es">
-                Español
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="de">
-                Deutsch
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="fr">
-                Français
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="it">
-                Italiano
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="ru">
-                Русский
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="language" value="pt">
-                Português
-            </label>
-
-            <h3 data-i18n="theme">Theme</h3>
-
-            <label>
-                <input type="radio" name="theme" value="dark-blue" checked>
-                <span data-i18n="darkblue">Default</span>
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="theme" value="light">
-                <span data-i18n="lighttheme">Light</span>
-            </label>
-
-            <br>
-
-            <label>
-                <input type="radio" name="theme" value="dark">
-                <span data-i18n="darktheme">Dark</span>
-            </label>
-
-            <h3 data-i18n="othersettings">Other Settings</h3>
-
-            <div class="setting-row">
-                <span class="setting-label" data-i18n="showallchanges">
-                    Show All Changes
-                </span>
-            
-                <label class="toggle">
-                    <input type="checkbox" id="showAllChanges">
-                    <span class="toggle-slider"></span>
-                </label>
-            </div>
-
-            <div class="setting-row" id="changeComparisonSetting">
-                <span class="setting-label" data-i18n="compareChangesAgainst">
-                    Compare changes against
-                </span>
-            
-                <select id="changeComparison">
-                    <option value="1" data-i18n="newest">newest</option>
-                    <option value="2" data-i18n="oneDayAgo">yesterday</option>
-                </select>
-            </div>
+    <div id="updated">
+        <span id="updatedLabel" data-i18n="loadingLeaderboard">Loading leaderboard...</span>
     </div>
-</div>  
+    
+    <table>
+        <thead>
+            <tr>
+                <th data-i18n="rank">Rank</th>
+                <th data-i18n="player">Player</th>
+                <th data-sort="score">
+                    <span data-i18n="score">Score</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="kills">
+                    <span data-i18n="kills">Kills</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="deaths">
+                    <span data-i18n="deaths">Deaths</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="kd">
+                    <span data-i18n="kd">K/D Ratio</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="totalGames">
+                    <span data-i18n="totalgames">Total Games</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="wins">
+                    <span data-i18n="wins">Games Won</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="losses">
+                    <span data-i18n="losses">Games Lost</span>
+                    <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+                <th data-sort="winRate">
+                    <span data-i18n="winRate">Win Rate</span>
+                      <svg class="sort-arrow" viewBox="0 0 10 10" aria-hidden="true">
+                        <polygon fill="currentColor" points="5,1 8,4 2,4"></polygon>
+                        <polygon fill="currentColor" points="2,5 8,5 5,8"></polygon>
+                    </svg>
+                </th>
+            </tr>
+        </thead>
+    
+        <tbody id="leaderboard">
+        </tbody>
+    </table>
+    
+    <div class="bottom-buttons">
+        <button id="aboutButton" data-i18n="about">About</button>
+        <button id="settingsButton" data-i18n="settings">Settings</button>
+        <button id="flagsButton" data-i18n="flags">Flags</button>
+    </div>
+    
+        <div id="aboutModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+    
+                <h2 data-i18n="about">About</h2>
+    
+                <h3 data-i18n="scorecalculation">Score calculation</h3>
+                
+                <p data-i18n="scorecalculateformula">
+                    (Win Rate × 100) + (K/D Ratio × 100)
+                </p>
+                
+                <small style="color: #8b949e;" data-i18n="scorenote">
+                    If K/D Ratio is N/A, it is treated as 1.00 for calculation. For reference only, statistics are calculated by Lurkers.io
+                </small>
+    
+                <h3 data-i18n="datasource">Data source</h3>
+                <p data-i18n="datafrom">
+                    Data sourced from Lurkers.io via PlayFab
+                </p>
+    
+                <h3 data-i18n="build">Build</h3>
+    
+                <p data-i18n="createdbyaethericnebula">
+                    Created by AethericNebula
+                </p>
+            </div>
+        </div>
+    
+        <div id="settingsModal" class="modal">
+            <div class="modal-content">
+                <span class="settings-close">&times;</span>
+    
+                <h2 data-i18n="settings">Settings</h2>
+    
+                <h3 data-i18n="languages">Languages</h3>
+    
+                <label>
+                    <input type="radio" name="language" value="en" checked>
+                    English
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="zh">
+                    简体中文
+                </label>
+            
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="ja">
+                    日本語
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="es">
+                    Español
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="de">
+                    Deutsch
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="fr">
+                    Français
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="it">
+                    Italiano
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="ru">
+                    Русский
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="language" value="pt">
+                    Português
+                </label>
+    
+                <h3 data-i18n="theme">Theme</h3>
+    
+                <label>
+                    <input type="radio" name="theme" value="dark-blue" checked>
+                    <span data-i18n="darkblue">Default</span>
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="theme" value="light">
+                    <span data-i18n="lighttheme">Light</span>
+                </label>
+    
+                <br>
+    
+                <label>
+                    <input type="radio" name="theme" value="dark">
+                    <span data-i18n="darktheme">Dark</span>
+                </label>
+    
+                <h3 data-i18n="othersettings">Other Settings</h3>
+    
+                <div class="setting-row">
+                    <span class="setting-label" data-i18n="showallchanges">
+                        Show All Changes
+                    </span>
+                
+                    <label class="toggle">
+                        <input type="checkbox" id="showAllChanges">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+    
+                <div class="setting-row" id="changeComparisonSetting">
+                    <span class="setting-label" data-i18n="compareChangesAgainst">
+                        Compare changes against
+                    </span>
+                
+                    <select id="changeComparison">
+                        <option value="1" data-i18n="newest">newest</option>
+                        <option value="2" data-i18n="oneDayAgo">yesterday</option>
+                    </select>
+                </div>
+        </div>
+    </div>  
+
+</div>
 
 <footer class="site-footer">
     Hosted by GitHub Pages · Data provided by PlayFab
