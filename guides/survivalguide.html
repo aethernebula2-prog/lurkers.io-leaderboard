@@ -194,6 +194,35 @@
             margin-bottom: 4px;
         }
 
+        .image-tooltip {
+            position: relative;
+            cursor: help;
+        }
+        
+        .tooltip-image {
+            display: none;
+        
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translateX(-50%);
+        
+            margin-top: 10px;
+            z-index: 1000;
+        }
+        
+        .image-tooltip:hover .tooltip-image {
+            display: block;
+        }
+        
+        .tooltip-image img {
+            width: 500px;
+            max-width: 80vw;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
+
         .controls {
             width: 100%;
             border-collapse: collapse;
@@ -370,11 +399,6 @@
 
         </section>
 
-
-        <!-- =========================
-             PHASE 0
-        ========================= -->
-
         <section class="phase" id="phase0">
 
             <h2 class="phase-title">
@@ -384,9 +408,14 @@
             <h3>Get into the game</h3>
 
             <ol>
-                <li>Go to <strong>Lurkers.io</strong>.</li>
+                <li>Go to <a href="https://lurkers.io" target="_blank" rel="noopener noreferrer"><strong>Lurkers.io</strong></a>.</li>
                 <li>Press <strong>Esc</strong> if the main menu does not appear.</li>
-                <li>Press <strong>Servers</strong> on the left side of the UI.</li>
+                <li class="image-tooltip">
+                    Press <strong>Servers</strong> on the left side of the UI.
+                    <span class="tooltip-image">
+                        <img src="https://ibb.co/GfxR2r7z" alt="Servers button">
+                    </span>
+                </li>
                 <li>Find a server with a low player count.</li>
                 <li>Try a <strong>Team Deathmatch</strong> or <strong>Bedwars</strong> server.</li>
                 <li>Complete the tutorial if you want to.</li>
