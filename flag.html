@@ -8,13 +8,13 @@
 
     <style>
         :root {
-            --background: #0d1117;
-            --card: #161b22;
-            --card-hover: #1c2430;
-            --border: #30363d;
-            --text: #f0f6fc;
-            --secondary-text: #8b949e;
-            --accent: #58a6ff;
+            --background: #111827;
+            --card: #1e2f4b;
+            --card-hover: #263244;
+            --border: #263244;
+            --text: #ffffff;
+            --secondary-text: #94a3b8;
+            --accent: #60a5fa;
         }
 
         * {
@@ -106,12 +106,6 @@
             transform: translateY(-2px);
         }
 
-        /*
-         * One flag in the sprite sheet:
-         *
-         * Width:  16px
-         * Height: 11px
-         */
         .flag {
             width: 16px;
             height: 11px;
@@ -121,10 +115,6 @@
 
             image-rendering: pixelated;
 
-            /*
-             * Display at 4× size:
-             * 16 × 11 → 64 × 44
-             */
             transform: scale(4);
             transform-origin: center;
 
@@ -194,12 +184,22 @@
 <main class="container">
 
     <header>
-        <h1>Lurkers.io Flags</h1>
-
-        <div class="subtitle">
-            Pixel flags used by Lurkers.io
+        <div class="logo">
+            Lurkers.io <span>Hub</span>
         </div>
+    
+        <nav>
+            <a href="index.html">Leaderboard</a>
+            <a href="guide.html">Guide</a>
+            <a href="flag.html" class="active">Flags</a>
+        </nav>
     </header>
+    
+    <h1>Lurkers.io Flags</h1>
+    
+    <div class="subtitle">
+        Pixel flags used by Lurkers.io
+    </div>
 
     <div class="search-container">
         <input
