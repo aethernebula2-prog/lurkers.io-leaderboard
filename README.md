@@ -1,6 +1,6 @@
-# Lurkers.io Leaderboard
+# Lurkers.io Hub
 
-A live leaderboard for **Lurkers.io**, providing rankings and statistics across multiple game modes.
+A hub contains live leaderboard for **Lurkers.io**, providing rankings and statistics across multiple game modes, flags and designs by great designers, guides by someone who'd like to wright.
 
 The project is independently developed and maintained by **AethericNebula**.
 
@@ -62,6 +62,10 @@ The history system is handled by a separate GitHub Actions workflow, so a failur
 ### 🇺🇳 Flaglist
 
 List of all flags with lurkers.io style, maybe you can find any cool flags through there, and you can search the flag name.
+
+### 🗿 Guides(Beta)
+
+Teach you how to play the game, do skills, even quickheal! (Our Feature is let everyone can write their own guides for the game)
 
 ### 🎨 Themes
 
