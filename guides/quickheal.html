@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quickheal Tutorial</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+
+        header {
+            background: #111827;
+            border-bottom: 1px solid #263244;
+            padding: 18px 30px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .logo span {
+            color: #60a5fa;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+
+            padding: 8px 12px;
+            border-radius: 6px;
+
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            background: #1e293b;
+            color: white;
+        }
+
+        nav a.active {
+            background: #2563eb;
+            color: white;
+        }
+
+        /* =========================
+           LAYOUT
+        ========================= */
+
+        .page {
+            max-width: 1200px;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 35px;
+
+            padding: 40px 25px;
+        }
+
+        /* =========================
+           SIDEBAR
+        ========================= */
+
+        .sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .sidebar-title {
+            font-weight: bold;
+            color: white;
+            margin-bottom: 12px;
+        }
+
+        .sidebar a {
+            display: block;
+
+            color: #94a3b8;
+            text-decoration: none;
+
+            padding: 9px 12px;
+            border-radius: 6px;
+
+            margin-bottom: 4px;
+
+            font-size: 14px;
+        }
+
+        .sidebar a:hover {
+            background: #1e293b;
+            color: white;
+        }
+
+        /* =========================
+           ARTICLE
+        ========================= */
+
+        article {
+            min-width: 0;
+        }
+
+        .normal-link,
+        .normal-link:visited,
+        .normal-link:hover,
+        .normal-link:active {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .hero {
+            margin-bottom: 45px;
+        }
+
+        .hero h1 {
+            margin: 0 0 10px;
+
+            font-size: 42px;
+            color: white;
+        }
+
+        .hero p {
+            color: #94a3b8;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .author {
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        .phase {
+            margin-bottom: 55px;
+            scroll-margin-top: 100px;
+        }
+
+        .phase-title {
+            font-size: 30px;
+            color: white;
+
+            border-bottom: 1px solid #263244;
+
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+        }
+
+        .guide-author {
+            font-size: 13px;
+            color: var(--secondary-text);
+            margin-top: -10px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: white;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #cbd5e1;
+        }
+
+        ul,
+        ol {
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .default-link,
+        .default-link:hover,
+        .default-link:visited,
+        .default-link:active {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .image-tooltip {
+            position: relative;
+            cursor: help;
+        }
+        
+        .tooltip-image {
+            display: none;
+        
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translateX(-50%);
+        
+            margin-top: 10px;
+            z-index: 1000;
+        }
+        
+        .image-tooltip:hover .tooltip-image {
+            display: block;
+        }
+        
+        .tooltip-image img {
+            width: 150px;
+            height: auto;
+            max-width: 80vw;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .controls {
+            width: 100%;
+            border-collapse: collapse;
+
+            margin: 20px 0;
+        }
+
+        .controls th,
+        .controls td {
+            border: 1px solid #263244;
+
+            padding: 12px;
+            text-align: left;
+        }
+
+        .controls th {
+            background: #172033;
+            color: white;
+        }
+
+        .controls td {
+            background: #111827;
+            color: #cbd5e1;
+        }
+
+        .tip {
+            background: #172033;
+            border-left: 4px solid #3b82f6;
+
+            padding: 18px 20px;
+
+            margin: 25px 0;
+
+            border-radius: 6px;
+        }
+
+        .tip strong {
+            color: white;
+        }
+
+        .resources {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+            gap: 12px;
+
+            margin: 20px 0;
+        }
+
+        .resource {
+            background: #172033;
+            border: 1px solid #263244;
+
+            border-radius: 8px;
+
+            padding: 16px;
+        }
+
+        .resource strong {
+            display: block;
+
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .resource span {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .success {
+            background: #172033;
+
+            border: 1px solid #334155;
+
+            border-radius: 10px;
+
+            padding: 25px;
+
+            margin-top: 25px;
+        }
+
+        .success h2 {
+            margin-top: 0;
+            color: white;
+        }
+
+        .guide-image {
+          width: 400px;
+          max-width: 100%;
+          height: auto;
+          border-radius: 8px;
+          margin: 15px 0;
+      }
+
+        footer {
+            border-top: 1px solid #263244;
+
+            text-align: center;
+
+            padding: 25px;
+
+            color: #64748b;
+
+            font-size: 13px;
+        }
+
+        @media (max-width: 750px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .page {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                position: static;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Lurkers.io <span>Tutorial</span>
+    </div>
+
+    <nav>
+        <a href="../index.html">Leaderboard</a>
+        <a href="../guide.html" class="active">Guide</a>
+        <a href="../flag.html">Flags</a>
+    </nav>
+
+</header>
+
+
+<div class="page">
+
+    <aside class="sidebar">
+
+        <div class="sidebar-title">
+            Quickheal Tutorial
+        </div>
+
+        <a href="#preparation">Preparation</a>
+        <a href="#pagetwo">Phase 1 — Materials</a>
+        <a href="#pagethree">Phase 2 — Preparation</a>
+        <a href="#pagefour">Phase 3 — Setting Up</a>
+        <a href="#pagefive">Phase 4 — Uprising</a>
+        <a href="#end">Established</a>
+        <a href="#notes">Notes</a>
+
+    </aside>
+
+    <article>
+
+        <section class="hero">
+
+            <h1>
+                Lurkers.io Quickheal Tutorial
+            </h1>
+
+            <div class="guide-author">
+                by <strong>AethericNebula</strong>
+            </div>
+
+            <p>
+                A simple tutorial on how to quickheal.
+            </p>
+
+        </section>
+
+        <section class="phase" id="preparation">
+
+            <h2>Preparation</h2>
+
+            <p>
+                Quickheal is a skill that makes you use Medkits faster, it's frequently used in PvP or high-intensity battles. 
+                Using Quickheal is simple. First, make sure you are currently using a weapon and you have medkits in your hotbar.
+            </p>
+
+            <img src="https://i.ibb.co/hxCkrWWC/quickhealbefore.png" alt="Quickheal" class="guide-image">
+
+            <li>
+                Take a <strong>Medkit</strong> and drag it onto the weapon you are
+                currently using.
+            </li>
+
+            <table class="controls">
+
+                <tr>
+                    <th>Key / Button</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td><strong>W A S D</strong></td>
+                    <td>Move</td>
+                </tr>
+
+                <tr>
+                    <td><strong>LMB</strong></td>
+                    <td>Break / Use</td>
+                </tr>
+
+                <tr>
+                    <td><strong>RMB</strong></td>
+                    <td>Place blocks / Open some menus</td>
+                </tr>
+
+                <tr>
+                    <td><strong>B</strong></td>
+                    <td>Open crafting menu</td>
+                </tr>
+
+                <tr>
+                    <td><strong>C</strong></td>
+                    <td>Drop selected item</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Mouse Wheel</strong></td>
+                    <td>Change selected slot</td>
+                </tr>
+
+            </table>
+
+            <p>
+                Learn to use the sword. Hold <strong>LMB</strong> to charge it, point your
+                cursor where you want to slash, and release when it is preferably around
+                2/3 charged. You can also use the sword to boost yourself by pointing
+                your cursor above you, jumping, and slashing shortly after.
+            </p>
+
+            <p>
+                A useful sword movement technique is:
+            </p>
+
+            <ol>
+                <li>Charge the sword.</li>
+                <li>Aim your cursor above yourself.</li>
+                <li>Jump.</li>
+                <li>Shortly after jumping, release LMB and slash.</li>
+            </ol>
+
+            <div class="tip">
+                <strong>Tip:</strong>
+                Don't worry about being the best player yet.
+                The goal at this stage is simply to learn how the game works.
+            </div>
+
+            <p>
+                Get coins, fight enemies, and experiment with different weapons.
+                You might die — that's completely fine.
+            </p>
+
+            <p>
+                If you're playing on a team, help your teammates kill enemies
+                or destroy the enemy crate depending on the gamemode.
+            </p>
+
+            <div class="tip">
+                <strong>Remember:</strong>
+                Don't quit just because your team is losing.
+                You can still help your team and learn from the match.
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PHASE 1
+        ========================= -->
+
+        <section class="phase" id="phase1">
+
+            <h2 class="phase-title">
+                Phase 1 — Materials
+            </h2>
+
+            <h3>Gather Wood</h3>
+
+            <ol>
+                <li>Find birch trunks.</li>
+                <li>Gather around <strong>10 birch trunks</strong>.</li>
+                <li>Hold LMB while aiming at the trunk.</li>
+                <li>Press <strong>B</strong> to open crafting.</li>
+                <li>Convert birch trunks into wood.</li>
+            </ol>
+
+
+            <h3>Get Your Pickaxes</h3>
+
+            <ol>
+                <li>Craft a <strong>wood pickaxe</strong>.</li>
+                <li>Use it to mine <strong>3 stone</strong>.</li>
+                <li>Craft a <strong>stone pickaxe</strong>.</li>
+                <li>Use it to gather more stone.</li>
+            </ol>
+
+
+            <h3>Get Basic Tools</h3>
+
+            <p>
+                Craft a <strong>stone axe</strong>.
+            </p>
+
+            <ul>
+                <li><strong>Wood:</strong> 30–40</li>
+                <li><strong>Stone:</strong> 30–40</li>
+                <li><strong>Sword:</strong> 3 stone + 3 wood</li>
+            </ul>
+
+        </section>
+
+
+        <!-- =========================
+             PHASE 2
+        ========================= -->
+
+        <section class="phase" id="phase2">
+
+            <h2 class="phase-title">
+                Phase 2 — Preparation
+            </h2>
+
+            <p>
+                You can kill other players for loot.
+                This is optional and can be dangerous.
+            </p>
+
+
+            <h3>Get Iron</h3>
+
+            <ol>
+                <li>Find iron.</li>
+                <li>Mine 3 iron.</li>
+                <li>Craft an iron pickaxe.</li>
+            </ol>
+
+            <p>
+                <strong>Iron Pickaxe</strong>: 3 iron + 3 wood
+            </p>
+
+
+            <h3>Collect More Resources</h3>
+
+            <p>
+                Search for more iron and gold.
+                Aim for approximately <strong>23–26 iron</strong>
+                in total, plus some gold.
+            </p>
+
+
+            <h3>Other Supplies</h3>
+
+            <ol>
+                <li>Kill people for loot. This is optional, and you may die in the process.</li>
+            
+                <li>Find iron and mine 3 iron.</li>
+            
+                <li>Craft an <strong>Iron Pickaxe</strong> using 3 iron and 3 wood.</li>
+            
+                <li>Find iron and gold. You will need around 23–26 iron in total.</li>
+            
+                <li>Get a <strong>Shotgun</strong> and <strong>Shotgun Ammo</strong> from a supply crate.</li>
+            
+                <li>Get <strong>Wheat Seeds</strong> if you don't already have better crops.</li>
+            
+                <li>Collect around <strong>50 blocks of Dirt</strong>.</li>
+            </ol>
+
+        </section>
+
+        <section class="phase" id="phase3">
+
+            <h2 class="phase-title">
+                Phase 3 — Setting Up
+            </h2>
+
+            <h3>Find a Hidden Location</h3>
+
+            <p>
+                Go approximately <strong>200–300 blocks underground</strong>.
+                Find or dig out a suitable underground area.
+            </p>
+
+
+            <h3>Build Your Base</h3>
+
+            <ol>
+                <li>Use some stone to make bricks.</li>
+                <li>Build a brick perimeter.</li>
+                <li>A mildly horizontal rectangle works well.</li>
+                <li>Create an entrance.</li>
+                <li>Place a wooden door.</li>
+                <li>Add a supply crate.</li>
+                <li>Add a chest.</li>
+            </ol>
+
+
+            <h3>Create a Farm</h3>
+
+            <ol>
+                <li>Place dirt horizontally in several layers.</li>
+                <li>Leave approximately 2 blocks of separation between layers.</li>
+                <li>Plant wheat seeds on the dirt.</li>
+                <li>Wait for the wheat to grow.</li>
+                <li>Harvest it.</li>
+            </ol>
+
+
+            <h3>Make Coins</h3>
+
+            <ol>
+                <li>Craft some bread with wheat.</li>
+                <li>Leave approximately half of your wheat unused.</li>
+                <li>Open a supply crate with RMB.</li>
+                <li>Sell wheat for coins.</li>
+                <li>Harvest more wheat.</li>
+                <li>Repeat.</li>
+            </ol>
+
+            <div class="tip">
+                <strong>Goal:</strong>
+                Keep farming and selling wheat until you have enough coins
+                for more medkits and potentially better guns.
+            </div>
+
+        </section>
+
+        <section class="phase" id="phase4">
+
+            <h2>Phase 4: Uprising</h2>
+
+            <ol>
+                <li>
+                    Find a trustworthy player to help defend your base.
+                    This is optional, but having an ally can make things easier.
+                    You can make friends by helping other players with farming,
+                    building, mining, defending, and other tasks.
+                </li>
+            
+                <li>
+                    Go deep into the mines and look for <strong>Mithril</strong>
+                    and other minerals. Try strip mining through large areas of stone,
+                    leaving 2 blocks of separation between each tunnel.
+                </li>
+            
+                <li>
+                    Keep mining until you have enough materials for
+                    <strong>Mithril armor and tools</strong>, or until you are satisfied
+                    with what you have found.
+                </li>
+            
+                <li>
+                    Get the armor pieces you need from other players.
+                    You can practice PvP in other gamemodes first if you want to.
+                </li>
+            
+                <li>
+                    Once you have full Mithril armor, a good supply of medkits,
+                    enough money and materials, and a stable base, you have
+                    successfully established yourself.
+                </li>
+            </ol>
+
+            <p>
+                From here, you can choose what to do next: help other players,
+                fight, build and upgrade your base, create a peaceful community,
+                teach new players, or keep your base going and build your own legacy.
+            </p>
+            
+        </section>
+
+        <section class="phase" id="end">
+
+            <h2 class="phase-title">
+                You've Established Yourself!
+            </h2>
+
+            <li>
+                Once you have <strong>full Mithril armor</strong>,
+                <strong>Mithril tools</strong>, a decent supply of <strong>medkits</strong>,
+                enough <strong>money and materials</strong>, a stable base,
+                and reliable allies, you have successfully established yourself.
+            </li>
+
+            <h2>
+                What happens next?
+            </h2>
+
+            <p>
+                From here, you can play however you want.
+            </p>
+
+            <ul>
+                <li>Help other players.</li>
+                <li>Fight other players.</li>
+                <li>Build and upgrade your base.</li>
+                <li>Create a peaceful community.</li>
+                <li>Explore and mine.</li>
+                <li>Build a long-lasting legacy.</li>
+            </ul>
+
+        </section>
+
+        <section class="phase" id="notes">
+
+            <h2 class="phase-title">
+                Notes & Observations
+            </h2>
+
+            <p>
+                This guide was inspired by the experience of playing
+                Lurkers.io since its release on Poki Games and by helping
+                new players learn the game.
+            </p>
+
+            <p>
+                Lurkers.io is a game where cooperation, exploration,
+                building, combat, and simply experimenting can all become
+                part of the experience.
+            </p>
+
+            <div class="tip">
+
+                <strong>Help the community grow</strong>
+
+                <p>
+                    If you enjoy Lurkers.io, consider introducing someone
+                    else to the game. Teach them how to play, play together,
+                    and share this guide.
+                </p>
+
+            </div>
+
+        </section>
+
+    </article>
+
+</div>
+
+
+<footer>
+    Lurkers.io Guide
+</footer>
+
+
+</body>
+</html>
