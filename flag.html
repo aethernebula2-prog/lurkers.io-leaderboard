@@ -35,7 +35,66 @@
         }
 
         header {
-            margin-bottom: 28px;
+            background: var(--background);
+            border-bottom: 1px solid var(--card-hover);
+            padding: 18px 30px;
+        
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        
+            box-sizing: border-box;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        header nav {
+            display: flex;
+            gap: 10px;
+        }
+        
+        header nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+        
+            padding: 8px 12px;
+            border-radius: 6px;
+        
+            transition: 0.2s;
+        }
+        
+        header nav a:hover {
+            background: #1e293b;
+            color: white;
+        }
+        
+        header nav a.active {
+            background: #2563eb;
+            color: white;
+        }
+        
+        @media (max-width: 650px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        
+            header nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
         }
 
         h1 {
