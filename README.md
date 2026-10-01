@@ -65,7 +65,7 @@ List of all flags with lurkers.io style, maybe you can find any cool flags throu
 
 ### 🗿 Guides(Beta)
 
-Teach you how to play the game, do skills, even quickheal! (Our Feature is let everyone can write their own guides for the game)
+Teach you how to play the game, do skills, even quickheal! We are currently working hard on this site.
 
 ### 🎨 Themes
 
