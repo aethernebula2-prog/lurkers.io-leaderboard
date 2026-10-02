@@ -1,0 +1,145 @@
+{
+  "bedwars": {
+    "game": "Lurkers.io",
+    "gamemode": "Bedwars",
+    "updatedAt": "2026-10-02T06:24:32.401372+00:00",
+    "lastUpdated": 1790921739231,
+    "cached": true,
+    "players": [
+      {
+        "Account ID": "AF2EF5468CBF2836",
+        "Player Name": "xXAntonyyyyXx",
+        "Games Won": 4,
+        "Games Lost": 2,
+        "Kills": 115,
+        "Deaths": 25,
+        "Score": 526
+      },
+      {
+        "Account ID": "48CA0B916A8ED4A4",
+        "Player Name": "Thebetterone",
+        "Games Won": 7,
+        "Games Lost": 6,
+        "Kills": 114,
+        "Deaths": 27,
+        "Score": 476
+      },
+      {
+        "Account ID": "61F03D1B678CB3AF",
+        "Player Name": "Player1745l",
+        "Games Won": 3,
+        "Games Lost": 5,
+        "Kills": 29,
+        "Deaths": 13,
+        "Score": 260
+      },
+      {
+        "Account ID": "6AFE93956F877E0A",
+        "Player Name": "xiaofeiji20260361",
+        "Games Won": 2,
+        "Games Lost": 8,
+        "Kills": 46,
+        "Deaths": 23,
+        "Score": 220
+      },
+      {
+        "Account ID": "B7099A5F23D8A472",
+        "Player Name": "mrduckdabian",
+        "Games Won": 2,
+        "Games Lost": 9,
+        "Kills": 29,
+        "Deaths": 24,
+        "Score": 139
+      },
+      {
+        "Account ID": "B789B916E95883F4",
+        "Player Name": "OHISASIBURI",
+        "Games Won": 5,
+        "Games Lost": 7,
+        "Kills": 59,
+        "Deaths": 84,
+        "Score": 111
+      },
+      {
+        "Account ID": "610C8AF156C60C84",
+        "Player Name": "cammanyt2",
+        "Games Won": 3,
+        "Games Lost": 4,
+        "Kills": 22,
+        "Deaths": 33,
+        "Score": 109
+      },
+      {
+        "Account ID": "B914041BD6A8BC7D",
+        "Player Name": "06ChangBan",
+        "Games Won": 2,
+        "Games Lost": 10,
+        "Kills": 73,
+        "Deaths": 121,
+        "Score": 76
+      }
+    ]
+  },
+  "ctf": {
+    "game": "Lurkers.io",
+    "gamemode": "Capture The Flag",
+    "updatedAt": "2026-10-02T06:24:32.529627+00:00",
+    "lastUpdated": 1790922122270,
+    "cached": true,
+    "players": []
+  },
+  "team-deathmatch": {
+    "game": "Lurkers.io",
+    "gamemode": "Team Deathmatch",
+    "updatedAt": "2026-10-02T06:24:32.661861+00:00",
+    "lastUpdated": 1790922120217,
+    "cached": true,
+    "players": [
+      {
+        "Account ID": "C1CC914D4BE6B501",
+        "Player Name": "XxjijibaoCNproxX",
+        "Games Won": 1,
+        "Games Lost": 5,
+        "Kills": 208,
+        "Deaths": 14,
+        "Score": 1502
+      },
+      {
+        "Account ID": "B14E2C01FCD13975",
+        "Player Name": "tomorrow",
+        "Games Won": 4,
+        "Games Lost": 3,
+        "Kills": 266,
+        "Deaths": 20,
+        "Score": 1387
+      },
+      {
+        "Account ID": "EC1D49B321638908",
+        "Player Name": "Keepon",
+        "Games Won": 2,
+        "Games Lost": 4,
+        "Kills": 119,
+        "Deaths": 13,
+        "Score": 948
+      },
+      {
+        "Account ID": "BA59CBB19FCDA4B4",
+        "Player Name": "Redman",
+        "Games Won": 10,
+        "Games Lost": 9,
+        "Kills": 26,
+        "Deaths": 22,
+        "Score": 170
+      },
+      {
+        "Account ID": "5F6F44C36B3744A7",
+        "Player Name": "Agent1000",
+        "Games Won": 1,
+        "Games Lost": 5,
+        "Kills": 0,
+        "Deaths": 47,
+        "Score": 16
+      }
+    ]
+  }
+}
