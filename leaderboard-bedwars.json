@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-02T13:19:18.663030+00:00",
-  "lastUpdated": 1790947096769,
-  "cached": true,
+  "updatedAt": "2026-10-02T18:47:06.168935+00:00",
+  "lastUpdated": 1790966823005,
+  "cached": false,
   "players": [
     {
       "Account ID": "85041C09AC121637",
@@ -60,15 +60,6 @@
       "Score": 238
     },
     {
-      "Account ID": "B7099A5F23D8A472",
-      "Player Name": "mrduckdabian",
-      "Games Won": 5,
-      "Games Lost": 11,
-      "Kills": 68,
-      "Deaths": 38,
-      "Score": 210
-    },
-    {
       "Account ID": "A5E84F448F66AA56",
       "Player Name": "jiogamingstudio",
       "Games Won": 4,
@@ -78,6 +69,15 @@
       "Score": 204
     },
     {
+      "Account ID": "B7099A5F23D8A472",
+      "Player Name": "mrduckdabian",
+      "Games Won": 5,
+      "Games Lost": 12,
+      "Kills": 68,
+      "Deaths": 39,
+      "Score": 203
+    },
+    {
       "Account ID": "6AFE93956F877E0A",
       "Player Name": "xiaofeiji20260361",
       "Games Won": 2,
@@ -85,6 +85,24 @@
       "Kills": 46,
       "Deaths": 27,
       "Score": 187
+    },
+    {
+      "Account ID": "FDBB30B351F4B3F2",
+      "Player Name": "thenoobsaverGGGG",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 32,
+      "Deaths": 21,
+      "Score": 180
+    },
+    {
+      "Account ID": "36249106B641EFA4",
+      "Player Name": "hungkop",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 41,
+      "Deaths": 44,
+      "Score": 136
     },
     {
       "Account ID": "BB602027712773FC",
@@ -98,11 +116,11 @@
     {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
-      "Games Won": 6,
+      "Games Won": 10,
       "Games Lost": 11,
-      "Kills": 78,
-      "Deaths": 102,
-      "Score": 111
+      "Kills": 88,
+      "Deaths": 115,
+      "Score": 124
     },
     {
       "Account ID": "610C8AF156C60C84",
@@ -139,6 +157,15 @@
       "Kills": 103,
       "Deaths": 223,
       "Score": 67
+    },
+    {
+      "Account ID": "7C47F9A9459C1AC1",
+      "Player Name": "DarkPhantom47",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 13,
+      "Deaths": 42,
+      "Score": 47
     }
   ]
 }
