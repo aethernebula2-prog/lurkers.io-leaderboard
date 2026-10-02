@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-02T00:18:20.595739+00:00",
-  "lastUpdated": 1790899856868,
+  "updatedAt": "2026-10-02T06:24:32.401372+00:00",
+  "lastUpdated": 1790921739231,
   "cached": true,
   "players": [
-    {
-      "Account ID": "61F03D1B678CB3AF",
-      "Player Name": "Player1745l",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 23,
-      "Deaths": 2,
-      "Score": 1178
-    },
     {
       "Account ID": "AF2EF5468CBF2836",
       "Player Name": "xXAntonyyyyXx",
@@ -26,11 +17,20 @@
     {
       "Account ID": "48CA0B916A8ED4A4",
       "Player Name": "Thebetterone",
-      "Games Won": 6,
-      "Games Lost": 5,
+      "Games Won": 7,
+      "Games Lost": 6,
       "Kills": 114,
-      "Deaths": 26,
-      "Score": 493
+      "Deaths": 27,
+      "Score": 476
+    },
+    {
+      "Account ID": "61F03D1B678CB3AF",
+      "Player Name": "Player1745l",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 29,
+      "Deaths": 13,
+      "Score": 260
     },
     {
       "Account ID": "6AFE93956F877E0A",
@@ -53,20 +53,29 @@
     {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
-      "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 52,
-      "Deaths": 75,
-      "Score": 113
+      "Games Won": 5,
+      "Games Lost": 7,
+      "Kills": 59,
+      "Deaths": 84,
+      "Score": 111
+    },
+    {
+      "Account ID": "610C8AF156C60C84",
+      "Player Name": "cammanyt2",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 22,
+      "Deaths": 33,
+      "Score": 109
     },
     {
       "Account ID": "B914041BD6A8BC7D",
       "Player Name": "06ChangBan",
       "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 10,
-      "Deaths": 34,
-      "Score": 62
+      "Games Lost": 10,
+      "Kills": 73,
+      "Deaths": 121,
+      "Score": 76
     }
   ]
 }

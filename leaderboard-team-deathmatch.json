@@ -1,10 +1,28 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-02T00:18:21.143996+00:00",
-  "lastUpdated": 1790899760795,
+  "updatedAt": "2026-10-02T06:24:32.661861+00:00",
+  "lastUpdated": 1790922120217,
   "cached": true,
   "players": [
+    {
+      "Account ID": "C1CC914D4BE6B501",
+      "Player Name": "XxjijibaoCNproxX",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 208,
+      "Deaths": 14,
+      "Score": 1502
+    },
+    {
+      "Account ID": "B14E2C01FCD13975",
+      "Player Name": "tomorrow",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 266,
+      "Deaths": 20,
+      "Score": 1387
+    },
     {
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
@@ -17,11 +35,20 @@
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 5,
-      "Games Lost": 6,
-      "Kills": 11,
-      "Deaths": 16,
-      "Score": 114
+      "Games Won": 10,
+      "Games Lost": 9,
+      "Kills": 26,
+      "Deaths": 22,
+      "Score": 170
+    },
+    {
+      "Account ID": "5F6F44C36B3744A7",
+      "Player Name": "Agent1000",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 0,
+      "Deaths": 47,
+      "Score": 16
     }
   ]
 }
