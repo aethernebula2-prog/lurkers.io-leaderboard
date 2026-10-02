@@ -1,18 +1,27 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-01T20:38:47.472168+00:00",
-  "lastUpdated": 1790887125173,
-  "cached": false,
+  "updatedAt": "2026-10-02T00:18:21.143996+00:00",
+  "lastUpdated": 1790899760795,
+  "cached": true,
   "players": [
+    {
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 119,
+      "Deaths": 13,
+      "Score": 948
+    },
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
       "Games Won": 5,
-      "Games Lost": 4,
-      "Kills": 9,
-      "Deaths": 11,
-      "Score": 137
+      "Games Lost": 6,
+      "Kills": 11,
+      "Deaths": 16,
+      "Score": 114
     }
   ]
 }
