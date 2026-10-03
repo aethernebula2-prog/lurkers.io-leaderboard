@@ -1,10 +1,19 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-03T01:32:10.804690+00:00",
-  "lastUpdated": 1790991053926,
+  "updatedAt": "2026-10-03T07:14:50.577539+00:00",
+  "lastUpdated": 1791011376599,
   "cached": true,
   "players": [
+    {
+      "Account ID": "C0A242975B7897FD",
+      "Player Name": "srblaze11",
+      "Games Won": 6,
+      "Games Lost": 2,
+      "Kills": 185,
+      "Deaths": 16,
+      "Score": 1231
+    },
     {
       "Account ID": "85041C09AC121637",
       "Player Name": "TeamIngIsBad",
@@ -31,6 +40,15 @@
       "Kills": 144,
       "Deaths": 41,
       "Score": 408
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 99,
+      "Deaths": 31,
+      "Score": 336
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -71,11 +89,11 @@
     {
       "Account ID": "B7099A5F23D8A472",
       "Player Name": "mrduckdabian",
-      "Games Won": 5,
-      "Games Lost": 12,
-      "Kills": 68,
-      "Deaths": 39,
-      "Score": 203
+      "Games Won": 6,
+      "Games Lost": 13,
+      "Kills": 71,
+      "Deaths": 43,
+      "Score": 196
     },
     {
       "Account ID": "FDBB30B351F4B3F2",
@@ -98,11 +116,11 @@
     {
       "Account ID": "36249106B641EFA4",
       "Player Name": "hungkop",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 54,
-      "Deaths": 46,
-      "Score": 160
+      "Games Won": 4,
+      "Games Lost": 5,
+      "Kills": 58,
+      "Deaths": 51,
+      "Score": 158
     },
     {
       "Account ID": "B789B916E95883F4",
@@ -127,9 +145,9 @@
       "Player Name": "pi314159",
       "Games Won": 3,
       "Games Lost": 4,
-      "Kills": 67,
-      "Deaths": 87,
-      "Score": 119
+      "Kills": 89,
+      "Deaths": 122,
+      "Score": 115
     },
     {
       "Account ID": "610C8AF156C60C84",
@@ -141,15 +159,6 @@
       "Score": 103
     },
     {
-      "Account ID": "6341AD39D8FD472F",
-      "Player Name": "XxGRYZENxX",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 30,
-      "Deaths": 63,
-      "Score": 97
-    },
-    {
       "Account ID": "F4EE58DC80678777",
       "Player Name": "AethericNebula",
       "Games Won": 1,
@@ -159,6 +168,15 @@
       "Score": 97
     },
     {
+      "Account ID": "6341AD39D8FD472F",
+      "Player Name": "XxGRYZENxX",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 44,
+      "Deaths": 97,
+      "Score": 88
+    },
+    {
       "Account ID": "5F6F44C36B3744A7",
       "Player Name": "Agent1000",
       "Games Won": 3,
@@ -166,24 +184,6 @@
       "Kills": 10,
       "Deaths": 26,
       "Score": 88
-    },
-    {
-      "Account ID": "FCDA4A0D9CA38F86",
-      "Player Name": "aslent",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 16,
-      "Deaths": 46,
-      "Score": 84
-    },
-    {
-      "Account ID": "B914041BD6A8BC7D",
-      "Player Name": "06ChangBan",
-      "Games Won": 5,
-      "Games Lost": 18,
-      "Kills": 135,
-      "Deaths": 240,
-      "Score": 77
     }
   ]
 }
