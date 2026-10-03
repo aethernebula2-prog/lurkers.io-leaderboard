@@ -1,18 +1,36 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-03T19:34:52.903192+00:00",
-  "lastUpdated": 1791055501975,
+  "updatedAt": "2026-10-03T22:31:13.188716+00:00",
+  "lastUpdated": 1791066296186,
   "cached": true,
   "players": [
     {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
-      "Games Won": 6,
-      "Games Lost": 2,
-      "Kills": 185,
+      "Games Won": 9,
+      "Games Lost": 3,
+      "Kills": 232,
+      "Deaths": 20,
+      "Score": 1235
+    },
+    {
+      "Account ID": "9B89B7156A49CE96",
+      "Player Name": "S7iP3R",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 107,
+      "Deaths": 17,
+      "Score": 679
+    },
+    {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 96,
       "Deaths": 16,
-      "Score": 1231
+      "Score": 633
     },
     {
       "Account ID": "85041C09AC121637",
@@ -33,6 +51,15 @@
       "Score": 408
     },
     {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 11,
+      "Games Lost": 8,
+      "Kills": 229,
+      "Deaths": 80,
+      "Score": 344
+    },
+    {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 0,
@@ -40,24 +67,6 @@
       "Kills": 84,
       "Deaths": 25,
       "Score": 336
-    },
-    {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 8,
-      "Games Lost": 7,
-      "Kills": 175,
-      "Deaths": 62,
-      "Score": 335
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommander",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 30,
-      "Deaths": 11,
-      "Score": 289
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -76,6 +85,24 @@
       "Kills": 36,
       "Deaths": 14,
       "Score": 269
+    },
+    {
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "TheCommander",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 30,
+      "Deaths": 12,
+      "Score": 264
+    },
+    {
+      "Account ID": "DCAF3B90A783022",
+      "Player Name": "nsrdl",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 83,
+      "Deaths": 46,
+      "Score": 230
     },
     {
       "Account ID": "61F03D1B678CB3AF",
@@ -141,6 +168,15 @@
       "Score": 170
     },
     {
+      "Account ID": "968DD88E444BABE0",
+      "Player Name": "xhosam2xx",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 45,
+      "Deaths": 36,
+      "Score": 141
+    },
+    {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
       "Games Won": 14,
@@ -148,42 +184,6 @@
       "Kills": 153,
       "Deaths": 187,
       "Score": 130
-    },
-    {
-      "Account ID": "BB602027712773FC",
-      "Player Name": "googlemap60",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 49,
-      "Deaths": 44,
-      "Score": 128
-    },
-    {
-      "Account ID": "A69C811E302B9820",
-      "Player Name": "pi314159",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 174,
-      "Deaths": 177,
-      "Score": 128
-    },
-    {
-      "Account ID": "B7099A5F23D8A472",
-      "Player Name": "mrduckdabian",
-      "Games Won": 7,
-      "Games Lost": 19,
-      "Kills": 107,
-      "Deaths": 115,
-      "Score": 119
-    },
-    {
-      "Account ID": "F4EE58DC80678777",
-      "Player Name": "AethericNebula",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 66,
-      "Deaths": 83,
-      "Score": 96
     }
   ]
 }

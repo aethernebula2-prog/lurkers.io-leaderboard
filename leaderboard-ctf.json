@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-03T19:34:53.834686+00:00",
-  "lastUpdated": 1791056093210,
+  "updatedAt": "2026-10-03T22:31:13.951931+00:00",
+  "lastUpdated": 1791066671246,
   "cached": false,
   "players": [
     {
@@ -13,6 +13,15 @@
       "Kills": 42,
       "Deaths": 15,
       "Score": 313
+    },
+    {
+      "Account ID": "4310D19AB57621D0",
+      "Player Name": "ahmetko",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 35,
+      "Deaths": 13,
+      "Score": 285
     }
   ]
 }
