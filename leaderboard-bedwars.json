@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-03T16:51:04.800210+00:00",
-  "lastUpdated": 1791045748754,
+  "updatedAt": "2026-10-03T19:34:52.903192+00:00",
+  "lastUpdated": 1791055501975,
   "cached": true,
   "players": [
     {
@@ -33,15 +33,6 @@
       "Score": 408
     },
     {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 8,
-      "Games Lost": 6,
-      "Kills": 153,
-      "Deaths": 46,
-      "Score": 389
-    },
-    {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 0,
@@ -49,6 +40,15 @@
       "Kills": 84,
       "Deaths": 25,
       "Score": 336
+    },
+    {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 8,
+      "Games Lost": 7,
+      "Kills": 175,
+      "Deaths": 62,
+      "Score": 335
     },
     {
       "Account ID": "B3AF50D640B2203",
@@ -78,22 +78,13 @@
       "Score": 269
     },
     {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "Passatb8",
-      "Games Won": 0,
-      "Games Lost": 10,
-      "Kills": 78,
-      "Deaths": 30,
-      "Score": 260
-    },
-    {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745l",
       "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 57,
-      "Deaths": 28,
-      "Score": 233
+      "Games Lost": 8,
+      "Kills": 60,
+      "Deaths": 33,
+      "Score": 209
     },
     {
       "Account ID": "36249106B641EFA4",
@@ -110,8 +101,8 @@
       "Games Won": 6,
       "Games Lost": 12,
       "Kills": 133,
-      "Deaths": 87,
-      "Score": 186
+      "Deaths": 89,
+      "Score": 182
     },
     {
       "Account ID": "6AFE93956F877E0A",
@@ -120,6 +111,15 @@
       "Games Lost": 11,
       "Kills": 46,
       "Deaths": 28,
+      "Score": 179
+    },
+    {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "Passatb8",
+      "Games Won": 1,
+      "Games Lost": 11,
+      "Kills": 101,
+      "Deaths": 59,
       "Score": 179
     },
     {
@@ -182,8 +182,8 @@
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 66,
-      "Deaths": 82,
-      "Score": 97
+      "Deaths": 83,
+      "Score": 96
     }
   ]
 }
