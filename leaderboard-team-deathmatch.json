@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-02T22:40:01.403616+00:00",
-  "lastUpdated": 1790980454938,
-  "cached": true,
+  "updatedAt": "2026-10-03T01:32:12.285367+00:00",
+  "lastUpdated": 1790991131164,
+  "cached": false,
   "players": [
     {
       "Account ID": "C1CC914D4BE6B501",
@@ -19,9 +19,9 @@
       "Player Name": "tomorrow",
       "Games Won": 4,
       "Games Lost": 3,
-      "Kills": 266,
-      "Deaths": 20,
-      "Score": 1387
+      "Kills": 298,
+      "Deaths": 23,
+      "Score": 1352
     },
     {
       "Account ID": "EC1D49B321638908",
@@ -58,6 +58,15 @@
       "Kills": 42,
       "Deaths": 13,
       "Score": 356
+    },
+    {
+      "Account ID": "A8CE65C6F0E964AB",
+      "Player Name": "elfinoaloxd",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 26,
+      "Deaths": 16,
+      "Score": 195
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
