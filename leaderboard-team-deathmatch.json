@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-04T08:56:31.898529+00:00",
-  "lastUpdated": 1791104190923,
+  "updatedAt": "2026-10-04T14:32:06.164880+00:00",
+  "lastUpdated": 1791124325002,
   "cached": false,
   "players": [
     {
@@ -36,28 +36,28 @@
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 3,
-      "Games Lost": 5,
+      "Games Lost": 6,
       "Kills": 182,
-      "Deaths": 20,
-      "Score": 947
+      "Deaths": 21,
+      "Score": 900
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 4,
+      "Games Lost": 6,
+      "Kills": 133,
+      "Deaths": 21,
+      "Score": 673
     },
     {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 149,
-      "Deaths": 24,
-      "Score": 637
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 101,
-      "Deaths": 18,
-      "Score": 603
+      "Games Lost": 7,
+      "Kills": 204,
+      "Deaths": 46,
+      "Score": 455
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -87,15 +87,6 @@
       "Score": 231
     },
     {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "Passatb8",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 24,
-      "Deaths": 17,
-      "Score": 157
-    },
-    {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
       "Games Won": 10,
@@ -103,6 +94,15 @@
       "Kills": 38,
       "Deaths": 36,
       "Score": 151
+    },
+    {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "Passatb8",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 32,
+      "Deaths": 29,
+      "Score": 122
     },
     {
       "Account ID": "F09FAD1E85764CAF",
