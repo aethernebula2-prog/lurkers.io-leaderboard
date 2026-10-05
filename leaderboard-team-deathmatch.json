@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-05T16:33:34.161396+00:00",
-  "lastUpdated": 1791218012117,
+  "updatedAt": "2026-10-05T22:58:48.727637+00:00",
+  "lastUpdated": 1791241127166,
   "cached": false,
   "players": [
     {
@@ -36,19 +36,19 @@
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 3,
-      "Games Lost": 8,
-      "Kills": 182,
-      "Deaths": 22,
-      "Score": 854
+      "Games Lost": 9,
+      "Kills": 196,
+      "Deaths": 26,
+      "Score": 778
     },
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 5,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 139,
-      "Deaths": 23,
-      "Score": 649
+      "Deaths": 24,
+      "Score": 620
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -96,12 +96,21 @@
       "Score": 325
     },
     {
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "TheCommander",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 91,
+      "Deaths": 32,
+      "Score": 301
+    },
+    {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 13,
-      "Games Lost": 15,
-      "Kills": 64,
-      "Deaths": 47,
+      "Games Won": 14,
+      "Games Lost": 16,
+      "Kills": 79,
+      "Deaths": 58,
       "Score": 182
     },
     {
@@ -116,11 +125,11 @@
     {
       "Account ID": "2A5986D58DF2141A",
       "Player Name": "hardwa",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 50,
-      "Deaths": 62,
-      "Score": 130
+      "Games Won": 7,
+      "Games Lost": 4,
+      "Kills": 135,
+      "Deaths": 140,
+      "Score": 160
     },
     {
       "Account ID": "3D52CCD78FE4738E",
@@ -128,8 +137,8 @@
       "Games Won": 1,
       "Games Lost": 7,
       "Kills": 32,
-      "Deaths": 29,
-      "Score": 122
+      "Deaths": 30,
+      "Score": 119
     },
     {
       "Account ID": "F09FAD1E85764CAF",
@@ -137,8 +146,8 @@
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 72,
-      "Deaths": 72,
-      "Score": 116
+      "Deaths": 73,
+      "Score": 115
     },
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -150,6 +159,15 @@
       "Score": 100
     },
     {
+      "Account ID": "8DD70DB80186425",
+      "Player Name": "lederice",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 14,
+      "Deaths": 25,
+      "Score": 56
+    },
+    {
       "Account ID": "5F6F44C36B3744A7",
       "Player Name": "Agent1000",
       "Games Won": 3,
@@ -159,13 +177,13 @@
       "Score": 25
     },
     {
-      "Account ID": "7C47F9A9459C1AC1",
-      "Player Name": "DarkPhantom47",
+      "Account ID": "9C8C53A18A4F470",
+      "Player Name": "C0raIine0",
       "Games Won": 0,
       "Games Lost": 6,
-      "Kills": 6,
-      "Deaths": 32,
-      "Score": 18
+      "Kills": 2,
+      "Deaths": 10,
+      "Score": 20
     }
   ]
 }
