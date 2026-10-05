@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-04T22:04:33.041282+00:00",
-  "lastUpdated": 1791151470733,
+  "updatedAt": "2026-10-05T01:22:43.488362+00:00",
+  "lastUpdated": 1791163362491,
   "cached": false,
   "players": [
     {
@@ -26,11 +26,11 @@
     {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
-      "Games Won": 4,
+      "Games Won": 5,
       "Games Lost": 3,
-      "Kills": 298,
-      "Deaths": 23,
-      "Score": 1352
+      "Kills": 350,
+      "Deaths": 25,
+      "Score": 1462
     },
     {
       "Account ID": "EC1D49B321638908",
@@ -42,13 +42,22 @@
       "Score": 896
     },
     {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 57,
+      "Deaths": 9,
+      "Score": 649
+    },
+    {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 4,
       "Games Lost": 6,
       "Kills": 133,
-      "Deaths": 21,
-      "Score": 673
+      "Deaths": 22,
+      "Score": 644
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -78,15 +87,6 @@
       "Score": 325
     },
     {
-      "Account ID": "A8CE65C6F0E964AB",
-      "Player Name": "elfinoaloxd",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 42,
-      "Deaths": 25,
-      "Score": 198
-    },
-    {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
       "Games Won": 11,
@@ -94,6 +94,15 @@
       "Kills": 59,
       "Deaths": 42,
       "Score": 184
+    },
+    {
+      "Account ID": "A8CE65C6F0E964AB",
+      "Player Name": "elfinoaloxd",
+      "Games Won": 3,
+      "Games Lost": 8,
+      "Kills": 45,
+      "Deaths": 30,
+      "Score": 177
     },
     {
       "Account ID": "3D52CCD78FE4738E",
