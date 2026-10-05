@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-05T01:22:43.488362+00:00",
-  "lastUpdated": 1791163362491,
+  "updatedAt": "2026-10-05T07:52:27.658999+00:00",
+  "lastUpdated": 1791186746340,
   "cached": false,
   "players": [
     {
@@ -15,6 +15,15 @@
       "Score": 3232
     },
     {
+      "Account ID": "B14E2C01FCD13975",
+      "Player Name": "tomorrow",
+      "Games Won": 5,
+      "Games Lost": 5,
+      "Kills": 413,
+      "Deaths": 27,
+      "Score": 1579
+    },
+    {
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
       "Games Won": 1,
@@ -24,31 +33,13 @@
       "Score": 1491
     },
     {
-      "Account ID": "B14E2C01FCD13975",
-      "Player Name": "tomorrow",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 350,
-      "Deaths": 25,
-      "Score": 1462
-    },
-    {
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 3,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 182,
-      "Deaths": 21,
-      "Score": 896
-    },
-    {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 57,
-      "Deaths": 9,
-      "Score": 649
+      "Deaths": 22,
+      "Score": 854
     },
     {
       "Account ID": "E340F1474433376A",
@@ -58,6 +49,15 @@
       "Kills": 133,
       "Deaths": 22,
       "Score": 644
+    },
+    {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 60,
+      "Deaths": 13,
+      "Score": 475
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -89,10 +89,10 @@
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 11,
-      "Games Lost": 14,
-      "Kills": 59,
-      "Deaths": 42,
+      "Games Won": 13,
+      "Games Lost": 15,
+      "Kills": 62,
+      "Deaths": 45,
       "Score": 184
     },
     {
@@ -121,6 +121,15 @@
       "Kills": 72,
       "Deaths": 72,
       "Score": 116
+    },
+    {
+      "Account ID": "4DC65CEE49BD8118",
+      "Player Name": "22c22",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 12,
+      "Deaths": 12,
+      "Score": 100
     },
     {
       "Account ID": "5F6F44C36B3744A7",

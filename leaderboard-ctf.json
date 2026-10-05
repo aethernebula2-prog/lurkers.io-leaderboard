@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-05T01:22:42.680401+00:00",
-  "lastUpdated": 1791163360569,
+  "updatedAt": "2026-10-05T07:52:26.998232+00:00",
+  "lastUpdated": 1791186745095,
   "cached": false,
   "players": [
     {
@@ -31,6 +31,15 @@
       "Kills": 51,
       "Deaths": 25,
       "Score": 215
+    },
+    {
+      "Account ID": "F9A48BA1CDDBE185",
+      "Player Name": "ITSDEMON",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 62,
+      "Deaths": 52,
+      "Score": 152
     }
   ]
 }
