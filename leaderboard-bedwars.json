@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-05T22:58:47.282920+00:00",
-  "lastUpdated": 1791241126332,
+  "updatedAt": "2026-10-06T02:42:03.963893+00:00",
+  "lastUpdated": 1791254522649,
   "cached": false,
   "players": [
     {
@@ -114,15 +114,6 @@
       "Score": 351
     },
     {
-      "Account ID": "48CA0B916A8ED4A4",
-      "Player Name": "Thebetterone",
-      "Games Won": 13,
-      "Games Lost": 11,
-      "Kills": 292,
-      "Deaths": 106,
-      "Score": 329
-    },
-    {
       "Account ID": "AF2EF5468CBF2836",
       "Player Name": "xXAntonyyyyXx",
       "Games Won": 5,
@@ -132,6 +123,15 @@
       "Score": 326
     },
     {
+      "Account ID": "48CA0B916A8ED4A4",
+      "Player Name": "Thebetterone",
+      "Games Won": 14,
+      "Games Lost": 16,
+      "Kills": 328,
+      "Deaths": 119,
+      "Score": 322
+    },
+    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 2,
@@ -139,6 +139,15 @@
       "Kills": 192,
       "Deaths": 67,
       "Score": 308
+    },
+    {
+      "Account ID": "E2E34ADB336883E5",
+      "Player Name": "Luxdz",
+      "Games Won": 7,
+      "Games Lost": 0,
+      "Kills": 52,
+      "Deaths": 26,
+      "Score": 300
     },
     {
       "Account ID": "B3AF50D640B2203",
@@ -175,15 +184,6 @@
       "Kills": 96,
       "Deaths": 39,
       "Score": 261
-    },
-    {
-      "Account ID": "36249106B641EFA4",
-      "Player Name": "hungkop",
-      "Games Won": 19,
-      "Games Lost": 18,
-      "Kills": 225,
-      "Deaths": 117,
-      "Score": 243
     }
   ]
 }
