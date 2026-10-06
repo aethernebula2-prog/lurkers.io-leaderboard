@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-06T09:33:52.564009+00:00",
-  "lastUpdated": 1791279230821,
+  "updatedAt": "2026-10-06T16:21:45.271685+00:00",
+  "lastUpdated": 1791303702583,
   "cached": false,
   "players": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
+      "Player Name": "11121314",
       "Games Won": 3,
       "Games Lost": 9,
       "Kills": 196,
@@ -72,28 +72,37 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 5,
-      "Games Lost": 7,
-      "Kills": 139,
-      "Deaths": 25,
-      "Score": 597
-    },
-    {
-      "Account ID": "DAA395A9E015E0DC",
-      "Player Name": "ilovevietnamXD",
-      "Games Won": 1,
       "Games Lost": 9,
-      "Kills": 289,
-      "Deaths": 58,
-      "Score": 508
+      "Kills": 144,
+      "Deaths": 26,
+      "Score": 589
     },
     {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 1,
       "Games Lost": 5,
-      "Kills": 155,
-      "Deaths": 35,
-      "Score": 459
+      "Kills": 192,
+      "Deaths": 38,
+      "Score": 521
+    },
+    {
+      "Account ID": "DAA395A9E015E0DC",
+      "Player Name": "ilovevietnamXD",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 290,
+      "Deaths": 59,
+      "Score": 501
+    },
+    {
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 3,
+      "Games Lost": 8,
+      "Kills": 181,
+      "Deaths": 52,
+      "Score": 375
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -103,15 +112,6 @@
       "Kills": 104,
       "Deaths": 32,
       "Score": 366
-    },
-    {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 117,
-      "Deaths": 34,
-      "Score": 360
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -162,10 +162,10 @@
       "Account ID": "3D52CCD78FE4738E",
       "Player Name": "Passatb8",
       "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 32,
-      "Deaths": 30,
-      "Score": 119
+      "Games Lost": 9,
+      "Kills": 42,
+      "Deaths": 35,
+      "Score": 130
     },
     {
       "Account ID": "F09FAD1E85764CAF",
@@ -180,7 +180,7 @@
       "Account ID": "4DC65CEE49BD8118",
       "Player Name": "22c22",
       "Games Won": 0,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 12,
       "Deaths": 12,
       "Score": 100

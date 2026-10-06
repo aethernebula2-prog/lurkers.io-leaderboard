@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-06T09:33:51.866662+00:00",
-  "lastUpdated": 1791279229454,
+  "updatedAt": "2026-10-06T16:21:44.457547+00:00",
+  "lastUpdated": 1791303702848,
   "cached": false,
   "players": [
-    {
-      "Account ID": "3AEB08EEAFF1B9DC",
-      "Player Name": "Tiameron",
-      "Games Won": 5,
-      "Games Lost": 5,
-      "Kills": 263,
-      "Deaths": 27,
-      "Score": 1024
-    },
     {
       "Account ID": "149EB8E6ADC54894",
       "Player Name": "Zoey82",
@@ -22,6 +13,15 @@
       "Kills": 321,
       "Deaths": 35,
       "Score": 967
+    },
+    {
+      "Account ID": "3AEB08EEAFF1B9DC",
+      "Player Name": "Tiameron",
+      "Games Won": 6,
+      "Games Lost": 7,
+      "Kills": 356,
+      "Deaths": 53,
+      "Score": 717
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -47,17 +47,17 @@
       "Games Won": 1,
       "Games Lost": 8,
       "Kills": 51,
-      "Deaths": 25,
-      "Score": 215
+      "Deaths": 26,
+      "Score": 207
     },
     {
       "Account ID": "F9A48BA1CDDBE185",
-      "Player Name": "ITSDEMON",
+      "Player Name": "VOIDREAPERXXD",
       "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 62,
-      "Deaths": 52,
-      "Score": 152
+      "Games Lost": 5,
+      "Kills": 67,
+      "Deaths": 63,
+      "Score": 134
     }
   ]
 }
