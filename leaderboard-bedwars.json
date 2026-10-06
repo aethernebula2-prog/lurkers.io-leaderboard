@@ -1,10 +1,19 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-06T02:42:03.963893+00:00",
-  "lastUpdated": 1791254522649,
-  "cached": false,
+  "updatedAt": "2026-10-06T09:33:51.126700+00:00",
+  "lastUpdated": 1791278941286,
+  "cached": true,
   "players": [
+    {
+      "Account ID": "60D54F52DFD3CDF5",
+      "Player Name": "Doozr",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 122,
+      "Deaths": 5,
+      "Score": 2482
+    },
     {
       "Account ID": "29ABA364B0EC2485",
       "Player Name": "theTelaI",
@@ -60,6 +69,15 @@
       "Score": 1077
     },
     {
+      "Account ID": "C1CC914D4BE6B501",
+      "Player Name": "XxjijibaoCNproxX",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 43,
+      "Deaths": 6,
+      "Score": 750
+    },
+    {
       "Account ID": "9B89B7156A49CE96",
       "Player Name": "S7iP3R",
       "Games Won": 3,
@@ -105,6 +123,15 @@
       "Score": 437
     },
     {
+      "Account ID": "ABC920483AE3583",
+      "Player Name": "Airman911",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 117,
+      "Deaths": 31,
+      "Score": 377
+    },
+    {
       "Account ID": "B35AF7290BDBCD54",
       "Player Name": "tegin",
       "Games Won": 1,
@@ -112,15 +139,6 @@
       "Kills": 64,
       "Deaths": 19,
       "Score": 351
-    },
-    {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
-      "Games Won": 5,
-      "Games Lost": 4,
-      "Kills": 268,
-      "Deaths": 99,
-      "Score": 326
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -132,13 +150,22 @@
       "Score": 322
     },
     {
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 279,
+      "Deaths": 105,
+      "Score": 321
+    },
+    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
-      "Games Won": 2,
+      "Games Won": 3,
       "Games Lost": 7,
-      "Kills": 192,
-      "Deaths": 67,
-      "Score": 308
+      "Kills": 219,
+      "Deaths": 77,
+      "Score": 314
     },
     {
       "Account ID": "E2E34ADB336883E5",
@@ -157,33 +184,6 @@
       "Kills": 35,
       "Deaths": 13,
       "Score": 294
-    },
-    {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "Passatb8",
-      "Games Won": 10,
-      "Games Lost": 24,
-      "Kills": 306,
-      "Deaths": 116,
-      "Score": 293
-    },
-    {
-      "Account ID": "EA971E01419F3366",
-      "Player Name": "lamuerte2355",
-      "Games Won": 1,
-      "Games Lost": 11,
-      "Kills": 32,
-      "Deaths": 12,
-      "Score": 274
-    },
-    {
-      "Account ID": "B14E2C01FCD13975",
-      "Player Name": "tomorrow",
-      "Games Won": 2,
-      "Games Lost": 11,
-      "Kills": 96,
-      "Deaths": 39,
-      "Score": 261
     }
   ]
 }

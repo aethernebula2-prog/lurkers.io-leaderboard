@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-06T02:42:05.578262+00:00",
-  "lastUpdated": 1791254524292,
+  "updatedAt": "2026-10-06T09:33:52.564009+00:00",
+  "lastUpdated": 1791279230821,
   "cached": false,
   "players": [
     {
@@ -18,10 +18,10 @@
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
       "Games Won": 2,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 412,
-      "Deaths": 22,
-      "Score": 1890
+      "Deaths": 23,
+      "Score": 1807
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -87,6 +87,15 @@
       "Score": 508
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 155,
+      "Deaths": 35,
+      "Score": 459
+    },
+    {
       "Account ID": "5AE726D7DB6E6C20",
       "Player Name": "eer4dotorg",
       "Games Won": 5,
@@ -134,11 +143,11 @@
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 15,
+      "Games Won": 18,
       "Games Lost": 20,
-      "Kills": 114,
-      "Deaths": 69,
-      "Score": 208
+      "Kills": 124,
+      "Deaths": 78,
+      "Score": 206
     },
     {
       "Account ID": "2A5986D58DF2141A",
@@ -175,15 +184,6 @@
       "Kills": 12,
       "Deaths": 12,
       "Score": 100
-    },
-    {
-      "Account ID": "8DD70DB80186425",
-      "Player Name": "lederice",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 14,
-      "Deaths": 25,
-      "Score": 56
     }
   ]
 }
