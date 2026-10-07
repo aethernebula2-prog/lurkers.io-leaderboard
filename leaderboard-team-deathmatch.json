@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-07T07:52:09.120824+00:00",
-  "lastUpdated": 1791359526352,
+  "updatedAt": "2026-10-07T14:52:07.812143+00:00",
+  "lastUpdated": 1791384724710,
   "cached": false,
   "players": [
     {
@@ -71,20 +71,20 @@
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 5,
+      "Games Won": 6,
       "Games Lost": 9,
       "Kills": 151,
-      "Deaths": 27,
-      "Score": 594
+      "Deaths": 28,
+      "Score": 579
     },
     {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
-      "Games Won": 1,
+      "Games Won": 2,
       "Games Lost": 6,
-      "Kills": 211,
-      "Deaths": 39,
-      "Score": 555
+      "Kills": 270,
+      "Deaths": 52,
+      "Score": 544
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -96,15 +96,6 @@
       "Score": 507
     },
     {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 3,
-      "Games Lost": 8,
-      "Kills": 181,
-      "Deaths": 52,
-      "Score": 375
-    },
-    {
       "Account ID": "5AE726D7DB6E6C20",
       "Player Name": "eer4dotorg",
       "Games Won": 5,
@@ -112,6 +103,15 @@
       "Kills": 104,
       "Deaths": 32,
       "Score": 366
+    },
+    {
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 3,
+      "Games Lost": 11,
+      "Kills": 201,
+      "Deaths": 59,
+      "Score": 362
     },
     {
       "Account ID": "42A4EE7168959FF7",

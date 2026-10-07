@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-07T07:52:07.594228+00:00",
-  "lastUpdated": 1791359522856,
+  "updatedAt": "2026-10-07T14:52:06.364474+00:00",
+  "lastUpdated": 1791384721619,
   "cached": false,
   "players": [
     {
@@ -63,10 +63,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 7,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 213,
-      "Deaths": 21,
-      "Score": 1077
+      "Deaths": 22,
+      "Score": 1026
     },
     {
       "Account ID": "C1CC914D4BE6B501",
@@ -123,30 +123,21 @@
       "Score": 467
     },
     {
-      "Account ID": "74F8D7BEF83FE1E1",
-      "Player Name": "VNesepeople",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 48,
-      "Deaths": 13,
-      "Score": 419
-    },
-    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 0,
-      "Games Lost": 9,
-      "Kills": 195,
-      "Deaths": 49,
-      "Score": 397
+      "Games Lost": 10,
+      "Kills": 200,
+      "Deaths": 51,
+      "Score": 392
     },
     {
       "Account ID": "AF2EF5468CBF2836",
       "Player Name": "xXAntonyyyyXx",
       "Games Won": 6,
-      "Games Lost": 6,
-      "Kills": 385,
-      "Deaths": 136,
+      "Games Lost": 8,
+      "Kills": 421,
+      "Deaths": 145,
       "Score": 333
     },
     {
@@ -161,11 +152,11 @@
     {
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
-      "Games Won": 3,
+      "Games Won": 4,
       "Games Lost": 8,
-      "Kills": 224,
-      "Deaths": 82,
-      "Score": 300
+      "Kills": 251,
+      "Deaths": 92,
+      "Score": 306
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -184,6 +175,15 @@
       "Kills": 35,
       "Deaths": 13,
       "Score": 294
+    },
+    {
+      "Account ID": "74F8D7BEF83FE1E1",
+      "Player Name": "VNesepeople",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 52,
+      "Deaths": 22,
+      "Score": 279
     }
   ]
 }
