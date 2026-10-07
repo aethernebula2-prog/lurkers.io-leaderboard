@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-07T14:52:07.812143+00:00",
-  "lastUpdated": 1791384724710,
+  "updatedAt": "2026-10-07T20:17:22.720042+00:00",
+  "lastUpdated": 1791404239145,
   "cached": false,
   "players": [
     {
@@ -33,6 +33,15 @@
       "Score": 1579
     },
     {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 66,
+      "Deaths": 8,
+      "Score": 858
+    },
+    {
       "Account ID": "2F9DD7AF6601F842",
       "Player Name": "G0DL0VESALL",
       "Games Won": 4,
@@ -43,7 +52,7 @@
     },
     {
       "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
+      "Player Name": "11121314",
       "Games Won": 3,
       "Games Lost": 9,
       "Kills": 196,
@@ -51,22 +60,22 @@
       "Score": 778
     },
     {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 189,
-      "Deaths": 26,
-      "Score": 776
-    },
-    {
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 115,
+      "Deaths": 17,
+      "Score": 706
+    },
+    {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 5,
       "Games Lost": 6,
-      "Kills": 114,
-      "Deaths": 16,
-      "Score": 745
+      "Kills": 224,
+      "Deaths": 34,
+      "Score": 704
     },
     {
       "Account ID": "E340F1474433376A",
@@ -123,6 +132,15 @@
       "Score": 328
     },
     {
+      "Account ID": "9C3B1FC6B72F645E",
+      "Player Name": "NoobCake",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 61,
+      "Deaths": 23,
+      "Score": 322
+    },
+    {
       "Account ID": "B3AF50D640B2203",
       "Player Name": "TheCommander",
       "Games Won": 1,
@@ -135,28 +153,28 @@
       "Account ID": "A8CE65C6F0E964AB",
       "Player Name": "elfinoaloxd",
       "Games Won": 5,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 90,
-      "Deaths": 41,
-      "Score": 255
+      "Deaths": 44,
+      "Score": 237
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
       "Games Won": 21,
       "Games Lost": 26,
-      "Kills": 139,
-      "Deaths": 85,
-      "Score": 208
+      "Kills": 140,
+      "Deaths": 86,
+      "Score": 207
     },
     {
       "Account ID": "2A5986D58DF2141A",
       "Player Name": "hardwa",
       "Games Won": 9,
-      "Games Lost": 4,
-      "Kills": 188,
-      "Deaths": 174,
-      "Score": 177
+      "Games Lost": 6,
+      "Kills": 246,
+      "Deaths": 231,
+      "Score": 166
     },
     {
       "Account ID": "F22B6CE103812CED",
@@ -166,24 +184,6 @@
       "Kills": 37,
       "Deaths": 26,
       "Score": 158
-    },
-    {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "AHMETcelebi",
-      "Games Won": 1,
-      "Games Lost": 10,
-      "Kills": 42,
-      "Deaths": 36,
-      "Score": 125
-    },
-    {
-      "Account ID": "F09FAD1E85764CAF",
-      "Player Name": "IdesOfMarch",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 72,
-      "Deaths": 73,
-      "Score": 115
     }
   ]
 }
