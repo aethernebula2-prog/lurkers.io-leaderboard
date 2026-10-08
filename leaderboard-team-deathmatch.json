@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-08T00:32:36.319169+00:00",
-  "lastUpdated": 1791419550887,
+  "updatedAt": "2026-10-08T06:47:10.460993+00:00",
+  "lastUpdated": 1791442024965,
   "cached": false,
   "players": [
     {
@@ -60,15 +60,6 @@
       "Score": 778
     },
     {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 115,
-      "Deaths": 17,
-      "Score": 706
-    },
-    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 5,
@@ -76,6 +67,24 @@
       "Kills": 224,
       "Deaths": 34,
       "Score": 704
+    },
+    {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 3,
+      "Games Lost": 8,
+      "Kills": 115,
+      "Deaths": 17,
+      "Score": 703
+    },
+    {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 309,
+      "Deaths": 53,
+      "Score": 613
     },
     {
       "Account ID": "E340F1474433376A",
@@ -87,15 +96,6 @@
       "Score": 579
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 270,
-      "Deaths": 52,
-      "Score": 544
-    },
-    {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 2,
@@ -103,6 +103,15 @@
       "Kills": 358,
       "Deaths": 73,
       "Score": 507
+    },
+    {
+      "Account ID": "4DC65CEE49BD8118",
+      "Player Name": "22c22",
+      "Games Won": 0,
+      "Games Lost": 10,
+      "Kills": 79,
+      "Deaths": 20,
+      "Score": 395
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -143,11 +152,11 @@
     {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "NoobCake",
-      "Games Won": 6,
-      "Games Lost": 6,
-      "Kills": 61,
-      "Deaths": 28,
-      "Score": 267
+      "Games Won": 8,
+      "Games Lost": 12,
+      "Kills": 85,
+      "Deaths": 40,
+      "Score": 252
     },
     {
       "Account ID": "A8CE65C6F0E964AB",
@@ -161,11 +170,11 @@
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 23,
-      "Games Lost": 29,
+      "Games Won": 25,
+      "Games Lost": 33,
       "Kills": 160,
       "Deaths": 96,
-      "Score": 210
+      "Score": 209
     },
     {
       "Account ID": "2A5986D58DF2141A",
@@ -175,15 +184,6 @@
       "Kills": 246,
       "Deaths": 231,
       "Score": 166
-    },
-    {
-      "Account ID": "F22B6CE103812CED",
-      "Player Name": "Candlequeen",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 38,
-      "Deaths": 28,
-      "Score": 150
     }
   ]
 }
