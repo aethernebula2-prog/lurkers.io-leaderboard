@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-07T20:17:22.720042+00:00",
-  "lastUpdated": 1791404239145,
+  "updatedAt": "2026-10-08T00:32:36.319169+00:00",
+  "lastUpdated": 1791419550887,
   "cached": false,
   "players": [
     {
@@ -132,15 +132,6 @@
       "Score": 328
     },
     {
-      "Account ID": "9C3B1FC6B72F645E",
-      "Player Name": "NoobCake",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 61,
-      "Deaths": 23,
-      "Score": 322
-    },
-    {
       "Account ID": "B3AF50D640B2203",
       "Player Name": "TheCommander",
       "Games Won": 1,
@@ -150,22 +141,31 @@
       "Score": 301
     },
     {
+      "Account ID": "9C3B1FC6B72F645E",
+      "Player Name": "NoobCake",
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 61,
+      "Deaths": 28,
+      "Score": 267
+    },
+    {
       "Account ID": "A8CE65C6F0E964AB",
       "Player Name": "elfinoaloxd",
       "Games Won": 5,
-      "Games Lost": 10,
-      "Kills": 90,
-      "Deaths": 44,
-      "Score": 237
+      "Games Lost": 11,
+      "Kills": 92,
+      "Deaths": 46,
+      "Score": 231
     },
     {
       "Account ID": "BA59CBB19FCDA4B4",
       "Player Name": "Redman",
-      "Games Won": 21,
-      "Games Lost": 26,
-      "Kills": 140,
-      "Deaths": 86,
-      "Score": 207
+      "Games Won": 23,
+      "Games Lost": 29,
+      "Kills": 160,
+      "Deaths": 96,
+      "Score": 210
     },
     {
       "Account ID": "2A5986D58DF2141A",
@@ -180,10 +180,10 @@
       "Account ID": "F22B6CE103812CED",
       "Player Name": "Candlequeen",
       "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 37,
-      "Deaths": 26,
-      "Score": 158
+      "Games Lost": 6,
+      "Kills": 38,
+      "Deaths": 28,
+      "Score": 150
     }
   ]
 }
