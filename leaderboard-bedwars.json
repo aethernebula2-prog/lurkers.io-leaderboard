@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-08T06:47:09.075326+00:00",
-  "lastUpdated": 1791442027153,
-  "cached": false,
+  "updatedAt": "2026-10-08T14:09:59.040657+00:00",
+  "lastUpdated": 1791468106363,
+  "cached": true,
   "players": [
     {
       "Account ID": "60D54F52DFD3CDF5",
@@ -62,20 +62,20 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 7,
+      "Games Won": 8,
       "Games Lost": 5,
-      "Kills": 213,
+      "Kills": 218,
       "Deaths": 22,
-      "Score": 1026
+      "Score": 1052
     },
     {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 149,
-      "Deaths": 21,
-      "Score": 772
+      "Games Won": 10,
+      "Games Lost": 5,
+      "Kills": 242,
+      "Deaths": 28,
+      "Score": 930
     },
     {
       "Account ID": "C1CC914D4BE6B501",
@@ -116,11 +116,11 @@
     {
       "Account ID": "39B11E1F6AB5F551",
       "Player Name": "DaiTuongHau2026",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 80,
-      "Deaths": 16,
-      "Score": 528
+      "Games Won": 4,
+      "Games Lost": 6,
+      "Kills": 126,
+      "Deaths": 29,
+      "Score": 474
     },
     {
       "Account ID": "10F525F29942FC2",
@@ -150,13 +150,13 @@
       "Score": 370
     },
     {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
-      "Games Won": 7,
-      "Games Lost": 11,
-      "Kills": 453,
-      "Deaths": 166,
-      "Score": 311
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 271,
+      "Deaths": 96,
+      "Score": 318
     },
     {
       "Account ID": "EAA1833CE6011D6B",
@@ -168,22 +168,22 @@
       "Score": 308
     },
     {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 4,
-      "Games Lost": 8,
-      "Kills": 251,
-      "Deaths": 92,
-      "Score": 306
+      "Account ID": "74F8D7BEF83FE1E1",
+      "Player Name": "VNesepeople",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 68,
+      "Deaths": 26,
+      "Score": 299
     },
     {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommander",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 35,
-      "Deaths": 13,
-      "Score": 294
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 7,
+      "Games Lost": 13,
+      "Kills": 486,
+      "Deaths": 185,
+      "Score": 297
     }
   ]
 }
