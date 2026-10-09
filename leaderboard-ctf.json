@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-09T06:55:55.734251+00:00",
-  "lastUpdated": 1791528953263,
+  "updatedAt": "2026-10-09T14:00:35.309608+00:00",
+  "lastUpdated": 1791554433360,
   "cached": false,
   "players": [
     {
@@ -17,11 +17,11 @@
     {
       "Account ID": "3AEB08EEAFF1B9DC",
       "Player Name": "Tiameron",
-      "Games Won": 9,
+      "Games Won": 10,
       "Games Lost": 7,
-      "Kills": 398,
-      "Deaths": 59,
-      "Score": 730
+      "Kills": 417,
+      "Deaths": 60,
+      "Score": 753
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -54,10 +54,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 140,
-      "Deaths": 66,
-      "Score": 269
+      "Games Lost": 4,
+      "Kills": 153,
+      "Deaths": 67,
+      "Score": 278
     },
     {
       "Account ID": "4310D19AB57621D0",
@@ -69,6 +69,15 @@
       "Score": 207
     },
     {
+      "Account ID": "F9A48BA1CDDBE185",
+      "Player Name": "TOXICSOUL",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 90,
+      "Deaths": 79,
+      "Score": 138
+    },
+    {
       "Account ID": "848DA99B96B2D16E",
       "Player Name": "Hihisuss",
       "Games Won": 4,
@@ -76,15 +85,6 @@
       "Kills": 22,
       "Deaths": 22,
       "Score": 133
-    },
-    {
-      "Account ID": "F9A48BA1CDDBE185",
-      "Player Name": "TOXICSOUL",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 77,
-      "Deaths": 73,
-      "Score": 130
     },
     {
       "Account ID": "9C8C53A18A4F470",
