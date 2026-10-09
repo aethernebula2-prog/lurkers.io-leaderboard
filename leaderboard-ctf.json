@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-09T19:52:38.302812+00:00",
-  "lastUpdated": 1791575062358,
+  "updatedAt": "2026-10-09T23:39:56.186484+00:00",
+  "lastUpdated": 1791588818914,
   "cached": true,
   "players": [
     {
       "Account ID": "149EB8E6ADC54894",
       "Player Name": "Zoey82",
       "Games Won": 8,
-      "Games Lost": 8,
-      "Kills": 321,
-      "Deaths": 35,
-      "Score": 967
+      "Games Lost": 9,
+      "Kills": 342,
+      "Deaths": 43,
+      "Score": 842
     },
     {
       "Account ID": "3AEB08EEAFF1B9DC",

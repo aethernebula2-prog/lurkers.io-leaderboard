@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-09T19:52:39.208030+00:00",
-  "lastUpdated": 1791575555609,
-  "cached": false,
+  "updatedAt": "2026-10-09T23:39:56.362974+00:00",
+  "lastUpdated": 1791588785117,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -99,10 +99,10 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 7,
-      "Games Lost": 12,
-      "Kills": 186,
-      "Deaths": 37,
-      "Score": 539
+      "Games Lost": 13,
+      "Kills": 228,
+      "Deaths": 43,
+      "Score": 565
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -126,10 +126,10 @@
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
       "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 79,
-      "Deaths": 20,
-      "Score": 428
+      "Games Lost": 5,
+      "Kills": 87,
+      "Deaths": 25,
+      "Score": 376
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -171,19 +171,19 @@
       "Account ID": "B3AF50D640B2203",
       "Player Name": "TheCommander",
       "Games Won": 1,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 105,
-      "Deaths": 36,
-      "Score": 304
+      "Deaths": 37,
+      "Score": 294
     },
     {
       "Account ID": "9C3B1FC6B72F645E",
       "Player Name": "NoobCake",
       "Games Won": 8,
-      "Games Lost": 12,
-      "Kills": 104,
-      "Deaths": 45,
-      "Score": 271
+      "Games Lost": 13,
+      "Kills": 106,
+      "Deaths": 46,
+      "Score": 268
     }
   ]
 }
