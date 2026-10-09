@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-08T20:19:23.548145+00:00",
-  "lastUpdated": 1791490625998,
-  "cached": true,
+  "updatedAt": "2026-10-09T00:47:45.548367+00:00",
+  "lastUpdated": 1791506863683,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -60,15 +60,6 @@
       "Score": 778
     },
     {
-      "Account ID": "113785E98F35679A",
-      "Player Name": "ddeex",
-      "Games Won": 5,
-      "Games Lost": 6,
-      "Kills": 224,
-      "Deaths": 34,
-      "Score": 704
-    },
-    {
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 3,
@@ -76,6 +67,15 @@
       "Kills": 115,
       "Deaths": 17,
       "Score": 703
+    },
+    {
+      "Account ID": "113785E98F35679A",
+      "Player Name": "ddeex",
+      "Games Won": 5,
+      "Games Lost": 7,
+      "Kills": 224,
+      "Deaths": 35,
+      "Score": 681
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -91,9 +91,9 @@
       "Player Name": "Grumpy",
       "Games Won": 6,
       "Games Lost": 11,
-      "Kills": 179,
-      "Deaths": 33,
-      "Score": 577
+      "Kills": 186,
+      "Deaths": 35,
+      "Score": 566
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -110,8 +110,8 @@
       "Games Won": 2,
       "Games Lost": 4,
       "Kills": 79,
-      "Deaths": 19,
-      "Score": 449
+      "Deaths": 20,
+      "Score": 428
     },
     {
       "Account ID": "4DC65CEE49BD8118",
@@ -144,10 +144,10 @@
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
       "Games Won": 6,
-      "Games Lost": 8,
-      "Kills": 206,
-      "Deaths": 72,
-      "Score": 328
+      "Games Lost": 9,
+      "Kills": 233,
+      "Deaths": 76,
+      "Score": 346
     },
     {
       "Account ID": "B3AF50D640B2203",
