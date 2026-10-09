@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-09T00:47:44.549684+00:00",
-  "lastUpdated": 1791506286298,
+  "updatedAt": "2026-10-09T06:55:55.069680+00:00",
+  "lastUpdated": 1791528738841,
   "cached": true,
   "players": [
     {
@@ -123,6 +123,15 @@
       "Score": 599
     },
     {
+      "Account ID": "97E911D1B205C40B",
+      "Player Name": "lamuerte3e8",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 37,
+      "Deaths": 7,
+      "Score": 578
+    },
+    {
       "Account ID": "39B11E1F6AB5F551",
       "Player Name": "DaiTuongHau2026",
       "Games Won": 4,
@@ -153,19 +162,10 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 5,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 271,
-      "Deaths": 96,
-      "Score": 318
-    },
-    {
-      "Account ID": "74F8D7BEF83FE1E1",
-      "Player Name": "VNesepeople",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 68,
-      "Deaths": 26,
-      "Score": 299
+      "Deaths": 97,
+      "Score": 312
     },
     {
       "Account ID": "B3AF50D640B2203",
@@ -177,13 +177,13 @@
       "Score": 294
     },
     {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
-      "Games Won": 8,
-      "Games Lost": 15,
-      "Kills": 537,
-      "Deaths": 217,
-      "Score": 282
+      "Account ID": "74F8D7BEF83FE1E1",
+      "Player Name": "VNesepeople",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 68,
+      "Deaths": 27,
+      "Score": 289
     }
   ]
 }

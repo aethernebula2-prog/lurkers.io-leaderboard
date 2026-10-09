@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-09T00:47:45.548367+00:00",
-  "lastUpdated": 1791506863683,
-  "cached": false,
+  "updatedAt": "2026-10-09T06:55:55.885235+00:00",
+  "lastUpdated": 1791528745630,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -22,6 +22,15 @@
       "Kills": 412,
       "Deaths": 23,
       "Score": 1807
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 399,
+      "Deaths": 25,
+      "Score": 1662
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -114,13 +123,13 @@
       "Score": 428
     },
     {
-      "Account ID": "4DC65CEE49BD8118",
-      "Player Name": "22c22",
-      "Games Won": 0,
-      "Games Lost": 10,
-      "Kills": 79,
-      "Deaths": 20,
-      "Score": 395
+      "Account ID": "848DA99B96B2D16E",
+      "Player Name": "Hihisuss",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 52,
+      "Deaths": 14,
+      "Score": 400
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -141,13 +150,22 @@
       "Score": 362
     },
     {
+      "Account ID": "4DC65CEE49BD8118",
+      "Player Name": "22c22",
+      "Games Won": 0,
+      "Games Lost": 12,
+      "Kills": 88,
+      "Deaths": 26,
+      "Score": 338
+    },
+    {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
-      "Games Won": 6,
-      "Games Lost": 9,
-      "Kills": 233,
-      "Deaths": 76,
-      "Score": 346
+      "Games Won": 7,
+      "Games Lost": 12,
+      "Kills": 251,
+      "Deaths": 85,
+      "Score": 332
     },
     {
       "Account ID": "B3AF50D640B2203",
@@ -166,24 +184,6 @@
       "Kills": 102,
       "Deaths": 43,
       "Score": 277
-    },
-    {
-      "Account ID": "8900D995CBF78E0D",
-      "Player Name": "Prescott",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 27,
-      "Deaths": 10,
-      "Score": 270
-    },
-    {
-      "Account ID": "A8CE65C6F0E964AB",
-      "Player Name": "elfinoaloxd",
-      "Games Won": 5,
-      "Games Lost": 12,
-      "Kills": 102,
-      "Deaths": 52,
-      "Score": 225
     }
   ]
 }
