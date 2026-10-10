@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-10T15:59:19.290119+00:00",
-  "lastUpdated": 1791647955774,
+  "updatedAt": "2026-10-10T19:50:08.440263+00:00",
+  "lastUpdated": 1791661805375,
   "cached": false,
   "players": [
     {
       "Account ID": "3E2597246487120A",
       "Player Name": "Z0EY1",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 55,
-      "Deaths": 1,
-      "Score": 5557
+      "Games Won": 7,
+      "Games Lost": 5,
+      "Kills": 86,
+      "Deaths": 4,
+      "Score": 2208
     },
     {
       "Account ID": "149EB8E6ADC54894",
@@ -35,11 +35,11 @@
     {
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
-      "Games Won": 4,
-      "Games Lost": 10,
+      "Games Won": 5,
+      "Games Lost": 11,
       "Kills": 49,
-      "Deaths": 15,
-      "Score": 355
+      "Deaths": 17,
+      "Score": 319
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -56,8 +56,8 @@
       "Games Won": 10,
       "Games Lost": 9,
       "Kills": 183,
-      "Deaths": 76,
-      "Score": 293
+      "Deaths": 77,
+      "Score": 290
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -90,10 +90,10 @@
       "Account ID": "F9A48BA1CDDBE185",
       "Player Name": "TOXICSOUL",
       "Games Won": 2,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 90,
       "Deaths": 79,
-      "Score": 138
+      "Score": 136
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -119,17 +119,26 @@
       "Games Won": 2,
       "Games Lost": 4,
       "Kills": 27,
-      "Deaths": 37,
-      "Score": 106
+      "Deaths": 38,
+      "Score": 104
     },
     {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745l",
       "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 22,
-      "Deaths": 31,
-      "Score": 93
+      "Games Lost": 8,
+      "Kills": 24,
+      "Deaths": 34,
+      "Score": 90
+    },
+    {
+      "Account ID": "47EAD974A535EB66",
+      "Player Name": "primemirac",
+      "Games Won": 4,
+      "Games Lost": 5,
+      "Kills": 3,
+      "Deaths": 9,
+      "Score": 77
     },
     {
       "Account ID": "9C8C53A18A4F470",
@@ -139,6 +148,15 @@
       "Kills": 9,
       "Deaths": 35,
       "Score": 59
+    },
+    {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 2,
+      "Deaths": 9,
+      "Score": 22
     },
     {
       "Account ID": "3D52CCD78FE4738E",
