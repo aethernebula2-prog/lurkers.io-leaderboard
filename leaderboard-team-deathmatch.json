@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-10T10:12:41.322640+00:00",
-  "lastUpdated": 1791627157615,
+  "updatedAt": "2026-10-10T15:59:20.050722+00:00",
+  "lastUpdated": 1791647956087,
   "cached": false,
   "players": [
     {
@@ -36,10 +36,10 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 399,
-      "Deaths": 29,
-      "Score": 1415
+      "Games Lost": 7,
+      "Kills": 445,
+      "Deaths": 35,
+      "Score": 1307
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -99,19 +99,10 @@
       "Account ID": "BE5CDAD184D4B26E",
       "Player Name": "CJNGbeethoven",
       "Games Won": 3,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 209,
-      "Deaths": 38,
-      "Score": 592
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 7,
-      "Games Lost": 13,
-      "Kills": 228,
-      "Deaths": 43,
-      "Score": 565
+      "Deaths": 39,
+      "Score": 573
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -123,13 +114,22 @@
       "Score": 520
     },
     {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 8,
+      "Games Lost": 14,
+      "Kills": 240,
+      "Deaths": 50,
+      "Score": 516
+    },
+    {
       "Account ID": "848DA99B96B2D16E",
       "Player Name": "Hihisuss",
       "Games Won": 4,
       "Games Lost": 7,
-      "Kills": 156,
-      "Deaths": 37,
-      "Score": 457
+      "Kills": 158,
+      "Deaths": 38,
+      "Score": 452
     },
     {
       "Account ID": "B878724F01F26E5C",
@@ -150,13 +150,22 @@
       "Score": 366
     },
     {
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "TheCommanderSM",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 158,
+      "Deaths": 45,
+      "Score": 361
+    },
+    {
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 6,
-      "Games Lost": 13,
+      "Games Lost": 14,
       "Kills": 289,
-      "Deaths": 88,
-      "Score": 359
+      "Deaths": 91,
+      "Score": 347
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -175,15 +184,6 @@
       "Kills": 88,
       "Deaths": 27,
       "Score": 325
-    },
-    {
-      "Account ID": "D168E70AB19CD87F",
-      "Player Name": "Xxunstoppable123xX",
-      "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 43,
-      "Deaths": 14,
-      "Score": 307
     }
   ]
 }

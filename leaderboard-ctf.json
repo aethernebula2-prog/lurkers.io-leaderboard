@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-10T10:12:40.503971+00:00",
-  "lastUpdated": 1791627157141,
+  "updatedAt": "2026-10-10T15:59:19.290119+00:00",
+  "lastUpdated": 1791647955774,
   "cached": false,
   "players": [
     {
-      "Account ID": "3AEB08EEAFF1B9DC",
-      "Player Name": "Tiameron",
-      "Games Won": 13,
-      "Games Lost": 10,
-      "Kills": 573,
-      "Deaths": 76,
-      "Score": 810
+      "Account ID": "3E2597246487120A",
+      "Player Name": "Z0EY1",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 55,
+      "Deaths": 1,
+      "Score": 5557
     },
     {
       "Account ID": "149EB8E6ADC54894",
@@ -22,6 +22,15 @@
       "Kills": 366,
       "Deaths": 53,
       "Score": 735
+    },
+    {
+      "Account ID": "3AEB08EEAFF1B9DC",
+      "Player Name": "Tiameron",
+      "Games Won": 18,
+      "Games Lost": 16,
+      "Kills": 669,
+      "Deaths": 104,
+      "Score": 696
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -65,8 +74,17 @@
       "Games Won": 1,
       "Games Lost": 8,
       "Kills": 51,
-      "Deaths": 26,
-      "Score": 207
+      "Deaths": 27,
+      "Score": 200
+    },
+    {
+      "Account ID": "402FC28DBEC52064",
+      "Player Name": "FlashProSSSjapanese2027",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 17,
+      "Deaths": 10,
+      "Score": 184
     },
     {
       "Account ID": "F9A48BA1CDDBE185",
@@ -87,6 +105,33 @@
       "Score": 133
     },
     {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "longbeoVN",
+      "Games Won": 4,
+      "Games Lost": 5,
+      "Kills": 30,
+      "Deaths": 39,
+      "Score": 121
+    },
+    {
+      "Account ID": "B76307ACF0AC718D",
+      "Player Name": "kaanatabay",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 27,
+      "Deaths": 37,
+      "Score": 106
+    },
+    {
+      "Account ID": "61F03D1B678CB3AF",
+      "Player Name": "Player1745l",
+      "Games Won": 2,
+      "Games Lost": 7,
+      "Kills": 22,
+      "Deaths": 31,
+      "Score": 93
+    },
+    {
       "Account ID": "9C8C53A18A4F470",
       "Player Name": "C0raIine0",
       "Games Won": 2,
@@ -94,6 +139,15 @@
       "Kills": 9,
       "Deaths": 35,
       "Score": 59
+    },
+    {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "VOLKSWAGEN06",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 2,
+      "Deaths": 21,
+      "Score": 9
     }
   ]
 }

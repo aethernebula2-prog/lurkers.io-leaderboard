@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-10T10:12:39.752345+00:00",
-  "lastUpdated": 1791626836547,
-  "cached": true,
+  "updatedAt": "2026-10-10T15:59:18.538243+00:00",
+  "lastUpdated": 1791647955851,
+  "cached": false,
   "players": [
     {
       "Account ID": "60D54F52DFD3CDF5",
@@ -18,10 +18,10 @@
       "Account ID": "DDAD35B3119D31BC",
       "Player Name": "G3RM4NI4",
       "Games Won": 5,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 105,
       "Deaths": 5,
-      "Score": 2133
+      "Score": 2131
     },
     {
       "Account ID": "29ABA364B0EC2485",
@@ -51,15 +51,6 @@
       "Score": 1442
     },
     {
-      "Account ID": "BC4EE56A25902DBF",
-      "Player Name": "lamuerte238",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 24,
-      "Deaths": 2,
-      "Score": 1214
-    },
-    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 9,
@@ -80,11 +71,20 @@
     {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
-      "Games Won": 14,
-      "Games Lost": 10,
-      "Kills": 333,
-      "Deaths": 44,
-      "Score": 815
+      "Games Won": 15,
+      "Games Lost": 11,
+      "Kills": 363,
+      "Deaths": 47,
+      "Score": 830
+    },
+    {
+      "Account ID": "BC4EE56A25902DBF",
+      "Player Name": "lamuerte238",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 41,
+      "Deaths": 6,
+      "Score": 695
     },
     {
       "Account ID": "9B89B7156A49CE96",
@@ -141,6 +141,15 @@
       "Score": 578
     },
     {
+      "Account ID": "11BCAD7E1EF541E",
+      "Player Name": "XxKILLERxXzBRVx123xPRIME",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 67,
+      "Deaths": 14,
+      "Score": 491
+    },
+    {
       "Account ID": "891AEC8338452106",
       "Player Name": "MJKVL",
       "Games Won": 4,
@@ -175,15 +184,6 @@
       "Kills": 58,
       "Deaths": 18,
       "Score": 349
-    },
-    {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
-      "Games Won": 12,
-      "Games Lost": 18,
-      "Kills": 706,
-      "Deaths": 237,
-      "Score": 337
     }
   ]
 }
