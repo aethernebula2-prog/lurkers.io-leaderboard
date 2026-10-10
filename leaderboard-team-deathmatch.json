@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-10T03:12:30.926397+00:00",
-  "lastUpdated": 1791601589187,
-  "cached": true,
+  "updatedAt": "2026-10-10T10:12:41.322640+00:00",
+  "lastUpdated": 1791627157615,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -24,15 +24,6 @@
       "Score": 1806
     },
     {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 4,
-      "Games Lost": 2,
-      "Kills": 399,
-      "Deaths": 25,
-      "Score": 1662
-    },
-    {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 5,
@@ -40,6 +31,15 @@
       "Kills": 413,
       "Deaths": 27,
       "Score": 1579
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 4,
+      "Games Lost": 6,
+      "Kills": 399,
+      "Deaths": 29,
+      "Score": 1415
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -78,6 +78,15 @@
       "Score": 701
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 4,
+      "Games Lost": 13,
+      "Kills": 452,
+      "Deaths": 68,
+      "Score": 688
+    },
+    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 5,
@@ -87,13 +96,13 @@
       "Score": 681
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 4,
-      "Games Lost": 12,
-      "Kills": 432,
-      "Deaths": 66,
-      "Score": 679
+      "Account ID": "BE5CDAD184D4B26E",
+      "Player Name": "CJNGbeethoven",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 209,
+      "Deaths": 38,
+      "Score": 592
     },
     {
       "Account ID": "E340F1474433376A",
@@ -145,9 +154,9 @@
       "Player Name": "inshanegaming13",
       "Games Won": 6,
       "Games Lost": 13,
-      "Kills": 267,
-      "Deaths": 85,
-      "Score": 345
+      "Kills": 289,
+      "Deaths": 88,
+      "Score": 359
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -175,15 +184,6 @@
       "Kills": 43,
       "Deaths": 14,
       "Score": 307
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommander",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 105,
-      "Deaths": 37,
-      "Score": 294
     }
   ]
 }
