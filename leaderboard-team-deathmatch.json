@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-09T23:39:56.362974+00:00",
-  "lastUpdated": 1791588785117,
+  "updatedAt": "2026-10-10T03:12:30.926397+00:00",
+  "lastUpdated": 1791601589187,
   "cached": true,
   "players": [
     {
@@ -150,15 +150,6 @@
       "Score": 345
     },
     {
-      "Account ID": "4DC65CEE49BD8118",
-      "Player Name": "22c22",
-      "Games Won": 0,
-      "Games Lost": 13,
-      "Kills": 88,
-      "Deaths": 26,
-      "Score": 338
-    },
-    {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
       "Games Won": 7,
@@ -168,6 +159,24 @@
       "Score": 332
     },
     {
+      "Account ID": "4DC65CEE49BD8118",
+      "Player Name": "22c22",
+      "Games Won": 0,
+      "Games Lost": 14,
+      "Kills": 88,
+      "Deaths": 27,
+      "Score": 325
+    },
+    {
+      "Account ID": "D168E70AB19CD87F",
+      "Player Name": "Xxunstoppable123xX",
+      "Games Won": 0,
+      "Games Lost": 7,
+      "Kills": 43,
+      "Deaths": 14,
+      "Score": 307
+    },
+    {
       "Account ID": "B3AF50D640B2203",
       "Player Name": "TheCommander",
       "Games Won": 1,
@@ -175,15 +184,6 @@
       "Kills": 105,
       "Deaths": 37,
       "Score": 294
-    },
-    {
-      "Account ID": "9C3B1FC6B72F645E",
-      "Player Name": "NoobCake",
-      "Games Won": 8,
-      "Games Lost": 13,
-      "Kills": 106,
-      "Deaths": 46,
-      "Score": 268
     }
   ]
 }
