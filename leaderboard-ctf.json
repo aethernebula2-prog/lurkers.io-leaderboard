@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-10T19:50:08.440263+00:00",
-  "lastUpdated": 1791661805375,
+  "updatedAt": "2026-10-10T23:03:44.099191+00:00",
+  "lastUpdated": 1791673418547,
   "cached": false,
   "players": [
-    {
-      "Account ID": "3E2597246487120A",
-      "Player Name": "Z0EY1",
-      "Games Won": 7,
-      "Games Lost": 5,
-      "Kills": 86,
-      "Deaths": 4,
-      "Score": 2208
-    },
     {
       "Account ID": "149EB8E6ADC54894",
       "Player Name": "Zoey82",
@@ -31,6 +22,15 @@
       "Kills": 669,
       "Deaths": 104,
       "Score": 696
+    },
+    {
+      "Account ID": "3E2597246487120A",
+      "Player Name": "Z0EY1",
+      "Games Won": 8,
+      "Games Lost": 8,
+      "Kills": 107,
+      "Deaths": 26,
+      "Score": 461
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -69,15 +69,6 @@
       "Score": 286
     },
     {
-      "Account ID": "4310D19AB57621D0",
-      "Player Name": "ahmetko",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 51,
-      "Deaths": 27,
-      "Score": 200
-    },
-    {
       "Account ID": "402FC28DBEC52064",
       "Player Name": "FlashProSSSjapanese2027",
       "Games Won": 1,
@@ -85,6 +76,15 @@
       "Kills": 17,
       "Deaths": 10,
       "Score": 184
+    },
+    {
+      "Account ID": "4310D19AB57621D0",
+      "Player Name": "ahmetko",
+      "Games Won": 2,
+      "Games Lost": 9,
+      "Kills": 52,
+      "Deaths": 32,
+      "Score": 180
     },
     {
       "Account ID": "F9A48BA1CDDBE185",
@@ -141,6 +141,15 @@
       "Score": 77
     },
     {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 0,
+      "Games Lost": 9,
+      "Kills": 10,
+      "Deaths": 13,
+      "Score": 76
+    },
+    {
       "Account ID": "9C8C53A18A4F470",
       "Player Name": "C0raIine0",
       "Games Won": 2,
@@ -148,15 +157,6 @@
       "Kills": 9,
       "Deaths": 35,
       "Score": 59
-    },
-    {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 2,
-      "Deaths": 9,
-      "Score": 22
     },
     {
       "Account ID": "3D52CCD78FE4738E",
