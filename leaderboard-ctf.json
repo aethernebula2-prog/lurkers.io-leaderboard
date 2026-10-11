@@ -1,10 +1,19 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-11T02:44:58.912240+00:00",
-  "lastUpdated": 1791686104059,
-  "cached": true,
+  "updatedAt": "2026-10-11T09:26:56.801404+00:00",
+  "lastUpdated": 1791710812818,
+  "cached": false,
   "players": [
+    {
+      "Account ID": "F6CEA8B5306A6F1D",
+      "Player Name": "Zoey32",
+      "Games Won": 5,
+      "Games Lost": 2,
+      "Kills": 22,
+      "Deaths": 1,
+      "Score": 2271
+    },
     {
       "Account ID": "149EB8E6ADC54894",
       "Player Name": "Zoey82",
@@ -71,11 +80,11 @@
     {
       "Account ID": "402FC28DBEC52064",
       "Player Name": "FlashProSSSjapanese2027",
-      "Games Won": 1,
+      "Games Won": 2,
       "Games Lost": 6,
-      "Kills": 17,
-      "Deaths": 10,
-      "Score": 184
+      "Kills": 21,
+      "Deaths": 12,
+      "Score": 200
     },
     {
       "Account ID": "4310D19AB57621D0",
@@ -85,15 +94,6 @@
       "Kills": 52,
       "Deaths": 32,
       "Score": 180
-    },
-    {
-      "Account ID": "F9A48BA1CDDBE185",
-      "Player Name": "TOXICSOUL",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 90,
-      "Deaths": 79,
-      "Score": 136
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -112,6 +112,15 @@
       "Kills": 30,
       "Deaths": 39,
       "Score": 121
+    },
+    {
+      "Account ID": "F9A48BA1CDDBE185",
+      "Player Name": "TOXICSOUL",
+      "Games Won": 2,
+      "Games Lost": 11,
+      "Kills": 96,
+      "Deaths": 98,
+      "Score": 113
     },
     {
       "Account ID": "B76307ACF0AC718D",
@@ -156,6 +165,15 @@
       "Games Lost": 4,
       "Kills": 9,
       "Deaths": 35,
+      "Score": 59
+    },
+    {
+      "Account ID": "B5496B53DD04D63E",
+      "Player Name": "Vikos86",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 6,
+      "Deaths": 23,
       "Score": 59
     },
     {

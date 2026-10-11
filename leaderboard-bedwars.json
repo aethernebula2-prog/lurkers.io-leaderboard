@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-11T02:44:58.768928+00:00",
-  "lastUpdated": 1791686311022,
+  "updatedAt": "2026-10-11T09:26:55.692857+00:00",
+  "lastUpdated": 1791710594484,
   "cached": true,
   "players": [
-    {
-      "Account ID": "48C661EA019C80EF",
-      "Player Name": "Lowenpewterz0",
-      "Games Won": 5,
-      "Games Lost": 2,
-      "Kills": 147,
-      "Deaths": 5,
-      "Score": 3011
-    },
     {
       "Account ID": "60D54F52DFD3CDF5",
       "Player Name": "Doozr",
@@ -22,6 +13,15 @@
       "Kills": 122,
       "Deaths": 5,
       "Score": 2482
+    },
+    {
+      "Account ID": "48C661EA019C80EF",
+      "Player Name": "Lowenpewterz0",
+      "Games Won": 5,
+      "Games Lost": 2,
+      "Kills": 206,
+      "Deaths": 9,
+      "Score": 2360
     },
     {
       "Account ID": "DDAD35B3119D31BC",
@@ -71,11 +71,11 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 8,
+      "Games Won": 11,
       "Games Lost": 6,
-      "Kills": 218,
-      "Deaths": 26,
-      "Score": 895
+      "Kills": 275,
+      "Deaths": 34,
+      "Score": 873
     },
     {
       "Account ID": "65B41DADC9A88720",
@@ -123,15 +123,6 @@
       "Score": 619
     },
     {
-      "Account ID": "392E2BE3F059A53D",
-      "Player Name": "nulaccusryes",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 35,
-      "Deaths": 6,
-      "Score": 599
-    },
-    {
       "Account ID": "97E911D1B205C40B",
       "Player Name": "lamuerte3e8",
       "Games Won": 3,
@@ -150,6 +141,24 @@
       "Score": 531
     },
     {
+      "Account ID": "8DAADB1EDBEAE7EC",
+      "Player Name": "Ecttttt",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 30,
+      "Deaths": 6,
+      "Score": 516
+    },
+    {
+      "Account ID": "39B11E1F6AB5F551",
+      "Player Name": "DaiTuongHau2026",
+      "Games Won": 9,
+      "Games Lost": 11,
+      "Kills": 188,
+      "Deaths": 49,
+      "Score": 428
+    },
+    {
       "Account ID": "11BCAD7E1EF541E",
       "Player Name": "XxKILLERxXzBRVx123xPRIME",
       "Games Won": 1,
@@ -159,13 +168,13 @@
       "Score": 428
     },
     {
-      "Account ID": "39B11E1F6AB5F551",
-      "Player Name": "DaiTuongHau2026",
-      "Games Won": 7,
-      "Games Lost": 8,
-      "Kills": 142,
-      "Deaths": 40,
-      "Score": 401
+      "Account ID": "392E2BE3F059A53D",
+      "Player Name": "nulaccusryes",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 40,
+      "Deaths": 10,
+      "Score": 414
     },
     {
       "Account ID": "ABC920483AE3583",
@@ -175,15 +184,6 @@
       "Kills": 228,
       "Deaths": 64,
       "Score": 363
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommanderSM",
-      "Games Won": 3,
-      "Games Lost": 8,
-      "Kills": 58,
-      "Deaths": 18,
-      "Score": 349
     }
   ]
 }

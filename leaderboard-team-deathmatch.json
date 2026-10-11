@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-11T02:44:59.055467+00:00",
-  "lastUpdated": 1791686135772,
-  "cached": true,
+  "updatedAt": "2026-10-11T09:26:57.529761+00:00",
+  "lastUpdated": 1791710818612,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -74,8 +74,8 @@
       "Games Won": 3,
       "Games Lost": 11,
       "Kills": 196,
-      "Deaths": 26,
-      "Score": 775
+      "Deaths": 28,
+      "Score": 721
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -99,10 +99,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 4,
-      "Games Lost": 14,
-      "Kills": 452,
-      "Deaths": 69,
-      "Score": 677
+      "Games Lost": 16,
+      "Kills": 469,
+      "Deaths": 73,
+      "Score": 662
     },
     {
       "Account ID": "BE5CDAD184D4B26E",
@@ -126,10 +126,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 4,
-      "Games Lost": 13,
+      "Games Lost": 14,
       "Kills": 427,
-      "Deaths": 86,
-      "Score": 520
+      "Deaths": 87,
+      "Score": 513
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -169,7 +169,7 @@
     },
     {
       "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommanderSM",
+      "Player Name": "TheCommander",
       "Games Won": 1,
       "Games Lost": 9,
       "Kills": 158,
