@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-11T09:26:56.801404+00:00",
-  "lastUpdated": 1791710812818,
+  "updatedAt": "2026-10-11T16:02:04.074508+00:00",
+  "lastUpdated": 1791734525405,
   "cached": false,
   "players": [
     {
@@ -78,22 +78,31 @@
       "Score": 286
     },
     {
+      "Account ID": "B789B916E95883F4",
+      "Player Name": "OHISASIBURI",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 14,
+      "Deaths": 7,
+      "Score": 250
+    },
+    {
       "Account ID": "402FC28DBEC52064",
       "Player Name": "FlashProSSSjapanese2027",
-      "Games Won": 2,
+      "Games Won": 3,
       "Games Lost": 6,
-      "Kills": 21,
-      "Deaths": 12,
-      "Score": 200
+      "Kills": 22,
+      "Deaths": 14,
+      "Score": 190
     },
     {
       "Account ID": "4310D19AB57621D0",
       "Player Name": "ahmetko",
       "Games Won": 2,
-      "Games Lost": 9,
-      "Kills": 52,
-      "Deaths": 32,
-      "Score": 180
+      "Games Lost": 10,
+      "Kills": 53,
+      "Deaths": 35,
+      "Score": 168
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -121,6 +130,15 @@
       "Kills": 96,
       "Deaths": 98,
       "Score": 113
+    },
+    {
+      "Account ID": "18523C9F01361325",
+      "Player Name": "TRYLERC",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 33,
+      "Deaths": 42,
+      "Score": 107
     },
     {
       "Account ID": "B76307ACF0AC718D",
@@ -166,24 +184,6 @@
       "Kills": 9,
       "Deaths": 35,
       "Score": 59
-    },
-    {
-      "Account ID": "B5496B53DD04D63E",
-      "Player Name": "Vikos86",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 6,
-      "Deaths": 23,
-      "Score": 59
-    },
-    {
-      "Account ID": "3D52CCD78FE4738E",
-      "Player Name": "VOLKSWAGEN06",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 2,
-      "Deaths": 21,
-      "Score": 9
     }
   ]
 }

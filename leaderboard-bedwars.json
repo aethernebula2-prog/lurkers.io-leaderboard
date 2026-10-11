@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-11T09:26:55.692857+00:00",
-  "lastUpdated": 1791710594484,
-  "cached": true,
+  "updatedAt": "2026-10-11T16:02:03.230170+00:00",
+  "lastUpdated": 1791734489902,
+  "cached": false,
   "players": [
     {
       "Account ID": "60D54F52DFD3CDF5",
@@ -141,6 +141,15 @@
       "Score": 531
     },
     {
+      "Account ID": "51AFB9CF8BB28574",
+      "Player Name": "Canucky",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 39,
+      "Deaths": 8,
+      "Score": 520
+    },
+    {
       "Account ID": "8DAADB1EDBEAE7EC",
       "Player Name": "Ecttttt",
       "Games Won": 1,
@@ -148,6 +157,15 @@
       "Kills": 30,
       "Deaths": 6,
       "Score": 516
+    },
+    {
+      "Account ID": "891AEC8338452106",
+      "Player Name": "MJKVL",
+      "Games Won": 10,
+      "Games Lost": 12,
+      "Kills": 125,
+      "Deaths": 29,
+      "Score": 476
     },
     {
       "Account ID": "39B11E1F6AB5F551",
@@ -159,15 +177,6 @@
       "Score": 428
     },
     {
-      "Account ID": "11BCAD7E1EF541E",
-      "Player Name": "XxKILLERxXzBRVx123xPRIME",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 67,
-      "Deaths": 16,
-      "Score": 428
-    },
-    {
       "Account ID": "392E2BE3F059A53D",
       "Player Name": "nulaccusryes",
       "Games Won": 1,
@@ -175,15 +184,6 @@
       "Kills": 40,
       "Deaths": 10,
       "Score": 414
-    },
-    {
-      "Account ID": "ABC920483AE3583",
-      "Player Name": "Airman911",
-      "Games Won": 1,
-      "Games Lost": 12,
-      "Kills": 228,
-      "Deaths": 64,
-      "Score": 363
     }
   ]
 }
