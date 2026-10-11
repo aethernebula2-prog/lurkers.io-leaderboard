@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-11T16:02:04.829087+00:00",
-  "lastUpdated": 1791734524084,
+  "updatedAt": "2026-10-11T20:40:50.633163+00:00",
+  "lastUpdated": 1791751248735,
   "cached": false,
   "players": [
     {
@@ -22,6 +22,15 @@
       "Kills": 412,
       "Deaths": 23,
       "Score": 1806
+    },
+    {
+      "Account ID": "B789B916E95883F4",
+      "Player Name": "OHISASIBURI",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 17,
+      "Deaths": 1,
+      "Score": 1711
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -117,10 +126,10 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 8,
-      "Games Lost": 14,
-      "Kills": 273,
-      "Deaths": 55,
-      "Score": 532
+      "Games Lost": 15,
+      "Kills": 296,
+      "Deaths": 57,
+      "Score": 554
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -143,11 +152,11 @@
     {
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 87,
-      "Deaths": 25,
-      "Score": 376
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 115,
+      "Deaths": 30,
+      "Score": 416
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -156,15 +165,6 @@
       "Games Lost": 7,
       "Kills": 104,
       "Deaths": 32,
-      "Score": 366
-    },
-    {
-      "Account ID": "E3AC17AA817C6FBD",
-      "Player Name": "Elres",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 80,
-      "Deaths": 24,
       "Score": 366
     },
     {
@@ -177,13 +177,13 @@
       "Score": 361
     },
     {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 6,
-      "Games Lost": 14,
-      "Kills": 289,
-      "Deaths": 91,
-      "Score": 347
+      "Account ID": "E3AC17AA817C6FBD",
+      "Player Name": "Elres",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 85,
+      "Deaths": 26,
+      "Score": 360
     }
   ]
 }
