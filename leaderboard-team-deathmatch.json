@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-10T23:03:44.803436+00:00",
-  "lastUpdated": 1791673421432,
-  "cached": false,
+  "updatedAt": "2026-10-11T02:44:59.055467+00:00",
+  "lastUpdated": 1791686135772,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -24,15 +24,6 @@
       "Score": 1806
     },
     {
-      "Account ID": "B14E2C01FCD13975",
-      "Player Name": "tomorrow",
-      "Games Won": 5,
-      "Games Lost": 5,
-      "Kills": 413,
-      "Deaths": 27,
-      "Score": 1579
-    },
-    {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 3,
@@ -40,6 +31,15 @@
       "Kills": 216,
       "Deaths": 15,
       "Score": 1490
+    },
+    {
+      "Account ID": "B14E2C01FCD13975",
+      "Player Name": "tomorrow",
+      "Games Won": 5,
+      "Games Lost": 6,
+      "Kills": 447,
+      "Deaths": 34,
+      "Score": 1360
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -72,10 +72,10 @@
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 3,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 196,
       "Deaths": 26,
-      "Score": 776
+      "Score": 775
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -87,15 +87,6 @@
       "Score": 701
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 4,
-      "Games Lost": 13,
-      "Kills": 452,
-      "Deaths": 68,
-      "Score": 688
-    },
-    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 5,
@@ -103,6 +94,15 @@
       "Kills": 224,
       "Deaths": 35,
       "Score": 681
+    },
+    {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 4,
+      "Games Lost": 14,
+      "Kills": 452,
+      "Deaths": 69,
+      "Score": 677
     },
     {
       "Account ID": "BE5CDAD184D4B26E",
