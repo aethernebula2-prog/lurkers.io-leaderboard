@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-12T00:04:40.968376+00:00",
-  "lastUpdated": 1791763447299,
+  "updatedAt": "2026-10-12T06:43:29.129583+00:00",
+  "lastUpdated": 1791787405515,
   "cached": false,
   "players": [
     {
@@ -69,15 +69,6 @@
       "Score": 843
     },
     {
-      "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
-      "Games Won": 3,
-      "Games Lost": 11,
-      "Kills": 196,
-      "Deaths": 28,
-      "Score": 721
-    },
-    {
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 3,
@@ -85,6 +76,15 @@
       "Kills": 115,
       "Deaths": 17,
       "Score": 701
+    },
+    {
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 3,
+      "Games Lost": 11,
+      "Kills": 196,
+      "Deaths": 29,
+      "Score": 697
     },
     {
       "Account ID": "113785E98F35679A",
@@ -99,10 +99,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 4,
-      "Games Lost": 16,
-      "Kills": 497,
-      "Deaths": 80,
-      "Score": 641
+      "Games Lost": 17,
+      "Kills": 523,
+      "Deaths": 82,
+      "Score": 656
     },
     {
       "Account ID": "E340F1474433376A",
@@ -114,15 +114,6 @@
       "Score": 554
     },
     {
-      "Account ID": "BE5CDAD184D4B26E",
-      "Player Name": "CJNGbeethoven",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 209,
-      "Deaths": 41,
-      "Score": 543
-    },
-    {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 4,
@@ -132,22 +123,40 @@
       "Score": 513
     },
     {
+      "Account ID": "BE5CDAD184D4B26E",
+      "Player Name": "CJNGbeethoven",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 253,
+      "Deaths": 56,
+      "Score": 481
+    },
+    {
       "Account ID": "848DA99B96B2D16E",
       "Player Name": "Hihisuss",
       "Games Won": 4,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 178,
-      "Deaths": 42,
-      "Score": 454
+      "Deaths": 43,
+      "Score": 442
     },
     {
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
       "Games Won": 3,
       "Games Lost": 6,
-      "Kills": 115,
-      "Deaths": 30,
-      "Score": 416
+      "Kills": 124,
+      "Deaths": 32,
+      "Score": 420
+    },
+    {
+      "Account ID": "A2B6D8A33470A4BF",
+      "Player Name": "Atomon",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 66,
+      "Deaths": 18,
+      "Score": 383
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -159,6 +168,15 @@
       "Score": 366
     },
     {
+      "Account ID": "9C3B1FC6B72F645E",
+      "Player Name": "NoobCake",
+      "Games Won": 9,
+      "Games Lost": 20,
+      "Kills": 252,
+      "Deaths": 76,
+      "Score": 362
+    },
+    {
       "Account ID": "B3AF50D640B2203",
       "Player Name": "TheCommander",
       "Games Won": 1,
@@ -166,24 +184,6 @@
       "Kills": 158,
       "Deaths": 45,
       "Score": 361
-    },
-    {
-      "Account ID": "E3AC17AA817C6FBD",
-      "Player Name": "Elres",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 85,
-      "Deaths": 26,
-      "Score": 360
-    },
-    {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 6,
-      "Games Lost": 14,
-      "Kills": 289,
-      "Deaths": 91,
-      "Score": 347
     }
   ]
 }
