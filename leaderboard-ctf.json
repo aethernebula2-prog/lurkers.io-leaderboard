@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-12T16:16:11.766074+00:00",
-  "lastUpdated": 1791821765905,
+  "updatedAt": "2026-10-12T23:20:13.057143+00:00",
+  "lastUpdated": 1791847213052,
   "cached": false,
   "players": [
     {
@@ -69,15 +69,6 @@
       "Score": 318
     },
     {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 10,
-      "Games Lost": 9,
-      "Kills": 183,
-      "Deaths": 77,
-      "Score": 290
-    },
-    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 5,
@@ -87,6 +78,15 @@
       "Score": 286
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 10,
+      "Games Lost": 11,
+      "Kills": 189,
+      "Deaths": 88,
+      "Score": 262
+    },
+    {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
       "Games Won": 3,
@@ -94,6 +94,15 @@
       "Kills": 14,
       "Deaths": 8,
       "Score": 225
+    },
+    {
+      "Account ID": "47EAF8AF1120E027",
+      "Player Name": "supernop",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 31,
+      "Deaths": 19,
+      "Score": 196
     },
     {
       "Account ID": "402FC28DBEC52064",
@@ -110,8 +119,8 @@
       "Games Won": 2,
       "Games Lost": 10,
       "Kills": 53,
-      "Deaths": 35,
-      "Score": 168
+      "Deaths": 36,
+      "Score": 163
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -141,6 +150,24 @@
       "Score": 121
     },
     {
+      "Account ID": "DBC68E83CE171881",
+      "Player Name": "ali1019",
+      "Games Won": 6,
+      "Games Lost": 3,
+      "Kills": 11,
+      "Deaths": 21,
+      "Score": 119
+    },
+    {
+      "Account ID": "18523C9F01361325",
+      "Player Name": "TRYLERC",
+      "Games Won": 5,
+      "Games Lost": 7,
+      "Kills": 43,
+      "Deaths": 57,
+      "Score": 117
+    },
+    {
       "Account ID": "B76307ACF0AC718D",
       "Player Name": "kaanatabay",
       "Games Won": 2,
@@ -150,40 +177,13 @@
       "Score": 104
     },
     {
-      "Account ID": "18523C9F01361325",
-      "Player Name": "TRYLERC",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 33,
-      "Deaths": 49,
-      "Score": 97
-    },
-    {
-      "Account ID": "61F03D1B678CB3AF",
-      "Player Name": "Player1745lee",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 24,
-      "Deaths": 34,
-      "Score": 90
-    },
-    {
-      "Account ID": "47EAD974A535EB66",
-      "Player Name": "primemirac",
-      "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 3,
-      "Deaths": 9,
-      "Score": 77
-    },
-    {
       "Account ID": "CD351B4225733D45",
       "Player Name": "kingofthefrog",
       "Games Won": 0,
-      "Games Lost": 9,
-      "Kills": 10,
-      "Deaths": 13,
-      "Score": 76
+      "Games Lost": 13,
+      "Kills": 15,
+      "Deaths": 15,
+      "Score": 100
     }
   ]
 }

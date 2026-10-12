@@ -1,10 +1,19 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-12T16:16:10.927198+00:00",
-  "lastUpdated": 1791821567891,
+  "updatedAt": "2026-10-12T23:20:12.222714+00:00",
+  "lastUpdated": 1791847038750,
   "cached": true,
   "players": [
+    {
+      "Account ID": "839F1D5F6C86B6E5",
+      "Player Name": "lamuerte2337",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 60,
+      "Deaths": 0,
+      "Score": 6011
+    },
     {
       "Account ID": "60D54F52DFD3CDF5",
       "Player Name": "Doozr",
@@ -22,15 +31,6 @@
       "Kills": 206,
       "Deaths": 9,
       "Score": 2360
-    },
-    {
-      "Account ID": "DDAD35B3119D31BC",
-      "Player Name": "G3RM4NI4",
-      "Games Won": 5,
-      "Games Lost": 11,
-      "Kills": 105,
-      "Deaths": 5,
-      "Score": 2131
     },
     {
       "Account ID": "29ABA364B0EC2485",
@@ -55,9 +55,9 @@
       "Player Name": "BELLnuv",
       "Games Won": 8,
       "Games Lost": 9,
-      "Kills": 152,
-      "Deaths": 10,
-      "Score": 1567
+      "Kills": 166,
+      "Deaths": 11,
+      "Score": 1556
     },
     {
       "Account ID": "EFF8DAB442FA2397",
@@ -69,13 +69,22 @@
       "Score": 1420
     },
     {
+      "Account ID": "DDAD35B3119D31BC",
+      "Player Name": "G3RM4NI4",
+      "Games Won": 5,
+      "Games Lost": 12,
+      "Kills": 111,
+      "Deaths": 9,
+      "Score": 1262
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 9,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 269,
-      "Deaths": 24,
-      "Score": 1190
+      "Deaths": 25,
+      "Score": 1140
     },
     {
       "Account ID": "1D7D87FA4847EA36",
@@ -94,24 +103,6 @@
       "Kills": 37,
       "Deaths": 4,
       "Score": 975
-    },
-    {
-      "Account ID": "65B41DADC9A88720",
-      "Player Name": "Alexandria",
-      "Games Won": 21,
-      "Games Lost": 16,
-      "Kills": 479,
-      "Deaths": 65,
-      "Score": 793
-    },
-    {
-      "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "EqaqeG",
-      "Games Won": 16,
-      "Games Lost": 10,
-      "Kills": 353,
-      "Deaths": 54,
-      "Score": 715
     },
     {
       "Account ID": "BC4EE56A25902DBF",
@@ -139,6 +130,24 @@
       "Kills": 107,
       "Deaths": 17,
       "Score": 679
+    },
+    {
+      "Account ID": "65B41DADC9A88720",
+      "Player Name": "Alexandria",
+      "Games Won": 24,
+      "Games Lost": 23,
+      "Kills": 582,
+      "Deaths": 94,
+      "Score": 670
+    },
+    {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 18,
+      "Games Lost": 12,
+      "Kills": 373,
+      "Deaths": 64,
+      "Score": 642
     },
     {
       "Account ID": "85041C09AC121637",
@@ -170,20 +179,11 @@
     {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
-      "Games Won": 8,
+      "Games Won": 9,
       "Games Lost": 13,
       "Kills": 306,
       "Deaths": 63,
-      "Score": 523
-    },
-    {
-      "Account ID": "8DAADB1EDBEAE7EC",
-      "Player Name": "Ecttttt",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 30,
-      "Deaths": 6,
-      "Score": 516
+      "Score": 526
     }
   ]
 }
