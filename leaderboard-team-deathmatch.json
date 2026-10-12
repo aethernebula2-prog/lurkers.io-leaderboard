@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-11T20:40:50.633163+00:00",
-  "lastUpdated": 1791751248735,
+  "updatedAt": "2026-10-12T00:04:40.968376+00:00",
+  "lastUpdated": 1791763447299,
   "cached": false,
   "players": [
     {
@@ -22,15 +22,6 @@
       "Kills": 412,
       "Deaths": 23,
       "Score": 1806
-    },
-    {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 17,
-      "Deaths": 1,
-      "Score": 1711
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -114,15 +105,6 @@
       "Score": 641
     },
     {
-      "Account ID": "BE5CDAD184D4B26E",
-      "Player Name": "CJNGbeethoven",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 209,
-      "Deaths": 39,
-      "Score": 573
-    },
-    {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 8,
@@ -130,6 +112,15 @@
       "Kills": 296,
       "Deaths": 57,
       "Score": 554
+    },
+    {
+      "Account ID": "BE5CDAD184D4B26E",
+      "Player Name": "CJNGbeethoven",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 209,
+      "Deaths": 41,
+      "Score": 543
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -184,6 +175,15 @@
       "Kills": 85,
       "Deaths": 26,
       "Score": 360
+    },
+    {
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 6,
+      "Games Lost": 14,
+      "Kills": 289,
+      "Deaths": 91,
+      "Score": 347
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-11T20:40:49.917596+00:00",
-  "lastUpdated": 1791751249241,
+  "updatedAt": "2026-10-12T00:04:40.122891+00:00",
+  "lastUpdated": 1791763480852,
   "cached": false,
   "players": [
     {
@@ -83,8 +83,8 @@
       "Games Won": 3,
       "Games Lost": 3,
       "Kills": 14,
-      "Deaths": 7,
-      "Score": 250
+      "Deaths": 8,
+      "Score": 225
     },
     {
       "Account ID": "402FC28DBEC52064",
@@ -132,15 +132,6 @@
       "Score": 113
     },
     {
-      "Account ID": "18523C9F01361325",
-      "Player Name": "TRYLERC",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 33,
-      "Deaths": 42,
-      "Score": 107
-    },
-    {
       "Account ID": "B76307ACF0AC718D",
       "Player Name": "kaanatabay",
       "Games Won": 2,
@@ -148,6 +139,15 @@
       "Kills": 27,
       "Deaths": 38,
       "Score": 104
+    },
+    {
+      "Account ID": "18523C9F01361325",
+      "Player Name": "TRYLERC",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 33,
+      "Deaths": 49,
+      "Score": 97
     },
     {
       "Account ID": "61F03D1B678CB3AF",
