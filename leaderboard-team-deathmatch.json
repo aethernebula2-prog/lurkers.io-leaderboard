@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-13T12:17:52.377418+00:00",
-  "lastUpdated": 1791893859052,
+  "updatedAt": "2026-10-13T19:37:20.034471+00:00",
+  "lastUpdated": 1791920235987,
   "cached": false,
   "players": [
     {
@@ -36,10 +36,10 @@
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 6,
-      "Games Lost": 8,
-      "Kills": 490,
-      "Deaths": 38,
-      "Score": 1332
+      "Games Lost": 9,
+      "Kills": 491,
+      "Deaths": 39,
+      "Score": 1298
     },
     {
       "Account ID": "579A17105156C3D6",
@@ -49,15 +49,6 @@
       "Kills": 451,
       "Deaths": 37,
       "Score": 1252
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeoVN",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 66,
-      "Deaths": 8,
-      "Score": 858
     },
     {
       "Account ID": "2F9DD7AF6601F842",
@@ -105,6 +96,15 @@
       "Score": 643
     },
     {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "GentleStallionAJM2",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 66,
+      "Deaths": 11,
+      "Score": 628
+    },
+    {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 8,
@@ -144,19 +144,19 @@
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
       "Games Won": 3,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 124,
       "Deaths": 32,
-      "Score": 420
+      "Score": 417
     },
     {
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 8,
       "Games Lost": 16,
-      "Kills": 346,
-      "Deaths": 102,
-      "Score": 372
+      "Kills": 357,
+      "Deaths": 107,
+      "Score": 366
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
