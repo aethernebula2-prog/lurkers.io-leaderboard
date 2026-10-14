@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-14T02:34:47.657042+00:00",
-  "lastUpdated": 1791945286398,
+  "updatedAt": "2026-10-14T08:08:09.473006+00:00",
+  "lastUpdated": 1791965287525,
   "cached": false,
   "players": [
     {
@@ -63,10 +63,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 5,
-      "Games Lost": 17,
-      "Kills": 584,
-      "Deaths": 84,
-      "Score": 717
+      "Games Lost": 19,
+      "Kills": 651,
+      "Deaths": 90,
+      "Score": 744
     },
     {
       "Account ID": "EC1D49B321638908",
@@ -123,6 +123,15 @@
       "Score": 535
     },
     {
+      "Account ID": "848DA99B96B2D16E",
+      "Player Name": "Hihisuss",
+      "Games Won": 6,
+      "Games Lost": 11,
+      "Kills": 235,
+      "Deaths": 50,
+      "Score": 505
+    },
+    {
       "Account ID": "BE5CDAD184D4B26E",
       "Player Name": "CJNGbeethoven",
       "Games Won": 3,
@@ -132,13 +141,13 @@
       "Score": 481
     },
     {
-      "Account ID": "848DA99B96B2D16E",
-      "Player Name": "Hihisuss",
-      "Games Won": 4,
-      "Games Lost": 11,
-      "Kills": 178,
-      "Deaths": 45,
-      "Score": 422
+      "Account ID": "ABC920483AE3583",
+      "Player Name": "Airman911",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 190,
+      "Deaths": 44,
+      "Score": 431
     },
     {
       "Account ID": "B878724F01F26E5C",
@@ -175,15 +184,6 @@
       "Kills": 66,
       "Deaths": 19,
       "Score": 364
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommander",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 158,
-      "Deaths": 45,
-      "Score": 361
     }
   ]
 }

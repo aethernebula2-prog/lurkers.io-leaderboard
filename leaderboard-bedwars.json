@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-14T02:34:46.172862+00:00",
-  "lastUpdated": 1791945284276,
+  "updatedAt": "2026-10-14T08:08:08.540485+00:00",
+  "lastUpdated": 1791965287033,
   "cached": false,
   "players": [
     {
@@ -67,6 +67,15 @@
       "Kills": 166,
       "Deaths": 11,
       "Score": 1556
+    },
+    {
+      "Account ID": "E3A38D74670F8379",
+      "Player Name": "Pharoah",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 145,
+      "Deaths": 10,
+      "Score": 1466
     },
     {
       "Account ID": "EFF8DAB442FA2397",
@@ -175,15 +184,6 @@
       "Kills": 64,
       "Deaths": 11,
       "Score": 619
-    },
-    {
-      "Account ID": "97E911D1B205C40B",
-      "Player Name": "lamuerte3e8",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 37,
-      "Deaths": 7,
-      "Score": 578
     }
   ]
 }
