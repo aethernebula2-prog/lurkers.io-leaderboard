@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-15T20:40:09.624263+00:00",
-  "lastUpdated": 1792096476753,
-  "cached": true,
+  "updatedAt": "2026-10-15T23:24:16.337724+00:00",
+  "lastUpdated": 1792106654848,
+  "cached": false,
   "players": [
     {
       "Account ID": "F6CEA8B5306A6F1D",
@@ -60,6 +60,15 @@
       "Score": 361
     },
     {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 11,
+      "Games Lost": 22,
+      "Kills": 121,
+      "Deaths": 37,
+      "Score": 360
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 4,
@@ -69,24 +78,6 @@
       "Score": 318
     },
     {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 7,
-      "Games Lost": 17,
-      "Kills": 78,
-      "Deaths": 28,
-      "Score": 307
-    },
-    {
-      "Account ID": "FC1C00D5FCB5F3ED",
-      "Player Name": "xxxx1803",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 26,
-      "Deaths": 10,
-      "Score": 293
-    },
-    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 5,
@@ -94,6 +85,15 @@
       "Kills": 201,
       "Deaths": 87,
       "Score": 286
+    },
+    {
+      "Account ID": "FC1C00D5FCB5F3ED",
+      "Player Name": "xxxx1803",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 29,
+      "Deaths": 12,
+      "Score": 284
     },
     {
       "Account ID": "711F0DC522C942F6",
@@ -116,11 +116,11 @@
     {
       "Account ID": "8286E135963CDADA",
       "Player Name": "s0rrow",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 55,
-      "Deaths": 29,
-      "Score": 219
+      "Games Won": 4,
+      "Games Lost": 10,
+      "Kills": 63,
+      "Deaths": 35,
+      "Score": 208
     },
     {
       "Account ID": "402FC28DBEC52064",
