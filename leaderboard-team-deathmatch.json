@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-15T01:03:57.625354+00:00",
-  "lastUpdated": 1792026237809,
+  "updatedAt": "2026-10-15T06:40:19.220964+00:00",
+  "lastUpdated": 1792046416347,
   "cached": false,
   "players": [
     {
@@ -106,7 +106,7 @@
     },
     {
       "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeovn",
+      "Player Name": "GentleStallionAJM2",
       "Games Won": 2,
       "Games Lost": 5,
       "Kills": 66,

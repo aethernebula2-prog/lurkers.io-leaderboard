@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-15T01:03:56.844329+00:00",
-  "lastUpdated": 1792026230749,
+  "updatedAt": "2026-10-15T06:40:18.485063+00:00",
+  "lastUpdated": 1792046414120,
   "cached": false,
   "players": [
     {
@@ -160,7 +160,7 @@
     },
     {
       "Account ID": "D50E7835A6E45867",
-      "Player Name": "longbeovn",
+      "Player Name": "GentleStallionAJM2",
       "Games Won": 4,
       "Games Lost": 5,
       "Kills": 30,
