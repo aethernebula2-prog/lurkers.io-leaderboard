@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-15T12:15:35.039550+00:00",
-  "lastUpdated": 1792066531251,
+  "updatedAt": "2026-10-15T17:27:57.011854+00:00",
+  "lastUpdated": 1792085275519,
   "cached": false,
   "players": [
     {
@@ -49,6 +49,15 @@
       "Kills": 39,
       "Deaths": 10,
       "Score": 456
+    },
+    {
+      "Account ID": "891AEC8338452106",
+      "Player Name": "MJKVL",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 120,
+      "Deaths": 36,
+      "Score": 361
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -114,15 +123,6 @@
       "Score": 219
     },
     {
-      "Account ID": "47EAF8AF1120E027",
-      "Player Name": "supernop",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 31,
-      "Deaths": 19,
-      "Score": 196
-    },
-    {
       "Account ID": "402FC28DBEC52064",
       "Player Name": "FlashProSSSjapanese2027",
       "Games Won": 3,
@@ -132,13 +132,22 @@
       "Score": 190
     },
     {
+      "Account ID": "47EAF8AF1120E027",
+      "Player Name": "supernop",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 31,
+      "Deaths": 20,
+      "Score": 183
+    },
+    {
       "Account ID": "4310D19AB57621D0",
       "Player Name": "ahmetko",
       "Games Won": 2,
-      "Games Lost": 12,
+      "Games Lost": 13,
       "Kills": 55,
       "Deaths": 40,
-      "Score": 151
+      "Score": 150
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -175,15 +184,6 @@
       "Kills": 43,
       "Deaths": 57,
       "Score": 117
-    },
-    {
-      "Account ID": "DBC68E83CE171881",
-      "Player Name": "ali1019",
-      "Games Won": 6,
-      "Games Lost": 4,
-      "Kills": 12,
-      "Deaths": 24,
-      "Score": 110
     }
   ]
 }
