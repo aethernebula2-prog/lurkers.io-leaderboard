@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-16T12:49:01.328931+00:00",
-  "lastUpdated": 1792154719863,
-  "cached": true,
+  "updatedAt": "2026-10-16T17:02:59.764370+00:00",
+  "lastUpdated": 1792170177096,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -118,9 +118,9 @@
       "Player Name": "Grumpy",
       "Games Won": 8,
       "Games Lost": 19,
-      "Kills": 339,
-      "Deaths": 65,
-      "Score": 551
+      "Kills": 340,
+      "Deaths": 66,
+      "Score": 544
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -150,6 +150,15 @@
       "Score": 481
     },
     {
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 4,
+      "Games Lost": 11,
+      "Kills": 155,
+      "Deaths": 42,
+      "Score": 395
+    },
+    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 0,
@@ -159,13 +168,13 @@
       "Score": 392
     },
     {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 4,
-      "Games Lost": 10,
-      "Kills": 145,
-      "Deaths": 41,
-      "Score": 382
+      "Account ID": "5AE726D7DB6E6C20",
+      "Player Name": "eer4dotorg",
+      "Games Won": 6,
+      "Games Lost": 8,
+      "Kills": 129,
+      "Deaths": 37,
+      "Score": 391
     },
     {
       "Account ID": "A2B6D8A33470A4BF",
@@ -175,15 +184,6 @@
       "Kills": 66,
       "Deaths": 19,
       "Score": 364
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommander",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 158,
-      "Deaths": 45,
-      "Score": 361
     }
   ]
 }
