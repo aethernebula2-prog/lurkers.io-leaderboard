@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-16T02:06:20.851249+00:00",
-  "lastUpdated": 1792116379751,
-  "cached": false,
+  "updatedAt": "2026-10-16T07:38:18.435038+00:00",
+  "lastUpdated": 1792135828392,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -178,7 +178,7 @@
     },
     {
       "Account ID": "A2B6D8A33470A4BF",
-      "Player Name": "Prowler",
+      "Player Name": "Atomon",
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 66,
