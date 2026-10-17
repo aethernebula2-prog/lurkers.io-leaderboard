@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-17T21:50:40.727727+00:00",
-  "lastUpdated": 1792273734226,
-  "cached": true,
+  "updatedAt": "2026-10-17T23:36:22.538568+00:00",
+  "lastUpdated": 1792280180997,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -34,7 +34,7 @@
     },
     {
       "Account ID": "579A17105156C3D6",
-      "Player Name": "asftyyy",
+      "Player Name": "XplayerxX123",
       "Games Won": 6,
       "Games Lost": 12,
       "Kills": 603,
@@ -79,7 +79,7 @@
     },
     {
       "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
+      "Player Name": "你好我是2B",
       "Games Won": 3,
       "Games Lost": 11,
       "Kills": 196,
@@ -99,10 +99,10 @@
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 3,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 124,
       "Deaths": 20,
-      "Score": 643
+      "Score": 641
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -150,15 +150,6 @@
       "Score": 481
     },
     {
-      "Account ID": "E3AC17AA817C6FBD",
-      "Player Name": "Elres",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 105,
-      "Deaths": 27,
-      "Score": 426
-    },
-    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 0,
@@ -175,6 +166,15 @@
       "Kills": 131,
       "Deaths": 40,
       "Score": 367
+    },
+    {
+      "Account ID": "E3AC17AA817C6FBD",
+      "Player Name": "Elres",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 121,
+      "Deaths": 37,
+      "Score": 364
     },
     {
       "Account ID": "B3AF50D640B2203",
