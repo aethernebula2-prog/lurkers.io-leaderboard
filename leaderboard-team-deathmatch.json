@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-17T19:48:32.641220+00:00",
-  "lastUpdated": 1792265960737,
+  "updatedAt": "2026-10-17T21:50:40.727727+00:00",
+  "lastUpdated": 1792273734226,
   "cached": true,
   "players": [
     {
@@ -150,6 +150,15 @@
       "Score": 481
     },
     {
+      "Account ID": "E3AC17AA817C6FBD",
+      "Player Name": "Elres",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 105,
+      "Deaths": 27,
+      "Score": 426
+    },
+    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 0,
@@ -157,15 +166,6 @@
       "Kills": 247,
       "Deaths": 63,
       "Score": 392
-    },
-    {
-      "Account ID": "8286E135963CDADA",
-      "Player Name": "s0rrow",
-      "Games Won": 5,
-      "Games Lost": 8,
-      "Kills": 253,
-      "Deaths": 73,
-      "Score": 385
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -177,13 +177,13 @@
       "Score": 367
     },
     {
-      "Account ID": "E3AC17AA817C6FBD",
-      "Player Name": "Elres",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 91,
-      "Deaths": 27,
-      "Score": 365
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "FelixRT",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 158,
+      "Deaths": 45,
+      "Score": 361
     }
   ]
 }
