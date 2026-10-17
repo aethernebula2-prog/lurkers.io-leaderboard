@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-17T06:43:07.027425+00:00",
-  "lastUpdated": 1792219386238,
+  "updatedAt": "2026-10-17T11:15:37.889502+00:00",
+  "lastUpdated": 1792235738784,
   "cached": false,
   "players": [
     {
@@ -34,12 +34,12 @@
     },
     {
       "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
+      "Player Name": "àdfsdgeee",
       "Games Won": 6,
-      "Games Lost": 11,
+      "Games Lost": 12,
       "Kills": 603,
       "Deaths": 44,
-      "Score": 1405
+      "Score": 1403
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -114,15 +114,6 @@
       "Score": 541
     },
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 8,
-      "Games Lost": 19,
-      "Kills": 340,
-      "Deaths": 67,
-      "Score": 537
-    },
-    {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 5,
@@ -130,6 +121,15 @@
       "Kills": 459,
       "Deaths": 90,
       "Score": 535
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 9,
+      "Games Lost": 20,
+      "Kills": 344,
+      "Deaths": 69,
+      "Score": 529
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -150,15 +150,6 @@
       "Score": 481
     },
     {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 4,
-      "Games Lost": 11,
-      "Kills": 155,
-      "Deaths": 42,
-      "Score": 395
-    },
-    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 0,
@@ -175,6 +166,15 @@
       "Kills": 129,
       "Deaths": 37,
       "Score": 391
+    },
+    {
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 4,
+      "Games Lost": 12,
+      "Kills": 155,
+      "Deaths": 43,
+      "Score": 385
     },
     {
       "Account ID": "B3AF50D640B2203",
