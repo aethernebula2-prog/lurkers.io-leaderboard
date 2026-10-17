@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-16T23:06:16.584830+00:00",
-  "lastUpdated": 1792191767097,
+  "updatedAt": "2026-10-17T02:00:03.022805+00:00",
+  "lastUpdated": 1792202155659,
   "cached": true,
   "players": [
     {
@@ -62,11 +62,11 @@
     {
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
-      "Games Won": 14,
-      "Games Lost": 27,
-      "Kills": 142,
-      "Deaths": 44,
-      "Score": 356
+      "Games Won": 17,
+      "Games Lost": 30,
+      "Kills": 171,
+      "Deaths": 59,
+      "Score": 326
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -162,10 +162,10 @@
       "Account ID": "F9A48BA1CDDBE185",
       "Player Name": "TOXICSOUL",
       "Games Won": 7,
-      "Games Lost": 15,
-      "Kills": 120,
-      "Deaths": 125,
-      "Score": 127
+      "Games Lost": 16,
+      "Kills": 121,
+      "Deaths": 127,
+      "Score": 125
     },
     {
       "Account ID": "D50E7835A6E45867",
