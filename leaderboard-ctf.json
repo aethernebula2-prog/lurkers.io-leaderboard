@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-17T02:00:03.022805+00:00",
-  "lastUpdated": 1792202155659,
-  "cached": true,
+  "updatedAt": "2026-10-17T06:43:06.311833+00:00",
+  "lastUpdated": 1792219382858,
+  "cached": false,
   "players": [
     {
       "Account ID": "F6CEA8B5306A6F1D",
@@ -105,6 +105,15 @@
       "Score": 262
     },
     {
+      "Account ID": "8286E135963CDADA",
+      "Player Name": "s0rrow",
+      "Games Won": 10,
+      "Games Lost": 13,
+      "Kills": 82,
+      "Deaths": 43,
+      "Score": 234
+    },
+    {
       "Account ID": "B789B916E95883F4",
       "Player Name": "OHISASIBURI",
       "Games Won": 3,
@@ -114,13 +123,13 @@
       "Score": 225
     },
     {
-      "Account ID": "8286E135963CDADA",
-      "Player Name": "s0rrow",
-      "Games Won": 6,
-      "Games Lost": 12,
-      "Kills": 68,
-      "Deaths": 38,
-      "Score": 212
+      "Account ID": "6B09F468609AA675",
+      "Player Name": "SSR322013",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 12,
+      "Deaths": 7,
+      "Score": 221
     },
     {
       "Account ID": "402FC28DBEC52064",
@@ -175,15 +184,6 @@
       "Kills": 30,
       "Deaths": 39,
       "Score": 121
-    },
-    {
-      "Account ID": "18523C9F01361325",
-      "Player Name": "TRYLERC",
-      "Games Won": 5,
-      "Games Lost": 7,
-      "Kills": 43,
-      "Deaths": 57,
-      "Score": 117
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-17T02:00:03.169421+00:00",
-  "lastUpdated": 1792202159888,
-  "cached": true,
+  "updatedAt": "2026-10-17T06:43:07.027425+00:00",
+  "lastUpdated": 1792219386238,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -17,11 +17,11 @@
     {
       "Account ID": "C1CC914D4BE6B501",
       "Player Name": "XxjijibaoCNproxX",
-      "Games Won": 2,
-      "Games Lost": 11,
-      "Kills": 412,
-      "Deaths": 23,
-      "Score": 1806
+      "Games Won": 3,
+      "Games Lost": 15,
+      "Kills": 554,
+      "Deaths": 26,
+      "Score": 2147
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -33,6 +33,15 @@
       "Score": 1490
     },
     {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 6,
+      "Games Lost": 11,
+      "Kills": 603,
+      "Deaths": 44,
+      "Score": 1405
+    },
+    {
       "Account ID": "B14E2C01FCD13975",
       "Player Name": "tomorrow",
       "Games Won": 6,
@@ -40,15 +49,6 @@
       "Kills": 491,
       "Deaths": 39,
       "Score": 1298
-    },
-    {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 4,
-      "Games Lost": 9,
-      "Kills": 451,
-      "Deaths": 38,
-      "Score": 1217
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -107,11 +107,11 @@
     {
       "Account ID": "D50E7835A6E45867",
       "Player Name": "GentleStallionAJM2",
-      "Games Won": 4,
-      "Games Lost": 8,
-      "Kills": 85,
-      "Deaths": 16,
-      "Score": 564
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 91,
+      "Deaths": 18,
+      "Score": 541
     },
     {
       "Account ID": "E340F1474433376A",
@@ -177,13 +177,13 @@
       "Score": 391
     },
     {
-      "Account ID": "A2B6D8A33470A4BF",
-      "Player Name": "Atomon",
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "TheCommander",
       "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 66,
-      "Deaths": 19,
-      "Score": 364
+      "Games Lost": 9,
+      "Kills": 158,
+      "Deaths": 45,
+      "Score": 361
     }
   ]
 }
