@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-17T14:35:48.248625+00:00",
-  "lastUpdated": 1792247248673,
+  "updatedAt": "2026-10-17T17:36:11.123448+00:00",
+  "lastUpdated": 1792258017582,
   "cached": true,
   "players": [
     {
       "Account ID": "3F4F95E7381C39AB",
       "Player Name": "lamuerte2348",
-      "Games Won": 4,
+      "Games Won": 6,
       "Games Lost": 3,
-      "Kills": 192,
-      "Deaths": 0,
-      "Score": 19257
+      "Kills": 193,
+      "Deaths": 1,
+      "Score": 19366
     },
     {
       "Account ID": "975CCD357C1A159F",
@@ -22,6 +22,15 @@
       "Kills": 361,
       "Deaths": 3,
       "Score": 12087
+    },
+    {
+      "Account ID": "9020D4131D170100",
+      "Player Name": "theaccount35456",
+      "Games Won": 5,
+      "Games Lost": 5,
+      "Kills": 220,
+      "Deaths": 4,
+      "Score": 5550
     },
     {
       "Account ID": "88AD5D33832AE432",
@@ -175,15 +184,6 @@
       "Kills": 107,
       "Deaths": 17,
       "Score": 679
-    },
-    {
-      "Account ID": "85041C09AC121637",
-      "Player Name": "TeamIngIsBad",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 31,
-      "Deaths": 5,
-      "Score": 620
     }
   ]
 }

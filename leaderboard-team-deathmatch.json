@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-17T14:35:48.671883+00:00",
-  "lastUpdated": 1792247259114,
+  "updatedAt": "2026-10-17T17:36:12.013828+00:00",
+  "lastUpdated": 1792258030059,
   "cached": true,
   "players": [
     {
@@ -168,22 +168,22 @@
       "Score": 367
     },
     {
+      "Account ID": "E3AC17AA817C6FBD",
+      "Player Name": "Elres",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 91,
+      "Deaths": 27,
+      "Score": 365
+    },
+    {
       "Account ID": "B3AF50D640B2203",
-      "Player Name": "TheCommander",
+      "Player Name": "FelixRT",
       "Games Won": 1,
       "Games Lost": 9,
       "Kills": 158,
       "Deaths": 45,
       "Score": 361
-    },
-    {
-      "Account ID": "E3AC17AA817C6FBD",
-      "Player Name": "Elres",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 85,
-      "Deaths": 26,
-      "Score": 360
     }
   ]
 }
