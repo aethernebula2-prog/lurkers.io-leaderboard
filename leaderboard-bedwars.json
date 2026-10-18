@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-18T01:59:36.458448+00:00",
-  "lastUpdated": 1792288409653,
-  "cached": true,
+  "updatedAt": "2026-10-18T07:01:45.292577+00:00",
+  "lastUpdated": 1792306904774,
+  "cached": false,
   "players": [
     {
       "Account ID": "3F4F95E7381C39AB",
       "Player Name": "lamuerte2348",
-      "Games Won": 7,
-      "Games Lost": 3,
-      "Kills": 194,
+      "Games Won": 10,
+      "Games Lost": 5,
+      "Kills": 196,
       "Deaths": 1,
-      "Score": 19470
+      "Score": 19666
     },
     {
       "Account ID": "975CCD357C1A159F",
@@ -22,6 +22,15 @@
       "Kills": 361,
       "Deaths": 3,
       "Score": 12087
+    },
+    {
+      "Account ID": "299A54CDF344AB45",
+      "Player Name": "theaccount36",
+      "Games Won": 6,
+      "Games Lost": 2,
+      "Kills": 170,
+      "Deaths": 2,
+      "Score": 8575
     },
     {
       "Account ID": "9020D4131D170100",
@@ -58,6 +67,15 @@
       "Kills": 70,
       "Deaths": 2,
       "Score": 3506
+    },
+    {
+      "Account ID": "2A214003100FA90B",
+      "Player Name": "theaccount3723",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 31,
+      "Deaths": 1,
+      "Score": 3155
     },
     {
       "Account ID": "60D54F52DFD3CDF5",
@@ -166,24 +184,6 @@
       "Kills": 41,
       "Deaths": 6,
       "Score": 695
-    },
-    {
-      "Account ID": "51AFB9CF8BB28574",
-      "Player Name": "Canucky",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 66,
-      "Deaths": 10,
-      "Score": 685
-    },
-    {
-      "Account ID": "9B89B7156A49CE96",
-      "Player Name": "S7iP3R",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 107,
-      "Deaths": 17,
-      "Score": 679
     }
   ]
 }
