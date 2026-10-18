@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-18T07:01:46.204730+00:00",
-  "lastUpdated": 1792306749007,
-  "cached": true,
+  "updatedAt": "2026-10-18T12:14:47.911980+00:00",
+  "lastUpdated": 1792325685446,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -69,15 +69,6 @@
       "Score": 843
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 5,
-      "Games Lost": 20,
-      "Kills": 661,
-      "Deaths": 92,
-      "Score": 738
-    },
-    {
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 4,
@@ -85,6 +76,15 @@
       "Kills": 212,
       "Deaths": 31,
       "Score": 708
+    },
+    {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 5,
+      "Games Lost": 21,
+      "Kills": 709,
+      "Deaths": 104,
+      "Score": 700
     },
     {
       "Account ID": "113785E98F35679A",
@@ -159,15 +159,6 @@
       "Score": 392
     },
     {
-      "Account ID": "5AE726D7DB6E6C20",
-      "Player Name": "eer4dotorg",
-      "Games Won": 6,
-      "Games Lost": 9,
-      "Kills": 140,
-      "Deaths": 42,
-      "Score": 373
-    },
-    {
       "Account ID": "8286E135963CDADA",
       "Player Name": "s0rrow",
       "Games Won": 7,
@@ -177,13 +168,22 @@
       "Score": 365
     },
     {
-      "Account ID": "E3AC17AA817C6FBD",
-      "Player Name": "Elres",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 121,
-      "Deaths": 37,
-      "Score": 364
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "r1ker22",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 158,
+      "Deaths": 45,
+      "Score": 361
+    },
+    {
+      "Account ID": "9C3B1FC6B72F645E",
+      "Player Name": "NoobCake",
+      "Games Won": 9,
+      "Games Lost": 21,
+      "Kills": 252,
+      "Deaths": 77,
+      "Score": 357
     }
   ]
 }
