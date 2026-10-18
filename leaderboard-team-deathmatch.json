@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-18T19:03:15.613752+00:00",
-  "lastUpdated": 1792350194309,
+  "updatedAt": "2026-10-18T22:01:03.870768+00:00",
+  "lastUpdated": 1792360862777,
   "cached": false,
   "players": [
     {
@@ -159,15 +159,6 @@
       "Score": 392
     },
     {
-      "Account ID": "8286E135963CDADA",
-      "Player Name": "s0rrow",
-      "Games Won": 7,
-      "Games Lost": 10,
-      "Kills": 311,
-      "Deaths": 96,
-      "Score": 365
-    },
-    {
       "Account ID": "B3AF50D640B2203",
       "Player Name": "r1ker22",
       "Games Won": 1,
@@ -184,6 +175,15 @@
       "Kills": 252,
       "Deaths": 77,
       "Score": 357
+    },
+    {
+      "Account ID": "5AE726D7DB6E6C20",
+      "Player Name": "eer4dotorg",
+      "Games Won": 6,
+      "Games Lost": 10,
+      "Kills": 140,
+      "Deaths": 44,
+      "Score": 355
     }
   ]
 }
