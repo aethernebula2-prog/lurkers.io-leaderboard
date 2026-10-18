@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-17T23:36:22.538568+00:00",
-  "lastUpdated": 1792280180997,
+  "updatedAt": "2026-10-18T01:59:37.938532+00:00",
+  "lastUpdated": 1792288775593,
   "cached": false,
   "players": [
     {
@@ -79,12 +79,12 @@
     },
     {
       "Account ID": "EC1D49B321638908",
-      "Player Name": "你好我是2B",
-      "Games Won": 3,
-      "Games Lost": 11,
-      "Kills": 196,
-      "Deaths": 29,
-      "Score": 697
+      "Player Name": "Keepon",
+      "Games Won": 4,
+      "Games Lost": 12,
+      "Kills": 212,
+      "Deaths": 31,
+      "Score": 708
     },
     {
       "Account ID": "113785E98F35679A",
@@ -163,9 +163,9 @@
       "Player Name": "eer4dotorg",
       "Games Won": 6,
       "Games Lost": 9,
-      "Kills": 131,
-      "Deaths": 40,
-      "Score": 367
+      "Kills": 140,
+      "Deaths": 42,
+      "Score": 373
     },
     {
       "Account ID": "E3AC17AA817C6FBD",
