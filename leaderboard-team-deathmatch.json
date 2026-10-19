@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-19T11:29:10.301555+00:00",
-  "lastUpdated": 1792409311945,
+  "updatedAt": "2026-10-19T17:54:42.549209+00:00",
+  "lastUpdated": 1792432481865,
   "cached": false,
   "players": [
     {
@@ -53,11 +53,11 @@
     {
       "Account ID": "FACD62C2F5808FEF",
       "Player Name": "nach12",
-      "Games Won": 5,
+      "Games Won": 8,
       "Games Lost": 5,
-      "Kills": 342,
-      "Deaths": 29,
-      "Score": 1229
+      "Kills": 424,
+      "Deaths": 36,
+      "Score": 1239
     },
     {
       "Account ID": "2F9DD7AF6601F842",
@@ -89,11 +89,11 @@
     {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
-      "Games Won": 6,
-      "Games Lost": 21,
-      "Kills": 725,
-      "Deaths": 114,
-      "Score": 658
+      "Games Won": 7,
+      "Games Lost": 22,
+      "Kills": 756,
+      "Deaths": 115,
+      "Score": 681
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -103,15 +103,6 @@
       "Kills": 124,
       "Deaths": 20,
       "Score": 641
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "GentleStallionAJM2",
-      "Games Won": 5,
-      "Games Lost": 9,
-      "Kills": 91,
-      "Deaths": 18,
-      "Score": 541
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -130,6 +121,15 @@
       "Kills": 344,
       "Deaths": 69,
       "Score": 529
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "GentleStallionAJM2",
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 91,
+      "Deaths": 19,
+      "Score": 514
     },
     {
       "Account ID": "848DA99B96B2D16E",
