@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-20T05:30:40.825361+00:00",
-  "lastUpdated": 1792474238548,
+  "updatedAt": "2026-10-20T10:35:22.413740+00:00",
+  "lastUpdated": 1792492520062,
   "cached": false,
   "players": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "Account ID": "EC1D49B321638908",
-      "Player Name": "XxHabmlexX",
+      "Player Name": "Keepon",
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 71,
