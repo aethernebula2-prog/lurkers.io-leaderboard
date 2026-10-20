@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-20T19:42:51.255159+00:00",
-  "lastUpdated": 1792525368554,
-  "cached": false,
+  "updatedAt": "2026-10-20T22:47:20.310337+00:00",
+  "lastUpdated": 1792536228827,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -58,6 +58,15 @@
       "Kills": 424,
       "Deaths": 36,
       "Score": 1239
+    },
+    {
+      "Account ID": "6C4C52783BD880EE",
+      "Player Name": "QuyenSOLO",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 54,
+      "Deaths": 5,
+      "Score": 1091
     },
     {
       "Account ID": "2F9DD7AF6601F842",
@@ -121,15 +130,6 @@
       "Kills": 344,
       "Deaths": 70,
       "Score": 521
-    },
-    {
-      "Account ID": "6C4C52783BD880EE",
-      "Player Name": "QuyenSOLO",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 15,
-      "Deaths": 3,
-      "Score": 514
     },
     {
       "Account ID": "D50E7835A6E45867",
