@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-20T00:47:24.950195+00:00",
-  "lastUpdated": 1792457243299,
+  "updatedAt": "2026-10-20T05:30:41.544263+00:00",
+  "lastUpdated": 1792474239128,
   "cached": false,
   "players": [
     {
@@ -177,13 +177,13 @@
       "Score": 355
     },
     {
-      "Account ID": "9C3B1FC6B72F645E",
-      "Player Name": "NoobCake",
-      "Games Won": 9,
-      "Games Lost": 22,
-      "Kills": 252,
-      "Deaths": 78,
-      "Score": 352
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 8,
+      "Games Lost": 20,
+      "Kills": 405,
+      "Deaths": 126,
+      "Score": 350
     }
   ]
 }
