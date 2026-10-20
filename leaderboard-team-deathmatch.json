@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-20T15:26:33.616338+00:00",
-  "lastUpdated": 1792509991859,
+  "updatedAt": "2026-10-20T19:42:51.255159+00:00",
+  "lastUpdated": 1792525368554,
   "cached": false,
   "players": [
     {
@@ -117,10 +117,19 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 9,
-      "Games Lost": 20,
+      "Games Lost": 21,
       "Kills": 344,
-      "Deaths": 69,
-      "Score": 529
+      "Deaths": 70,
+      "Score": 521
+    },
+    {
+      "Account ID": "6C4C52783BD880EE",
+      "Player Name": "QuyenSOLO",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 15,
+      "Deaths": 3,
+      "Score": 514
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -160,12 +169,12 @@
     },
     {
       "Account ID": "B3AF50D640B2203",
-      "Player Name": "ByeByeMyBoy",
+      "Player Name": "MonsterUP",
       "Games Won": 1,
       "Games Lost": 9,
-      "Kills": 158,
-      "Deaths": 45,
-      "Score": 361
+      "Kills": 163,
+      "Deaths": 47,
+      "Score": 356
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -175,15 +184,6 @@
       "Kills": 140,
       "Deaths": 44,
       "Score": 355
-    },
-    {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 8,
-      "Games Lost": 20,
-      "Kills": 405,
-      "Deaths": 126,
-      "Score": 350
     }
   ]
 }
