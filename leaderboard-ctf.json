@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-21T01:06:12.384611+00:00",
-  "lastUpdated": 1792544769474,
+  "updatedAt": "2026-10-21T06:44:40.007151+00:00",
+  "lastUpdated": 1792565077021,
   "cached": false,
   "players": [
     {
@@ -51,15 +51,6 @@
       "Score": 461
     },
     {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 23,
-      "Games Lost": 34,
-      "Kills": 248,
-      "Deaths": 65,
-      "Score": 421
-    },
-    {
       "Account ID": "844C476E593C7815",
       "Player Name": "vojenkomat3000",
       "Games Won": 5,
@@ -67,6 +58,15 @@
       "Kills": 66,
       "Deaths": 18,
       "Score": 412
+    },
+    {
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 24,
+      "Games Lost": 36,
+      "Kills": 251,
+      "Deaths": 69,
+      "Score": 403
     },
     {
       "Account ID": "891AEC8338452106",
@@ -114,22 +114,13 @@
       "Score": 262
     },
     {
-      "Account ID": "6B09F468609AA675",
-      "Player Name": "SSR322013",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 15,
-      "Deaths": 8,
-      "Score": 244
-    },
-    {
       "Account ID": "FC1C00D5FCB5F3ED",
       "Player Name": "xxxx1803",
       "Games Won": 3,
       "Games Lost": 5,
-      "Kills": 29,
-      "Deaths": 14,
-      "Score": 244
+      "Kills": 31,
+      "Deaths": 16,
+      "Score": 231
     },
     {
       "Account ID": "E99D6DABC230FD6A",
@@ -157,6 +148,15 @@
       "Kills": 86,
       "Deaths": 49,
       "Score": 219
+    },
+    {
+      "Account ID": "6B09F468609AA675",
+      "Player Name": "SSR322013",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 15,
+      "Deaths": 9,
+      "Score": 216
     },
     {
       "Account ID": "402FC28DBEC52064",
