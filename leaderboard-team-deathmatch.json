@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-22T02:23:17.493464+00:00",
-  "lastUpdated": 1792635626733,
+  "updatedAt": "2026-10-22T08:04:40.711121+00:00",
+  "lastUpdated": 1792655727642,
   "cached": true,
   "players": [
     {
@@ -63,10 +63,10 @@
       "Account ID": "6C4C52783BD880EE",
       "Player Name": "QuyenSOLO",
       "Games Won": 1,
-      "Games Lost": 8,
+      "Games Lost": 9,
       "Kills": 54,
-      "Deaths": 5,
-      "Score": 1091
+      "Deaths": 6,
+      "Score": 910
     },
     {
       "Account ID": "2F9DD7AF6601F842",
@@ -81,10 +81,19 @@
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 4,
-      "Games Lost": 12,
+      "Games Lost": 13,
       "Kills": 162,
       "Deaths": 21,
-      "Score": 796
+      "Score": 794
+    },
+    {
+      "Account ID": "1EEA4A65BD99F437",
+      "Player Name": "denied",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 219,
+      "Deaths": 33,
+      "Score": 692
     },
     {
       "Account ID": "113785E98F35679A",
@@ -175,15 +184,6 @@
       "Kills": 290,
       "Deaths": 77,
       "Score": 376
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "MonsterUP",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 163,
-      "Deaths": 47,
-      "Score": 356
     }
   ]
 }
