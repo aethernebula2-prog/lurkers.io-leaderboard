@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-22T08:04:40.711121+00:00",
-  "lastUpdated": 1792655727642,
+  "updatedAt": "2026-10-22T14:12:18.771683+00:00",
+  "lastUpdated": 1792678041690,
   "cached": true,
   "players": [
     {
@@ -53,11 +53,11 @@
     {
       "Account ID": "FACD62C2F5808FEF",
       "Player Name": "nach12",
-      "Games Won": 9,
+      "Games Won": 10,
       "Games Lost": 5,
-      "Kills": 462,
-      "Deaths": 39,
-      "Score": 1248
+      "Kills": 491,
+      "Deaths": 42,
+      "Score": 1235
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -134,20 +134,11 @@
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 10,
-      "Games Lost": 21,
-      "Kills": 346,
-      "Deaths": 71,
-      "Score": 519
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "GentleStallionAJM2",
-      "Games Won": 5,
-      "Games Lost": 9,
-      "Kills": 91,
-      "Deaths": 19,
-      "Score": 514
+      "Games Won": 11,
+      "Games Lost": 23,
+      "Kills": 351,
+      "Deaths": 74,
+      "Score": 506
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -166,6 +157,15 @@
       "Kills": 253,
       "Deaths": 56,
       "Score": 481
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "GentleStallionAJM2",
+      "Games Won": 5,
+      "Games Lost": 10,
+      "Kills": 93,
+      "Deaths": 24,
+      "Score": 420
     },
     {
       "Account ID": "AF2EF5468CBF2836",
