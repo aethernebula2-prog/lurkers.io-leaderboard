@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-22T18:56:40.449434+00:00",
-  "lastUpdated": 1792695397764,
-  "cached": false,
+  "updatedAt": "2026-10-22T22:01:26.424238+00:00",
+  "lastUpdated": 1792706150903,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -135,10 +135,10 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 11,
-      "Games Lost": 23,
-      "Kills": 351,
-      "Deaths": 74,
-      "Score": 506
+      "Games Lost": 24,
+      "Kills": 389,
+      "Deaths": 76,
+      "Score": 543
     },
     {
       "Account ID": "848DA99B96B2D16E",
@@ -159,6 +159,15 @@
       "Score": 481
     },
     {
+      "Account ID": "960A07004C40D59D",
+      "Player Name": "imnotarecenplayerytbe",
+      "Games Won": 4,
+      "Games Lost": 10,
+      "Kills": 201,
+      "Deaths": 49,
+      "Score": 438
+    },
+    {
       "Account ID": "D50E7835A6E45867",
       "Player Name": "GentleStallionAJM2",
       "Games Won": 5,
@@ -175,15 +184,6 @@
       "Kills": 170,
       "Deaths": 44,
       "Score": 400
-    },
-    {
-      "Account ID": "ABC920483AE3583",
-      "Player Name": "Airman911",
-      "Games Won": 0,
-      "Games Lost": 8,
-      "Kills": 290,
-      "Deaths": 77,
-      "Score": 376
     }
   ]
 }
