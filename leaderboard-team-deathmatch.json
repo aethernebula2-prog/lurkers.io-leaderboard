@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-23T23:38:22.177480+00:00",
-  "lastUpdated": 1792798695106,
+  "updatedAt": "2026-10-24T02:23:31.703337+00:00",
+  "lastUpdated": 1792808611280,
   "cached": false,
   "players": [
     {
@@ -36,10 +36,10 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 6,
-      "Games Lost": 14,
+      "Games Lost": 15,
       "Kills": 603,
-      "Deaths": 46,
-      "Score": 1340
+      "Deaths": 47,
+      "Score": 1311
     },
     {
       "Account ID": "B14E2C01FCD13975",
@@ -137,8 +137,8 @@
       "Games Won": 12,
       "Games Lost": 28,
       "Kills": 452,
-      "Deaths": 87,
-      "Score": 549
+      "Deaths": 88,
+      "Score": 543
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -159,15 +159,6 @@
       "Score": 501
     },
     {
-      "Account ID": "960A07004C40D59D",
-      "Player Name": "imnotarecenplayerytbe",
-      "Games Won": 4,
-      "Games Lost": 14,
-      "Kills": 250,
-      "Deaths": 54,
-      "Score": 485
-    },
-    {
       "Account ID": "BE5CDAD184D4B26E",
       "Player Name": "CJNGbeethoven",
       "Games Won": 3,
@@ -177,13 +168,22 @@
       "Score": 481
     },
     {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TrestLP",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 182,
-      "Deaths": 49,
-      "Score": 421
+      "Account ID": "960A07004C40D59D",
+      "Player Name": "imnotarecenplayerytbe",
+      "Games Won": 4,
+      "Games Lost": 15,
+      "Kills": 269,
+      "Deaths": 65,
+      "Score": 434
+    },
+    {
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 170,
+      "Deaths": 44,
+      "Score": 400
     }
   ]
 }
