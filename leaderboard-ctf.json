@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-24T12:18:50.144729+00:00",
-  "lastUpdated": 1792844013185,
-  "cached": true,
+  "updatedAt": "2026-10-24T16:19:49.801906+00:00",
+  "lastUpdated": 1792858785315,
+  "cached": false,
   "players": [
     {
       "Account ID": "65B41DADC9A88720",
@@ -81,10 +81,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 29,
-      "Games Lost": 45,
-      "Kills": 283,
-      "Deaths": 98,
-      "Score": 327
+      "Games Lost": 46,
+      "Kills": 313,
+      "Deaths": 100,
+      "Score": 351
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -132,22 +132,22 @@
       "Score": 276
     },
     {
+      "Account ID": "402FC28DBEC52064",
+      "Player Name": "Japaness",
+      "Games Won": 8,
+      "Games Lost": 10,
+      "Kills": 68,
+      "Deaths": 30,
+      "Score": 271
+    },
+    {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 10,
       "Games Lost": 11,
-      "Kills": 189,
-      "Deaths": 88,
-      "Score": 262
-    },
-    {
-      "Account ID": "402FC28DBEC52064",
-      "Player Name": "Japaness",
-      "Games Won": 7,
-      "Games Lost": 10,
-      "Kills": 50,
-      "Deaths": 27,
-      "Score": 226
+      "Kills": 193,
+      "Deaths": 91,
+      "Score": 259
     },
     {
       "Account ID": "B789B916E95883F4",
