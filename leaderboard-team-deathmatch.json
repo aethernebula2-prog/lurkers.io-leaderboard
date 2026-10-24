@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-24T07:42:21.963718+00:00",
-  "lastUpdated": 1792827603346,
+  "updatedAt": "2026-10-24T12:18:50.323499+00:00",
+  "lastUpdated": 1792844011893,
   "cached": true,
   "players": [
     {
@@ -81,10 +81,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 5,
+      "Games Lost": 6,
       "Kills": 258,
       "Deaths": 36,
-      "Score": 745
+      "Score": 741
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -123,6 +123,15 @@
       "Score": 628
     },
     {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 13,
+      "Games Lost": 30,
+      "Kills": 508,
+      "Deaths": 91,
+      "Score": 588
+    },
+    {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 6,
@@ -130,15 +139,6 @@
       "Kills": 541,
       "Deaths": 102,
       "Score": 557
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 12,
-      "Games Lost": 28,
-      "Kills": 452,
-      "Deaths": 88,
-      "Score": 543
     },
     {
       "Account ID": "D50E7835A6E45867",
