@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-24T19:08:09.022971+00:00",
-  "lastUpdated": 1792868887753,
+  "updatedAt": "2026-10-24T22:05:00.930757+00:00",
+  "lastUpdated": 1792879499227,
   "cached": false,
   "players": [
     {
@@ -80,11 +80,11 @@
     {
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
-      "Games Won": 29,
-      "Games Lost": 48,
+      "Games Won": 31,
+      "Games Lost": 51,
       "Kills": 316,
-      "Deaths": 104,
-      "Score": 341
+      "Deaths": 107,
+      "Score": 333
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -114,15 +114,6 @@
       "Score": 286
     },
     {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 5,
-      "Games Lost": 31,
-      "Kills": 174,
-      "Deaths": 65,
-      "Score": 281
-    },
-    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 3,
@@ -130,6 +121,15 @@
       "Kills": 52,
       "Deaths": 23,
       "Score": 276
+    },
+    {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 5,
+      "Games Lost": 32,
+      "Kills": 176,
+      "Deaths": 68,
+      "Score": 272
     },
     {
       "Account ID": "402FC28DBEC52064",
@@ -146,8 +146,8 @@
       "Games Won": 10,
       "Games Lost": 13,
       "Kills": 221,
-      "Deaths": 103,
-      "Score": 258
+      "Deaths": 104,
+      "Score": 255
     },
     {
       "Account ID": "B789B916E95883F4",
