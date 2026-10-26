@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-26T17:50:34.881648+00:00",
-  "lastUpdated": 1793036862505,
-  "cached": true,
+  "updatedAt": "2026-10-26T22:02:53.488541+00:00",
+  "lastUpdated": 1793052171470,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -54,10 +54,10 @@
       "Account ID": "FACD62C2F5808FEF",
       "Player Name": "nach12",
       "Games Won": 10,
-      "Games Lost": 7,
-      "Kills": 524,
-      "Deaths": 46,
-      "Score": 1197
+      "Games Lost": 8,
+      "Kills": 535,
+      "Deaths": 49,
+      "Score": 1147
     },
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -150,15 +150,6 @@
       "Score": 519
     },
     {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 132,
-      "Deaths": 27,
-      "Score": 511
-    },
-    {
       "Account ID": "848DA99B96B2D16E",
       "Player Name": "Hihisuss",
       "Games Won": 7,
@@ -175,6 +166,15 @@
       "Kills": 253,
       "Deaths": 56,
       "Score": 481
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 155,
+      "Deaths": 35,
+      "Score": 462
     },
     {
       "Account ID": "960A07004C40D59D",
