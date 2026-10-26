@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-26T05:33:31.622850+00:00",
-  "lastUpdated": 1792992808141,
-  "cached": false,
+  "updatedAt": "2026-10-26T11:48:26.375827+00:00",
+  "lastUpdated": 1793014764797,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -60,6 +60,15 @@
       "Score": 1197
     },
     {
+      "Account ID": "1EEA4A65BD99F437",
+      "Player Name": "denied",
+      "Games Won": 2,
+      "Games Lost": 10,
+      "Kills": 380,
+      "Deaths": 39,
+      "Score": 991
+    },
+    {
       "Account ID": "6C4C52783BD880EE",
       "Player Name": "QuyenSOLO",
       "Games Won": 1,
@@ -76,15 +85,6 @@
       "Kills": 101,
       "Deaths": 13,
       "Score": 843
-    },
-    {
-      "Account ID": "1EEA4A65BD99F437",
-      "Player Name": "denied",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 261,
-      "Deaths": 37,
-      "Score": 727
     },
     {
       "Account ID": "113785E98F35679A",
@@ -126,10 +126,10 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 13,
-      "Games Lost": 32,
-      "Kills": 523,
-      "Deaths": 92,
-      "Score": 597
+      "Games Lost": 34,
+      "Kills": 524,
+      "Deaths": 93,
+      "Score": 591
     },
     {
       "Account ID": "DAA395A9E015E0DC",

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-26T05:33:30.858259+00:00",
-  "lastUpdated": 1792992180703,
+  "updatedAt": "2026-10-26T11:48:26.024558+00:00",
+  "lastUpdated": 1793014751547,
   "cached": true,
   "players": [
     {
@@ -114,15 +114,6 @@
       "Score": 286
     },
     {
-      "Account ID": "81E71873CB8FF823",
-      "Player Name": "xManarxX123",
-      "Games Won": 10,
-      "Games Lost": 14,
-      "Kills": 103,
-      "Deaths": 43,
-      "Score": 281
-    },
-    {
       "Account ID": "E99D6DABC230FD6A",
       "Player Name": "JettySekit",
       "Games Won": 3,
@@ -150,6 +141,24 @@
       "Score": 268
     },
     {
+      "Account ID": "81E71873CB8FF823",
+      "Player Name": "xManarXx123",
+      "Games Won": 10,
+      "Games Lost": 16,
+      "Kills": 105,
+      "Deaths": 46,
+      "Score": 266
+    },
+    {
+      "Account ID": "D4E2C8998B73DBDE",
+      "Player Name": "tomhisa",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 12,
+      "Deaths": 6,
+      "Score": 250
+    },
+    {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 11,
@@ -175,15 +184,6 @@
       "Kills": 35,
       "Deaths": 21,
       "Score": 191
-    },
-    {
-      "Account ID": "8286E135963CDADA",
-      "Player Name": "s0rrow",
-      "Games Won": 11,
-      "Games Lost": 16,
-      "Kills": 103,
-      "Deaths": 71,
-      "Score": 185
     }
   ]
 }
