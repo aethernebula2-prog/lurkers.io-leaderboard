@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-26T11:48:26.024558+00:00",
-  "lastUpdated": 1793014751547,
+  "updatedAt": "2026-10-26T17:50:34.713080+00:00",
+  "lastUpdated": 1793036870305,
   "cached": true,
   "players": [
     {
@@ -118,9 +118,9 @@
       "Player Name": "JettySekit",
       "Games Won": 3,
       "Games Lost": 3,
-      "Kills": 52,
-      "Deaths": 23,
-      "Score": 276
+      "Kills": 56,
+      "Deaths": 24,
+      "Score": 283
     },
     {
       "Account ID": "402FC28DBEC52064",
@@ -146,8 +146,8 @@
       "Games Won": 10,
       "Games Lost": 16,
       "Kills": 105,
-      "Deaths": 46,
-      "Score": 266
+      "Deaths": 47,
+      "Score": 261
     },
     {
       "Account ID": "D4E2C8998B73DBDE",
