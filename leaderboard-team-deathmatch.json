@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-27T01:41:35.815301+00:00",
-  "lastUpdated": 1793065293908,
-  "cached": false,
+  "updatedAt": "2026-10-27T06:59:33.712529+00:00",
+  "lastUpdated": 1793084264483,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -63,10 +63,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 380,
-      "Deaths": 39,
-      "Score": 991
+      "Games Lost": 11,
+      "Kills": 461,
+      "Deaths": 44,
+      "Score": 1063
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -99,7 +99,7 @@
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 4,
-      "Games Lost": 18,
+      "Games Lost": 19,
       "Kills": 173,
       "Deaths": 27,
       "Score": 658
@@ -159,6 +159,24 @@
       "Score": 501
     },
     {
+      "Account ID": "891AEC8338452106",
+      "Player Name": "hueto2",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 80,
+      "Deaths": 16,
+      "Score": 500
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 290,
+      "Deaths": 65,
+      "Score": 481
+    },
+    {
       "Account ID": "BE5CDAD184D4B26E",
       "Player Name": "CJNGbeethoven",
       "Games Won": 3,
@@ -166,24 +184,6 @@
       "Kills": 253,
       "Deaths": 56,
       "Score": 481
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 4,
-      "Games Lost": 9,
-      "Kills": 245,
-      "Deaths": 61,
-      "Score": 432
-    },
-    {
-      "Account ID": "960A07004C40D59D",
-      "Player Name": "imnotarecenplayerytbe",
-      "Games Won": 4,
-      "Games Lost": 17,
-      "Kills": 276,
-      "Deaths": 70,
-      "Score": 413
     }
   ]
 }

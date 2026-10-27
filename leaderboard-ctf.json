@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-27T01:41:35.104974+00:00",
-  "lastUpdated": 1793065293321,
+  "updatedAt": "2026-10-27T06:59:33.511454+00:00",
+  "lastUpdated": 1793084372443,
   "cached": false,
   "players": [
     {
@@ -22,6 +22,15 @@
       "Kills": 22,
       "Deaths": 1,
       "Score": 2271
+    },
+    {
+      "Account ID": "7688F4197BAD69F4",
+      "Player Name": "Kaloz110",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 43,
+      "Deaths": 5,
+      "Score": 910
     },
     {
       "Account ID": "EC1D49B321638908",
@@ -65,17 +74,8 @@
       "Games Won": 4,
       "Games Lost": 8,
       "Kills": 232,
-      "Deaths": 60,
-      "Score": 420
-    },
-    {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 48,
-      "Deaths": 13,
-      "Score": 406
+      "Deaths": 61,
+      "Score": 413
     },
     {
       "Account ID": "844C476E593C7815",
@@ -85,6 +85,15 @@
       "Kills": 77,
       "Deaths": 22,
       "Score": 392
+    },
+    {
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 48,
+      "Deaths": 14,
+      "Score": 376
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -99,10 +108,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 38,
-      "Games Lost": 57,
+      "Games Lost": 59,
       "Kills": 321,
-      "Deaths": 126,
-      "Score": 294
+      "Deaths": 130,
+      "Score": 286
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -159,31 +168,22 @@
       "Score": 250
     },
     {
+      "Account ID": "1EEA4A65BD99F437",
+      "Player Name": "denied",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 27,
+      "Deaths": 11,
+      "Score": 245
+    },
+    {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 11,
       "Games Lost": 17,
       "Kills": 267,
-      "Deaths": 135,
-      "Score": 237
-    },
-    {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 14,
-      "Deaths": 8,
-      "Score": 225
-    },
-    {
-      "Account ID": "FC1C00D5FCB5F3ED",
-      "Player Name": "xxxx1803",
-      "Games Won": 3,
-      "Games Lost": 9,
-      "Kills": 35,
-      "Deaths": 21,
-      "Score": 191
+      "Deaths": 136,
+      "Score": 235
     }
   ]
 }
