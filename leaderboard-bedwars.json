@@ -1,10 +1,19 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-10-27T06:59:32.704807+00:00",
-  "lastUpdated": 1793084263512,
+  "updatedAt": "2026-10-27T13:01:05.294556+00:00",
+  "lastUpdated": 1793105977850,
   "cached": true,
   "players": [
+    {
+      "Account ID": "BA3D9134004C8F01",
+      "Player Name": "theaccount4133",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 349,
+      "Deaths": 0,
+      "Score": 34916
+    },
     {
       "Account ID": "AF149E7FC3C6AA27",
       "Player Name": "Microshot",
@@ -175,15 +184,6 @@
       "Kills": 269,
       "Deaths": 26,
       "Score": 1098
-    },
-    {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 12,
-      "Games Lost": 12,
-      "Kills": 221,
-      "Deaths": 22,
-      "Score": 1054
     }
   ]
 }
