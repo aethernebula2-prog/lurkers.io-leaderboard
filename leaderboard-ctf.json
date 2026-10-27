@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-26T22:02:52.646408+00:00",
-  "lastUpdated": 1793051861440,
-  "cached": true,
+  "updatedAt": "2026-10-27T01:41:35.104974+00:00",
+  "lastUpdated": 1793065293321,
+  "cached": false,
   "players": [
     {
       "Account ID": "65B41DADC9A88720",
@@ -63,10 +63,10 @@
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
       "Games Won": 4,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 232,
-      "Deaths": 59,
-      "Score": 429
+      "Deaths": 60,
+      "Score": 420
     },
     {
       "Account ID": "427398D2482C568D",
@@ -98,11 +98,11 @@
     {
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
-      "Games Won": 37,
-      "Games Lost": 55,
-      "Kills": 320,
-      "Deaths": 123,
-      "Score": 300
+      "Games Won": 38,
+      "Games Lost": 57,
+      "Kills": 321,
+      "Deaths": 126,
+      "Score": 294
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -112,6 +112,15 @@
       "Kills": 201,
       "Deaths": 87,
       "Score": 286
+    },
+    {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 7,
+      "Games Lost": 33,
+      "Kills": 200,
+      "Deaths": 75,
+      "Score": 284
     },
     {
       "Account ID": "E99D6DABC230FD6A",
@@ -130,15 +139,6 @@
       "Kills": 68,
       "Deaths": 30,
       "Score": 271
-    },
-    {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 5,
-      "Games Lost": 32,
-      "Kills": 176,
-      "Deaths": 69,
-      "Score": 268
     },
     {
       "Account ID": "81E71873CB8FF823",

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-26T22:02:53.488541+00:00",
-  "lastUpdated": 1793052171470,
+  "updatedAt": "2026-10-27T01:41:35.815301+00:00",
+  "lastUpdated": 1793065293908,
   "cached": false,
   "players": [
     {
@@ -170,11 +170,11 @@
     {
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadas",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 155,
-      "Deaths": 35,
-      "Score": 462
+      "Games Won": 4,
+      "Games Lost": 9,
+      "Kills": 245,
+      "Deaths": 61,
+      "Score": 432
     },
     {
       "Account ID": "960A07004C40D59D",
