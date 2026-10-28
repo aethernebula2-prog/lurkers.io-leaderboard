@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-28T02:55:49.479168+00:00",
-  "lastUpdated": 1793156147471,
-  "cached": false,
+  "updatedAt": "2026-10-28T09:08:36.723765+00:00",
+  "lastUpdated": 1793178325827,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -54,19 +54,19 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 6,
-      "Games Lost": 17,
-      "Kills": 610,
-      "Deaths": 52,
-      "Score": 1199
+      "Games Lost": 18,
+      "Kills": 628,
+      "Deaths": 56,
+      "Score": 1146
     },
     {
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 12,
-      "Kills": 474,
-      "Deaths": 47,
-      "Score": 1022
+      "Games Lost": 15,
+      "Kills": 636,
+      "Deaths": 57,
+      "Score": 1127
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -99,19 +99,10 @@
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 4,
-      "Games Lost": 19,
+      "Games Lost": 20,
       "Kills": 173,
       "Deaths": 27,
-      "Score": 658
-    },
-    {
-      "Account ID": "EC1D49B321638908",
-      "Player Name": "Keepon",
-      "Games Won": 4,
-      "Games Lost": 13,
-      "Kills": 212,
-      "Deaths": 35,
-      "Score": 629
+      "Score": 657
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -121,6 +112,15 @@
       "Kills": 763,
       "Deaths": 126,
       "Score": 628
+    },
+    {
+      "Account ID": "EC1D49B321638908",
+      "Player Name": "Keepon",
+      "Games Won": 4,
+      "Games Lost": 14,
+      "Kills": 212,
+      "Deaths": 35,
+      "Score": 627
     },
     {
       "Account ID": "E340F1474433376A",
@@ -137,8 +137,8 @@
       "Games Won": 6,
       "Games Lost": 10,
       "Kills": 378,
-      "Deaths": 71,
-      "Score": 569
+      "Deaths": 72,
+      "Score": 562
     },
     {
       "Account ID": "DAA395A9E015E0DC",
