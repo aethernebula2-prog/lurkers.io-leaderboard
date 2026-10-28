@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-27T23:19:04.524337+00:00",
-  "lastUpdated": 1793143143558,
+  "updatedAt": "2026-10-28T02:55:48.719172+00:00",
+  "lastUpdated": 1793156147341,
   "cached": false,
   "players": [
     {
@@ -125,11 +125,11 @@
     {
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
-      "Games Won": 40,
-      "Games Lost": 64,
-      "Kills": 321,
-      "Deaths": 135,
-      "Score": 276
+      "Games Won": 42,
+      "Games Lost": 66,
+      "Kills": 336,
+      "Deaths": 142,
+      "Score": 275
     },
     {
       "Account ID": "402FC28DBEC52064",
@@ -141,15 +141,6 @@
       "Score": 271
     },
     {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 8,
-      "Games Lost": 37,
-      "Kills": 209,
-      "Deaths": 86,
-      "Score": 260
-    },
-    {
       "Account ID": "D4E2C8998B73DBDE",
       "Player Name": "tomhisa",
       "Games Won": 3,
@@ -159,13 +150,13 @@
       "Score": 250
     },
     {
-      "Account ID": "81E71873CB8FF823",
-      "Player Name": "xManarXx123",
-      "Games Won": 10,
-      "Games Lost": 17,
-      "Kills": 108,
-      "Deaths": 51,
-      "Score": 248
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 8,
+      "Games Lost": 38,
+      "Kills": 211,
+      "Deaths": 92,
+      "Score": 246
     },
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -179,11 +170,20 @@
     {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
-      "Games Won": 11,
-      "Games Lost": 17,
-      "Kills": 267,
-      "Deaths": 136,
-      "Score": 235
+      "Games Won": 12,
+      "Games Lost": 18,
+      "Kills": 290,
+      "Deaths": 144,
+      "Score": 241
+    },
+    {
+      "Account ID": "81E71873CB8FF823",
+      "Player Name": "xManarXx123",
+      "Games Won": 10,
+      "Games Lost": 18,
+      "Kills": 108,
+      "Deaths": 53,
+      "Score": 239
     }
   ]
 }
