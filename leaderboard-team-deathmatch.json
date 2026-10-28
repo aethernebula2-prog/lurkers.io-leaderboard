@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-28T09:08:36.723765+00:00",
-  "lastUpdated": 1793178325827,
-  "cached": true,
+  "updatedAt": "2026-10-28T16:20:16.549641+00:00",
+  "lastUpdated": 1793204411720,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -51,15 +51,6 @@
       "Score": 1251
     },
     {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 6,
-      "Games Lost": 18,
-      "Kills": 628,
-      "Deaths": 56,
-      "Score": 1146
-    },
-    {
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
@@ -67,6 +58,15 @@
       "Kills": 636,
       "Deaths": 57,
       "Score": 1127
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "adsui9fbuidfrwttt",
+      "Games Won": 6,
+      "Games Lost": 18,
+      "Kills": 628,
+      "Deaths": 57,
+      "Score": 1126
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -105,15 +105,6 @@
       "Score": 657
     },
     {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 7,
-      "Games Lost": 23,
-      "Kills": 763,
-      "Deaths": 126,
-      "Score": 628
-    },
-    {
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 4,
@@ -123,13 +114,22 @@
       "Score": 627
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 7,
+      "Games Lost": 23,
+      "Kills": 764,
+      "Deaths": 128,
+      "Score": 620
+    },
+    {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 14,
+      "Games Won": 15,
       "Games Lost": 36,
-      "Kills": 535,
-      "Deaths": 95,
-      "Score": 591
+      "Kills": 539,
+      "Deaths": 96,
+      "Score": 590
     },
     {
       "Account ID": "3A0685ED57F6B716",
@@ -150,15 +150,6 @@
       "Score": 539
     },
     {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "GentleStallionAJM2",
-      "Games Won": 6,
-      "Games Lost": 11,
-      "Kills": 126,
-      "Deaths": 26,
-      "Score": 519
-    },
-    {
       "Account ID": "848DA99B96B2D16E",
       "Player Name": "Hihisuss",
       "Games Won": 7,
@@ -175,6 +166,15 @@
       "Kills": 80,
       "Deaths": 16,
       "Score": 500
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "GentleStallionAJM2",
+      "Games Won": 6,
+      "Games Lost": 12,
+      "Kills": 139,
+      "Deaths": 31,
+      "Score": 481
     },
     {
       "Account ID": "BE5CDAD184D4B26E",
