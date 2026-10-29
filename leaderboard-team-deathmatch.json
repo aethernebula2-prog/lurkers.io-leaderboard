@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-29T01:21:38.040016+00:00",
-  "lastUpdated": 1793236473360,
-  "cached": true,
+  "updatedAt": "2026-10-29T07:46:10.573672+00:00",
+  "lastUpdated": 1793259968026,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -51,15 +51,6 @@
       "Score": 1251
     },
     {
-      "Account ID": "1EEA4A65BD99F437",
-      "Player Name": "denied",
-      "Games Won": 2,
-      "Games Lost": 15,
-      "Kills": 636,
-      "Deaths": 57,
-      "Score": 1127
-    },
-    {
       "Account ID": "579A17105156C3D6",
       "Player Name": "adsui9fbuidfrwttt",
       "Games Won": 6,
@@ -69,13 +60,13 @@
       "Score": 1126
     },
     {
-      "Account ID": "65B41DADC9A88720",
-      "Player Name": "Alexandria",
-      "Games Won": 4,
-      "Games Lost": 2,
-      "Kills": 256,
-      "Deaths": 29,
-      "Score": 949
+      "Account ID": "1EEA4A65BD99F437",
+      "Player Name": "denied",
+      "Games Won": 2,
+      "Games Lost": 16,
+      "Kills": 741,
+      "Deaths": 67,
+      "Score": 1117
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -85,6 +76,15 @@
       "Kills": 54,
       "Deaths": 6,
       "Score": 910
+    },
+    {
+      "Account ID": "65B41DADC9A88720",
+      "Player Name": "Alexandria",
+      "Games Won": 6,
+      "Games Lost": 3,
+      "Kills": 310,
+      "Deaths": 39,
+      "Score": 861
     },
     {
       "Account ID": "2F9DD7AF6601F842",
@@ -114,6 +114,15 @@
       "Score": 634
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 7,
+      "Games Lost": 25,
+      "Kills": 843,
+      "Deaths": 138,
+      "Score": 632
+    },
+    {
       "Account ID": "EC1D49B321638908",
       "Player Name": "Keepon",
       "Games Won": 4,
@@ -121,15 +130,6 @@
       "Kills": 212,
       "Deaths": 35,
       "Score": 627
-    },
-    {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 7,
-      "Games Lost": 23,
-      "Kills": 764,
-      "Deaths": 128,
-      "Score": 620
     },
     {
       "Account ID": "E340F1474433376A",
