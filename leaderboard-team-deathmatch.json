@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-29T07:46:10.573672+00:00",
-  "lastUpdated": 1793259968026,
+  "updatedAt": "2026-10-29T14:44:18.446032+00:00",
+  "lastUpdated": 1793285053463,
   "cached": false,
   "players": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "Account ID": "579A17105156C3D6",
-      "Player Name": "adsui9fbuidfrwttt",
+      "Player Name": "XplayerxX123",
       "Games Won": 6,
       "Games Lost": 18,
       "Kills": 628,
@@ -134,11 +134,11 @@
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 15,
+      "Games Won": 16,
       "Games Lost": 36,
-      "Kills": 539,
-      "Deaths": 97,
-      "Score": 585
+      "Kills": 547,
+      "Deaths": 99,
+      "Score": 583
     },
     {
       "Account ID": "3A0685ED57F6B716",
