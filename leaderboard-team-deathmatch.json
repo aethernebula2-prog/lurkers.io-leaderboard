@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-28T21:24:25.005333+00:00",
-  "lastUpdated": 1793222162334,
+  "updatedAt": "2026-10-29T01:21:38.040016+00:00",
+  "lastUpdated": 1793236473360,
   "cached": true,
   "players": [
     {
@@ -69,6 +69,15 @@
       "Score": 1126
     },
     {
+      "Account ID": "65B41DADC9A88720",
+      "Player Name": "Alexandria",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 256,
+      "Deaths": 29,
+      "Score": 949
+    },
+    {
       "Account ID": "6C4C52783BD880EE",
       "Player Name": "QuyenSOLO",
       "Games Won": 1,
@@ -101,8 +110,8 @@
       "Games Won": 4,
       "Games Lost": 20,
       "Kills": 173,
-      "Deaths": 27,
-      "Score": 657
+      "Deaths": 28,
+      "Score": 634
     },
     {
       "Account ID": "EC1D49B321638908",
@@ -137,8 +146,8 @@
       "Games Won": 6,
       "Games Lost": 10,
       "Kills": 378,
-      "Deaths": 72,
-      "Score": 562
+      "Deaths": 73,
+      "Score": 555
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -157,15 +166,6 @@
       "Kills": 250,
       "Deaths": 54,
       "Score": 501
-    },
-    {
-      "Account ID": "891AEC8338452106",
-      "Player Name": "hueto2",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 80,
-      "Deaths": 16,
-      "Score": 500
     },
     {
       "Account ID": "D50E7835A6E45867",
