@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-30T03:23:20.627060+00:00",
-  "lastUpdated": 1793330598327,
-  "cached": false,
+  "updatedAt": "2026-10-30T10:31:43.303442+00:00",
+  "lastUpdated": 1793355934031,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -63,10 +63,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 16,
-      "Kills": 741,
-      "Deaths": 67,
-      "Score": 1117
+      "Games Lost": 18,
+      "Kills": 801,
+      "Deaths": 74,
+      "Score": 1092
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -114,6 +114,15 @@
       "Score": 667
     },
     {
+      "Account ID": "82B47A576A0B527E",
+      "Player Name": "superkiller36",
+      "Games Won": 7,
+      "Games Lost": 27,
+      "Kills": 932,
+      "Deaths": 144,
+      "Score": 667
+    },
+    {
       "Account ID": "6896AF24B8EE135C",
       "Player Name": "15pens",
       "Games Won": 4,
@@ -121,15 +130,6 @@
       "Kills": 173,
       "Deaths": 28,
       "Score": 634
-    },
-    {
-      "Account ID": "82B47A576A0B527E",
-      "Player Name": "superkiller36",
-      "Games Won": 7,
-      "Games Lost": 26,
-      "Kills": 843,
-      "Deaths": 138,
-      "Score": 632
     },
     {
       "Account ID": "EC1D49B321638908",
