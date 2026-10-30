@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-30T16:50:53.070574+00:00",
-  "lastUpdated": 1793379051513,
-  "cached": false,
+  "updatedAt": "2026-10-30T21:13:27.189333+00:00",
+  "lastUpdated": 1793394466302,
+  "cached": true,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -99,10 +99,10 @@
       "Account ID": "1618CA70F71D2651",
       "Player Name": "Heretic",
       "Games Won": 2,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 326,
-      "Deaths": 44,
-      "Score": 759
+      "Deaths": 45,
+      "Score": 741
     },
     {
       "Account ID": "113785E98F35679A",
