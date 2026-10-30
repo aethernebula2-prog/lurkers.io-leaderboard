@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-30T10:31:43.303442+00:00",
-  "lastUpdated": 1793355934031,
-  "cached": true,
+  "updatedAt": "2026-10-30T16:50:53.070574+00:00",
+  "lastUpdated": 1793379051513,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -96,6 +96,15 @@
       "Score": 831
     },
     {
+      "Account ID": "1618CA70F71D2651",
+      "Player Name": "Heretic",
+      "Games Won": 2,
+      "Games Lost": 9,
+      "Kills": 326,
+      "Deaths": 44,
+      "Score": 759
+    },
+    {
       "Account ID": "113785E98F35679A",
       "Player Name": "ddeex",
       "Games Won": 5,
@@ -103,15 +112,6 @@
       "Kills": 224,
       "Deaths": 35,
       "Score": 681
-    },
-    {
-      "Account ID": "1618CA70F71D2651",
-      "Player Name": "Heretic",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 272,
-      "Deaths": 42,
-      "Score": 667
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -141,15 +141,6 @@
       "Score": 627
     },
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 17,
-      "Games Lost": 37,
-      "Kills": 570,
-      "Deaths": 106,
-      "Score": 569
-    },
-    {
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadas",
       "Games Won": 6,
@@ -157,6 +148,24 @@
       "Kills": 430,
       "Deaths": 81,
       "Score": 564
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 17,
+      "Games Lost": 38,
+      "Kills": 570,
+      "Deaths": 107,
+      "Score": 563
+    },
+    {
+      "Account ID": "4BCB5C0C23D62CA",
+      "Player Name": "SUSHIMINETA",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 116,
+      "Deaths": 22,
+      "Score": 543
     },
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -175,15 +184,6 @@
       "Kills": 250,
       "Deaths": 54,
       "Score": 501
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "GentleStallionAJM2",
-      "Games Won": 6,
-      "Games Lost": 12,
-      "Kills": 139,
-      "Deaths": 31,
-      "Score": 481
     }
   ]
 }
