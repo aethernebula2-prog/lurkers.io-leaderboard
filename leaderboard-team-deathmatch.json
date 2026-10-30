@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-29T23:43:13.720788+00:00",
-  "lastUpdated": 1793317392705,
+  "updatedAt": "2026-10-30T03:23:20.627060+00:00",
+  "lastUpdated": 1793330598327,
   "cached": false,
   "players": [
     {
@@ -78,15 +78,6 @@
       "Score": 910
     },
     {
-      "Account ID": "65B41DADC9A88720",
-      "Player Name": "Alexandria",
-      "Games Won": 6,
-      "Games Lost": 3,
-      "Kills": 310,
-      "Deaths": 39,
-      "Score": 861
-    },
-    {
       "Account ID": "2F9DD7AF6601F842",
       "Player Name": "G0DL0VESALL",
       "Games Won": 4,
@@ -96,13 +87,13 @@
       "Score": 843
     },
     {
-      "Account ID": "1618CA70F71D2651",
-      "Player Name": "Heretic",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 238,
-      "Deaths": 35,
-      "Score": 702
+      "Account ID": "65B41DADC9A88720",
+      "Player Name": "Alexandria",
+      "Games Won": 7,
+      "Games Lost": 3,
+      "Kills": 358,
+      "Deaths": 47,
+      "Score": 831
     },
     {
       "Account ID": "113785E98F35679A",
@@ -112,6 +103,15 @@
       "Kills": 224,
       "Deaths": 35,
       "Score": 681
+    },
+    {
+      "Account ID": "1618CA70F71D2651",
+      "Player Name": "Heretic",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 272,
+      "Deaths": 42,
+      "Score": 667
     },
     {
       "Account ID": "6896AF24B8EE135C",
@@ -126,7 +126,7 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 7,
-      "Games Lost": 25,
+      "Games Lost": 26,
       "Kills": 843,
       "Deaths": 138,
       "Score": 632
@@ -153,10 +153,10 @@
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadas",
       "Games Won": 6,
-      "Games Lost": 10,
-      "Kills": 378,
-      "Deaths": 73,
-      "Score": 555
+      "Games Lost": 12,
+      "Kills": 430,
+      "Deaths": 81,
+      "Score": 564
     },
     {
       "Account ID": "DAA395A9E015E0DC",
