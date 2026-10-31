@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-10-30T21:13:27.010341+00:00",
-  "lastUpdated": 1793394470856,
-  "cached": true,
+  "updatedAt": "2026-10-31T01:12:42.315919+00:00",
+  "lastUpdated": 1793409159418,
+  "cached": false,
   "players": [
     {
       "Account ID": "65B41DADC9A88720",
@@ -69,13 +69,22 @@
       "Score": 461
     },
     {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 9,
+      "Games Lost": 45,
+      "Kills": 416,
+      "Deaths": 103,
+      "Score": 420
+    },
+    {
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
       "Games Won": 7,
-      "Games Lost": 12,
-      "Kills": 325,
-      "Deaths": 86,
-      "Score": 414
+      "Games Lost": 14,
+      "Kills": 337,
+      "Deaths": 89,
+      "Score": 411
     },
     {
       "Account ID": "844C476E593C7815",
@@ -91,9 +100,9 @@
       "Player Name": "vortexzzz",
       "Games Won": 8,
       "Games Lost": 10,
-      "Kills": 66,
-      "Deaths": 19,
-      "Score": 391
+      "Kills": 68,
+      "Deaths": 20,
+      "Score": 384
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -123,15 +132,6 @@
       "Score": 283
     },
     {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 9,
-      "Games Lost": 44,
-      "Kills": 252,
-      "Deaths": 100,
-      "Score": 268
-    },
-    {
       "Account ID": "402FC28DBEC52064",
       "Player Name": "Japaness",
       "Games Won": 9,
@@ -144,10 +144,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 46,
-      "Games Lost": 73,
+      "Games Lost": 74,
       "Kills": 336,
-      "Deaths": 148,
-      "Score": 265
+      "Deaths": 150,
+      "Score": 262
     },
     {
       "Account ID": "D4E2C8998B73DBDE",
