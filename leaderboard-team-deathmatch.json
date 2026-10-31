@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-31T01:12:42.467232+00:00",
-  "lastUpdated": 1793408620424,
+  "updatedAt": "2026-10-31T07:41:29.182112+00:00",
+  "lastUpdated": 1793432157753,
   "cached": true,
   "players": [
     {
@@ -22,6 +22,15 @@
       "Kills": 554,
       "Deaths": 26,
       "Score": 2147
+    },
+    {
+      "Account ID": "837EC6B04C22A85F",
+      "Player Name": "Blizzardas",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 247,
+      "Deaths": 17,
+      "Score": 1519
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
@@ -63,10 +72,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 18,
-      "Kills": 801,
-      "Deaths": 74,
-      "Score": 1092
+      "Games Lost": 19,
+      "Kills": 861,
+      "Deaths": 79,
+      "Score": 1099
     },
     {
       "Account ID": "6C4C52783BD880EE",
@@ -99,10 +108,10 @@
       "Account ID": "1618CA70F71D2651",
       "Player Name": "Heretic",
       "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 326,
-      "Deaths": 45,
-      "Score": 741
+      "Games Lost": 11,
+      "Kills": 339,
+      "Deaths": 50,
+      "Score": 693
     },
     {
       "Account ID": "113785E98F35679A",
@@ -175,15 +184,6 @@
       "Kills": 571,
       "Deaths": 112,
       "Score": 537
-    },
-    {
-      "Account ID": "848DA99B96B2D16E",
-      "Player Name": "Hihisuss",
-      "Games Won": 7,
-      "Games Lost": 11,
-      "Kills": 250,
-      "Deaths": 54,
-      "Score": 501
     }
   ]
 }
