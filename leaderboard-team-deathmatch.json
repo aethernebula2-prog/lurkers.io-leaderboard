@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-10-31T18:16:24.679612+00:00",
-  "lastUpdated": 1793470131923,
-  "cached": true,
+  "updatedAt": "2026-10-31T22:01:25.143645+00:00",
+  "lastUpdated": 1793484084477,
+  "cached": false,
   "players": [
     {
       "Account ID": "392E2BE3F059A53D",
@@ -36,10 +36,10 @@
       "Account ID": "837EC6B04C22A85F",
       "Player Name": "Blizzardas",
       "Games Won": 4,
-      "Games Lost": 3,
+      "Games Lost": 4,
       "Kills": 247,
-      "Deaths": 18,
-      "Score": 1429
+      "Deaths": 19,
+      "Score": 1350
     },
     {
       "Account ID": "B14E2C01FCD13975",
