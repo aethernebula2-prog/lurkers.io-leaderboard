@@ -1,27 +1,27 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-01T08:20:52.666738+00:00",
-  "lastUpdated": 1793521252497,
-  "cached": false,
+  "updatedAt": "2026-11-01T15:33:10.629704+00:00",
+  "lastUpdated": 1793547068660,
+  "cached": true,
   "players": [
     {
       "Account ID": "81E71873CB8FF823",
-      "Player Name": "xManarXx123",
-      "Games Won": 6,
-      "Games Lost": 2,
-      "Kills": 227,
-      "Deaths": 95,
-      "Score": 313
+      "Player Name": "manarxx1234",
+      "Games Won": 7,
+      "Games Lost": 4,
+      "Kills": 257,
+      "Deaths": 110,
+      "Score": 297
     },
     {
-      "Account ID": "A69C811E302B9820",
-      "Player Name": "pi314159",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 76,
-      "Deaths": 88,
-      "Score": 114
+      "Account ID": "C2BBD8914C8B0400",
+      "Player Name": "Tenjigu",
+      "Games Won": 6,
+      "Games Lost": 2,
+      "Kills": 41,
+      "Deaths": 20,
+      "Score": 280
     },
     {
       "Account ID": "133148890C0B4CEF",
@@ -31,6 +31,60 @@
       "Kills": 22,
       "Deaths": 38,
       "Score": 113
+    },
+    {
+      "Account ID": "A69C811E302B9820",
+      "Player Name": "pi314159",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 126,
+      "Deaths": 166,
+      "Score": 112
+    },
+    {
+      "Account ID": "91CFA9572038224",
+      "Player Name": "hahahahaka67",
+      "Games Won": 5,
+      "Games Lost": 6,
+      "Kills": 23,
+      "Deaths": 43,
+      "Score": 98
+    },
+    {
+      "Account ID": "3D52CCD78FE4738E",
+      "Player Name": "PassatB8",
+      "Games Won": 5,
+      "Games Lost": 6,
+      "Kills": 14,
+      "Deaths": 29,
+      "Score": 93
+    },
+    {
+      "Account ID": "B5A358AE2592285A",
+      "Player Name": "XxItzAbduoxX",
+      "Games Won": 2,
+      "Games Lost": 11,
+      "Kills": 29,
+      "Deaths": 77,
+      "Score": 53
+    },
+    {
+      "Account ID": "7C47F9A9459C1AC1",
+      "Player Name": "BoraLo02",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 9,
+      "Deaths": 24,
+      "Score": 51
+    },
+    {
+      "Account ID": "CEE9DA53D05B5CC0",
+      "Player Name": "laetnia52",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 0,
+      "Deaths": 6,
+      "Score": 50
     }
   ]
 }
