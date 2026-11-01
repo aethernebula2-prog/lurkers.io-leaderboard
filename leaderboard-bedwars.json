@@ -1,10 +1,28 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-01T15:33:10.629704+00:00",
-  "lastUpdated": 1793547068660,
+  "updatedAt": "2026-11-01T19:56:55.516054+00:00",
+  "lastUpdated": 1793562549385,
   "cached": true,
   "players": [
+    {
+      "Account ID": "9179B271E77BAEB5",
+      "Player Name": "lamuerte23022",
+      "Games Won": 5,
+      "Games Lost": 1,
+      "Kills": 70,
+      "Deaths": 3,
+      "Score": 2416
+    },
+    {
+      "Account ID": "C0A242975B7897FD",
+      "Player Name": "srblaze11",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 47,
+      "Deaths": 5,
+      "Score": 990
+    },
     {
       "Account ID": "81E71873CB8FF823",
       "Player Name": "manarxx1234",
@@ -22,6 +40,15 @@
       "Kills": 41,
       "Deaths": 20,
       "Score": 280
+    },
+    {
+      "Account ID": "C220BAD05A2F80B6",
+      "Player Name": "Sni1perX",
+      "Games Won": 4,
+      "Games Lost": 2,
+      "Kills": 55,
+      "Deaths": 74,
+      "Score": 140
     },
     {
       "Account ID": "133148890C0B4CEF",
@@ -42,6 +69,15 @@
       "Score": 112
     },
     {
+      "Account ID": "F4EE58DC80678777",
+      "Player Name": "AethericNebula",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 20,
+      "Deaths": 19,
+      "Score": 105
+    },
+    {
       "Account ID": "91CFA9572038224",
       "Player Name": "hahahahaka67",
       "Games Won": 5,
@@ -51,40 +87,49 @@
       "Score": 98
     },
     {
+      "Account ID": "CEE9DA53D05B5CC0",
+      "Player Name": "laetnia52",
+      "Games Won": 10,
+      "Games Lost": 7,
+      "Kills": 2,
+      "Deaths": 12,
+      "Score": 75
+    },
+    {
+      "Account ID": "371656C8E9510EB2",
+      "Player Name": "Juanitoxd1",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 8,
+      "Deaths": 22,
+      "Score": 73
+    },
+    {
       "Account ID": "3D52CCD78FE4738E",
       "Player Name": "PassatB8",
-      "Games Won": 5,
-      "Games Lost": 6,
-      "Kills": 14,
-      "Deaths": 29,
-      "Score": 93
+      "Games Won": 7,
+      "Games Lost": 12,
+      "Kills": 18,
+      "Deaths": 57,
+      "Score": 68
     },
     {
       "Account ID": "B5A358AE2592285A",
       "Player Name": "XxItzAbduoxX",
       "Games Won": 2,
       "Games Lost": 11,
-      "Kills": 29,
-      "Deaths": 77,
-      "Score": 53
+      "Kills": 32,
+      "Deaths": 86,
+      "Score": 52
     },
     {
       "Account ID": "7C47F9A9459C1AC1",
       "Player Name": "BoraLo02",
       "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 9,
-      "Deaths": 24,
-      "Score": 51
-    },
-    {
-      "Account ID": "CEE9DA53D05B5CC0",
-      "Player Name": "laetnia52",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 0,
-      "Deaths": 6,
-      "Score": 50
+      "Games Lost": 7,
+      "Kills": 11,
+      "Deaths": 30,
+      "Score": 49
     }
   ]
 }
