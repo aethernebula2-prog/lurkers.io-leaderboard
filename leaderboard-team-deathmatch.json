@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-02T11:47:25.978942+00:00",
-  "lastUpdated": 1793620044368,
-  "cached": false,
+  "updatedAt": "2026-11-02T20:59:52.753938+00:00",
+  "lastUpdated": 1793652803038,
+  "cached": true,
   "players": [
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -18,10 +18,10 @@
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 6,
-      "Games Lost": 11,
+      "Games Lost": 13,
       "Kills": 372,
-      "Deaths": 46,
-      "Score": 843
+      "Deaths": 50,
+      "Score": 775
     }
   ]
 }
