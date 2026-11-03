@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-03T02:47:32.705059+00:00",
-  "lastUpdated": 1793674051206,
+  "updatedAt": "2026-11-03T10:15:51.994395+00:00",
+  "lastUpdated": 1793700949989,
   "cached": false,
   "players": [
     {
@@ -31,6 +31,15 @@
       "Kills": 39,
       "Deaths": 3,
       "Score": 1366
+    },
+    {
+      "Account ID": "AC2902E5B079762E",
+      "Player Name": "denied1227",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 73,
+      "Deaths": 7,
+      "Score": 1100
     },
     {
       "Account ID": "DCFF1A67B7F84694",
@@ -71,20 +80,11 @@
     {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
-      "Games Won": 14,
-      "Games Lost": 11,
-      "Kills": 384,
-      "Deaths": 141,
-      "Score": 328
-    },
-    {
-      "Account ID": "C2BBD8914C8B0400",
-      "Player Name": "Tenjigu",
-      "Games Won": 6,
-      "Games Lost": 4,
-      "Kills": 57,
-      "Deaths": 23,
-      "Score": 307
+      "Games Won": 16,
+      "Games Lost": 12,
+      "Kills": 412,
+      "Deaths": 153,
+      "Score": 326
     },
     {
       "Account ID": "81E71873CB8FF823",
@@ -96,6 +96,24 @@
       "Score": 300
     },
     {
+      "Account ID": "BB602027712773FC",
+      "Player Name": "goooglemap60",
+      "Games Won": 16,
+      "Games Lost": 21,
+      "Kills": 161,
+      "Deaths": 63,
+      "Score": 298
+    },
+    {
+      "Account ID": "C2BBD8914C8B0400",
+      "Player Name": "Tenjigu",
+      "Games Won": 11,
+      "Games Lost": 6,
+      "Kills": 67,
+      "Deaths": 33,
+      "Score": 267
+    },
+    {
       "Account ID": "41900724A1A542FF",
       "Player Name": "manolo",
       "Games Won": 4,
@@ -103,15 +121,6 @@
       "Kills": 36,
       "Deaths": 19,
       "Score": 246
-    },
-    {
-      "Account ID": "BB602027712773FC",
-      "Player Name": "goooglemap60",
-      "Games Won": 13,
-      "Games Lost": 19,
-      "Kills": 116,
-      "Deaths": 57,
-      "Score": 244
     },
     {
       "Account ID": "1588224173E4FEC4",
@@ -153,10 +162,10 @@
       "Account ID": "A69C811E302B9820",
       "Player Name": "pi314159",
       "Games Won": 4,
-      "Games Lost": 7,
-      "Kills": 126,
-      "Deaths": 166,
-      "Score": 112
+      "Games Lost": 9,
+      "Kills": 157,
+      "Deaths": 189,
+      "Score": 113
     },
     {
       "Account ID": "C220BAD05A2F80B6",
@@ -175,15 +184,6 @@
       "Kills": 23,
       "Deaths": 43,
       "Score": 98
-    },
-    {
-      "Account ID": "FD36E947426B6D6C",
-      "Player Name": "CrashedAzz",
-      "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 20,
-      "Deaths": 21,
-      "Score": 95
     }
   ]
 }
