@@ -1,0 +1,263 @@
+{
+  "bedwars": {
+    "game": "Lurkers.io",
+    "gamemode": "Bedwars",
+    "updatedAt": "2026-11-03T10:15:51.994395+00:00",
+    "lastUpdated": 1793700949989,
+    "cached": false,
+    "players": [
+      {
+        "Account ID": "C2BEFE5AA09ACD98",
+        "Player Name": "lamuerte23020",
+        "Games Won": 4,
+        "Games Lost": 2,
+        "Kills": 44,
+        "Deaths": 1,
+        "Score": 4466
+      },
+      {
+        "Account ID": "9179B271E77BAEB5",
+        "Player Name": "lamuerte23022",
+        "Games Won": 5,
+        "Games Lost": 1,
+        "Kills": 70,
+        "Deaths": 3,
+        "Score": 2416
+      },
+      {
+        "Account ID": "C40569DB4094EACA",
+        "Player Name": "Sagacious",
+        "Games Won": 4,
+        "Games Lost": 2,
+        "Kills": 39,
+        "Deaths": 3,
+        "Score": 1366
+      },
+      {
+        "Account ID": "AC2902E5B079762E",
+        "Player Name": "denied1227",
+        "Games Won": 4,
+        "Games Lost": 3,
+        "Kills": 73,
+        "Deaths": 7,
+        "Score": 1100
+      },
+      {
+        "Account ID": "DCFF1A67B7F84694",
+        "Player Name": "Draeven",
+        "Games Won": 6,
+        "Games Lost": 3,
+        "Kills": 59,
+        "Deaths": 6,
+        "Score": 1050
+      },
+      {
+        "Account ID": "C0A242975B7897FD",
+        "Player Name": "srblaze11",
+        "Games Won": 4,
+        "Games Lost": 4,
+        "Kills": 47,
+        "Deaths": 5,
+        "Score": 990
+      },
+      {
+        "Account ID": "10F525F29942FC2",
+        "Player Name": "white000",
+        "Games Won": 9,
+        "Games Lost": 6,
+        "Kills": 138,
+        "Deaths": 24,
+        "Score": 635
+      },
+      {
+        "Account ID": "3D7A5DDF0E8013F7",
+        "Player Name": "EqaqeG",
+        "Games Won": 4,
+        "Games Lost": 12,
+        "Kills": 177,
+        "Deaths": 39,
+        "Score": 478
+      },
+      {
+        "Account ID": "61F03D1B678CB3AF",
+        "Player Name": "Player1745e",
+        "Games Won": 16,
+        "Games Lost": 12,
+        "Kills": 412,
+        "Deaths": 153,
+        "Score": 326
+      },
+      {
+        "Account ID": "81E71873CB8FF823",
+        "Player Name": "xManarXx123",
+        "Games Won": 17,
+        "Games Lost": 16,
+        "Kills": 455,
+        "Deaths": 183,
+        "Score": 300
+      },
+      {
+        "Account ID": "BB602027712773FC",
+        "Player Name": "goooglemap60",
+        "Games Won": 16,
+        "Games Lost": 21,
+        "Kills": 161,
+        "Deaths": 63,
+        "Score": 298
+      },
+      {
+        "Account ID": "C2BBD8914C8B0400",
+        "Player Name": "Tenjigu",
+        "Games Won": 11,
+        "Games Lost": 6,
+        "Kills": 67,
+        "Deaths": 33,
+        "Score": 267
+      },
+      {
+        "Account ID": "41900724A1A542FF",
+        "Player Name": "manolo",
+        "Games Won": 4,
+        "Games Lost": 3,
+        "Kills": 36,
+        "Deaths": 19,
+        "Score": 246
+      },
+      {
+        "Account ID": "1588224173E4FEC4",
+        "Player Name": "itmehaha",
+        "Games Won": 5,
+        "Games Lost": 5,
+        "Kills": 68,
+        "Deaths": 39,
+        "Score": 224
+      },
+      {
+        "Account ID": "1AE730D03D553A92",
+        "Player Name": "Llilrascaloi",
+        "Games Won": 2,
+        "Games Lost": 6,
+        "Kills": 18,
+        "Deaths": 12,
+        "Score": 175
+      },
+      {
+        "Account ID": "AF2EF5468CBF2836",
+        "Player Name": "xXAntonyyyyXx",
+        "Games Won": 6,
+        "Games Lost": 10,
+        "Kills": 59,
+        "Deaths": 45,
+        "Score": 168
+      },
+      {
+        "Account ID": "B789B916E95883F4",
+        "Player Name": "OHISASIBURI",
+        "Games Won": 4,
+        "Games Lost": 2,
+        "Kills": 85,
+        "Deaths": 96,
+        "Score": 155
+      },
+      {
+        "Account ID": "A69C811E302B9820",
+        "Player Name": "pi314159",
+        "Games Won": 4,
+        "Games Lost": 9,
+        "Kills": 157,
+        "Deaths": 189,
+        "Score": 113
+      },
+      {
+        "Account ID": "C220BAD05A2F80B6",
+        "Player Name": "Sni1perX",
+        "Games Won": 8,
+        "Games Lost": 10,
+        "Kills": 82,
+        "Deaths": 127,
+        "Score": 109
+      },
+      {
+        "Account ID": "91CFA9572038224",
+        "Player Name": "hahahahaka67",
+        "Games Won": 5,
+        "Games Lost": 6,
+        "Kills": 23,
+        "Deaths": 43,
+        "Score": 98
+      }
+    ]
+  },
+  "ctf": {
+    "game": "Lurkers.io",
+    "gamemode": "Capture The Flag",
+    "updatedAt": "2026-11-03T10:15:52.796606+00:00",
+    "lastUpdated": 1793700950769,
+    "cached": false,
+    "players": [
+      {
+        "Account ID": "891AEC8338452106",
+        "Player Name": "hueto2",
+        "Games Won": 2,
+        "Games Lost": 6,
+        "Kills": 172,
+        "Deaths": 19,
+        "Score": 930
+      },
+      {
+        "Account ID": "BA2195FCCF3E9D05",
+        "Player Name": "ksawi111",
+        "Games Won": 5,
+        "Games Lost": 1,
+        "Kills": 17,
+        "Deaths": 8,
+        "Score": 295
+      },
+      {
+        "Account ID": "836E6824A13037F",
+        "Player Name": "Ahasnbro",
+        "Games Won": 4,
+        "Games Lost": 2,
+        "Kills": 8,
+        "Deaths": 10,
+        "Score": 146
+      },
+      {
+        "Account ID": "F9A48BA1CDDBE185",
+        "Player Name": "TOXICSOUL",
+        "Games Won": 2,
+        "Games Lost": 4,
+        "Kills": 42,
+        "Deaths": 46,
+        "Score": 124
+      }
+    ]
+  },
+  "team-deathmatch": {
+    "game": "Lurkers.io",
+    "gamemode": "Team Deathmatch",
+    "updatedAt": "2026-11-03T10:15:53.476666+00:00",
+    "lastUpdated": 1793700951595,
+    "cached": false,
+    "players": [
+      {
+        "Account ID": "1EEA4A65BD99F437",
+        "Player Name": "denied",
+        "Games Won": 2,
+        "Games Lost": 7,
+        "Kills": 324,
+        "Deaths": 26,
+        "Score": 1268
+      },
+      {
+        "Account ID": "82B47A576A0B527E",
+        "Player Name": "superkiller36",
+        "Games Won": 9,
+        "Games Lost": 15,
+        "Kills": 516,
+        "Deaths": 69,
+        "Score": 785
+      }
+    ]
+  }
+}
