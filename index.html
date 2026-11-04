@@ -650,7 +650,10 @@
     </div>
 
     <div class="history-controls">
-        <input type="date" id="historyDate">
+        <select id="historyDate">
+            <option value="">Loading dates...</option>
+        </select>
+    
         <button id="viewHistoryButton">View</button>
         <button id="currentLeaderboardButton">Current</button>
     </div>
@@ -886,6 +889,64 @@
 
     
 <script>
+async function loadAvailableHistoryDates() {
+    const dateSelect = document.getElementById("historyDate");
+
+    try {
+        // Detect the GitHub repository from the GitHub Pages URL.
+        const owner = location.hostname.split(".")[0];
+        const pathParts = location.pathname.split("/").filter(Boolean);
+
+        const repo = pathParts.length > 0
+            ? pathParts[0]
+            : `${owner}.github.io`;
+
+        const apiUrl =
+            `https://api.github.com/repos/${owner}/${repo}/contents/history`;
+
+        const response = await fetch(apiUrl);
+
+        if (!response.ok) {
+            throw new Error(`GitHub API HTTP ${response.status}`);
+        }
+
+        const files = await response.json();
+
+        const dates = files
+            .filter(file =>
+                file.type === "file" &&
+                /^\d{4}-\d{2}-\d{2}\.json$/.test(file.name)
+            )
+            .map(file => file.name.replace(".json", ""))
+            .sort()
+            .reverse();
+
+        dateSelect.innerHTML = "";
+
+        if (dates.length === 0) {
+            dateSelect.innerHTML =
+                '<option value="">No history available</option>';
+            return;
+        }
+
+        dateSelect.innerHTML =
+            '<option value="">Select a date...</option>';
+
+        dates.forEach(date => {
+            const option = document.createElement("option");
+            option.value = date;
+            option.textContent = date;
+            dateSelect.appendChild(option);
+        });
+
+    } catch (error) {
+        console.error("Failed to load history dates:", error);
+
+        dateSelect.innerHTML =
+            '<option value="">Could not load dates</option>';
+    }
+}
+    
 async function loadLeaderboard() {
     try {
         const [response, rolesResponse, previousHistory] = await Promise.all([
@@ -915,6 +976,18 @@ async function loadLeaderboard() {
 
         const data = await response.json();
         const roles = await rolesResponse.json();
+
+        const leaderboardData = selectedHistoryDate
+            ? data[historyModes[currentGamemode]]
+            : data;
+        
+        if (!leaderboardData || !Array.isArray(leaderboardData.players)) {
+            throw new Error(
+                "Invalid leaderboard data for " +
+                currentGamemode +
+                (selectedHistoryDate ? " on " + selectedHistoryDate : "")
+            );
+        }
         
         const previousPlayers =
             previousHistory
@@ -938,11 +1011,11 @@ async function loadLeaderboard() {
 
         const currentRanks = {};
 
-        data.players.forEach((player, index) => {
+        leaderboardData.players.forEach((player, index) => {
             currentRanks[player["Account ID"]] = index + 1;
         });
 
-        let sortedPlayers = [...data.players];
+        let sortedPlayers = [...leaderboardData.players];
 
         if (sortColumn) {
             sortedPlayers.sort((a, b) => {
@@ -1222,8 +1295,8 @@ async function loadLeaderboard() {
         if (selectedHistoryDate) {
             document.getElementById("updated").textContent =
                 "Historical leaderboard: " + selectedHistoryDate;
-        } else if (data.updatedAt) {
-            const date = new Date(data.updatedAt);
+        } else if (leaderboardData.updatedAt) {
+            const date = new Date(leaderboardData.updatedAt);
         
             document.getElementById("updated").textContent =
                 "Last fetched: " + date.toLocaleString();
@@ -1905,7 +1978,7 @@ document.getElementById("viewHistoryButton")
         const date = historyDateInput.value;
 
         if (!date) {
-            alert("Please select a date.");
+            alert("Please select a history date.");
             return;
         }
 
@@ -1921,6 +1994,7 @@ document.getElementById("currentLeaderboardButton")
     });
 
 setLanguage(currentLanguage);
+loadAvailableHistoryDates();
 loadLeaderboard();
 
 const aboutButton = document.getElementById("aboutButton");
