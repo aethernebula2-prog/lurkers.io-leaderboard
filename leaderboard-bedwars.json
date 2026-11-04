@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-04T11:42:51.628581+00:00",
-  "lastUpdated": 1793792095891,
+  "updatedAt": "2026-11-04T19:00:54.212614+00:00",
+  "lastUpdated": 1793818345401,
   "cached": true,
   "players": [
     {
@@ -90,19 +90,19 @@
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
       "Games Won": 20,
-      "Games Lost": 14,
-      "Kills": 444,
-      "Deaths": 180,
-      "Score": 305
+      "Games Lost": 15,
+      "Kills": 447,
+      "Deaths": 183,
+      "Score": 301
     },
     {
       "Account ID": "81E71873CB8FF823",
       "Player Name": "xManarXx123",
       "Games Won": 17,
-      "Games Lost": 17,
-      "Kills": 470,
-      "Deaths": 199,
-      "Score": 286
+      "Games Lost": 18,
+      "Kills": 479,
+      "Deaths": 208,
+      "Score": 278
     },
     {
       "Account ID": "41900724A1A542FF",
@@ -116,11 +116,20 @@
     {
       "Account ID": "C2BBD8914C8B0400",
       "Player Name": "Tenjigu",
-      "Games Won": 15,
-      "Games Lost": 13,
-      "Kills": 93,
-      "Deaths": 48,
-      "Score": 247
+      "Games Won": 16,
+      "Games Lost": 15,
+      "Kills": 96,
+      "Deaths": 55,
+      "Score": 226
+    },
+    {
+      "Account ID": "1588224173E4FEC4",
+      "Player Name": "itmehaha",
+      "Games Won": 11,
+      "Games Lost": 9,
+      "Kills": 151,
+      "Deaths": 89,
+      "Score": 224
     },
     {
       "Account ID": "DE7EEF5FC5F11780",
@@ -141,13 +150,22 @@
       "Score": 208
     },
     {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 5,
-      "Games Lost": 8,
-      "Kills": 119,
-      "Deaths": 74,
-      "Score": 199
+      "Account ID": "AA4D5DABDBA3614A",
+      "Player Name": "p1ayer",
+      "Games Won": 4,
+      "Games Lost": 6,
+      "Kills": 46,
+      "Deaths": 29,
+      "Score": 198
+    },
+    {
+      "Account ID": "CE7ABE928B38356A",
+      "Player Name": "masaking1213",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 44,
+      "Deaths": 25,
+      "Score": 192
     },
     {
       "Account ID": "39B11E1F6AB5F551",
@@ -164,26 +182,8 @@
       "Games Won": 3,
       "Games Lost": 3,
       "Kills": 51,
-      "Deaths": 40,
-      "Score": 177
-    },
-    {
-      "Account ID": "AA4D5DABDBA3614A",
-      "Player Name": "p1ayer",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 41,
-      "Deaths": 27,
-      "Score": 176
-    },
-    {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
-      "Games Won": 8,
-      "Games Lost": 11,
-      "Kills": 64,
-      "Deaths": 48,
-      "Score": 175
+      "Deaths": 41,
+      "Score": 174
     }
   ]
 }
