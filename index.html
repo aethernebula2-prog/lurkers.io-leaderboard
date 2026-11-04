@@ -388,6 +388,38 @@
         margin-right: 6px;
     }
 
+    .history-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin: 0 0 22px;
+        flex-wrap: wrap;
+    }
+    
+    .history-controls input,
+    .history-controls button {
+        padding: 8px 12px;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        background: var(--table-bg);
+        color: var(--text-color);
+        font-family: inherit;
+        font-size: 13px;
+    }
+    
+    .history-controls button {
+        cursor: pointer;
+    }
+    
+    .history-controls button:hover {
+        background: var(--hover-bg);
+    }
+    
+    #viewHistoryButton {
+        color: #58a6ff;
+    }
+
     .rank-number {
         display: block;
         line-height: 1;
@@ -615,6 +647,12 @@
         <button class="mode-button" data-mode="team-deathmatch">
             Team Deathmatch
         </button>
+    </div>
+
+    <div class="history-controls">
+        <input type="date" id="historyDate">
+        <button id="viewHistoryButton">View</button>
+        <button id="currentLeaderboardButton">Current</button>
     </div>
         
     <div id="updated">
@@ -852,14 +890,19 @@ async function loadLeaderboard() {
     try {
         const [response, rolesResponse, previousHistory] = await Promise.all([
             fetch(
-                leaderboardFiles[currentGamemode] + "?cache=" + Date.now()
+                (selectedHistoryDate
+                    ? `history/${selectedHistoryDate}.json`
+                    : leaderboardFiles[currentGamemode]
+                ) + "?cache=" + Date.now()
             ),
             fetch(
                 "roles.json?cache=" + Date.now()
             ),
-            loadPreviousHistory(
-                Number(localStorage.getItem("changeComparison") || 2)
-            )
+            selectedHistoryDate
+                ? Promise.resolve(null)
+                : loadPreviousHistory(
+                    Number(localStorage.getItem("changeComparison") || 2)
+                )
         ]);
 
         if (!response.ok) {
@@ -1000,12 +1043,12 @@ async function loadLeaderboard() {
             );
                                     
             let rankChangeHtml = "";
-            
-            if (previousRank === undefined) {
+
+            if (!selectedHistoryDate && previousRank === undefined) {
                 rankChangeHtml = `
                     <span class="rank-change new rank-change-number" data-i18n="new">NEW</span>
                 `;
-            } else if (currentRank < previousRank) {
+            } else if (!selectedHistoryDate && currentRank < previousRank) {
                 rankChangeHtml = `
                     <span class="rank-change increase">
                         <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
@@ -1014,7 +1057,7 @@ async function loadLeaderboard() {
                         <span class="rank-change-number">${previousRank - currentRank}</span>
                     </span>
                 `;
-            } else if (currentRank > previousRank) {
+            } else if (!selectedHistoryDate && currentRank > previousRank) {
                 rankChangeHtml = `
                     <span class="rank-change decrease">
                         <svg class="rank-arrow down" viewBox="0 0 10 10" aria-hidden="true">
@@ -1023,7 +1066,7 @@ async function loadLeaderboard() {
                         <span class="rank-change-number">${currentRank - previousRank}</span>
                     </span>
                 `;
-            } else {
+            } else if (!selectedHistoryDate) {
                 rankChangeHtml = `
                     <span class="rank-change same">
                         <svg class="rank-arrow" viewBox="0 0 10 10" aria-hidden="true">
@@ -1071,7 +1114,7 @@ async function loadLeaderboard() {
             row.innerHTML = `
                 <td>
                     <span class="rank-number">${currentRank}</span>
-                    ${rankChangeHtml}
+                    ${selectedHistoryDate ? "" : rankChangeHtml}
                 </td>
 
                 <td title="Account ID: ${escapeHtml(playerId)}">
@@ -1082,7 +1125,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${player["Score"].toLocaleString()}
                     </span>
-                    ${showAllChanges
+                    ${!selectedHistoryDate && showAllChanges
                         ? formatChange(
                             player["Score"],
                             previousPlayer?.["Score"]
@@ -1094,7 +1137,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${player["Kills"].toLocaleString()}
                     </span>
-                    ${showAllChanges
+                    ${!selectedHistoryDate && showAllChanges
                         ? formatChange(
                             player["Kills"],
                             previousPlayer?.["Kills"]
@@ -1106,7 +1149,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${player["Deaths"].toLocaleString()}
                     </span>
-                    ${showAllChanges
+                    ${!selectedHistoryDate && showAllChanges
                         ? formatChange(
                             player["Deaths"],
                             previousPlayer?.["Deaths"],
@@ -1121,14 +1164,14 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${kd === null ? "N/A" : kd.toFixed(2)}
                     </span>
-                    ${showAllChanges && kd !== null && previousKd !== null
+                    ${!selectedHistoryDate && showAllChanges && kd !== null && previousKd !== null
                         ? formatChange(kd, previousKd, 2)
                         : ""}
                 </td>
 
                 <td>
                     <span class="rank-number">${totalGames}</span>
-                    ${showAllChanges && previousPlayer
+                    ${!selectedHistoryDate && showAllChanges && previousPlayer
                         ? formatChange(
                             totalGames,
                             previousPlayer["Games Won"] + previousPlayer["Games Lost"]
@@ -1140,7 +1183,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${player["Games Won"].toLocaleString()}
                     </span>
-                    ${showAllChanges
+                    ${!selectedHistoryDate && showAllChanges
                         ? formatChange(
                             player["Games Won"],
                             previousPlayer?.["Games Won"]
@@ -1152,7 +1195,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${player["Games Lost"].toLocaleString()}
                     </span>
-                    ${showAllChanges
+                    ${!selectedHistoryDate && showAllChanges
                         ? formatChange(
                             player["Games Lost"],
                             previousPlayer?.["Games Lost"],
@@ -1167,7 +1210,7 @@ async function loadLeaderboard() {
                     <span class="stat-value">
                         ${winRate.toFixed(2)}%
                     </span>
-                    ${showAllChanges && previousWinRate !== null
+                    ${!selectedHistoryDate && showAllChanges && previousWinRate !== null
                         ? formatChange(winRate, previousWinRate, 2, "%")
                         : ""}
                 </td>
@@ -1176,9 +1219,12 @@ async function loadLeaderboard() {
             leaderboard.appendChild(row);
         });
 
-        if (data.updatedAt) {
+        if (selectedHistoryDate) {
+            document.getElementById("updated").textContent =
+                "Historical leaderboard: " + selectedHistoryDate;
+        } else if (data.updatedAt) {
             const date = new Date(data.updatedAt);
-
+        
             document.getElementById("updated").textContent =
                 "Last fetched: " + date.toLocaleString();
         }
@@ -1753,7 +1799,8 @@ document.querySelectorAll('input[name="theme"]').forEach(input => {
         }
     });
 });
-    
+
+let selectedHistoryDate = null;
 let currentLanguage = localStorage.getItem("language") || "en";
 let currentGamemode =
     localStorage.getItem("gamemode") || "Bedwars";
@@ -1850,6 +1897,28 @@ changeComparison.addEventListener("change", function () {
 
     loadLeaderboard();
 });
+
+const historyDateInput = document.getElementById("historyDate");
+
+document.getElementById("viewHistoryButton")
+    .addEventListener("click", function () {
+        const date = historyDateInput.value;
+
+        if (!date) {
+            alert("Please select a date.");
+            return;
+        }
+
+        selectedHistoryDate = date;
+        loadLeaderboard();
+    });
+
+document.getElementById("currentLeaderboardButton")
+    .addEventListener("click", function () {
+        selectedHistoryDate = null;
+        historyDateInput.value = "";
+        loadLeaderboard();
+    });
 
 setLanguage(currentLanguage);
 loadLeaderboard();
