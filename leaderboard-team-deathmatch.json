@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-04T03:47:51.066321+00:00",
-  "lastUpdated": 1793764069800,
+  "updatedAt": "2026-11-04T11:42:53.502345+00:00",
+  "lastUpdated": 1793792570753,
   "cached": false,
   "players": [
     {
@@ -40,6 +40,15 @@
       "Kills": 30,
       "Deaths": 5,
       "Score": 650
+    },
+    {
+      "Account ID": "5227417628D63A4E",
+      "Player Name": "GilwillbirdTThaha",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 135,
+      "Deaths": 33,
+      "Score": 459
     },
     {
       "Account ID": "A43CEB9D8A46BE9",
