@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-05T07:31:03.527119+00:00",
-  "lastUpdated": 1793863860342,
-  "cached": false,
+  "updatedAt": "2026-11-05T15:54:14.007974+00:00",
+  "lastUpdated": 1793893817798,
+  "cached": true,
   "players": [
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -18,10 +18,19 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 324,
-      "Deaths": 26,
-      "Score": 1268
+      "Games Lost": 8,
+      "Kills": 338,
+      "Deaths": 29,
+      "Score": 1185
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 4,
+      "Games Lost": 4,
+      "Kills": 74,
+      "Deaths": 8,
+      "Score": 975
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -42,13 +51,13 @@
       "Score": 680
     },
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 3,
+      "Account ID": "5227417628D63A4E",
+      "Player Name": "GilwillbirdTThaha",
+      "Games Won": 4,
       "Games Lost": 4,
-      "Kills": 37,
-      "Deaths": 6,
-      "Score": 659
+      "Kills": 164,
+      "Deaths": 38,
+      "Score": 481
     },
     {
       "Account ID": "A43CEB9D8A46BE9",
@@ -60,15 +69,6 @@
       "Score": 439
     },
     {
-      "Account ID": "5227417628D63A4E",
-      "Player Name": "GilwillbirdTThaha",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 143,
-      "Deaths": 37,
-      "Score": 429
-    },
-    {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
       "Games Won": 4,
@@ -76,6 +76,15 @@
       "Kills": 92,
       "Deaths": 26,
       "Score": 410
+    },
+    {
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 142,
+      "Deaths": 39,
+      "Score": 378
     },
     {
       "Account ID": "FAEF2C28707CD41B",
