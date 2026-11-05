@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-05T15:54:10.552030+00:00",
-  "lastUpdated": 1793894010220,
-  "cached": true,
+  "updatedAt": "2026-11-05T21:40:08.984701+00:00",
+  "lastUpdated": 1793914806037,
+  "cached": false,
   "players": [
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -63,10 +63,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 6,
-      "Games Lost": 18,
+      "Games Lost": 19,
       "Kills": 295,
       "Deaths": 52,
-      "Score": 592
+      "Score": 591
     },
     {
       "Account ID": "BB602027712773FC",
@@ -98,11 +98,11 @@
     {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
-      "Games Won": 24,
-      "Games Lost": 17,
-      "Kills": 537,
-      "Deaths": 222,
-      "Score": 300
+      "Games Won": 25,
+      "Games Lost": 19,
+      "Kills": 640,
+      "Deaths": 262,
+      "Score": 301
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -159,6 +159,15 @@
       "Score": 254
     },
     {
+      "Account ID": "9B89B7156A49CE96",
+      "Player Name": "S7iP3R",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 19,
+      "Deaths": 10,
+      "Score": 215
+    },
+    {
       "Account ID": "C2BBD8914C8B0400",
       "Player Name": "Tenjigu",
       "Games Won": 16,
@@ -175,15 +184,6 @@
       "Kills": 83,
       "Deaths": 51,
       "Score": 212
-    },
-    {
-      "Account ID": "DE7EEF5FC5F11780",
-      "Player Name": "Billyy",
-      "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 87,
-      "Deaths": 51,
-      "Score": 210
     }
   ]
 }
