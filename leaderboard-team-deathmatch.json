@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-06T08:43:08.338295+00:00",
-  "lastUpdated": 1793954584850,
+  "updatedAt": "2026-11-06T16:27:36.423471+00:00",
+  "lastUpdated": 1793982454377,
   "cached": false,
   "players": [
     {
@@ -26,11 +26,11 @@
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 74,
-      "Deaths": 8,
-      "Score": 975
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 98,
+      "Deaths": 11,
+      "Score": 940
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -123,6 +123,15 @@
       "Score": 126
     },
     {
+      "Account ID": "18523C9F01361325",
+      "Player Name": "TRYLERC",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 10,
+      "Deaths": 8,
+      "Score": 125
+    },
+    {
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
       "Games Won": 0,
@@ -134,11 +143,20 @@
     {
       "Account ID": "D38728EE53E590FE",
       "Player Name": "dashbox",
-      "Games Won": 1,
+      "Games Won": 2,
       "Games Lost": 5,
       "Kills": 2,
       "Deaths": 4,
-      "Score": 66
+      "Score": 78
+    },
+    {
+      "Account ID": "32E655579AAEE0FF",
+      "Player Name": "mebroooo",
+      "Games Won": 0,
+      "Games Lost": 8,
+      "Kills": 24,
+      "Deaths": 38,
+      "Score": 63
     },
     {
       "Account ID": "44E33380394802E1",
@@ -148,6 +166,15 @@
       "Kills": 8,
       "Deaths": 21,
       "Score": 54
+    },
+    {
+      "Account ID": "968DD88E444BABE0",
+      "Player Name": "xhosam2xx",
+      "Games Won": 3,
+      "Games Lost": 3,
+      "Kills": 0,
+      "Deaths": 4,
+      "Score": 50
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-06T08:43:06.905404+00:00",
-  "lastUpdated": 1793954583782,
-  "cached": false,
+  "updatedAt": "2026-11-06T16:27:34.842053+00:00",
+  "lastUpdated": 1793981855971,
+  "cached": true,
   "players": [
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -63,10 +63,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 6,
-      "Games Lost": 19,
+      "Games Lost": 22,
       "Kills": 295,
-      "Deaths": 52,
-      "Score": 591
+      "Deaths": 55,
+      "Score": 557
     },
     {
       "Account ID": "BB602027712773FC",
@@ -98,11 +98,11 @@
     {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
-      "Games Won": 25,
-      "Games Lost": 20,
-      "Kills": 680,
-      "Deaths": 281,
-      "Score": 297
+      "Games Won": 26,
+      "Games Lost": 23,
+      "Kills": 752,
+      "Deaths": 306,
+      "Score": 298
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -135,10 +135,10 @@
       "Account ID": "9B89B7156A49CE96",
       "Player Name": "S7iP3R",
       "Games Won": 2,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 30,
       "Deaths": 12,
-      "Score": 272
+      "Score": 270
     },
     {
       "Account ID": "2A5986D58DF2141A",
@@ -147,15 +147,6 @@
       "Games Lost": 3,
       "Kills": 86,
       "Deaths": 46,
-      "Score": 256
-    },
-    {
-      "Account ID": "A5E84F448F66AA56",
-      "Player Name": "jiogamingstudio",
-      "Games Won": 5,
-      "Games Lost": 8,
-      "Kills": 118,
-      "Deaths": 54,
       "Score": 256
     },
     {
@@ -168,6 +159,24 @@
       "Score": 254
     },
     {
+      "Account ID": "D03DC980D3F9891B",
+      "Player Name": "MitakaYoru",
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 131,
+      "Deaths": 67,
+      "Score": 245
+    },
+    {
+      "Account ID": "A5E84F448F66AA56",
+      "Player Name": "jiogamingstudio",
+      "Games Won": 7,
+      "Games Lost": 11,
+      "Kills": 130,
+      "Deaths": 66,
+      "Score": 235
+    },
+    {
       "Account ID": "C2BBD8914C8B0400",
       "Player Name": "Tenjigu",
       "Games Won": 16,
@@ -175,15 +184,6 @@
       "Kills": 98,
       "Deaths": 60,
       "Score": 213
-    },
-    {
-      "Account ID": "D03DC980D3F9891B",
-      "Player Name": "WAITWHAT",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 83,
-      "Deaths": 51,
-      "Score": 212
     }
   ]
 }
