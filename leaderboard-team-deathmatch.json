@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-06T16:27:36.423471+00:00",
-  "lastUpdated": 1793982454377,
+  "updatedAt": "2026-11-06T21:51:14.369598+00:00",
+  "lastUpdated": 1794001872838,
   "cached": false,
   "players": [
     {
@@ -55,9 +55,9 @@
       "Player Name": "TresLP",
       "Games Won": 5,
       "Games Lost": 8,
-      "Kills": 300,
-      "Deaths": 61,
-      "Score": 530
+      "Kills": 328,
+      "Deaths": 67,
+      "Score": 528
     },
     {
       "Account ID": "5227417628D63A4E",
@@ -116,11 +116,11 @@
     {
       "Account ID": "2A5986D58DF2141A",
       "Player Name": "hardwa",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 99,
-      "Deaths": 101,
-      "Score": 126
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 149,
+      "Deaths": 116,
+      "Score": 164
     },
     {
       "Account ID": "18523C9F01361325",
@@ -141,31 +141,31 @@
       "Score": 120
     },
     {
-      "Account ID": "D38728EE53E590FE",
-      "Player Name": "dashbox",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 2,
-      "Deaths": 4,
-      "Score": 78
+      "Account ID": "44E33380394802E1",
+      "Player Name": "deadshott",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 21,
+      "Deaths": 27,
+      "Score": 90
     },
     {
       "Account ID": "32E655579AAEE0FF",
       "Player Name": "mebroooo",
       "Games Won": 0,
-      "Games Lost": 8,
-      "Kills": 24,
-      "Deaths": 38,
-      "Score": 63
+      "Games Lost": 9,
+      "Kills": 25,
+      "Deaths": 40,
+      "Score": 62
     },
     {
-      "Account ID": "44E33380394802E1",
-      "Player Name": "deadshott",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 8,
-      "Deaths": 21,
-      "Score": 54
+      "Account ID": "D38728EE53E590FE",
+      "Player Name": "dashbox",
+      "Games Won": 6,
+      "Games Lost": 9,
+      "Kills": 2,
+      "Deaths": 9,
+      "Score": 62
     },
     {
       "Account ID": "968DD88E444BABE0",
