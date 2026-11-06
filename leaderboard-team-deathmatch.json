@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-06T01:53:34.206762+00:00",
-  "lastUpdated": 1793930011681,
+  "updatedAt": "2026-11-06T08:43:08.338295+00:00",
+  "lastUpdated": 1793954584850,
   "cached": false,
   "players": [
-    {
-      "Account ID": "DAA395A9E015E0DC",
-      "Player Name": "ilovevietnamXD",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 269,
-      "Deaths": 19,
-      "Score": 1444
-    },
     {
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
@@ -22,6 +13,15 @@
       "Kills": 338,
       "Deaths": 29,
       "Score": 1185
+    },
+    {
+      "Account ID": "DAA395A9E015E0DC",
+      "Player Name": "ilovevietnamXD",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 284,
+      "Deaths": 26,
+      "Score": 1125
     },
     {
       "Account ID": "E340F1474433376A",
@@ -72,10 +72,10 @@
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
       "Games Won": 5,
-      "Games Lost": 3,
+      "Games Lost": 4,
       "Kills": 122,
-      "Deaths": 31,
-      "Score": 456
+      "Deaths": 33,
+      "Score": 425
     },
     {
       "Account ID": "6837BCF2F57B6A38",
@@ -90,10 +90,10 @@
       "Account ID": "5F55C5AB10CD7651",
       "Player Name": "XILOLO",
       "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 78,
-      "Deaths": 27,
-      "Score": 333
+      "Games Lost": 6,
+      "Kills": 87,
+      "Deaths": 30,
+      "Score": 330
     },
     {
       "Account ID": "FAEF2C28707CD41B",
@@ -130,6 +130,15 @@
       "Kills": 12,
       "Deaths": 10,
       "Score": 120
+    },
+    {
+      "Account ID": "D38728EE53E590FE",
+      "Player Name": "dashbox",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 2,
+      "Deaths": 4,
+      "Score": 66
     },
     {
       "Account ID": "44E33380394802E1",
