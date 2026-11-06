@@ -41,7 +41,7 @@ jobs:
       # 保存历史
       - name: Save today's history
         run: |
-          DATE=$(date -u +"%Y-%m-%d")
+          DATE=$(TZ="America/Vancouver" date +"%Y-%m-%d")
 
           mkdir -p history
 
