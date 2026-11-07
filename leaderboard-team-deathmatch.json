@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-07T07:57:25.842250+00:00",
-  "lastUpdated": 1794038241976,
+  "updatedAt": "2026-11-07T14:37:19.458366+00:00",
+  "lastUpdated": 1794062234841,
   "cached": false,
   "players": [
     {
@@ -26,11 +26,11 @@
     {
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
-      "Games Won": 6,
-      "Games Lost": 7,
-      "Kills": 98,
-      "Deaths": 12,
-      "Score": 862
+      "Games Won": 7,
+      "Games Lost": 8,
+      "Kills": 127,
+      "Deaths": 13,
+      "Score": 1023
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -78,21 +78,21 @@
       "Score": 481
     },
     {
+      "Account ID": "F378B5973D96E0F8",
+      "Player Name": "satthuso1",
+      "Games Won": 5,
+      "Games Lost": 3,
+      "Kills": 150,
+      "Deaths": 44,
+      "Score": 403
+    },
+    {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
       "Games Won": 6,
       "Games Lost": 4,
       "Kills": 151,
       "Deaths": 47,
-      "Score": 381
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "GentleStallionAJM2",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 42,
-      "Deaths": 11,
       "Score": 381
     },
     {
@@ -132,6 +132,24 @@
       "Score": 286
     },
     {
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 0,
+      "Games Lost": 7,
+      "Kills": 37,
+      "Deaths": 14,
+      "Score": 264
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "GentleStallionAJM2",
+      "Games Won": 0,
+      "Games Lost": 7,
+      "Kills": 42,
+      "Deaths": 17,
+      "Score": 247
+    },
+    {
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
       "Games Won": 5,
@@ -159,15 +177,6 @@
       "Score": 125
     },
     {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 0,
-      "Games Lost": 6,
-      "Kills": 12,
-      "Deaths": 10,
-      "Score": 120
-    },
-    {
       "Account ID": "44E33380394802E1",
       "Player Name": "deadshott",
       "Games Won": 1,
@@ -175,15 +184,6 @@
       "Kills": 28,
       "Deaths": 31,
       "Score": 101
-    },
-    {
-      "Account ID": "32E655579AAEE0FF",
-      "Player Name": "mebroooo",
-      "Games Won": 0,
-      "Games Lost": 9,
-      "Kills": 25,
-      "Deaths": 40,
-      "Score": 62
     }
   ]
 }

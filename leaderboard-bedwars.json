@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-07T07:57:24.561461+00:00",
-  "lastUpdated": 1794038240216,
-  "cached": false,
+  "updatedAt": "2026-11-07T14:37:18.033990+00:00",
+  "lastUpdated": 1794062205470,
+  "cached": true,
   "players": [
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -73,9 +73,9 @@
       "Player Name": "googlemap60",
       "Games Won": 19,
       "Games Lost": 26,
-      "Kills": 355,
-      "Deaths": 73,
-      "Score": 528
+      "Kills": 359,
+      "Deaths": 77,
+      "Score": 508
     },
     {
       "Account ID": "10F525F29942FC2",
@@ -87,6 +87,15 @@
       "Score": 473
     },
     {
+      "Account ID": "F90B6EA09561FABE",
+      "Player Name": "32P23",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 58,
+      "Deaths": 16,
+      "Score": 419
+    },
+    {
       "Account ID": "48CA0B916A8ED4A4",
       "Player Name": "Thebetterone",
       "Games Won": 5,
@@ -96,13 +105,22 @@
       "Score": 340
     },
     {
+      "Account ID": "5227417628D63A4E",
+      "Player Name": "GilwillbirdTThaha",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 54,
+      "Deaths": 19,
+      "Score": 300
+    },
+    {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
       "Games Won": 26,
-      "Games Lost": 23,
+      "Games Lost": 24,
       "Kills": 752,
-      "Deaths": 306,
-      "Score": 298
+      "Deaths": 307,
+      "Score": 296
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -162,28 +180,10 @@
       "Account ID": "D03DC980D3F9891B",
       "Player Name": "MitakaYoru",
       "Games Won": 6,
-      "Games Lost": 8,
-      "Kills": 153,
-      "Deaths": 74,
-      "Score": 249
-    },
-    {
-      "Account ID": "B3AF50D640B2203",
-      "Player Name": "heAdShoulder",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 48,
-      "Deaths": 23,
-      "Score": 246
-    },
-    {
-      "Account ID": "A5E84F448F66AA56",
-      "Player Name": "jiogamingstudio",
-      "Games Won": 9,
-      "Games Lost": 14,
-      "Kills": 136,
-      "Deaths": 70,
-      "Score": 233
+      "Games Lost": 10,
+      "Kills": 170,
+      "Deaths": 79,
+      "Score": 252
     }
   ]
 }
