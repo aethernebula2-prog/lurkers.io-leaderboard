@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-06T21:51:14.369598+00:00",
-  "lastUpdated": 1794001872838,
+  "updatedAt": "2026-11-07T01:25:20.509376+00:00",
+  "lastUpdated": 1794014718721,
   "cached": false,
   "players": [
     {
@@ -27,10 +27,10 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 6,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 98,
-      "Deaths": 11,
-      "Score": 940
+      "Deaths": 12,
+      "Score": 862
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -53,11 +53,11 @@
     {
       "Account ID": "A43CEB9D8A46BE9",
       "Player Name": "TresLP",
-      "Games Won": 5,
+      "Games Won": 6,
       "Games Lost": 8,
-      "Kills": 328,
-      "Deaths": 67,
-      "Score": 528
+      "Kills": 375,
+      "Deaths": 68,
+      "Score": 594
     },
     {
       "Account ID": "5227417628D63A4E",
@@ -144,10 +144,10 @@
       "Account ID": "44E33380394802E1",
       "Player Name": "deadshott",
       "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 21,
-      "Deaths": 27,
-      "Score": 90
+      "Games Lost": 8,
+      "Kills": 28,
+      "Deaths": 31,
+      "Score": 101
     },
     {
       "Account ID": "32E655579AAEE0FF",
@@ -159,15 +159,6 @@
       "Score": 62
     },
     {
-      "Account ID": "D38728EE53E590FE",
-      "Player Name": "dashbox",
-      "Games Won": 6,
-      "Games Lost": 9,
-      "Kills": 2,
-      "Deaths": 9,
-      "Score": 62
-    },
-    {
       "Account ID": "968DD88E444BABE0",
       "Player Name": "xhosam2xx",
       "Games Won": 3,
@@ -175,6 +166,15 @@
       "Kills": 0,
       "Deaths": 4,
       "Score": 50
+    },
+    {
+      "Account ID": "D38728EE53E590FE",
+      "Player Name": "dashbox",
+      "Games Won": 6,
+      "Games Lost": 12,
+      "Kills": 2,
+      "Deaths": 12,
+      "Score": 49
     }
   ]
 }
