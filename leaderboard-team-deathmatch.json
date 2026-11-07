@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-07T19:10:13.128787+00:00",
-  "lastUpdated": 1794078610082,
+  "updatedAt": "2026-11-07T23:13:02.505158+00:00",
+  "lastUpdated": 1794093173028,
   "cached": false,
   "players": [
     {
@@ -141,15 +141,6 @@
       "Score": 286
     },
     {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 0,
-      "Games Lost": 8,
-      "Kills": 42,
-      "Deaths": 16,
-      "Score": 262
-    },
-    {
       "Account ID": "D50E7835A6E45867",
       "Player Name": "GentleStallionAJM2",
       "Games Won": 0,
@@ -168,13 +159,22 @@
       "Score": 227
     },
     {
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 0,
+      "Games Lost": 8,
+      "Kills": 43,
+      "Deaths": 19,
+      "Score": 226
+    },
+    {
       "Account ID": "2A5986D58DF2141A",
       "Player Name": "hardwa",
       "Games Won": 4,
       "Games Lost": 9,
-      "Kills": 192,
-      "Deaths": 149,
-      "Score": 159
+      "Kills": 208,
+      "Deaths": 158,
+      "Score": 162
     },
     {
       "Account ID": "18523C9F01361325",

@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-07T19:10:11.244698+00:00",
-  "lastUpdated": 1794078504708,
-  "cached": true,
+  "updatedAt": "2026-11-07T23:12:57.949772+00:00",
+  "lastUpdated": 1794093173951,
+  "cached": false,
   "players": [
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -72,19 +72,10 @@
       "Account ID": "BB602027712773FC",
       "Player Name": "googlemap60",
       "Games Won": 19,
-      "Games Lost": 26,
+      "Games Lost": 27,
       "Kills": 359,
-      "Deaths": 77,
-      "Score": 508
-    },
-    {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 11,
-      "Games Lost": 7,
-      "Kills": 195,
-      "Deaths": 54,
-      "Score": 422
+      "Deaths": 78,
+      "Score": 501
     },
     {
       "Account ID": "F90B6EA09561FABE",
@@ -94,6 +85,15 @@
       "Kills": 58,
       "Deaths": 16,
       "Score": 419
+    },
+    {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 12,
+      "Games Lost": 8,
+      "Kills": 288,
+      "Deaths": 89,
+      "Score": 383
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -137,8 +137,8 @@
       "Games Won": 17,
       "Games Lost": 19,
       "Kills": 479,
-      "Deaths": 208,
-      "Score": 277
+      "Deaths": 210,
+      "Score": 275
     },
     {
       "Account ID": "9B89B7156A49CE96",
@@ -152,29 +152,11 @@
     {
       "Account ID": "1588224173E4FEC4",
       "Player Name": "itmehaha",
-      "Games Won": 17,
+      "Games Won": 18,
       "Games Lost": 17,
-      "Kills": 623,
-      "Deaths": 284,
-      "Score": 269
-    },
-    {
-      "Account ID": "2A5986D58DF2141A",
-      "Player Name": "hardwa",
-      "Games Won": 7,
-      "Games Lost": 3,
-      "Kills": 86,
-      "Deaths": 46,
-      "Score": 256
-    },
-    {
-      "Account ID": "41900724A1A542FF",
-      "Player Name": "manolo",
-      "Games Won": 4,
-      "Games Lost": 4,
-      "Kills": 47,
-      "Deaths": 23,
-      "Score": 254
+      "Kills": 647,
+      "Deaths": 303,
+      "Score": 264
     },
     {
       "Account ID": "D03DC980D3F9891B",
@@ -184,6 +166,24 @@
       "Kills": 170,
       "Deaths": 79,
       "Score": 252
+    },
+    {
+      "Account ID": "2A5986D58DF2141A",
+      "Player Name": "hardwa",
+      "Games Won": 8,
+      "Games Lost": 6,
+      "Kills": 144,
+      "Deaths": 77,
+      "Score": 244
+    },
+    {
+      "Account ID": "B3AF50D640B2203",
+      "Player Name": "LondonJaws",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 48,
+      "Deaths": 24,
+      "Score": 233
     }
   ]
 }
