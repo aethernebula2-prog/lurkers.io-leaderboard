@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-07T14:37:19.458366+00:00",
-  "lastUpdated": 1794062234841,
+  "updatedAt": "2026-11-07T19:10:13.128787+00:00",
+  "lastUpdated": 1794078610082,
   "cached": false,
   "players": [
     {
@@ -87,15 +87,6 @@
       "Score": 403
     },
     {
-      "Account ID": "42A4EE7168959FF7",
-      "Player Name": "Kingofburgers",
-      "Games Won": 6,
-      "Games Lost": 4,
-      "Kills": 151,
-      "Deaths": 47,
-      "Score": 381
-    },
-    {
       "Account ID": "4E17E7E5FCF9A1A7",
       "Player Name": "FrostEmperor",
       "Games Won": 0,
@@ -112,6 +103,24 @@
       "Kills": 142,
       "Deaths": 39,
       "Score": 378
+    },
+    {
+      "Account ID": "42A4EE7168959FF7",
+      "Player Name": "Kingofburgers",
+      "Games Won": 6,
+      "Games Lost": 6,
+      "Kills": 161,
+      "Deaths": 49,
+      "Score": 378
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 125,
+      "Deaths": 38,
+      "Score": 343
     },
     {
       "Account ID": "5F55C5AB10CD7651",
@@ -135,10 +144,10 @@
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
       "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 37,
-      "Deaths": 14,
-      "Score": 264
+      "Games Lost": 8,
+      "Kills": 42,
+      "Deaths": 16,
+      "Score": 262
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -162,10 +171,10 @@
       "Account ID": "2A5986D58DF2141A",
       "Player Name": "hardwa",
       "Games Won": 4,
-      "Games Lost": 7,
-      "Kills": 149,
-      "Deaths": 116,
-      "Score": 164
+      "Games Lost": 9,
+      "Kills": 192,
+      "Deaths": 149,
+      "Score": 159
     },
     {
       "Account ID": "18523C9F01361325",
@@ -175,15 +184,6 @@
       "Kills": 10,
       "Deaths": 8,
       "Score": 125
-    },
-    {
-      "Account ID": "44E33380394802E1",
-      "Player Name": "deadshott",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 28,
-      "Deaths": 31,
-      "Score": 101
     }
   ]
 }
