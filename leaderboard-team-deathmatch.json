@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-07T01:25:20.509376+00:00",
-  "lastUpdated": 1794014718721,
+  "updatedAt": "2026-11-07T07:57:25.842250+00:00",
+  "lastUpdated": 1794038241976,
   "cached": false,
   "players": [
     {
@@ -60,6 +60,15 @@
       "Score": 594
     },
     {
+      "Account ID": "F4EE58DC80678777",
+      "Player Name": "AethericNebula",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 84,
+      "Deaths": 18,
+      "Score": 483
+    },
+    {
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 4,
@@ -71,11 +80,29 @@
     {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
-      "Games Won": 5,
+      "Games Won": 6,
       "Games Lost": 4,
-      "Kills": 122,
-      "Deaths": 33,
-      "Score": 425
+      "Kills": 151,
+      "Deaths": 47,
+      "Score": 381
+    },
+    {
+      "Account ID": "D50E7835A6E45867",
+      "Player Name": "GentleStallionAJM2",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 42,
+      "Deaths": 11,
+      "Score": 381
+    },
+    {
+      "Account ID": "4E17E7E5FCF9A1A7",
+      "Player Name": "FrostEmperor",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 76,
+      "Deaths": 20,
+      "Score": 380
     },
     {
       "Account ID": "6837BCF2F57B6A38",
@@ -107,11 +134,11 @@
     {
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
-      "Games Won": 4,
+      "Games Won": 5,
       "Games Lost": 10,
       "Kills": 70,
-      "Deaths": 35,
-      "Score": 228
+      "Deaths": 36,
+      "Score": 227
     },
     {
       "Account ID": "2A5986D58DF2141A",
@@ -157,24 +184,6 @@
       "Kills": 25,
       "Deaths": 40,
       "Score": 62
-    },
-    {
-      "Account ID": "968DD88E444BABE0",
-      "Player Name": "xhosam2xx",
-      "Games Won": 3,
-      "Games Lost": 3,
-      "Kills": 0,
-      "Deaths": 4,
-      "Score": 50
-    },
-    {
-      "Account ID": "D38728EE53E590FE",
-      "Player Name": "dashbox",
-      "Games Won": 6,
-      "Games Lost": 12,
-      "Kills": 2,
-      "Deaths": 12,
-      "Score": 49
     }
   ]
 }

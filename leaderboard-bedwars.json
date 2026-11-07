@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-07T01:25:18.728674+00:00",
-  "lastUpdated": 1794014216858,
-  "cached": true,
+  "updatedAt": "2026-11-07T07:57:24.561461+00:00",
+  "lastUpdated": 1794038240216,
+  "cached": false,
   "players": [
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -63,10 +63,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 6,
-      "Games Lost": 22,
+      "Games Lost": 23,
       "Kills": 295,
-      "Deaths": 55,
-      "Score": 557
+      "Deaths": 56,
+      "Score": 547
     },
     {
       "Account ID": "BB602027712773FC",
@@ -150,15 +150,6 @@
       "Score": 256
     },
     {
-      "Account ID": "D03DC980D3F9891B",
-      "Player Name": "MitakaYoru",
-      "Games Won": 6,
-      "Games Lost": 7,
-      "Kills": 153,
-      "Deaths": 73,
-      "Score": 255
-    },
-    {
       "Account ID": "41900724A1A542FF",
       "Player Name": "manolo",
       "Games Won": 4,
@@ -166,6 +157,15 @@
       "Kills": 47,
       "Deaths": 23,
       "Score": 254
+    },
+    {
+      "Account ID": "D03DC980D3F9891B",
+      "Player Name": "MitakaYoru",
+      "Games Won": 6,
+      "Games Lost": 8,
+      "Kills": 153,
+      "Deaths": 74,
+      "Score": 249
     },
     {
       "Account ID": "B3AF50D640B2203",
