@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-08T03:11:16.138996+00:00",
-  "lastUpdated": 1794107370316,
+  "updatedAt": "2026-11-08T10:51:32.597622+00:00",
+  "lastUpdated": 1794134635449,
   "cached": true,
   "players": [
     {
@@ -65,17 +65,17 @@
       "Games Won": 6,
       "Games Lost": 23,
       "Kills": 295,
-      "Deaths": 57,
-      "Score": 538
+      "Deaths": 58,
+      "Score": 529
     },
     {
       "Account ID": "BB602027712773FC",
       "Player Name": "googlemap60",
       "Games Won": 19,
-      "Games Lost": 27,
-      "Kills": 359,
-      "Deaths": 78,
-      "Score": 501
+      "Games Lost": 28,
+      "Kills": 365,
+      "Deaths": 88,
+      "Score": 455
     },
     {
       "Account ID": "F90B6EA09561FABE",
@@ -108,10 +108,10 @@
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 54,
-      "Deaths": 19,
-      "Score": 300
+      "Games Lost": 6,
+      "Kills": 96,
+      "Deaths": 33,
+      "Score": 305
     },
     {
       "Account ID": "61F03D1B678CB3AF",
@@ -132,6 +132,15 @@
       "Score": 284
     },
     {
+      "Account ID": "D03DC980D3F9891B",
+      "Player Name": "MitakaYoru",
+      "Games Won": 7,
+      "Games Lost": 12,
+      "Kills": 261,
+      "Deaths": 107,
+      "Score": 280
+    },
+    {
       "Account ID": "1588224173E4FEC4",
       "Player Name": "itmehaha",
       "Games Won": 19,
@@ -145,9 +154,9 @@
       "Player Name": "xManarXx123",
       "Games Won": 17,
       "Games Lost": 19,
-      "Kills": 479,
-      "Deaths": 210,
-      "Score": 275
+      "Kills": 481,
+      "Deaths": 212,
+      "Score": 274
     },
     {
       "Account ID": "9B89B7156A49CE96",
@@ -157,15 +166,6 @@
       "Kills": 30,
       "Deaths": 12,
       "Score": 270
-    },
-    {
-      "Account ID": "D03DC980D3F9891B",
-      "Player Name": "MitakaYoru",
-      "Games Won": 6,
-      "Games Lost": 10,
-      "Kills": 170,
-      "Deaths": 79,
-      "Score": 252
     },
     {
       "Account ID": "B3AF50D640B2203",
