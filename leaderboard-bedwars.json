@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-07T23:12:57.949772+00:00",
-  "lastUpdated": 1794093173951,
-  "cached": false,
+  "updatedAt": "2026-11-08T03:11:16.138996+00:00",
+  "lastUpdated": 1794107370316,
+  "cached": true,
   "players": [
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -65,8 +65,8 @@
       "Games Won": 6,
       "Games Lost": 23,
       "Kills": 295,
-      "Deaths": 56,
-      "Score": 547
+      "Deaths": 57,
+      "Score": 538
     },
     {
       "Account ID": "BB602027712773FC",
@@ -117,10 +117,10 @@
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
       "Games Won": 26,
-      "Games Lost": 24,
-      "Kills": 752,
-      "Deaths": 307,
-      "Score": 296
+      "Games Lost": 25,
+      "Kills": 762,
+      "Deaths": 311,
+      "Score": 295
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -130,6 +130,15 @@
       "Kills": 151,
       "Deaths": 59,
       "Score": 284
+    },
+    {
+      "Account ID": "1588224173E4FEC4",
+      "Player Name": "itmehaha",
+      "Games Won": 19,
+      "Games Lost": 18,
+      "Kills": 708,
+      "Deaths": 316,
+      "Score": 275
     },
     {
       "Account ID": "81E71873CB8FF823",
@@ -150,15 +159,6 @@
       "Score": 270
     },
     {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 18,
-      "Games Lost": 17,
-      "Kills": 647,
-      "Deaths": 303,
-      "Score": 264
-    },
-    {
       "Account ID": "D03DC980D3F9891B",
       "Player Name": "MitakaYoru",
       "Games Won": 6,
@@ -168,21 +168,21 @@
       "Score": 252
     },
     {
-      "Account ID": "2A5986D58DF2141A",
-      "Player Name": "hardwa",
-      "Games Won": 8,
-      "Games Lost": 6,
-      "Kills": 144,
-      "Deaths": 77,
-      "Score": 244
-    },
-    {
       "Account ID": "B3AF50D640B2203",
       "Player Name": "LondonJaws",
       "Games Won": 3,
       "Games Lost": 6,
       "Kills": 48,
       "Deaths": 24,
+      "Score": 233
+    },
+    {
+      "Account ID": "A5E84F448F66AA56",
+      "Player Name": "JIEGAMINGSTUDIO444",
+      "Games Won": 9,
+      "Games Lost": 14,
+      "Kills": 136,
+      "Deaths": 70,
       "Score": 233
     }
   ]
