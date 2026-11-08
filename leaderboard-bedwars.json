@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-08T16:49:49.256834+00:00",
-  "lastUpdated": 1794156586664,
+  "updatedAt": "2026-11-08T20:51:40.735748+00:00",
+  "lastUpdated": 1794171103780,
   "cached": false,
   "players": [
     {
@@ -54,10 +54,10 @@
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
       "Games Won": 3,
-      "Games Lost": 3,
+      "Games Lost": 4,
       "Kills": 74,
-      "Deaths": 11,
-      "Score": 722
+      "Deaths": 12,
+      "Score": 659
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -98,11 +98,11 @@
     {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
-      "Games Won": 12,
-      "Games Lost": 8,
-      "Kills": 288,
-      "Deaths": 89,
-      "Score": 383
+      "Games Won": 16,
+      "Games Lost": 10,
+      "Kills": 319,
+      "Deaths": 102,
+      "Score": 374
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -112,6 +112,15 @@
       "Kills": 57,
       "Deaths": 20,
       "Score": 340
+    },
+    {
+      "Account ID": "9B89B7156A49CE96",
+      "Player Name": "S7iP3R",
+      "Games Won": 3,
+      "Games Lost": 10,
+      "Kills": 42,
+      "Deaths": 14,
+      "Score": 323
     },
     {
       "Account ID": "5227417628D63A4E",
@@ -175,15 +184,6 @@
       "Kills": 169,
       "Deaths": 69,
       "Score": 272
-    },
-    {
-      "Account ID": "9B89B7156A49CE96",
-      "Player Name": "S7iP3R",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 30,
-      "Deaths": 12,
-      "Score": 270
     }
   ]
 }
