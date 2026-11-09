@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-09T00:15:30.651082+00:00",
-  "lastUpdated": 1794183230406,
+  "updatedAt": "2026-11-09T07:23:43.259950+00:00",
+  "lastUpdated": 1794208704463,
   "cached": true,
   "players": [
     {
@@ -141,22 +141,31 @@
       "Score": 305
     },
     {
+      "Account ID": "1588224173E4FEC4",
+      "Player Name": "itmehaha",
+      "Games Won": 19,
+      "Games Lost": 19,
+      "Kills": 779,
+      "Deaths": 319,
+      "Score": 294
+    },
+    {
       "Account ID": "61F03D1B678CB3AF",
       "Player Name": "Player1745e",
-      "Games Won": 26,
-      "Games Lost": 25,
-      "Kills": 762,
-      "Deaths": 311,
-      "Score": 295
+      "Games Won": 30,
+      "Games Lost": 27,
+      "Kills": 792,
+      "Deaths": 331,
+      "Score": 291
     },
     {
       "Account ID": "D03DC980D3F9891B",
       "Player Name": "MitakaYoru",
-      "Games Won": 7,
-      "Games Lost": 14,
-      "Kills": 277,
-      "Deaths": 112,
-      "Score": 280
+      "Games Won": 8,
+      "Games Lost": 15,
+      "Kills": 295,
+      "Deaths": 116,
+      "Score": 289
     },
     {
       "Account ID": "DFFA1297586EE434",
@@ -168,22 +177,13 @@
       "Score": 277
     },
     {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 19,
-      "Games Lost": 18,
-      "Kills": 708,
-      "Deaths": 316,
-      "Score": 275
-    },
-    {
-      "Account ID": "81E71873CB8FF823",
-      "Player Name": "xManarXx123",
-      "Games Won": 17,
-      "Games Lost": 19,
-      "Kills": 481,
-      "Deaths": 212,
-      "Score": 274
+      "Account ID": "36249106B641EFA4",
+      "Player Name": "hungkop",
+      "Games Won": 3,
+      "Games Lost": 8,
+      "Kills": 169,
+      "Deaths": 69,
+      "Score": 272
     }
   ]
 }
