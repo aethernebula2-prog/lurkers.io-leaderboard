@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-09T07:23:44.095392+00:00",
-  "lastUpdated": 1794208700259,
-  "cached": true,
+  "updatedAt": "2026-11-09T17:56:25.533983+00:00",
+  "lastUpdated": 1794246981377,
+  "cached": false,
   "players": [
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -24,15 +24,6 @@
       "Score": 1185
     },
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 134,
-      "Deaths": 16,
-      "Score": 881
-    },
-    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 3,
@@ -40,6 +31,15 @@
       "Kills": 214,
       "Deaths": 26,
       "Score": 873
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 7,
+      "Games Lost": 9,
+      "Kills": 134,
+      "Deaths": 17,
+      "Score": 831
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -63,10 +63,10 @@
       "Account ID": "1618CA70F71D2651",
       "Player Name": "Heretic",
       "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 129,
-      "Deaths": 25,
-      "Score": 553
+      "Games Lost": 6,
+      "Kills": 166,
+      "Deaths": 28,
+      "Score": 626
     },
     {
       "Account ID": "F4EE58DC80678777",
@@ -81,18 +81,9 @@
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 181,
-      "Deaths": 42,
-      "Score": 475
-    },
-    {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TresLP",
-      "Games Won": 7,
-      "Games Lost": 12,
-      "Kills": 493,
-      "Deaths": 130,
+      "Games Lost": 6,
+      "Kills": 188,
+      "Deaths": 50,
       "Score": 416
     },
     {
@@ -121,6 +112,24 @@
       "Kills": 211,
       "Deaths": 65,
       "Score": 371
+    },
+    {
+      "Account ID": "A43CEB9D8A46BE9",
+      "Player Name": "TresLP",
+      "Games Won": 8,
+      "Games Lost": 15,
+      "Kills": 565,
+      "Deaths": 178,
+      "Score": 352
+    },
+    {
+      "Account ID": "1851CAE463D45606",
+      "Player Name": "viverse219",
+      "Games Won": 7,
+      "Games Lost": 11,
+      "Kills": 125,
+      "Deaths": 40,
+      "Score": 351
     },
     {
       "Account ID": "3A0685ED57F6B716",
@@ -159,6 +168,15 @@
       "Score": 281
     },
     {
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 0,
+      "Games Lost": 13,
+      "Kills": 76,
+      "Deaths": 28,
+      "Score": 271
+    },
+    {
       "Account ID": "D50E7835A6E45867",
       "Player Name": "GentleStallionAJM2",
       "Games Won": 0,
@@ -166,24 +184,6 @@
       "Kills": 52,
       "Deaths": 20,
       "Score": 260
-    },
-    {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 0,
-      "Games Lost": 9,
-      "Kills": 51,
-      "Deaths": 20,
-      "Score": 254
-    },
-    {
-      "Account ID": "5F55C5AB10CD7651",
-      "Player Name": "player18273",
-      "Games Won": 6,
-      "Games Lost": 10,
-      "Kills": 119,
-      "Deaths": 57,
-      "Score": 246
     }
   ]
 }
