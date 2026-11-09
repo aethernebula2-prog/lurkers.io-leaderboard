@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-08T20:51:42.716246+00:00",
-  "lastUpdated": 1794171099575,
-  "cached": false,
+  "updatedAt": "2026-11-09T00:15:30.949673+00:00",
+  "lastUpdated": 1794183229308,
+  "cached": true,
   "players": [
     {
       "Account ID": "DAA395A9E015E0DC",
@@ -72,10 +72,10 @@
       "Account ID": "A43CEB9D8A46BE9",
       "Player Name": "TresLP",
       "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 443,
-      "Deaths": 92,
-      "Score": 525
+      "Games Lost": 10,
+      "Kills": 444,
+      "Deaths": 94,
+      "Score": 513
     },
     {
       "Account ID": "5227417628D63A4E",
@@ -134,20 +134,11 @@
     {
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadas",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 125,
-      "Deaths": 42,
-      "Score": 307
-    },
-    {
-      "Account ID": "5F55C5AB10CD7651",
-      "Player Name": "XILOLO",
-      "Games Won": 5,
-      "Games Lost": 7,
-      "Kills": 100,
-      "Deaths": 40,
-      "Score": 291
+      "Games Won": 2,
+      "Games Lost": 10,
+      "Kills": 178,
+      "Deaths": 57,
+      "Score": 328
     },
     {
       "Account ID": "FAEF2C28707CD41B",
@@ -157,6 +148,15 @@
       "Kills": 107,
       "Deaths": 48,
       "Score": 286
+    },
+    {
+      "Account ID": "5F55C5AB10CD7651",
+      "Player Name": "XILOLO",
+      "Games Won": 5,
+      "Games Lost": 8,
+      "Kills": 109,
+      "Deaths": 45,
+      "Score": 280
     },
     {
       "Account ID": "D50E7835A6E45867",
@@ -179,11 +179,11 @@
     {
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
-      "Games Won": 5,
+      "Games Won": 6,
       "Games Lost": 10,
-      "Kills": 70,
-      "Deaths": 36,
-      "Score": 227
+      "Kills": 72,
+      "Deaths": 38,
+      "Score": 226
     }
   ]
 }
