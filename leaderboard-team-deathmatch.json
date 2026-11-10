@@ -1,19 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-10T08:55:40.204721+00:00",
-  "lastUpdated": 1794300938285,
+  "updatedAt": "2026-11-10T16:40:34.809422+00:00",
+  "lastUpdated": 1794328834655,
   "cached": false,
   "players": [
-    {
-      "Account ID": "DAA395A9E015E0DC",
-      "Player Name": "ilovevietnamXD",
-      "Games Won": 4,
-      "Games Lost": 9,
-      "Kills": 336,
-      "Deaths": 29,
-      "Score": 1189
-    },
     {
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
@@ -24,6 +15,24 @@
       "Score": 1185
     },
     {
+      "Account ID": "DAA395A9E015E0DC",
+      "Player Name": "ilovevietnamXD",
+      "Games Won": 5,
+      "Games Lost": 10,
+      "Kills": 399,
+      "Deaths": 40,
+      "Score": 1030
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 8,
+      "Games Lost": 9,
+      "Kills": 171,
+      "Deaths": 18,
+      "Score": 997
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 3,
@@ -31,15 +40,6 @@
       "Kills": 214,
       "Deaths": 26,
       "Score": 873
-    },
-    {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 7,
-      "Games Lost": 9,
-      "Kills": 134,
-      "Deaths": 17,
-      "Score": 831
     },
     {
       "Account ID": "1618CA70F71D2651",
@@ -96,13 +96,13 @@
       "Score": 403
     },
     {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 142,
-      "Deaths": 39,
-      "Score": 378
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 101,
+      "Deaths": 27,
+      "Score": 402
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -121,6 +121,15 @@
       "Kills": 79,
       "Deaths": 22,
       "Score": 371
+    },
+    {
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 164,
+      "Deaths": 47,
+      "Score": 360
     },
     {
       "Account ID": "A43CEB9D8A46BE9",
@@ -175,15 +184,6 @@
       "Kills": 191,
       "Deaths": 71,
       "Score": 283
-    },
-    {
-      "Account ID": "595AC5BAC6B4E9AA",
-      "Player Name": "Player9126",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 53,
-      "Deaths": 20,
-      "Score": 281
     }
   ]
 }
