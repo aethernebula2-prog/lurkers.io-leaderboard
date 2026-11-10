@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-10T01:01:31.496130+00:00",
-  "lastUpdated": 1794272490533,
+  "updatedAt": "2026-11-10T08:55:40.204721+00:00",
+  "lastUpdated": 1794300938285,
   "cached": false,
   "players": [
     {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 4,
-      "Games Lost": 7,
+      "Games Lost": 9,
       "Kills": 336,
-      "Deaths": 28,
-      "Score": 1236
+      "Deaths": 29,
+      "Score": 1189
     },
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -42,13 +42,22 @@
       "Score": 831
     },
     {
+      "Account ID": "1618CA70F71D2651",
+      "Player Name": "Heretic",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 202,
+      "Deaths": 30,
+      "Score": 706
+    },
+    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 9,
-      "Games Lost": 17,
-      "Kills": 533,
-      "Deaths": 81,
-      "Score": 692
+      "Games Lost": 18,
+      "Kills": 538,
+      "Deaths": 82,
+      "Score": 689
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -58,15 +67,6 @@
       "Kills": 34,
       "Deaths": 5,
       "Score": 680
-    },
-    {
-      "Account ID": "1618CA70F71D2651",
-      "Player Name": "Heretic",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 166,
-      "Deaths": 28,
-      "Score": 626
     },
     {
       "Account ID": "F4EE58DC80678777",
@@ -96,15 +96,6 @@
       "Score": 403
     },
     {
-      "Account ID": "FC1C00D5FCB5F3ED",
-      "Player Name": "xxxx1803",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 79,
-      "Deaths": 21,
-      "Score": 390
-    },
-    {
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 1,
@@ -120,6 +111,15 @@
       "Games Lost": 9,
       "Kills": 211,
       "Deaths": 65,
+      "Score": 371
+    },
+    {
+      "Account ID": "FC1C00D5FCB5F3ED",
+      "Player Name": "xxxx1803",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 79,
+      "Deaths": 22,
       "Score": 371
     },
     {
@@ -159,15 +159,6 @@
       "Score": 298
     },
     {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 2,
-      "Games Lost": 11,
-      "Kills": 191,
-      "Deaths": 69,
-      "Score": 292
-    },
-    {
       "Account ID": "FAEF2C28707CD41B",
       "Player Name": "Moore",
       "Games Won": 7,
@@ -177,8 +168,17 @@
       "Score": 286
     },
     {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 2,
+      "Games Lost": 12,
+      "Kills": 191,
+      "Deaths": 71,
+      "Score": 283
+    },
+    {
       "Account ID": "595AC5BAC6B4E9AA",
-      "Player Name": "Player0126",
+      "Player Name": "Player9126",
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 53,

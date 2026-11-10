@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-10T01:01:30.024216+00:00",
-  "lastUpdated": 1794272488579,
+  "updatedAt": "2026-11-10T08:55:38.789150+00:00",
+  "lastUpdated": 1794300938178,
   "cached": false,
   "players": [
     {
@@ -143,11 +143,11 @@
     {
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
-      "Games Won": 1,
+      "Games Won": 2,
       "Games Lost": 6,
-      "Kills": 96,
-      "Deaths": 33,
-      "Score": 305
+      "Kills": 101,
+      "Deaths": 34,
+      "Score": 322
     },
     {
       "Account ID": "61F03D1B678CB3AF",
