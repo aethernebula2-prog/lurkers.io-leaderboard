@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-09T17:56:25.533983+00:00",
-  "lastUpdated": 1794246981377,
+  "updatedAt": "2026-11-10T01:01:31.496130+00:00",
+  "lastUpdated": 1794272490533,
   "cached": false,
   "players": [
     {
@@ -82,9 +82,9 @@
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 4,
       "Games Lost": 6,
-      "Kills": 188,
-      "Deaths": 50,
-      "Score": 416
+      "Kills": 218,
+      "Deaths": 53,
+      "Score": 451
     },
     {
       "Account ID": "F378B5973D96E0F8",
@@ -94,6 +94,15 @@
       "Kills": 150,
       "Deaths": 44,
       "Score": 403
+    },
+    {
+      "Account ID": "FC1C00D5FCB5F3ED",
+      "Player Name": "xxxx1803",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 79,
+      "Deaths": 21,
+      "Score": 390
     },
     {
       "Account ID": "6837BCF2F57B6A38",
@@ -127,18 +136,9 @@
       "Player Name": "viverse219",
       "Games Won": 7,
       "Games Lost": 11,
-      "Kills": 125,
-      "Deaths": 40,
-      "Score": 351
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 178,
-      "Deaths": 57,
-      "Score": 328
+      "Kills": 126,
+      "Deaths": 41,
+      "Score": 346
     },
     {
       "Account ID": "4E17E7E5FCF9A1A7",
@@ -148,6 +148,24 @@
       "Kills": 81,
       "Deaths": 25,
       "Score": 324
+    },
+    {
+      "Account ID": "F3CD622722C46EDE",
+      "Player Name": "LeShalala",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 53,
+      "Deaths": 20,
+      "Score": 298
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 2,
+      "Games Lost": 11,
+      "Kills": 191,
+      "Deaths": 69,
+      "Score": 292
     },
     {
       "Account ID": "FAEF2C28707CD41B",
@@ -166,24 +184,6 @@
       "Kills": 53,
       "Deaths": 20,
       "Score": 281
-    },
-    {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 0,
-      "Games Lost": 13,
-      "Kills": 76,
-      "Deaths": 28,
-      "Score": 271
-    },
-    {
-      "Account ID": "D50E7835A6E45867",
-      "Player Name": "GentleStallionAJM2",
-      "Games Won": 0,
-      "Games Lost": 7,
-      "Kills": 52,
-      "Deaths": 20,
-      "Score": 260
     }
   ]
 }
