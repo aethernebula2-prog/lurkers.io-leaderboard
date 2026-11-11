@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-11T02:21:25.651909+00:00",
-  "lastUpdated": 1794363682495,
+  "updatedAt": "2026-11-11T09:58:47.423098+00:00",
+  "lastUpdated": 1794391123937,
   "cached": false,
   "players": [
     {
@@ -81,28 +81,19 @@
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 218,
-      "Deaths": 53,
-      "Score": 451
+      "Games Lost": 7,
+      "Kills": 241,
+      "Deaths": 57,
+      "Score": 459
     },
     {
       "Account ID": "F378B5973D96E0F8",
       "Player Name": "satthuso1",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 150,
-      "Deaths": 44,
-      "Score": 403
-    },
-    {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 101,
-      "Deaths": 28,
-      "Score": 385
+      "Games Won": 6,
+      "Games Lost": 4,
+      "Kills": 170,
+      "Deaths": 47,
+      "Score": 421
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -121,6 +112,15 @@
       "Kills": 164,
       "Deaths": 47,
       "Score": 360
+    },
+    {
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 2,
+      "Games Lost": 7,
+      "Kills": 109,
+      "Deaths": 33,
+      "Score": 352
     },
     {
       "Account ID": "A43CEB9D8A46BE9",
@@ -177,13 +177,13 @@
       "Score": 286
     },
     {
-      "Account ID": "595AC5BAC6B4E9AA",
-      "Player Name": "omega9126",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 53,
-      "Deaths": 20,
-      "Score": 281
+      "Account ID": "B878724F01F26E5C",
+      "Player Name": "RebelX",
+      "Games Won": 0,
+      "Games Lost": 14,
+      "Kills": 87,
+      "Deaths": 31,
+      "Score": 280
     }
   ]
 }
