@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-11T09:58:47.423098+00:00",
-  "lastUpdated": 1794391123937,
+  "updatedAt": "2026-11-11T17:42:41.083010+00:00",
+  "lastUpdated": 1794418957125,
   "cached": false,
   "players": [
     {
@@ -18,10 +18,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 5,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 399,
-      "Deaths": 40,
-      "Score": 1030
+      "Deaths": 41,
+      "Score": 1004
     },
     {
       "Account ID": "E340F1474433376A",
@@ -96,6 +96,15 @@
       "Score": 421
     },
     {
+      "Account ID": "6837BCF2F57B6A38",
+      "Player Name": "inshanegaming13",
+      "Games Won": 2,
+      "Games Lost": 10,
+      "Kills": 195,
+      "Deaths": 54,
+      "Score": 377
+    },
+    {
       "Account ID": "42A4EE7168959FF7",
       "Player Name": "Kingofburgers",
       "Games Won": 8,
@@ -103,15 +112,6 @@
       "Kills": 211,
       "Deaths": 65,
       "Score": 371
-    },
-    {
-      "Account ID": "6837BCF2F57B6A38",
-      "Player Name": "inshanegaming13",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 164,
-      "Deaths": 47,
-      "Score": 360
     },
     {
       "Account ID": "AF2EF5468CBF2836",
@@ -180,10 +180,10 @@
       "Account ID": "B878724F01F26E5C",
       "Player Name": "RebelX",
       "Games Won": 0,
-      "Games Lost": 14,
-      "Kills": 87,
-      "Deaths": 31,
-      "Score": 280
+      "Games Lost": 15,
+      "Kills": 94,
+      "Deaths": 33,
+      "Score": 284
     }
   ]
 }
