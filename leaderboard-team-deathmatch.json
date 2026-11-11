@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-10T22:01:20.931402+00:00",
-  "lastUpdated": 1794348078081,
+  "updatedAt": "2026-11-11T02:21:25.651909+00:00",
+  "lastUpdated": 1794363682495,
   "cached": false,
   "players": [
     {
@@ -42,15 +42,6 @@
       "Score": 873
     },
     {
-      "Account ID": "1618CA70F71D2651",
-      "Player Name": "Heretic",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 202,
-      "Deaths": 30,
-      "Score": 706
-    },
-    {
       "Account ID": "82B47A576A0B527E",
       "Player Name": "superkiller36",
       "Games Won": 9,
@@ -58,6 +49,15 @@
       "Kills": 538,
       "Deaths": 82,
       "Score": 689
+    },
+    {
+      "Account ID": "1618CA70F71D2651",
+      "Player Name": "Heretic",
+      "Games Won": 3,
+      "Games Lost": 7,
+      "Kills": 202,
+      "Deaths": 31,
+      "Score": 681
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -114,15 +114,6 @@
       "Score": 371
     },
     {
-      "Account ID": "FC1C00D5FCB5F3ED",
-      "Player Name": "xxxx1803",
-      "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 79,
-      "Deaths": 22,
-      "Score": 371
-    },
-    {
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 1,
@@ -148,6 +139,15 @@
       "Kills": 126,
       "Deaths": 41,
       "Score": 346
+    },
+    {
+      "Account ID": "FC1C00D5FCB5F3ED",
+      "Player Name": "xxxx1803",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 79,
+      "Deaths": 24,
+      "Score": 340
     },
     {
       "Account ID": "4E17E7E5FCF9A1A7",
@@ -177,13 +177,13 @@
       "Score": 286
     },
     {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 2,
-      "Games Lost": 12,
-      "Kills": 191,
-      "Deaths": 71,
-      "Score": 283
+      "Account ID": "595AC5BAC6B4E9AA",
+      "Player Name": "omega9126",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 53,
+      "Deaths": 20,
+      "Score": 281
     }
   ]
 }
