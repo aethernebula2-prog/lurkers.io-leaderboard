@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-11T17:42:41.083010+00:00",
-  "lastUpdated": 1794418957125,
+  "updatedAt": "2026-11-11T23:49:00.986197+00:00",
+  "lastUpdated": 1794440936575,
   "cached": false,
   "players": [
     {
@@ -153,7 +153,7 @@
       "Account ID": "4E17E7E5FCF9A1A7",
       "Player Name": "FrostEmperor",
       "Games Won": 0,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 81,
       "Deaths": 25,
       "Score": 324
@@ -177,13 +177,13 @@
       "Score": 286
     },
     {
-      "Account ID": "B878724F01F26E5C",
-      "Player Name": "RebelX",
-      "Games Won": 0,
-      "Games Lost": 15,
-      "Kills": 94,
-      "Deaths": 33,
-      "Score": 284
+      "Account ID": "595AC5BAC6B4E9AA",
+      "Player Name": "omega9126",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 53,
+      "Deaths": 20,
+      "Score": 279
     }
   ]
 }
