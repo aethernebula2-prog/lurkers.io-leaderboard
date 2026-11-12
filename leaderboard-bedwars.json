@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-12T04:47:25.916620+00:00",
-  "lastUpdated": 1794458246520,
+  "updatedAt": "2026-11-12T13:25:56.186050+00:00",
+  "lastUpdated": 1794489383959,
   "cached": true,
   "players": [
     {
@@ -99,10 +99,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 8,
-      "Games Lost": 27,
+      "Games Lost": 28,
       "Kills": 405,
-      "Deaths": 77,
-      "Score": 548
+      "Deaths": 78,
+      "Score": 541
     },
     {
       "Account ID": "4C23A0F718E27662",
@@ -132,15 +132,6 @@
       "Score": 419
     },
     {
-      "Account ID": "9B89B7156A49CE96",
-      "Player Name": "S7iP3R",
-      "Games Won": 8,
-      "Games Lost": 14,
-      "Kills": 81,
-      "Deaths": 24,
-      "Score": 373
-    },
-    {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
       "Games Won": 17,
@@ -159,13 +150,22 @@
       "Score": 358
     },
     {
+      "Account ID": "9B89B7156A49CE96",
+      "Player Name": "S7iP3R",
+      "Games Won": 8,
+      "Games Lost": 15,
+      "Kills": 82,
+      "Deaths": 26,
+      "Score": 350
+    },
+    {
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 2,
       "Games Lost": 7,
       "Kills": 101,
-      "Deaths": 35,
-      "Score": 310
+      "Deaths": 38,
+      "Score": 288
     },
     {
       "Account ID": "20C8107FAE342449",
