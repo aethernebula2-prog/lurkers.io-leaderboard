@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-12T21:13:57.037404+00:00",
-  "lastUpdated": 1794518035799,
-  "cached": false,
+  "updatedAt": "2026-11-13T02:15:28.858802+00:00",
+  "lastUpdated": 1794536095163,
+  "cached": true,
   "players": [
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -15,6 +15,15 @@
       "Score": 1185
     },
     {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 8,
+      "Games Lost": 9,
+      "Kills": 190,
+      "Deaths": 19,
+      "Score": 1047
+    },
+    {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 5,
@@ -24,24 +33,6 @@
       "Score": 1043
     },
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 8,
-      "Games Lost": 9,
-      "Kills": 171,
-      "Deaths": 18,
-      "Score": 997
-    },
-    {
-      "Account ID": "1AE730D03D553A92",
-      "Player Name": "Llilrascaloi",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 64,
-      "Deaths": 7,
-      "Score": 925
-    },
-    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 3,
@@ -49,6 +40,15 @@
       "Kills": 214,
       "Deaths": 26,
       "Score": 873
+    },
+    {
+      "Account ID": "1AE730D03D553A92",
+      "Player Name": "Llilrascaloi",
+      "Games Won": 1,
+      "Games Lost": 8,
+      "Kills": 67,
+      "Deaths": 8,
+      "Score": 848
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -114,13 +114,22 @@
       "Score": 413
     },
     {
+      "Account ID": "91B8A8E930946EE2",
+      "Player Name": "UnknownObserver",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 89,
+      "Deaths": 24,
+      "Score": 399
+    },
+    {
       "Account ID": "FC1C00D5FCB5F3ED",
       "Player Name": "xxxx1803",
       "Games Won": 1,
-      "Games Lost": 8,
+      "Games Lost": 9,
       "Kills": 103,
-      "Deaths": 27,
-      "Score": 392
+      "Deaths": 28,
+      "Score": 377
     },
     {
       "Account ID": "42A4EE7168959FF7",
@@ -130,15 +139,6 @@
       "Kills": 211,
       "Deaths": 65,
       "Score": 371
-    },
-    {
-      "Account ID": "91B8A8E930946EE2",
-      "Player Name": "UnknownObserver",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 67,
-      "Deaths": 20,
-      "Score": 368
     },
     {
       "Account ID": "F378B5973D96E0F8",
@@ -159,15 +159,6 @@
       "Score": 352
     },
     {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TresLP",
-      "Games Won": 8,
-      "Games Lost": 16,
-      "Kills": 565,
-      "Deaths": 179,
-      "Score": 348
-    },
-    {
       "Account ID": "1851CAE463D45606",
       "Player Name": "viverse219",
       "Games Won": 7,
@@ -175,6 +166,15 @@
       "Kills": 126,
       "Deaths": 41,
       "Score": 346
+    },
+    {
+      "Account ID": "A43CEB9D8A46BE9",
+      "Player Name": "TresLP",
+      "Games Won": 8,
+      "Games Lost": 17,
+      "Kills": 565,
+      "Deaths": 180,
+      "Score": 345
     },
     {
       "Account ID": "4E17E7E5FCF9A1A7",

@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-12T21:13:56.381644+00:00",
-  "lastUpdated": 1794518034852,
-  "cached": false,
+  "updatedAt": "2026-11-13T02:15:28.755782+00:00",
+  "lastUpdated": 1794536124076,
+  "cached": true,
   "players": [
     {
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
       "Games Won": 5,
-      "Games Lost": 8,
+      "Games Lost": 9,
       "Kills": 231,
-      "Deaths": 45,
-      "Score": 551
+      "Deaths": 46,
+      "Score": 537
     },
     {
       "Account ID": "D32E3A97A99C2AF2",
@@ -33,13 +33,22 @@
       "Score": 314
     },
     {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 3,
-      "Games Lost": 7,
-      "Kills": 48,
-      "Deaths": 24,
-      "Score": 230
+      "Account ID": "D267A8A6DC2CA213",
+      "Player Name": "XxROSAxX",
+      "Games Won": 12,
+      "Games Lost": 20,
+      "Kills": 114,
+      "Deaths": 48,
+      "Score": 275
+    },
+    {
+      "Account ID": "1588224173E4FEC4",
+      "Player Name": "itmehaha",
+      "Games Won": 6,
+      "Games Lost": 12,
+      "Kills": 226,
+      "Deaths": 106,
+      "Score": 246
     },
     {
       "Account ID": "CD351B4225733D45",
@@ -51,22 +60,13 @@
       "Score": 226
     },
     {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 3,
-      "Games Lost": 11,
-      "Kills": 201,
-      "Deaths": 100,
-      "Score": 222
-    },
-    {
-      "Account ID": "D267A8A6DC2CA213",
-      "Player Name": "XxROSAxX",
-      "Games Won": 8,
-      "Games Lost": 15,
-      "Kills": 75,
-      "Deaths": 41,
-      "Score": 217
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 5,
+      "Games Lost": 8,
+      "Kills": 52,
+      "Deaths": 30,
+      "Score": 211
     },
     {
       "Account ID": "836E6824A13037F",
