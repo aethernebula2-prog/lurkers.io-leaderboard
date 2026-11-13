@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-13T10:16:26.732227+00:00",
-  "lastUpdated": 1794564971321,
-  "cached": true,
+  "updatedAt": "2026-11-13T18:15:40.510782+00:00",
+  "lastUpdated": 1794593737643,
+  "cached": false,
   "players": [
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -19,9 +19,9 @@
       "Player Name": "ilovevietnamXD",
       "Games Won": 5,
       "Games Lost": 12,
-      "Kills": 426,
-      "Deaths": 42,
-      "Score": 1043
+      "Kills": 469,
+      "Deaths": 43,
+      "Score": 1120
     },
     {
       "Account ID": "E340F1474433376A",
@@ -40,15 +40,6 @@
       "Kills": 214,
       "Deaths": 26,
       "Score": 873
-    },
-    {
-      "Account ID": "1AE730D03D553A92",
-      "Player Name": "Llilrascaloi",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 70,
-      "Deaths": 10,
-      "Score": 710
     },
     {
       "Account ID": "82B47A576A0B527E",
@@ -78,13 +69,31 @@
       "Score": 680
     },
     {
+      "Account ID": "1AE730D03D553A92",
+      "Player Name": "Llilrascaloi",
+      "Games Won": 1,
+      "Games Lost": 10,
+      "Kills": 72,
+      "Deaths": 12,
+      "Score": 609
+    },
+    {
+      "Account ID": "20C8107FAE342449",
+      "Player Name": "nicolcheng",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 80,
+      "Deaths": 17,
+      "Score": 487
+    },
+    {
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 6,
-      "Games Lost": 7,
-      "Kills": 265,
-      "Deaths": 58,
-      "Score": 503
+      "Games Lost": 8,
+      "Kills": 280,
+      "Deaths": 64,
+      "Score": 480
     },
     {
       "Account ID": "F4EE58DC80678777",
@@ -94,15 +103,6 @@
       "Kills": 84,
       "Deaths": 19,
       "Score": 456
-    },
-    {
-      "Account ID": "20C8107FAE342449",
-      "Player Name": "nicolcheng",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 65,
-      "Deaths": 15,
-      "Score": 450
     },
     {
       "Account ID": "6837BCF2F57B6A38",
@@ -141,15 +141,6 @@
       "Score": 371
     },
     {
-      "Account ID": "F378B5973D96E0F8",
-      "Player Name": "satthuso1",
-      "Games Won": 9,
-      "Games Lost": 6,
-      "Kills": 263,
-      "Deaths": 88,
-      "Score": 358
-    },
-    {
       "Account ID": "AF2EF5468CBF2836",
       "Player Name": "xXAntonyyyyXx",
       "Games Won": 2,
@@ -175,6 +166,15 @@
       "Kills": 565,
       "Deaths": 180,
       "Score": 345
+    },
+    {
+      "Account ID": "F378B5973D96E0F8",
+      "Player Name": "satthuso1",
+      "Games Won": 10,
+      "Games Lost": 7,
+      "Kills": 293,
+      "Deaths": 107,
+      "Score": 332
     },
     {
       "Account ID": "4E17E7E5FCF9A1A7",

@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-13T10:16:25.767692+00:00",
-  "lastUpdated": 1794564932794,
-  "cached": true,
+  "updatedAt": "2026-11-13T18:15:39.035977+00:00",
+  "lastUpdated": 1794593736636,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -98,11 +98,11 @@
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 8,
-      "Games Lost": 28,
-      "Kills": 405,
-      "Deaths": 78,
-      "Score": 541
+      "Games Won": 10,
+      "Games Lost": 29,
+      "Kills": 440,
+      "Deaths": 81,
+      "Score": 568
     },
     {
       "Account ID": "4C23A0F718E27662",
@@ -159,6 +159,15 @@
       "Score": 352
     },
     {
+      "Account ID": "5227417628D63A4E",
+      "Player Name": "GilwillbirdTThaha",
+      "Games Won": 4,
+      "Games Lost": 8,
+      "Kills": 156,
+      "Deaths": 50,
+      "Score": 345
+    },
+    {
       "Account ID": "EEBD09CD088060AB",
       "Player Name": "PaP1s",
       "Games Won": 2,
@@ -175,15 +184,6 @@
       "Kills": 1043,
       "Deaths": 404,
       "Score": 304
-    },
-    {
-      "Account ID": "5227417628D63A4E",
-      "Player Name": "GilwillbirdTThaha",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 101,
-      "Deaths": 38,
-      "Score": 288
     }
   ]
 }
