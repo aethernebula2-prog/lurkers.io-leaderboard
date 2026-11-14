@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-14T00:01:16.862198+00:00",
-  "lastUpdated": 1794614474976,
+  "updatedAt": "2026-11-14T07:09:18.445329+00:00",
+  "lastUpdated": 1794640155082,
   "cached": false,
   "players": [
     {
@@ -28,9 +28,9 @@
       "Player Name": "ilovevietnamXD",
       "Games Won": 5,
       "Games Lost": 12,
-      "Kills": 469,
-      "Deaths": 43,
-      "Score": 1120
+      "Kills": 489,
+      "Deaths": 45,
+      "Score": 1116
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -87,15 +87,6 @@
       "Score": 487
     },
     {
-      "Account ID": "5227417628D63A4E",
-      "Player Name": "GilwillbirdTThaha",
-      "Games Won": 6,
-      "Games Lost": 8,
-      "Kills": 280,
-      "Deaths": 64,
-      "Score": 480
-    },
-    {
       "Account ID": "F4EE58DC80678777",
       "Player Name": "AethericNebula",
       "Games Won": 1,
@@ -103,6 +94,15 @@
       "Kills": 84,
       "Deaths": 19,
       "Score": 456
+    },
+    {
+      "Account ID": "5227417628D63A4E",
+      "Player Name": "GilwillbirdTThaha",
+      "Games Won": 6,
+      "Games Lost": 9,
+      "Kills": 281,
+      "Deaths": 69,
+      "Score": 447
     },
     {
       "Account ID": "6837BCF2F57B6A38",
@@ -141,6 +141,15 @@
       "Score": 371
     },
     {
+      "Account ID": "A43CEB9D8A46BE9",
+      "Player Name": "TresLP",
+      "Games Won": 10,
+      "Games Lost": 18,
+      "Kills": 661,
+      "Deaths": 207,
+      "Score": 355
+    },
+    {
       "Account ID": "AF2EF5468CBF2836",
       "Player Name": "xXAntonyyyyXx",
       "Games Won": 2,
@@ -148,6 +157,15 @@
       "Kills": 109,
       "Deaths": 33,
       "Score": 352
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 3,
+      "Games Lost": 13,
+      "Kills": 255,
+      "Deaths": 77,
+      "Score": 349
     },
     {
       "Account ID": "1851CAE463D45606",
@@ -159,15 +177,6 @@
       "Score": 346
     },
     {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TresLP",
-      "Games Won": 8,
-      "Games Lost": 18,
-      "Kills": 592,
-      "Deaths": 196,
-      "Score": 332
-    },
-    {
       "Account ID": "F378B5973D96E0F8",
       "Player Name": "satthuso1",
       "Games Won": 10,
@@ -175,15 +184,6 @@
       "Kills": 293,
       "Deaths": 107,
       "Score": 332
-    },
-    {
-      "Account ID": "4E17E7E5FCF9A1A7",
-      "Player Name": "FrostEmperor",
-      "Games Won": 0,
-      "Games Lost": 8,
-      "Kills": 81,
-      "Deaths": 25,
-      "Score": 324
     }
   ]
 }

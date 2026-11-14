@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-14T00:01:15.197762+00:00",
-  "lastUpdated": 1794613908614,
-  "cached": true,
+  "updatedAt": "2026-11-14T07:09:17.141922+00:00",
+  "lastUpdated": 1794640155000,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -159,31 +159,31 @@
       "Score": 352
     },
     {
+      "Account ID": "EEBD09CD088060AB",
+      "Player Name": "PaP1s",
+      "Games Won": 3,
+      "Games Lost": 4,
+      "Kills": 85,
+      "Deaths": 30,
+      "Score": 326
+    },
+    {
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 4,
-      "Games Lost": 8,
-      "Kills": 156,
-      "Deaths": 50,
-      "Score": 345
+      "Games Lost": 9,
+      "Kills": 169,
+      "Deaths": 60,
+      "Score": 312
     },
     {
-      "Account ID": "EEBD09CD088060AB",
-      "Player Name": "PaP1s",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 84,
-      "Deaths": 30,
-      "Score": 313
-    },
-    {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 27,
-      "Games Lost": 33,
-      "Kills": 1096,
-      "Deaths": 436,
-      "Score": 296
+      "Account ID": "36249106B641EFA4",
+      "Player Name": "hungkop",
+      "Games Won": 5,
+      "Games Lost": 9,
+      "Kills": 234,
+      "Deaths": 87,
+      "Score": 304
     }
   ]
 }
