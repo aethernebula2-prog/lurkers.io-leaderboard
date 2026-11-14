@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-14T19:33:40.840392+00:00",
-  "lastUpdated": 1794684816874,
+  "updatedAt": "2026-11-14T23:28:44.716901+00:00",
+  "lastUpdated": 1794698923581,
   "cached": false,
   "players": [
     {
@@ -11,8 +11,8 @@
       "Games Won": 6,
       "Games Lost": 10,
       "Kills": 271,
-      "Deaths": 51,
-      "Score": 568
+      "Deaths": 52,
+      "Score": 558
     },
     {
       "Account ID": "F3CD622722C46EDE",
@@ -60,15 +60,6 @@
       "Score": 269
     },
     {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 0,
-      "Games Lost": 9,
-      "Kills": 68,
-      "Deaths": 31,
-      "Score": 219
-    },
-    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 5,
@@ -76,6 +67,15 @@
       "Kills": 55,
       "Deaths": 31,
       "Score": 213
+    },
+    {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 0,
+      "Games Lost": 9,
+      "Kills": 68,
+      "Deaths": 33,
+      "Score": 206
     },
     {
       "Account ID": "836E6824A13037F",
