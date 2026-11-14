@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-13T18:15:39.035977+00:00",
-  "lastUpdated": 1794593736636,
-  "cached": false,
+  "updatedAt": "2026-11-14T00:01:15.197762+00:00",
+  "lastUpdated": 1794613908614,
+  "cached": true,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -179,11 +179,11 @@
     {
       "Account ID": "1588224173E4FEC4",
       "Player Name": "itmehaha",
-      "Games Won": 26,
-      "Games Lost": 30,
-      "Kills": 1043,
-      "Deaths": 404,
-      "Score": 304
+      "Games Won": 27,
+      "Games Lost": 33,
+      "Kills": 1096,
+      "Deaths": 436,
+      "Score": 296
     }
   ]
 }
