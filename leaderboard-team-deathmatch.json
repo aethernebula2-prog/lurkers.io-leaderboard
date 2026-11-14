@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-14T14:36:28.441813+00:00",
-  "lastUpdated": 1794666903062,
-  "cached": true,
+  "updatedAt": "2026-11-14T19:33:41.597777+00:00",
+  "lastUpdated": 1794684818433,
+  "cached": false,
   "players": [
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 9,
-      "Games Lost": 11,
-      "Kills": 282,
-      "Deaths": 26,
-      "Score": 1129
+      "Account ID": "5AE726D7DB6E6C20",
+      "Player Name": "eer4dotorgCNpvp",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 62,
+      "Deaths": 5,
+      "Score": 1256
     },
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -22,6 +22,15 @@
       "Kills": 353,
       "Deaths": 32,
       "Score": 1121
+    },
+    {
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 10,
+      "Games Lost": 13,
+      "Kills": 320,
+      "Deaths": 34,
+      "Score": 984
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -72,10 +81,10 @@
       "Account ID": "1AE730D03D553A92",
       "Player Name": "Llilrascaloi",
       "Games Won": 1,
-      "Games Lost": 10,
-      "Kills": 72,
-      "Deaths": 12,
-      "Score": 609
+      "Games Lost": 12,
+      "Kills": 78,
+      "Deaths": 15,
+      "Score": 527
     },
     {
       "Account ID": "20C8107FAE342449",
@@ -145,27 +154,9 @@
       "Player Name": "TresLP",
       "Games Won": 10,
       "Games Lost": 18,
-      "Kills": 661,
-      "Deaths": 207,
-      "Score": 355
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 3,
-      "Games Lost": 13,
-      "Kills": 255,
-      "Deaths": 77,
-      "Score": 349
-    },
-    {
-      "Account ID": "FC1C00D5FCB5F3ED",
-      "Player Name": "xxxx1803",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 108,
-      "Deaths": 32,
-      "Score": 347
+      "Kills": 663,
+      "Deaths": 212,
+      "Score": 348
     },
     {
       "Account ID": "1851CAE463D45606",
@@ -175,6 +166,15 @@
       "Kills": 126,
       "Deaths": 41,
       "Score": 346
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 3,
+      "Games Lost": 14,
+      "Kills": 255,
+      "Deaths": 80,
+      "Score": 336
     },
     {
       "Account ID": "F378B5973D96E0F8",

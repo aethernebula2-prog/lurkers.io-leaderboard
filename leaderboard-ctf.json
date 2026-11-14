@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-14T14:36:28.280646+00:00",
-  "lastUpdated": 1794666984423,
+  "updatedAt": "2026-11-14T19:33:40.840392+00:00",
+  "lastUpdated": 1794684816874,
   "cached": false,
   "players": [
     {
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
-      "Games Won": 5,
-      "Games Lost": 9,
-      "Kills": 232,
-      "Deaths": 48,
-      "Score": 519
+      "Games Won": 6,
+      "Games Lost": 10,
+      "Kills": 271,
+      "Deaths": 51,
+      "Score": 568
     },
     {
       "Account ID": "F3CD622722C46EDE",
@@ -24,31 +24,31 @@
       "Score": 398
     },
     {
-      "Account ID": "D32E3A97A99C2AF2",
-      "Player Name": "play2do",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 51,
-      "Deaths": 17,
-      "Score": 333
-    },
-    {
       "Account ID": "BA2195FCCF3E9D05",
       "Player Name": "ksawi111",
       "Games Won": 10,
-      "Games Lost": 7,
-      "Kills": 74,
-      "Deaths": 30,
-      "Score": 305
+      "Games Lost": 8,
+      "Kills": 98,
+      "Deaths": 33,
+      "Score": 352
+    },
+    {
+      "Account ID": "D32E3A97A99C2AF2",
+      "Player Name": "play2do",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 63,
+      "Deaths": 20,
+      "Score": 343
     },
     {
       "Account ID": "1588224173E4FEC4",
       "Player Name": "itmehaha",
-      "Games Won": 6,
-      "Games Lost": 14,
-      "Kills": 276,
-      "Deaths": 113,
-      "Score": 274
+      "Games Won": 7,
+      "Games Lost": 15,
+      "Kills": 283,
+      "Deaths": 114,
+      "Score": 280
     },
     {
       "Account ID": "D267A8A6DC2CA213",
@@ -85,6 +85,15 @@
       "Kills": 40,
       "Deaths": 31,
       "Score": 183
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadas",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 21,
+      "Deaths": 14,
+      "Score": 178
     },
     {
       "Account ID": "F9A48BA1CDDBE185",
@@ -137,8 +146,8 @@
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 1,
-      "Deaths": 5,
-      "Score": 36
+      "Deaths": 6,
+      "Score": 33
     },
     {
       "Account ID": "C2CB546A711CC4B4",
