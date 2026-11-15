@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-15T18:08:39.628010+00:00",
-  "lastUpdated": 1794766118596,
-  "cached": false,
+  "updatedAt": "2026-11-15T23:13:40.180442+00:00",
+  "lastUpdated": 1794784293920,
+  "cached": true,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -87,6 +87,15 @@
       "Score": 1100
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 1,
+      "Games Lost": 10,
+      "Kills": 43,
+      "Deaths": 5,
+      "Score": 869
+    },
+    {
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
       "Games Won": 3,
@@ -96,22 +105,22 @@
       "Score": 659
     },
     {
-      "Account ID": "C0A242975B7897FD",
-      "Player Name": "srblaze11",
-      "Games Won": 4,
-      "Games Lost": 6,
-      "Kills": 64,
-      "Deaths": 12,
-      "Score": 573
-    },
-    {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 15,
       "Games Lost": 34,
       "Kills": 499,
-      "Deaths": 106,
-      "Score": 501
+      "Deaths": 107,
+      "Score": 496
+    },
+    {
+      "Account ID": "C0A242975B7897FD",
+      "Player Name": "srblaze11",
+      "Games Won": 8,
+      "Games Lost": 7,
+      "Kills": 114,
+      "Deaths": 27,
+      "Score": 475
     },
     {
       "Account ID": "BB602027712773FC",
@@ -159,6 +168,15 @@
       "Score": 358
     },
     {
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 25,
+      "Deaths": 8,
+      "Score": 341
+    },
+    {
       "Account ID": "EEBD09CD088060AB",
       "Player Name": "PaP1s",
       "Games Won": 3,
@@ -166,24 +184,6 @@
       "Kills": 85,
       "Deaths": 30,
       "Score": 326
-    },
-    {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TresLP",
-      "Games Won": 8,
-      "Games Lost": 9,
-      "Kills": 427,
-      "Deaths": 164,
-      "Score": 307
-    },
-    {
-      "Account ID": "36249106B641EFA4",
-      "Player Name": "hungkop",
-      "Games Won": 5,
-      "Games Lost": 10,
-      "Kills": 241,
-      "Deaths": 92,
-      "Score": 295
     }
   ]
 }
