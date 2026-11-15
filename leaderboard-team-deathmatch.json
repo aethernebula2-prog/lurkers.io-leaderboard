@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-14T23:28:45.505365+00:00",
-  "lastUpdated": 1794698921231,
-  "cached": false,
+  "updatedAt": "2026-11-15T03:41:22.987728+00:00",
+  "lastUpdated": 1794713679137,
+  "cached": true,
   "players": [
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -18,10 +18,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 2,
-      "Games Lost": 9,
-      "Kills": 353,
-      "Deaths": 32,
-      "Score": 1121
+      "Games Lost": 10,
+      "Kills": 359,
+      "Deaths": 35,
+      "Score": 1042
     },
     {
       "Account ID": "E340F1474433376A",
@@ -76,6 +76,15 @@
       "Kills": 34,
       "Deaths": 5,
       "Score": 680
+    },
+    {
+      "Account ID": "A69C811E302B9820",
+      "Player Name": "pi314159",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 166,
+      "Deaths": 32,
+      "Score": 552
     },
     {
       "Account ID": "1AE730D03D553A92",
@@ -171,19 +180,10 @@
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadas",
       "Games Won": 3,
-      "Games Lost": 14,
-      "Kills": 255,
-      "Deaths": 80,
-      "Score": 336
-    },
-    {
-      "Account ID": "F378B5973D96E0F8",
-      "Player Name": "satthuso1",
-      "Games Won": 10,
-      "Games Lost": 7,
-      "Kills": 293,
-      "Deaths": 108,
-      "Score": 330
+      "Games Lost": 15,
+      "Kills": 262,
+      "Deaths": 83,
+      "Score": 332
     }
   ]
 }
