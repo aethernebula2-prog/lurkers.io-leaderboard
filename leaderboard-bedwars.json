@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-15T23:13:40.180442+00:00",
-  "lastUpdated": 1794784293920,
-  "cached": true,
+  "updatedAt": "2026-11-16T12:12:19.762730+00:00",
+  "lastUpdated": 1794831137003,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -69,15 +69,6 @@
       "Score": 1366
     },
     {
-      "Account ID": "DCFF1A67B7F84694",
-      "Player Name": "Draeven",
-      "Games Won": 8,
-      "Games Lost": 6,
-      "Kills": 90,
-      "Deaths": 8,
-      "Score": 1182
-    },
-    {
       "Account ID": "AC2902E5B079762E",
       "Player Name": "denied1227",
       "Games Won": 4,
@@ -94,6 +85,15 @@
       "Kills": 43,
       "Deaths": 5,
       "Score": 869
+    },
+    {
+      "Account ID": "DCFF1A67B7F84694",
+      "Player Name": "Draeven",
+      "Games Won": 10,
+      "Games Lost": 7,
+      "Kills": 113,
+      "Deaths": 18,
+      "Score": 686
     },
     {
       "Account ID": "D32E3A97A99C2AF2",
@@ -127,9 +127,9 @@
       "Player Name": "googlemap60",
       "Games Won": 19,
       "Games Lost": 28,
-      "Kills": 365,
-      "Deaths": 90,
-      "Score": 445
+      "Kills": 371,
+      "Deaths": 92,
+      "Score": 443
     },
     {
       "Account ID": "F90B6EA09561FABE",

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-15T23:13:40.972525+00:00",
-  "lastUpdated": 1794784417924,
+  "updatedAt": "2026-11-16T12:12:20.501071+00:00",
+  "lastUpdated": 1794831135439,
   "cached": false,
   "players": [
     {
@@ -60,22 +60,22 @@
       "Score": 269
     },
     {
-      "Account ID": "1AE730D03D553A92",
-      "Player Name": "Llilrascaloi",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 10,
-      "Deaths": 4,
-      "Score": 264
-    },
-    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 6,
       "Games Lost": 10,
-      "Kills": 56,
-      "Deaths": 33,
-      "Score": 207
+      "Kills": 64,
+      "Deaths": 35,
+      "Score": 220
+    },
+    {
+      "Account ID": "1AE730D03D553A92",
+      "Player Name": "Llilrascaloi",
+      "Games Won": 1,
+      "Games Lost": 7,
+      "Kills": 10,
+      "Deaths": 5,
+      "Score": 212
     },
     {
       "Account ID": "BE6C6D7AAFA1B0DF",
@@ -134,11 +134,11 @@
     {
       "Account ID": "702E6BB753F14E0",
       "Player Name": "CheapHeadshot",
-      "Games Won": 1,
+      "Games Won": 3,
       "Games Lost": 5,
-      "Kills": 23,
-      "Deaths": 27,
-      "Score": 101
+      "Kills": 24,
+      "Deaths": 29,
+      "Score": 120
     },
     {
       "Account ID": "BB602027712773FC",
