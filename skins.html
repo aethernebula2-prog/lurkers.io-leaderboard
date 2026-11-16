@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Browse the Lurkers.io skin collection.">
+<title>Lurkers.io Skins | Lurkers.io Hub</title>
+<style>
+@font-face {
+    font-family: "Lurkers";
+    src: url("lurkers.ttf") format("truetype");
+}
+:root {
+    --body-bg: #111827;
+    --table-bg: #0f172a;
+    --header-bg: #111827;
+    --card-hover: #263244;
+    --border-color: #263244;
+    --text-color: #ffffff;
+    --secondary-text: #94a3b8;
+    --accent: #60a5fa;
+    --modal-bg: #111827;
+}
+body.light-theme {
+    --body-bg: #f3f6fa;
+    --table-bg: #ffffff;
+    --header-bg: #e8edf3;
+    --card-hover: #f0f4f8;
+    --border-color: #d7dee8;
+    --text-color: #1e293b;
+    --secondary-text: #64748b;
+    --modal-bg: #ffffff;
+}
+body.dark-theme {
+    --body-bg: #202020;
+    --table-bg: #1a1a1a;
+    --header-bg: #2c2c2c;
+    --card-hover: #252525;
+    --border-color: #383838;
+    --text-color: #f3f4f6;
+    --secondary-text: #9ca3af;
+    --modal-bg: #171717;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: var(--body-bg);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    padding: 18px 30px;
+    background: var(--header-bg);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logo { font-size: 24px; font-weight: bold; white-space: nowrap; }
+.logo span { color: var(--accent); }
+nav { display: flex; flex-wrap: wrap; gap: 8px; }
+nav a {
+    color: var(--secondary-text);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: .2s;
+}
+nav a:hover { background: var(--card-hover); color: var(--text-color); }
+nav a.active { background: #2563eb; color: #fff; }
+.content { max-width: 1100px; margin: 0 auto; padding: 38px 20px 50px; }
+h1 { text-align: center; margin: 0 0 8px; color: var(--text-color); }
+.subtitle { text-align: center; color: var(--secondary-text); margin: 0 0 28px; }
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+.toolbar input, .toolbar select {
+    min-height: 40px;
+    padding: 9px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 7px;
+    background: var(--table-bg);
+    color: var(--text-color);
+    font: inherit;
+}
+.toolbar input { width: min(340px, 100%); }
+.toolbar input:focus, .toolbar select:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+}
+.result-count { color: var(--secondary-text); font-size: 13px; text-align: center; margin-bottom: 16px; }
+.skin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+}
+.skin-card {
+    min-width: 0;
+    padding: 16px 12px 13px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background: var(--table-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    text-align: center;
+    transition: background .18s, border-color .18s, transform .18s;
+}
+.skin-card:hover {
+    background: var(--card-hover);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+.skin-sprite {
+    display: block;
+    width: 72px;
+    height: 104px;
+    margin: 0 auto 12px;
+    image-rendering: pixelated;
+    background-image: url("skins.png");
+    background-repeat: no-repeat;
+}
+.skin-name { display: block; font-weight: 700; overflow-wrap: anywhere; }
+.skin-id { display: block; margin-top: 5px; color: var(--secondary-text); font-size: 11px; }
+.empty-state {
+    display: none;
+    text-align: center;
+    color: var(--secondary-text);
+    padding: 40px 15px;
+    border: 1px dashed var(--border-color);
+    border-radius: 10px;
+}
+footer {
+    padding: 18px 12px 24px;
+    text-align: center;
+    color: var(--secondary-text);
+    font-size: 12px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    padding: 20px;
+    background: rgb(0 0 0 / 72%);
+    align-items: center;
+    justify-content: center;
+}
+.modal.open { display: flex; }
+.modal-content {
+    position: relative;
+    width: min(420px, 100%);
+    padding: 28px 24px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: var(--modal-bg);
+    text-align: center;
+}
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 13px;
+    border: 0;
+    background: transparent;
+    color: var(--secondary-text);
+    font-size: 28px;
+    cursor: pointer;
+}
+.modal-sprite {
+    display: block;
+    width: 144px;
+    height: 208px;
+    margin: 8px auto 18px;
+    image-rendering: pixelated;
+    background-image: url("skins.png");
+    background-repeat: no-repeat;
+}
+.modal-content h2 { margin: 0 0 6px; }
+.modal-content p { margin: 0; color: var(--secondary-text); font-size: 13px; }
+@media (max-width: 650px) {
+    header { flex-direction: column; padding: 16px 12px; gap: 12px; }
+    nav { justify-content: center; }
+    .content { padding: 30px 14px 40px; }
+    .skin-grid { grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)); gap: 10px; }
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="logo">Lurkers.io <span>Hub</span></div>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Leaderboard</a>
+        <a href="guide.html">Guide</a>
+        <a href="flag.html">Flags</a>
+        <a href="skins.html" class="active" aria-current="page">Skins</a>
+    </nav>
+</header>
+
+<main class="content">
+    <h1>Lurkers.io Skins</h1>
+    <p class="subtitle">Explore the skin collection</p>
+
+    <div class="toolbar">
+        <input id="skinSearch" type="search" placeholder="Search skins..." aria-label="Search skins">
+        <select id="nameFilter" aria-label="Filter skins">
+            <option value="all">All skins</option>
+            <option value="named">Named</option>
+            <option value="unnamed">Not yet named</option>
+        </select>
+    </div>
+
+    <div id="resultCount" class="result-count" aria-live="polite"></div>
+    <section id="skinGrid" class="skin-grid" aria-label="Skin gallery"></section>
+    <div id="emptyState" class="empty-state">No skins match your search.</div>
+</main>
+
+<footer>Lurkers.io Hub · Skin names can be added later</footer>
+
+<div id="skinModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+    <div class="modal-content">
+        <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+        <div id="modalSprite" class="modal-sprite"></div>
+        <h2 id="modalName">Skin</h2>
+        <p id="modalId"></p>
+    </div>
+</div>
+
+<script>
+// Sprite sheet: 121 × 57 px.
+// Each sprite is 9 × 13 px, with a 1 px gap and a 1 px outer margin.
+// 12 columns × 4 rows = 48 skins.
+const SPRITE = {
+    sheetWidth: 121,
+    sheetHeight: 57,
+    width: 9,
+    height: 13,
+    gap: 1,
+    margin: 1,
+    columns: 12,
+    rows: 4,
+    displayScale: 8
+};
+
+// Names can be filled in whenever the skins have been identified.
+// Keep each skin's row/column unchanged when editing its name.
+const skins = Array.from({ length: SPRITE.columns * SPRITE.rows }, (_, index) => ({
+    id: `skin-${String(index + 1).padStart(3, "0")}`,
+    name: "",
+    row: Math.floor(index / SPRITE.columns),
+    column: index % SPRITE.columns
+}));
+
+const grid = document.getElementById("skinGrid");
+const searchInput = document.getElementById("skinSearch");
+const nameFilter = document.getElementById("nameFilter");
+const resultCount = document.getElementById("resultCount");
+const emptyState = document.getElementById("emptyState");
+const modal = document.getElementById("skinModal");
+
+function setSprite(element, skin, scale) {
+    const x = (SPRITE.margin + skin.column * (SPRITE.width + SPRITE.gap)) * scale;
+    const y = (SPRITE.margin + skin.row * (SPRITE.height + SPRITE.gap)) * scale;
+
+    element.style.width = `${SPRITE.width * scale}px`;
+    element.style.height = `${SPRITE.height * scale}px`;
+    element.style.backgroundSize =
+        `${SPRITE.sheetWidth * scale}px ${SPRITE.sheetHeight * scale}px`;
+    element.style.backgroundPosition = `-${x}px -${y}px`;
+}
+
+function renderSkins() {
+    const query = searchInput.value.trim().toLowerCase();
+    const filter = nameFilter.value;
+
+    const visibleSkins = skins.filter(skin => {
+        const named = Boolean(skin.name.trim());
+        const searchable = `${skin.name} ${skin.id}`.toLowerCase();
+
+        if (query && !searchable.includes(query)) return false;
+        if (filter === "named" && !named) return false;
+        if (filter === "unnamed" && named) return false;
+        return true;
+    });
+
+    grid.innerHTML = "";
+
+    visibleSkins.forEach(skin => {
+        const card = document.createElement("button");
+        card.type = "button";
+        card.className = "skin-card";
+        card.setAttribute("aria-label", `Preview ${skin.name || skin.id}`);
+
+        const sprite = document.createElement("span");
+        sprite.className = "skin-sprite";
+        setSprite(sprite, skin, SPRITE.displayScale);
+
+        const name = document.createElement("span");
+        name.className = "skin-name";
+        name.textContent = skin.name.trim() || "Unnamed skin";
+
+        const id = document.createElement("span");
+        id.className = "skin-id";
+        id.textContent = skin.id;
+
+        card.append(sprite, name, id);
+        card.addEventListener("click", () => openSkin(skin));
+        grid.appendChild(card);
+    });
+
+    resultCount.textContent = `Showing ${visibleSkins.length} of ${skins.length} skins`;
+    emptyState.style.display = visibleSkins.length ? "none" : "block";
+}
+
+function openSkin(skin) {
+    const sprite = document.getElementById("modalSprite");
+    setSprite(sprite, skin, 16);
+    document.getElementById("modalName").textContent =
+        skin.name.trim() || "Unnamed skin";
+    document.getElementById("modalId").textContent = skin.id;
+    modal.classList.add("open");
+}
+
+function closeModal() {
+    modal.classList.remove("open");
+}
+
+searchInput.addEventListener("input", renderSkins);
+nameFilter.addEventListener("change", renderSkins);
+document.getElementById("modalClose").addEventListener("click", closeModal);
+modal.addEventListener("click", event => {
+    if (event.target === modal) closeModal();
+});
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeModal();
+});
+
+// Match the theme selected on the Leaderboard page.
+const savedTheme = localStorage.getItem("theme") || "dark-blue";
+if (savedTheme === "light") document.body.classList.add("light-theme");
+if (savedTheme === "dark") document.body.classList.add("dark-theme");
+
+renderSkins();
+</script>
+</body>
+</html>
