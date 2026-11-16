@@ -250,11 +250,60 @@ const SPRITE = {
     displayScale: 8
 };
 
-// Names can be filled in whenever the skins have been identified.
-// Keep each skin's row/column unchanged when editing its name.
+const skinNames = {
+    "skin-001": "Manepear",
+    "skin-002": "SeaWattgaming",
+    "skin-003": "Eggchan",
+    "skin-004": "JudeLow",
+    "skin-005": "ParrotX2",
+    "skin-006": "ClownPierce",
+    "skin-007": "Marlowww",
+    "skin-008": "SB737",
+    "skin-009": "Ogmoe",
+    "skin-010": "fruitberries",
+    "skin-011": "Technoblade",
+    "skin-012": "Evbo",
+    "skin-013": "Flamefrags",
+    "skin-014": "Groxmc",
+    "skin-015": "Wallibear",
+    "skin-016": "sandiction",
+    "skin-017": "BadBoyHalo",
+    "skin-018": "conexion (Sharpness)",
+    "skin-019": "TommyInnit",
+    "skin-020": "Dream",
+    "skin-021": "GeorgeNotFound",
+    "skin-022": "SpokeIsHere",
+    "skin-023": "Wemmbu",
+    "skin-024": "Baablu",
+    "skin-025": "Fantst",
+    "skin-026": "Sapnap",
+    "skin-027": "AJTHEBOLD",
+    "skin-028": "Daquavis",
+    "skin-029": "Flowtives",
+    "skin-030": "YusufTe",
+    "skin-031": "AiroKun",
+    "skin-032": "camman18",
+    "skin-033": "CheapPickle",
+    "skin-034": "Avoma",
+    "skin-035": "MindOfNeo",
+    "skin-036": "Sword4000",
+    "skin-037": "Swight",
+    "skin-038": "ItzRealMe",
+    "skin-039": "Pharolen",
+    "skin-040": "Reffmc",
+    "skin-041": "Boosfer",
+    "skin-042": "Twi Shorts",
+    "skin-043": "SenpaiSpider",
+    "skin-044": "DrDonut",
+    "skin-045": "Blake",
+    "skin-046": "MinuteTech",
+    "skin-047": "Wisp",
+    "skin-048": "SpeedSilver"
+};
+
 const skins = Array.from({ length: SPRITE.columns * SPRITE.rows }, (_, index) => ({
     id: `skin-${String(index + 1).padStart(3, "0")}`,
-    name: "",
+    name: skinNames[`skin-${String(index + 1).padStart(3, "0")}`] || "",
     row: Math.floor(index / SPRITE.columns),
     column: index % SPRITE.columns
 }));
