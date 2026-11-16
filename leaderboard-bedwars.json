@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-16T12:12:19.762730+00:00",
-  "lastUpdated": 1794831137003,
-  "cached": false,
+  "updatedAt": "2026-11-16T22:37:03.777391+00:00",
+  "lastUpdated": 1794868026562,
+  "cached": true,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -12,7 +12,8 @@
       "Games Lost": 2,
       "Kills": 718,
       "Deaths": 1,
-      "Score": 71871
+      "Score": 71871,
+      "Skin": -1
     },
     {
       "Account ID": "BF74615719A5AB5A",
@@ -21,7 +22,8 @@
       "Games Lost": 4,
       "Kills": 176,
       "Deaths": 6,
-      "Score": 2988
+      "Score": 2988,
+      "Skin": -1
     },
     {
       "Account ID": "9179B271E77BAEB5",
@@ -30,7 +32,8 @@
       "Games Lost": 1,
       "Kills": 70,
       "Deaths": 3,
-      "Score": 2416
+      "Score": 2416,
+      "Skin": -1
     },
     {
       "Account ID": "37731A7ABA024473",
@@ -39,7 +42,8 @@
       "Games Lost": 0,
       "Kills": 44,
       "Deaths": 2,
-      "Score": 2300
+      "Score": 2300,
+      "Skin": -1
     },
     {
       "Account ID": "13B8374CDA3C21C3",
@@ -48,7 +52,8 @@
       "Games Lost": 0,
       "Kills": 43,
       "Deaths": 2,
-      "Score": 2250
+      "Score": 2250,
+      "Skin": -1
     },
     {
       "Account ID": "C2BEFE5AA09ACD98",
@@ -57,7 +62,8 @@
       "Games Lost": 5,
       "Kills": 79,
       "Deaths": 6,
-      "Score": 1371
+      "Score": 1371,
+      "Skin": -1
     },
     {
       "Account ID": "C40569DB4094EACA",
@@ -66,7 +72,8 @@
       "Games Lost": 2,
       "Kills": 39,
       "Deaths": 3,
-      "Score": 1366
+      "Score": 1366,
+      "Skin": -1
     },
     {
       "Account ID": "AC2902E5B079762E",
@@ -75,7 +82,8 @@
       "Games Lost": 3,
       "Kills": 73,
       "Deaths": 7,
-      "Score": 1100
+      "Score": 1100,
+      "Skin": -1
     },
     {
       "Account ID": "711F0DC522C942F6",
@@ -84,16 +92,8 @@
       "Games Lost": 10,
       "Kills": 43,
       "Deaths": 5,
-      "Score": 869
-    },
-    {
-      "Account ID": "DCFF1A67B7F84694",
-      "Player Name": "Draeven",
-      "Games Won": 10,
-      "Games Lost": 7,
-      "Kills": 113,
-      "Deaths": 18,
-      "Score": 686
+      "Score": 869,
+      "Skin": -1
     },
     {
       "Account ID": "D32E3A97A99C2AF2",
@@ -102,16 +102,28 @@
       "Games Lost": 4,
       "Kills": 74,
       "Deaths": 12,
-      "Score": 659
+      "Score": 659,
+      "Skin": -1
+    },
+    {
+      "Account ID": "DCFF1A67B7F84694",
+      "Player Name": "Draeven",
+      "Games Won": 10,
+      "Games Lost": 10,
+      "Kills": 136,
+      "Deaths": 26,
+      "Score": 573,
+      "Skin": -1
     },
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
-      "Games Won": 15,
-      "Games Lost": 34,
-      "Kills": 499,
-      "Deaths": 107,
-      "Score": 496
+      "Games Won": 19,
+      "Games Lost": 38,
+      "Kills": 507,
+      "Deaths": 114,
+      "Score": 478,
+      "Skin": 21
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -120,7 +132,8 @@
       "Games Lost": 7,
       "Kills": 114,
       "Deaths": 27,
-      "Score": 475
+      "Score": 475,
+      "Skin": -1
     },
     {
       "Account ID": "BB602027712773FC",
@@ -128,8 +141,9 @@
       "Games Won": 19,
       "Games Lost": 28,
       "Kills": 371,
-      "Deaths": 92,
-      "Score": 443
+      "Deaths": 94,
+      "Score": 435,
+      "Skin": -1
     },
     {
       "Account ID": "F90B6EA09561FABE",
@@ -138,7 +152,8 @@
       "Games Lost": 3,
       "Kills": 58,
       "Deaths": 16,
-      "Score": 419
+      "Score": 419,
+      "Skin": -1
     },
     {
       "Account ID": "4C23A0F718E27662",
@@ -147,16 +162,18 @@
       "Games Lost": 6,
       "Kills": 44,
       "Deaths": 13,
-      "Score": 378
+      "Score": 378,
+      "Skin": -1
     },
     {
       "Account ID": "10F525F29942FC2",
       "Player Name": "white000",
-      "Games Won": 17,
+      "Games Won": 19,
       "Games Lost": 12,
-      "Kills": 344,
-      "Deaths": 110,
-      "Score": 371
+      "Kills": 355,
+      "Deaths": 112,
+      "Score": 378,
+      "Skin": 44
     },
     {
       "Account ID": "48CA0B916A8ED4A4",
@@ -165,7 +182,8 @@
       "Games Lost": 6,
       "Kills": 74,
       "Deaths": 24,
-      "Score": 358
+      "Score": 358,
+      "Skin": -1
     },
     {
       "Account ID": "427398D2482C568D",
@@ -174,7 +192,8 @@
       "Games Lost": 5,
       "Kills": 25,
       "Deaths": 8,
-      "Score": 341
+      "Score": 341,
+      "Skin": -1
     },
     {
       "Account ID": "EEBD09CD088060AB",
@@ -183,7 +202,8 @@
       "Games Lost": 4,
       "Kills": 85,
       "Deaths": 30,
-      "Score": 326
+      "Score": 326,
+      "Skin": -1
     }
   ]
 }
