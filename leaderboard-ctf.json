@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-16T22:37:04.527739+00:00",
-  "lastUpdated": 1794868623158,
+  "updatedAt": "2026-11-17T04:51:05.417881+00:00",
+  "lastUpdated": 1794891063776,
   "cached": false,
   "players": [
     {
@@ -66,13 +66,23 @@
       "Skin": -1
     },
     {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadasyt",
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 38,
+      "Deaths": 19,
+      "Score": 236,
+      "Skin": -1
+    },
+    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 6,
       "Games Lost": 10,
-      "Kills": 64,
-      "Deaths": 35,
-      "Score": 220,
+      "Kills": 68,
+      "Deaths": 38,
+      "Score": 216,
       "Skin": -1
     },
     {
@@ -103,16 +113,6 @@
       "Kills": 40,
       "Deaths": 31,
       "Score": 183,
-      "Skin": -1
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 21,
-      "Deaths": 14,
-      "Score": 178,
       "Skin": -1
     },
     {

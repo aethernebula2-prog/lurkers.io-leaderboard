@@ -1,10 +1,30 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-16T22:37:04.821617+00:00",
-  "lastUpdated": 1794868597533,
+  "updatedAt": "2026-11-17T04:51:05.564744+00:00",
+  "lastUpdated": 1794890919225,
   "cached": true,
   "players": [
+    {
+      "Account ID": "1EEA4A65BD99F437",
+      "Player Name": "denied",
+      "Games Won": 8,
+      "Games Lost": 18,
+      "Kills": 943,
+      "Deaths": 58,
+      "Score": 1656,
+      "Skin": -1
+    },
+    {
+      "Account ID": "DFFA1297586EE434",
+      "Player Name": "Xx1KEYLOR1xX",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 138,
+      "Deaths": 9,
+      "Score": 1566,
+      "Skin": -1
+    },
     {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
@@ -13,16 +33,6 @@
       "Kills": 155,
       "Deaths": 11,
       "Score": 1475,
-      "Skin": -1
-    },
-    {
-      "Account ID": "1EEA4A65BD99F437",
-      "Player Name": "denied",
-      "Games Won": 7,
-      "Games Lost": 16,
-      "Kills": 791,
-      "Deaths": 55,
-      "Score": 1468,
       "Skin": -1
     },
     {
@@ -49,10 +59,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 8,
-      "Games Lost": 13,
-      "Kills": 627,
-      "Deaths": 71,
-      "Score": 921,
+      "Games Lost": 14,
+      "Kills": 638,
+      "Deaths": 75,
+      "Score": 887,
       "Skin": -1
     },
     {
@@ -96,16 +106,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "1AE730D03D553A92",
-      "Player Name": "Llilrascaloi",
-      "Games Won": 1,
-      "Games Lost": 13,
-      "Kills": 91,
-      "Deaths": 16,
-      "Score": 575,
-      "Skin": -1
-    },
-    {
       "Account ID": "A69C811E302B9820",
       "Player Name": "pi314159",
       "Games Won": 2,
@@ -113,6 +113,16 @@
       "Kills": 205,
       "Deaths": 39,
       "Score": 554,
+      "Skin": -1
+    },
+    {
+      "Account ID": "1AE730D03D553A92",
+      "Player Name": "Llilrascaloi",
+      "Games Won": 1,
+      "Games Lost": 14,
+      "Kills": 91,
+      "Deaths": 17,
+      "Score": 541,
       "Skin": -1
     },
     {
@@ -193,16 +203,6 @@
       "Kills": 684,
       "Deaths": 217,
       "Score": 351,
-      "Skin": -1
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadas",
-      "Games Won": 5,
-      "Games Lost": 21,
-      "Kills": 417,
-      "Deaths": 126,
-      "Score": 350,
       "Skin": -1
     }
   ]

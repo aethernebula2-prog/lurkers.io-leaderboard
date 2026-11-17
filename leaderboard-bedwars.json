@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-16T22:37:03.777391+00:00",
-  "lastUpdated": 1794868026562,
+  "updatedAt": "2026-11-17T04:51:04.659564+00:00",
+  "lastUpdated": 1794890923085,
   "cached": true,
   "players": [
     {
@@ -109,10 +109,10 @@
       "Account ID": "DCFF1A67B7F84694",
       "Player Name": "Draeven",
       "Games Won": 10,
-      "Games Lost": 10,
-      "Kills": 136,
-      "Deaths": 26,
-      "Score": 573,
+      "Games Lost": 11,
+      "Kills": 148,
+      "Deaths": 29,
+      "Score": 557,
       "Skin": -1
     },
     {
@@ -133,6 +133,16 @@
       "Kills": 114,
       "Deaths": 27,
       "Score": 475,
+      "Skin": -1
+    },
+    {
+      "Account ID": "724102C738A93B14",
+      "Player Name": "XxENUEBO2xXzBRVx123xPRIME",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 39,
+      "Deaths": 9,
+      "Score": 450,
       "Skin": -1
     },
     {
@@ -193,16 +203,6 @@
       "Kills": 25,
       "Deaths": 8,
       "Score": 341,
-      "Skin": -1
-    },
-    {
-      "Account ID": "EEBD09CD088060AB",
-      "Player Name": "PaP1s",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 85,
-      "Deaths": 30,
-      "Score": 326,
       "Skin": -1
     }
   ]
