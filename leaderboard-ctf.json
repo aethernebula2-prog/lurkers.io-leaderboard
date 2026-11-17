@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-17T04:51:05.417881+00:00",
-  "lastUpdated": 1794891063776,
+  "updatedAt": "2026-11-17T13:57:17.260171+00:00",
+  "lastUpdated": 1794923834444,
   "cached": false,
   "players": [
     {
@@ -33,6 +33,16 @@
       "Kills": 32,
       "Deaths": 10,
       "Score": 357,
+      "Skin": -1
+    },
+    {
+      "Account ID": "B789B916E95883F4",
+      "Player Name": "OHISASIBURI",
+      "Games Won": 3,
+      "Games Lost": 6,
+      "Kills": 25,
+      "Deaths": 8,
+      "Score": 345,
       "Skin": -1
     },
     {
@@ -96,6 +106,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "A69C811E302B9820",
+      "Player Name": "pi314159",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 49,
+      "Deaths": 25,
+      "Score": 210,
+      "Skin": -1
+    },
+    {
       "Account ID": "BE6C6D7AAFA1B0DF",
       "Player Name": "yordan777",
       "Games Won": 5,
@@ -136,6 +156,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "785AA2DF04855DA0",
+      "Player Name": "Thewatcher",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 130,
+      "Deaths": 91,
+      "Score": 142,
+      "Skin": -1
+    },
+    {
       "Account ID": "371656C8E9510EB2",
       "Player Name": "Juanitoxd1",
       "Games Won": 3,
@@ -158,12 +188,12 @@
     {
       "Account ID": "BB602027712773FC",
       "Player Name": "googlemap60",
-      "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 29,
-      "Deaths": 35,
-      "Score": 95,
-      "Skin": -1
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 34,
+      "Deaths": 36,
+      "Score": 114,
+      "Skin": 93
     },
     {
       "Account ID": "ADB366F67707B581",
@@ -171,28 +201,8 @@
       "Games Won": 1,
       "Games Lost": 8,
       "Kills": 11,
-      "Deaths": 18,
-      "Score": 72,
-      "Skin": -1
-    },
-    {
-      "Account ID": "5AE726D7DB6E6C20",
-      "Player Name": "eer4dotorgCNpvp",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 1,
-      "Deaths": 6,
-      "Score": 33,
-      "Skin": -1
-    },
-    {
-      "Account ID": "C2CB546A711CC4B4",
-      "Player Name": "mykobomba",
-      "Games Won": 1,
-      "Games Lost": 9,
-      "Kills": 1,
-      "Deaths": 15,
-      "Score": 16,
+      "Deaths": 21,
+      "Score": 63,
       "Skin": -1
     }
   ]
