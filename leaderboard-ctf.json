@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-17T13:57:17.260171+00:00",
-  "lastUpdated": 1794923834444,
+  "updatedAt": "2026-11-17T21:59:31.872843+00:00",
+  "lastUpdated": 1794952770282,
   "cached": false,
   "players": [
     {
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
       "Games Won": 5,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 213,
-      "Deaths": 29,
-      "Score": 776,
+      "Deaths": 31,
+      "Score": 725,
       "Skin": -1
     },
     {
@@ -21,9 +21,9 @@
       "Games Won": 6,
       "Games Lost": 10,
       "Kills": 271,
-      "Deaths": 52,
-      "Score": 558,
-      "Skin": -1
+      "Deaths": 54,
+      "Score": 539,
+      "Skin": 75
     },
     {
       "Account ID": "F3CD622722C46EDE",
@@ -83,6 +83,16 @@
       "Kills": 38,
       "Deaths": 19,
       "Score": 236,
+      "Skin": -1
+    },
+    {
+      "Account ID": "B5496B53DD04D63E",
+      "Player Name": "Vikos86",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 26,
+      "Deaths": 14,
+      "Score": 219,
       "Skin": -1
     },
     {
@@ -194,16 +204,6 @@
       "Deaths": 36,
       "Score": 114,
       "Skin": 93
-    },
-    {
-      "Account ID": "ADB366F67707B581",
-      "Player Name": "Iamunderyourbed",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 11,
-      "Deaths": 21,
-      "Score": 63,
-      "Skin": -1
     }
   ]
 }

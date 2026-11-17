@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-17T13:57:16.363148+00:00",
-  "lastUpdated": 1794923807629,
-  "cached": true,
+  "updatedAt": "2026-11-17T21:59:30.948312+00:00",
+  "lastUpdated": 1794952769277,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -99,10 +99,20 @@
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
       "Games Won": 3,
-      "Games Lost": 4,
+      "Games Lost": 5,
       "Kills": 74,
       "Deaths": 12,
-      "Score": 659,
+      "Score": 654,
+      "Skin": -1
+    },
+    {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "BRATJA",
+      "Games Won": 6,
+      "Games Lost": 5,
+      "Kills": 223,
+      "Deaths": 43,
+      "Score": 573,
       "Skin": -1
     },
     {
@@ -159,10 +169,10 @@
       "Account ID": "BB602027712773FC",
       "Player Name": "googlemap60",
       "Games Won": 23,
-      "Games Lost": 37,
+      "Games Lost": 38,
       "Kills": 379,
-      "Deaths": 106,
-      "Score": 395,
+      "Deaths": 107,
+      "Score": 391,
       "Skin": 93
     },
     {
@@ -194,16 +204,6 @@
       "Deaths": 123,
       "Score": 346,
       "Skin": 44
-    },
-    {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 25,
-      "Deaths": 8,
-      "Score": 341,
-      "Skin": -1
     }
   ]
 }

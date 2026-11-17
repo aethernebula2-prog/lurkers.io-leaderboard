@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-17T13:57:17.398237+00:00",
-  "lastUpdated": 1794923813801,
-  "cached": true,
+  "updatedAt": "2026-11-17T21:59:32.931223+00:00",
+  "lastUpdated": 1794952771708,
+  "cached": false,
   "players": [
     {
       "Account ID": "DFFA1297586EE434",
@@ -26,16 +26,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "65B41DADC9A88720",
-      "Player Name": "Alexandria",
-      "Games Won": 4,
-      "Games Lost": 2,
-      "Kills": 155,
-      "Deaths": 11,
-      "Score": 1475,
-      "Skin": -1
-    },
-    {
       "Account ID": "5AE726D7DB6E6C20",
       "Player Name": "eer4dotorgCNpvp",
       "Games Won": 1,
@@ -43,6 +33,16 @@
       "Kills": 62,
       "Deaths": 5,
       "Score": 1256,
+      "Skin": -1
+    },
+    {
+      "Account ID": "65B41DADC9A88720",
+      "Player Name": "Alexandria",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 165,
+      "Deaths": 14,
+      "Score": 1235,
       "Skin": -1
     },
     {
@@ -59,10 +59,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 8,
-      "Games Lost": 14,
-      "Kills": 638,
-      "Deaths": 75,
-      "Score": 887,
+      "Games Lost": 15,
+      "Kills": 639,
+      "Deaths": 77,
+      "Score": 864,
       "Skin": -1
     },
     {
@@ -198,11 +198,11 @@
     {
       "Account ID": "A43CEB9D8A46BE9",
       "Player Name": "TresLP",
-      "Games Won": 11,
-      "Games Lost": 19,
-      "Kills": 684,
-      "Deaths": 217,
-      "Score": 351,
+      "Games Won": 14,
+      "Games Lost": 21,
+      "Kills": 752,
+      "Deaths": 240,
+      "Score": 353,
       "Skin": -1
     }
   ]
