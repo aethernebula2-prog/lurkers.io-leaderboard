@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-18T03:21:03.463810+00:00",
-  "lastUpdated": 1794971830314,
+  "updatedAt": "2026-11-18T12:26:13.522268+00:00",
+  "lastUpdated": 1795004692382,
   "cached": true,
   "players": [
     {
@@ -166,16 +166,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "BB602027712773FC",
-      "Player Name": "googlemap60",
-      "Games Won": 23,
-      "Games Lost": 38,
-      "Kills": 379,
-      "Deaths": 107,
-      "Score": 391,
-      "Skin": 93
-    },
-    {
       "Account ID": "4C23A0F718E27662",
       "Player Name": "xCamTheDestroyerx",
       "Games Won": 4,
@@ -194,6 +184,16 @@
       "Deaths": 24,
       "Score": 358,
       "Skin": -1
+    },
+    {
+      "Account ID": "BB602027712773FC",
+      "Player Name": "googlemap60",
+      "Games Won": 28,
+      "Games Lost": 47,
+      "Kills": 400,
+      "Deaths": 129,
+      "Score": 347,
+      "Skin": 93
     },
     {
       "Account ID": "10F525F29942FC2",

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-18T03:21:04.420619+00:00",
-  "lastUpdated": 1794972061838,
+  "updatedAt": "2026-11-18T12:26:14.232264+00:00",
+  "lastUpdated": 1795004770735,
   "cached": false,
   "players": [
     {
@@ -186,6 +186,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "702E6BB753F14E0",
+      "Player Name": "CheapHeadshot",
+      "Games Won": 6,
+      "Games Lost": 7,
+      "Kills": 47,
+      "Deaths": 55,
+      "Score": 131,
+      "Skin": -1
+    },
+    {
       "Account ID": "5035F89A37C57378",
       "Player Name": "lamplightlane64",
       "Games Won": 3,
@@ -193,16 +203,6 @@
       "Kills": 15,
       "Deaths": 17,
       "Score": 125,
-      "Skin": -1
-    },
-    {
-      "Account ID": "702E6BB753F14E0",
-      "Player Name": "CheapHeadshot",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 24,
-      "Deaths": 29,
-      "Score": 120,
       "Skin": -1
     }
   ]
