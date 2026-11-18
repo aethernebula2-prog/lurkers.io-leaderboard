@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-18T12:26:14.855709+00:00",
-  "lastUpdated": 1795004772053,
+  "updatedAt": "2026-11-18T20:58:08.343028+00:00",
+  "lastUpdated": 1795035485235,
   "cached": false,
   "players": [
     {
       "Account ID": "DFFA1297586EE434",
       "Player Name": "Xx1KEYLOR1xX",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 138,
-      "Deaths": 9,
-      "Score": 1566,
+      "Games Won": 4,
+      "Games Lost": 7,
+      "Kills": 193,
+      "Deaths": 11,
+      "Score": 1790,
       "Skin": -1
     },
     {
@@ -59,10 +59,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 8,
-      "Games Lost": 16,
-      "Kills": 725,
-      "Deaths": 87,
-      "Score": 866,
+      "Games Lost": 17,
+      "Kills": 778,
+      "Deaths": 98,
+      "Score": 825,
       "Skin": -1
     },
     {
@@ -113,7 +113,7 @@
       "Kills": 91,
       "Deaths": 17,
       "Score": 541,
-      "Skin": -1
+      "Skin": 0
     },
     {
       "Account ID": "A69C811E302B9820",
@@ -143,6 +143,16 @@
       "Kills": 426,
       "Deaths": 124,
       "Score": 387,
+      "Skin": -1
+    },
+    {
+      "Account ID": "595AC5BAC6B4E9AA",
+      "Player Name": "Japanese0126",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 171,
+      "Deaths": 48,
+      "Score": 376,
       "Skin": -1
     },
     {
@@ -179,10 +189,10 @@
       "Account ID": "6837BCF2F57B6A38",
       "Player Name": "inshanegaming13",
       "Games Won": 3,
-      "Games Lost": 19,
-      "Kills": 313,
-      "Deaths": 89,
-      "Score": 365,
+      "Games Lost": 20,
+      "Kills": 320,
+      "Deaths": 90,
+      "Score": 368,
       "Skin": 0
     },
     {
@@ -194,16 +204,6 @@
       "Deaths": 45,
       "Score": 356,
       "Skin": 86
-    },
-    {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TresLP",
-      "Games Won": 14,
-      "Games Lost": 21,
-      "Kills": 752,
-      "Deaths": 240,
-      "Score": 353,
-      "Skin": -1
     }
   ]
 }
