@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-17T21:59:31.872843+00:00",
-  "lastUpdated": 1794952770282,
+  "updatedAt": "2026-11-18T03:21:04.420619+00:00",
+  "lastUpdated": 1794972061838,
   "cached": false,
   "players": [
     {
@@ -21,8 +21,8 @@
       "Games Won": 6,
       "Games Lost": 10,
       "Kills": 271,
-      "Deaths": 54,
-      "Score": 539,
+      "Deaths": 55,
+      "Score": 530,
       "Skin": 75
     },
     {
@@ -46,6 +46,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "1588224173E4FEC4",
+      "Player Name": "itmehaha",
+      "Games Won": 12,
+      "Games Lost": 19,
+      "Kills": 417,
+      "Deaths": 137,
+      "Score": 343,
+      "Skin": 8
+    },
+    {
       "Account ID": "BA2195FCCF3E9D05",
       "Player Name": "ksawi111",
       "Games Won": 10,
@@ -53,16 +63,6 @@
       "Kills": 100,
       "Deaths": 36,
       "Score": 330,
-      "Skin": -1
-    },
-    {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 9,
-      "Games Lost": 16,
-      "Kills": 311,
-      "Deaths": 115,
-      "Score": 306,
       "Skin": -1
     },
     {
@@ -79,11 +79,11 @@
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadasyt",
       "Games Won": 4,
-      "Games Lost": 7,
+      "Games Lost": 8,
       "Kills": 38,
       "Deaths": 19,
-      "Score": 236,
-      "Skin": -1
+      "Score": 233,
+      "Skin": 32
     },
     {
       "Account ID": "B5496B53DD04D63E",
@@ -149,10 +149,10 @@
       "Account ID": "CD351B4225733D45",
       "Player Name": "kingofthefrog",
       "Games Won": 0,
-      "Games Lost": 14,
+      "Games Lost": 15,
       "Kills": 81,
-      "Deaths": 48,
-      "Score": 168,
+      "Deaths": 49,
+      "Score": 165,
       "Skin": -1
     },
     {
@@ -186,6 +186,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "5035F89A37C57378",
+      "Player Name": "lamplightlane64",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 15,
+      "Deaths": 17,
+      "Score": 125,
+      "Skin": -1
+    },
+    {
       "Account ID": "702E6BB753F14E0",
       "Player Name": "CheapHeadshot",
       "Games Won": 3,
@@ -194,16 +204,6 @@
       "Deaths": 29,
       "Score": 120,
       "Skin": -1
-    },
-    {
-      "Account ID": "BB602027712773FC",
-      "Player Name": "googlemap60",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 34,
-      "Deaths": 36,
-      "Score": 114,
-      "Skin": 93
     }
   ]
 }

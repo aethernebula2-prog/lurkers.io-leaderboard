@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-17T21:59:32.931223+00:00",
-  "lastUpdated": 1794952771708,
+  "updatedAt": "2026-11-18T03:21:05.222945+00:00",
+  "lastUpdated": 1794972062840,
   "cached": false,
   "players": [
     {
@@ -19,10 +19,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 8,
-      "Games Lost": 20,
-      "Kills": 1002,
-      "Deaths": 67,
-      "Score": 1524,
+      "Games Lost": 21,
+      "Kills": 1008,
+      "Deaths": 69,
+      "Score": 1488,
       "Skin": -1
     },
     {
