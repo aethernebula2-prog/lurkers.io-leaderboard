@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-19T02:14:03.054827+00:00",
-  "lastUpdated": 1795054420006,
-  "cached": true,
+  "updatedAt": "2026-11-19T10:52:50.490071+00:00",
+  "lastUpdated": 1795085571137,
+  "cached": false,
   "players": [
     {
       "Account ID": "DFFA1297586EE434",
@@ -18,12 +18,12 @@
     {
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
-      "Games Won": 8,
-      "Games Lost": 23,
-      "Kills": 1127,
-      "Deaths": 75,
-      "Score": 1528,
-      "Skin": 0
+      "Games Won": 9,
+      "Games Lost": 24,
+      "Kills": 1191,
+      "Deaths": 77,
+      "Score": 1574,
+      "Skin": 7
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -58,11 +58,11 @@
     {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
-      "Games Won": 8,
+      "Games Won": 9,
       "Games Lost": 17,
-      "Kills": 778,
-      "Deaths": 98,
-      "Score": 825,
+      "Kills": 824,
+      "Deaths": 99,
+      "Score": 866,
       "Skin": -1
     },
     {
@@ -146,23 +146,13 @@
       "Skin": -1
     },
     {
-      "Account ID": "595AC5BAC6B4E9AA",
-      "Player Name": "EliteLurker",
-      "Games Won": 2,
-      "Games Lost": 8,
-      "Kills": 171,
-      "Deaths": 48,
-      "Score": 376,
-      "Skin": -1
-    },
-    {
       "Account ID": "91B8A8E930946EE2",
       "Player Name": "YourKnight",
       "Games Won": 2,
       "Games Lost": 7,
-      "Kills": 138,
-      "Deaths": 39,
-      "Score": 376,
+      "Kills": 164,
+      "Deaths": 45,
+      "Score": 386,
       "Skin": -1
     },
     {
@@ -173,6 +163,16 @@
       "Kills": 211,
       "Deaths": 65,
       "Score": 371,
+      "Skin": -1
+    },
+    {
+      "Account ID": "F4EE58DC80678777",
+      "Player Name": "AethericNebula",
+      "Games Won": 2,
+      "Games Lost": 10,
+      "Kills": 145,
+      "Deaths": 41,
+      "Score": 370,
       "Skin": -1
     },
     {
@@ -196,14 +196,14 @@
       "Skin": 0
     },
     {
-      "Account ID": "AF2EF5468CBF2836",
-      "Player Name": "xXAntonyyyyXx",
+      "Account ID": "595AC5BAC6B4E9AA",
+      "Player Name": "Japanese0126",
       "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 153,
-      "Deaths": 45,
-      "Score": 356,
-      "Skin": 86
+      "Games Lost": 9,
+      "Kills": 171,
+      "Deaths": 49,
+      "Score": 367,
+      "Skin": -1
     }
   ]
 }
