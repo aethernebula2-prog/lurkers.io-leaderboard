@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-19T10:52:49.157800+00:00",
-  "lastUpdated": 1795085567457,
-  "cached": false,
+  "updatedAt": "2026-11-19T19:14:16.984284+00:00",
+  "lastUpdated": 1795115331873,
+  "cached": true,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -126,6 +126,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 27,
+      "Games Lost": 43,
+      "Kills": 705,
+      "Deaths": 146,
+      "Score": 521,
+      "Skin": 21
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 8,
@@ -134,16 +144,6 @@
       "Deaths": 27,
       "Score": 475,
       "Skin": -1
-    },
-    {
-      "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "EqaqeG",
-      "Games Won": 26,
-      "Games Lost": 42,
-      "Kills": 572,
-      "Deaths": 136,
-      "Score": 458,
-      "Skin": 21
     },
     {
       "Account ID": "F90B6EA09561FABE",
@@ -186,16 +186,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "10F525F29942FC2",
-      "Player Name": "white000",
-      "Games Won": 21,
-      "Games Lost": 15,
-      "Kills": 358,
-      "Deaths": 125,
-      "Score": 344,
-      "Skin": 44
-    },
-    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 2,
@@ -204,6 +194,16 @@
       "Deaths": 8,
       "Score": 341,
       "Skin": -1
+    },
+    {
+      "Account ID": "10F525F29942FC2",
+      "Player Name": "white000",
+      "Games Won": 21,
+      "Games Lost": 16,
+      "Kills": 358,
+      "Deaths": 126,
+      "Score": 340,
+      "Skin": 44
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-19T10:52:49.875490+00:00",
-  "lastUpdated": 1795085566133,
+  "updatedAt": "2026-11-19T19:14:17.699101+00:00",
+  "lastUpdated": 1795115656147,
   "cached": false,
   "players": [
     {
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
-      "Games Won": 5,
-      "Games Lost": 9,
-      "Kills": 213,
-      "Deaths": 32,
-      "Score": 701,
+      "Games Won": 8,
+      "Games Lost": 11,
+      "Kills": 252,
+      "Deaths": 42,
+      "Score": 642,
       "Skin": -1
     },
     {
@@ -59,10 +59,20 @@
       "Account ID": "BA2195FCCF3E9D05",
       "Player Name": "ksawi111",
       "Games Won": 10,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 100,
-      "Deaths": 36,
-      "Score": 330,
+      "Deaths": 37,
+      "Score": 320,
+      "Skin": -1
+    },
+    {
+      "Account ID": "A69C811E302B9820",
+      "Player Name": "pi314159",
+      "Games Won": 2,
+      "Games Lost": 7,
+      "Kills": 89,
+      "Deaths": 31,
+      "Score": 309,
       "Skin": -1
     },
     {
@@ -114,16 +124,6 @@
       "Deaths": 5,
       "Score": 212,
       "Skin": 0
-    },
-    {
-      "Account ID": "A69C811E302B9820",
-      "Player Name": "pi314159",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 49,
-      "Deaths": 25,
-      "Score": 210,
-      "Skin": -1
     },
     {
       "Account ID": "BE6C6D7AAFA1B0DF",
