@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-20T09:22:10.588020+00:00",
-  "lastUpdated": 1795166069518,
-  "cached": true,
+  "updatedAt": "2026-11-20T18:06:21.974977+00:00",
+  "lastUpdated": 1795197981270,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -53,6 +53,16 @@
       "Kills": 43,
       "Deaths": 2,
       "Score": 2250,
+      "Skin": -1
+    },
+    {
+      "Account ID": "5B7139EF4AC91E04",
+      "Player Name": "SeatrX5126",
+      "Games Won": 2,
+      "Games Lost": 4,
+      "Kills": 81,
+      "Deaths": 6,
+      "Score": 1383,
       "Skin": -1
     },
     {
@@ -109,10 +119,10 @@
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
       "Games Won": 28,
-      "Games Lost": 44,
+      "Games Lost": 45,
       "Kills": 975,
-      "Deaths": 169,
-      "Score": 615,
+      "Deaths": 170,
+      "Score": 611,
       "Skin": 21
     },
     {
@@ -123,7 +133,7 @@
       "Kills": 223,
       "Deaths": 43,
       "Score": 573,
-      "Skin": -1
+      "Skin": 2
     },
     {
       "Account ID": "DCFF1A67B7F84694",
@@ -193,16 +203,6 @@
       "Kills": 344,
       "Deaths": 114,
       "Score": 351,
-      "Skin": -1
-    },
-    {
-      "Account ID": "427398D2482C568D",
-      "Player Name": "vortexzzz",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 25,
-      "Deaths": 8,
-      "Score": 341,
       "Skin": -1
     }
   ]
