@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-19T19:14:17.699101+00:00",
-  "lastUpdated": 1795115656147,
-  "cached": false,
+  "updatedAt": "2026-11-20T01:29:54.962852+00:00",
+  "lastUpdated": 1795138188248,
+  "cached": true,
   "players": [
     {
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
       "Games Won": 8,
-      "Games Lost": 11,
+      "Games Lost": 12,
       "Kills": 252,
-      "Deaths": 42,
-      "Score": 642,
+      "Deaths": 44,
+      "Score": 612,
       "Skin": -1
     },
     {
@@ -79,10 +79,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 12,
-      "Games Lost": 21,
+      "Games Lost": 22,
       "Kills": 119,
-      "Deaths": 51,
-      "Score": 269,
+      "Deaths": 52,
+      "Score": 264,
       "Skin": -1
     },
     {
@@ -126,16 +126,6 @@
       "Skin": 0
     },
     {
-      "Account ID": "BE6C6D7AAFA1B0DF",
-      "Player Name": "yordan777",
-      "Games Won": 5,
-      "Games Lost": 3,
-      "Kills": 27,
-      "Deaths": 22,
-      "Score": 185,
-      "Skin": -1
-    },
-    {
       "Account ID": "836E6824A13037F",
       "Player Name": "Ahasnbro",
       "Games Won": 6,
@@ -146,14 +136,14 @@
       "Skin": -1
     },
     {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 0,
-      "Games Lost": 18,
-      "Kills": 81,
-      "Deaths": 55,
-      "Score": 147,
-      "Skin": 89
+      "Account ID": "BE6C6D7AAFA1B0DF",
+      "Player Name": "yordan777",
+      "Games Won": 5,
+      "Games Lost": 4,
+      "Kills": 27,
+      "Deaths": 23,
+      "Score": 172,
+      "Skin": -1
     },
     {
       "Account ID": "F9A48BA1CDDBE185",
@@ -164,6 +154,16 @@
       "Deaths": 159,
       "Score": 144,
       "Skin": -1
+    },
+    {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 0,
+      "Games Lost": 19,
+      "Kills": 81,
+      "Deaths": 56,
+      "Score": 144,
+      "Skin": 89
     },
     {
       "Account ID": "785AA2DF04855DA0",

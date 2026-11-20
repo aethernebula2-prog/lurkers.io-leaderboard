@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-19T19:14:16.984284+00:00",
-  "lastUpdated": 1795115331873,
+  "updatedAt": "2026-11-20T01:29:54.804234+00:00",
+  "lastUpdated": 1795138013522,
   "cached": true,
   "players": [
     {
@@ -106,6 +106,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "3D7A5DDF0E8013F7",
+      "Player Name": "EqaqeG",
+      "Games Won": 28,
+      "Games Lost": 43,
+      "Kills": 900,
+      "Deaths": 164,
+      "Score": 588,
+      "Skin": 21
+    },
+    {
       "Account ID": "7E7D93C59BA6DEF9",
       "Player Name": "BRATJA",
       "Games Won": 6,
@@ -124,16 +134,6 @@
       "Deaths": 29,
       "Score": 557,
       "Skin": -1
-    },
-    {
-      "Account ID": "3D7A5DDF0E8013F7",
-      "Player Name": "EqaqeG",
-      "Games Won": 27,
-      "Games Lost": 43,
-      "Kills": 705,
-      "Deaths": 146,
-      "Score": 521,
-      "Skin": 21
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -156,16 +156,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "724102C738A93B14",
-      "Player Name": "XxENUEBO2xXzBRVx123xPRIME",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 39,
-      "Deaths": 10,
-      "Score": 404,
-      "Skin": -1
-    },
-    {
       "Account ID": "4C23A0F718E27662",
       "Player Name": "xCamTheDestroyerx",
       "Games Won": 4,
@@ -174,6 +164,16 @@
       "Deaths": 13,
       "Score": 378,
       "Skin": -1
+    },
+    {
+      "Account ID": "724102C738A93B14",
+      "Player Name": "XxENUEBO2xXzBRVx123xPRIME",
+      "Games Won": 1,
+      "Games Lost": 6,
+      "Kills": 39,
+      "Deaths": 11,
+      "Score": 368,
+      "Skin": 40
     },
     {
       "Account ID": "48CA0B916A8ED4A4",

@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-19T19:14:19.146454+00:00",
-  "lastUpdated": 1795115657706,
-  "cached": false,
+  "updatedAt": "2026-11-20T01:29:55.194419+00:00",
+  "lastUpdated": 1795137897055,
+  "cached": true,
   "players": [
     {
       "Account ID": "DFFA1297586EE434",
@@ -13,7 +13,7 @@
       "Kills": 232,
       "Deaths": 15,
       "Score": 1585,
-      "Skin": -1
+      "Skin": 86
     },
     {
       "Account ID": "1EEA4A65BD99F437",
@@ -39,20 +39,20 @@
       "Account ID": "E340F1474433376A",
       "Player Name": "Grumpy",
       "Games Won": 14,
-      "Games Lost": 14,
-      "Kills": 397,
-      "Deaths": 40,
-      "Score": 1042,
+      "Games Lost": 17,
+      "Kills": 454,
+      "Deaths": 44,
+      "Score": 1076,
       "Skin": -1
     },
     {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
-      "Games Won": 5,
+      "Games Won": 6,
       "Games Lost": 3,
-      "Kills": 204,
-      "Deaths": 21,
-      "Score": 1033,
+      "Kills": 232,
+      "Deaths": 29,
+      "Score": 866,
       "Skin": -1
     },
     {
@@ -166,16 +166,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "F4EE58DC80678777",
-      "Player Name": "AethericNebula",
-      "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 145,
-      "Deaths": 41,
-      "Score": 370,
-      "Skin": -1
-    },
-    {
       "Account ID": "5227417628D63A4E",
       "Player Name": "GilwillbirdTThaha",
       "Games Won": 7,
@@ -196,13 +186,23 @@
       "Skin": 0
     },
     {
-      "Account ID": "595AC5BAC6B4E9AA",
-      "Player Name": "Japanese0126",
+      "Account ID": "F4EE58DC80678777",
+      "Player Name": "AethericNebula",
       "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 177,
-      "Deaths": 52,
-      "Score": 357,
+      "Games Lost": 11,
+      "Kills": 220,
+      "Deaths": 63,
+      "Score": 364,
+      "Skin": -1
+    },
+    {
+      "Account ID": "A43CEB9D8A46BE9",
+      "Player Name": "TresLP",
+      "Games Won": 16,
+      "Games Lost": 22,
+      "Kills": 797,
+      "Deaths": 251,
+      "Score": 359,
       "Skin": -1
     }
   ]
