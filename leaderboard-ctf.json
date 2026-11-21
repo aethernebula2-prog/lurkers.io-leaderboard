@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-20T18:06:23.091061+00:00",
-  "lastUpdated": 1795197980984,
+  "updatedAt": "2026-11-21T00:27:38.922682+00:00",
+  "lastUpdated": 1795220855448,
   "cached": false,
   "players": [
     {
@@ -19,21 +19,11 @@
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
       "Games Won": 6,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 271,
-      "Deaths": 56,
-      "Score": 521,
+      "Deaths": 57,
+      "Score": 510,
       "Skin": 75
-    },
-    {
-      "Account ID": "1588224173E4FEC4",
-      "Player Name": "itmehaha",
-      "Games Won": 13,
-      "Games Lost": 20,
-      "Kills": 445,
-      "Deaths": 140,
-      "Score": 357,
-      "Skin": 8
     },
     {
       "Account ID": "F3CD622722C46EDE",
@@ -44,6 +34,16 @@
       "Deaths": 10,
       "Score": 357,
       "Skin": -1
+    },
+    {
+      "Account ID": "1588224173E4FEC4",
+      "Player Name": "itmehaha",
+      "Games Won": 14,
+      "Games Lost": 22,
+      "Kills": 455,
+      "Deaths": 147,
+      "Score": 348,
+      "Skin": 8
     },
     {
       "Account ID": "B789B916E95883F4",
@@ -79,10 +79,10 @@
       "Account ID": "D267A8A6DC2CA213",
       "Player Name": "XxROSAxX",
       "Games Won": 12,
-      "Games Lost": 22,
+      "Games Lost": 25,
       "Kills": 119,
-      "Deaths": 52,
-      "Score": 264,
+      "Deaths": 56,
+      "Score": 244,
       "Skin": -1
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "Account ID": "1AE730D03D553A92",
-      "Player Name": "Llilrascaloi",
+      "Player Name": "LittleRascalIO",
       "Games Won": 1,
       "Games Lost": 7,
       "Kills": 10,
@@ -166,6 +166,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "CD351B4225733D45",
+      "Player Name": "kingofthefrog",
+      "Games Won": 1,
+      "Games Lost": 20,
+      "Kills": 81,
+      "Deaths": 57,
+      "Score": 146,
+      "Skin": 89
+    },
+    {
       "Account ID": "F9A48BA1CDDBE185",
       "Player Name": "TheCreeper",
       "Games Won": 7,
@@ -174,16 +184,6 @@
       "Deaths": 159,
       "Score": 144,
       "Skin": -1
-    },
-    {
-      "Account ID": "CD351B4225733D45",
-      "Player Name": "kingofthefrog",
-      "Games Won": 0,
-      "Games Lost": 19,
-      "Kills": 81,
-      "Deaths": 56,
-      "Score": 144,
-      "Skin": 89
     },
     {
       "Account ID": "785AA2DF04855DA0",
