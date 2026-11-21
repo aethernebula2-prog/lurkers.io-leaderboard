@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-21T15:44:53.733410+00:00",
-  "lastUpdated": 1795275893315,
+  "updatedAt": "2026-11-21T21:17:33.584882+00:00",
+  "lastUpdated": 1795295849091,
   "cached": false,
   "players": [
     {
@@ -19,11 +19,11 @@
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
       "Games Won": 6,
-      "Games Lost": 12,
+      "Games Lost": 14,
       "Kills": 271,
-      "Deaths": 60,
-      "Score": 485,
-      "Skin": 75
+      "Deaths": 63,
+      "Score": 460,
+      "Skin": 85
     },
     {
       "Account ID": "F3CD622722C46EDE",
@@ -59,10 +59,10 @@
       "Account ID": "BA2195FCCF3E9D05",
       "Player Name": "ksawi111",
       "Games Won": 10,
-      "Games Lost": 10,
-      "Kills": 100,
-      "Deaths": 37,
-      "Score": 320,
+      "Games Lost": 11,
+      "Kills": 109,
+      "Deaths": 39,
+      "Score": 327,
       "Skin": -1
     },
     {

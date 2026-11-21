@@ -1,18 +1,18 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-21T15:44:53.873523+00:00",
-  "lastUpdated": 1795275637049,
-  "cached": true,
+  "updatedAt": "2026-11-21T21:17:34.318628+00:00",
+  "lastUpdated": 1795295849534,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
       "Player Name": "Dolgoon",
-      "Games Won": 7,
-      "Games Lost": 4,
-      "Kills": 545,
-      "Deaths": 25,
-      "Score": 2243,
+      "Games Won": 8,
+      "Games Lost": 5,
+      "Kills": 612,
+      "Deaths": 26,
+      "Score": 2415,
       "Skin": 5
     },
     {
@@ -69,10 +69,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 9,
-      "Games Lost": 17,
-      "Kills": 824,
-      "Deaths": 102,
-      "Score": 842,
+      "Games Lost": 18,
+      "Kills": 866,
+      "Deaths": 104,
+      "Score": 866,
       "Skin": -1
     },
     {
@@ -196,14 +196,14 @@
       "Skin": -1
     },
     {
-      "Account ID": "5227417628D63A4E",
-      "Player Name": "GilwillbirdTThaha",
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadasyt",
       "Games Won": 7,
-      "Games Lost": 14,
-      "Kills": 343,
-      "Deaths": 103,
-      "Score": 366,
-      "Skin": 27
+      "Games Lost": 26,
+      "Kills": 557,
+      "Deaths": 160,
+      "Score": 369,
+      "Skin": 32
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-21T15:44:52.949019+00:00",
-  "lastUpdated": 1795275627333,
+  "updatedAt": "2026-11-21T21:17:32.717801+00:00",
+  "lastUpdated": 1795295607530,
   "cached": true,
   "players": [
     {
@@ -99,10 +99,10 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 1,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 43,
       "Deaths": 5,
-      "Score": 869,
+      "Score": 868,
       "Skin": -1
     },
     {
@@ -138,12 +138,12 @@
     {
       "Account ID": "DCFF1A67B7F84694",
       "Player Name": "Draeven",
-      "Games Won": 10,
-      "Games Lost": 11,
-      "Kills": 148,
-      "Deaths": 29,
-      "Score": 557,
-      "Skin": -1
+      "Games Won": 11,
+      "Games Lost": 14,
+      "Kills": 149,
+      "Deaths": 32,
+      "Score": 509,
+      "Skin": 76
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -166,16 +166,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "7688F4197BAD69F4",
-      "Player Name": "Kaloz110",
-      "Games Won": 9,
-      "Games Lost": 9,
-      "Kills": 110,
-      "Deaths": 30,
-      "Score": 416,
-      "Skin": 90
-    },
-    {
       "Account ID": "4C23A0F718E27662",
       "Player Name": "xCamTheDestroyerx",
       "Games Won": 4,
@@ -194,6 +184,16 @@
       "Deaths": 24,
       "Score": 358,
       "Skin": -1
+    },
+    {
+      "Account ID": "7688F4197BAD69F4",
+      "Player Name": "Kaloz110",
+      "Games Won": 18,
+      "Games Lost": 14,
+      "Kills": 159,
+      "Deaths": 55,
+      "Score": 345,
+      "Skin": 90
     },
     {
       "Account ID": "427398D2482C568D",
