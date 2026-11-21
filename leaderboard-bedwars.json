@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-21T00:27:38.109965+00:00",
-  "lastUpdated": 1795220408253,
+  "updatedAt": "2026-11-21T07:49:48.474339+00:00",
+  "lastUpdated": 1795246913536,
   "cached": true,
   "players": [
     {
@@ -146,6 +146,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "7688F4197BAD69F4",
+      "Player Name": "Kaloz110",
+      "Games Won": 3,
+      "Games Lost": 5,
+      "Kills": 82,
+      "Deaths": 17,
+      "Score": 519,
+      "Skin": 90
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 8,
@@ -154,16 +164,6 @@
       "Deaths": 27,
       "Score": 475,
       "Skin": -1
-    },
-    {
-      "Account ID": "7688F4197BAD69F4",
-      "Player Name": "Kaloz110",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 44,
-      "Deaths": 11,
-      "Score": 433,
-      "Skin": 90
     },
     {
       "Account ID": "F90B6EA09561FABE",

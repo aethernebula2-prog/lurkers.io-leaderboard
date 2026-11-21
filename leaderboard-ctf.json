@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-21T00:27:38.922682+00:00",
-  "lastUpdated": 1795220855448,
+  "updatedAt": "2026-11-21T07:49:49.165825+00:00",
+  "lastUpdated": 1795247386106,
   "cached": false,
   "players": [
     {
@@ -19,10 +19,10 @@
       "Account ID": "891AEC8338452106",
       "Player Name": "hueto2",
       "Games Won": 6,
-      "Games Lost": 11,
+      "Games Lost": 12,
       "Kills": 271,
-      "Deaths": 57,
-      "Score": 510,
+      "Deaths": 59,
+      "Score": 492,
       "Skin": 75
     },
     {
@@ -81,19 +81,9 @@
       "Games Won": 12,
       "Games Lost": 25,
       "Kills": 119,
-      "Deaths": 56,
-      "Score": 244,
+      "Deaths": 57,
+      "Score": 241,
       "Skin": -1
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadasyt",
-      "Games Won": 4,
-      "Games Lost": 8,
-      "Kills": 38,
-      "Deaths": 19,
-      "Score": 233,
-      "Skin": 32
     },
     {
       "Account ID": "427398D2482C568D",
@@ -114,6 +104,16 @@
       "Deaths": 5,
       "Score": 212,
       "Skin": 0
+    },
+    {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadasyt",
+      "Games Won": 4,
+      "Games Lost": 9,
+      "Kills": 39,
+      "Deaths": 22,
+      "Score": 208,
+      "Skin": 32
     },
     {
       "Account ID": "B5496B53DD04D63E",
