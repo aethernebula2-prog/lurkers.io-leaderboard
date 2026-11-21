@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-21T07:49:48.474339+00:00",
-  "lastUpdated": 1795246913536,
+  "updatedAt": "2026-11-21T15:44:52.949019+00:00",
+  "lastUpdated": 1795275627333,
   "cached": true,
   "players": [
     {
@@ -56,16 +56,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "5B7139EF4AC91E04",
-      "Player Name": "SeatrX5126",
-      "Games Won": 2,
-      "Games Lost": 4,
-      "Kills": 81,
-      "Deaths": 6,
-      "Score": 1383,
-      "Skin": -1
-    },
-    {
       "Account ID": "C2BEFE5AA09ACD98",
       "Player Name": "lamuerte23020",
       "Games Won": 6,
@@ -93,6 +83,16 @@
       "Kills": 73,
       "Deaths": 7,
       "Score": 1100,
+      "Skin": -1
+    },
+    {
+      "Account ID": "5B7139EF4AC91E04",
+      "Player Name": "SeatrX5126",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 81,
+      "Deaths": 8,
+      "Score": 1037,
       "Skin": -1
     },
     {
@@ -146,16 +146,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "7688F4197BAD69F4",
-      "Player Name": "Kaloz110",
-      "Games Won": 3,
-      "Games Lost": 5,
-      "Kills": 82,
-      "Deaths": 17,
-      "Score": 519,
-      "Skin": 90
-    },
-    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 8,
@@ -176,6 +166,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "7688F4197BAD69F4",
+      "Player Name": "Kaloz110",
+      "Games Won": 9,
+      "Games Lost": 9,
+      "Kills": 110,
+      "Deaths": 30,
+      "Score": 416,
+      "Skin": 90
+    },
+    {
       "Account ID": "4C23A0F718E27662",
       "Player Name": "xCamTheDestroyerx",
       "Games Won": 4,
@@ -186,16 +186,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "724102C738A93B14",
-      "Player Name": "XxENUEBO2xXzBRVx123xPRIME",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 39,
-      "Deaths": 11,
-      "Score": 368,
-      "Skin": 40
-    },
-    {
       "Account ID": "48CA0B916A8ED4A4",
       "Player Name": "Thebetterone",
       "Games Won": 6,
@@ -203,6 +193,16 @@
       "Kills": 74,
       "Deaths": 24,
       "Score": 358,
+      "Skin": -1
+    },
+    {
+      "Account ID": "427398D2482C568D",
+      "Player Name": "vortexzzz",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 25,
+      "Deaths": 8,
+      "Score": 341,
       "Skin": -1
     }
   ]

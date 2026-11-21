@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-21T07:49:49.165825+00:00",
-  "lastUpdated": 1795247386106,
+  "updatedAt": "2026-11-21T15:44:53.733410+00:00",
+  "lastUpdated": 1795275893315,
   "cached": false,
   "players": [
     {
@@ -21,8 +21,8 @@
       "Games Won": 6,
       "Games Lost": 12,
       "Kills": 271,
-      "Deaths": 59,
-      "Score": 492,
+      "Deaths": 60,
+      "Score": 485,
       "Skin": 75
     },
     {
@@ -69,10 +69,10 @@
       "Account ID": "A69C811E302B9820",
       "Player Name": "pi314159",
       "Games Won": 2,
-      "Games Lost": 9,
-      "Kills": 89,
-      "Deaths": 33,
-      "Score": 287,
+      "Games Lost": 10,
+      "Kills": 95,
+      "Deaths": 35,
+      "Score": 288,
       "Skin": 0
     },
     {
@@ -146,6 +146,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "69F76E7AC39599C1",
+      "Player Name": "SniperJapaness",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 23,
+      "Deaths": 13,
+      "Score": 176,
+      "Skin": 8
+    },
+    {
       "Account ID": "BE6C6D7AAFA1B0DF",
       "Player Name": "yordan777",
       "Games Won": 5,
@@ -193,16 +203,6 @@
       "Kills": 130,
       "Deaths": 91,
       "Score": 142,
-      "Skin": -1
-    },
-    {
-      "Account ID": "371656C8E9510EB2",
-      "Player Name": "Juanitoxd1",
-      "Games Won": 3,
-      "Games Lost": 4,
-      "Kills": 20,
-      "Deaths": 21,
-      "Score": 138,
       "Skin": -1
     }
   ]

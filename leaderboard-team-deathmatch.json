@@ -1,10 +1,20 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-21T07:49:49.860812+00:00",
-  "lastUpdated": 1795247387353,
-  "cached": false,
+  "updatedAt": "2026-11-21T15:44:53.873523+00:00",
+  "lastUpdated": 1795275637049,
+  "cached": true,
   "players": [
+    {
+      "Account ID": "1BBBBCC2E57236C3",
+      "Player Name": "Dolgoon",
+      "Games Won": 7,
+      "Games Lost": 4,
+      "Kills": 545,
+      "Deaths": 25,
+      "Score": 2243,
+      "Skin": 5
+    },
     {
       "Account ID": "3D7A5DDF0E8013F7",
       "Player Name": "EqaqeG",
@@ -36,23 +46,23 @@
       "Skin": 7
     },
     {
-      "Account ID": "5AE726D7DB6E6C20",
-      "Player Name": "eer4dotorgCNpvp",
-      "Games Won": 1,
-      "Games Lost": 5,
-      "Kills": 62,
-      "Deaths": 5,
-      "Score": 1256,
+      "Account ID": "E340F1474433376A",
+      "Player Name": "Grumpy",
+      "Games Won": 16,
+      "Games Lost": 17,
+      "Kills": 542,
+      "Deaths": 44,
+      "Score": 1280,
       "Skin": -1
     },
     {
-      "Account ID": "E340F1474433376A",
-      "Player Name": "Grumpy",
-      "Games Won": 15,
-      "Games Lost": 17,
-      "Kills": 506,
-      "Deaths": 44,
-      "Score": 1196,
+      "Account ID": "5AE726D7DB6E6C20",
+      "Player Name": "eer4dotorgCNpvp",
+      "Games Won": 2,
+      "Games Lost": 5,
+      "Kills": 110,
+      "Deaths": 11,
+      "Score": 1028,
       "Skin": -1
     },
     {
@@ -61,8 +71,8 @@
       "Games Won": 9,
       "Games Lost": 17,
       "Kills": 824,
-      "Deaths": 99,
-      "Score": 866,
+      "Deaths": 102,
+      "Score": 842,
       "Skin": -1
     },
     {
@@ -136,13 +146,23 @@
       "Skin": 0
     },
     {
+      "Account ID": "ABC920483AE3583",
+      "Player Name": "Airman911",
+      "Games Won": 1,
+      "Games Lost": 5,
+      "Kills": 109,
+      "Deaths": 22,
+      "Score": 512,
+      "Skin": -1
+    },
+    {
       "Account ID": "20C8107FAE342449",
       "Player Name": "nicolcheng",
       "Games Won": 1,
       "Games Lost": 5,
       "Kills": 80,
-      "Deaths": 17,
-      "Score": 487,
+      "Deaths": 19,
+      "Score": 437,
       "Skin": -1
     },
     {
@@ -184,26 +204,6 @@
       "Deaths": 103,
       "Score": 366,
       "Skin": 27
-    },
-    {
-      "Account ID": "A43CEB9D8A46BE9",
-      "Player Name": "TresLP",
-      "Games Won": 17,
-      "Games Lost": 25,
-      "Kills": 857,
-      "Deaths": 269,
-      "Score": 359,
-      "Skin": -1
-    },
-    {
-      "Account ID": "595AC5BAC6B4E9AA",
-      "Player Name": "Japanese0126",
-      "Games Won": 2,
-      "Games Lost": 10,
-      "Kills": 177,
-      "Deaths": 52,
-      "Score": 357,
-      "Skin": -1
     }
   ]
 }
