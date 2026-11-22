@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-22T08:59:28.737202+00:00",
-  "lastUpdated": 1795337391192,
+  "updatedAt": "2026-11-22T16:56:06.868646+00:00",
+  "lastUpdated": 1795366450061,
   "cached": true,
   "players": [
     {
@@ -86,16 +86,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "5B7139EF4AC91E04",
-      "Player Name": "SeatrX5126",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 81,
-      "Deaths": 8,
-      "Score": 1037,
-      "Skin": -1
-    },
-    {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 1,
@@ -103,6 +93,16 @@
       "Kills": 43,
       "Deaths": 5,
       "Score": 867,
+      "Skin": -1
+    },
+    {
+      "Account ID": "5B7139EF4AC91E04",
+      "Player Name": "SeatrX5126",
+      "Games Won": 2,
+      "Games Lost": 7,
+      "Kills": 83,
+      "Deaths": 11,
+      "Score": 776,
       "Skin": -1
     },
     {
@@ -139,10 +139,10 @@
       "Account ID": "DCFF1A67B7F84694",
       "Player Name": "Draeven",
       "Games Won": 16,
-      "Games Lost": 16,
-      "Kills": 183,
-      "Deaths": 39,
-      "Score": 519,
+      "Games Lost": 17,
+      "Kills": 184,
+      "Deaths": 40,
+      "Score": 508,
       "Skin": 76
     },
     {
@@ -198,11 +198,11 @@
     {
       "Account ID": "39B11E1F6AB5F551",
       "Player Name": "DaiTuongHau2026",
-      "Games Won": 27,
-      "Games Lost": 26,
-      "Kills": 356,
-      "Deaths": 130,
-      "Score": 324,
+      "Games Won": 28,
+      "Games Lost": 28,
+      "Kills": 382,
+      "Deaths": 134,
+      "Score": 335,
       "Skin": -1
     }
   ]
