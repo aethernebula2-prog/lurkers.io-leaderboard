@@ -1,17 +1,17 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-21T21:17:33.584882+00:00",
-  "lastUpdated": 1795295849091,
-  "cached": false,
+  "updatedAt": "2026-11-22T01:45:46.546092+00:00",
+  "lastUpdated": 1795311495983,
+  "cached": true,
   "players": [
     {
       "Account ID": "D32E3A97A99C2AF2",
       "Player Name": "play2do",
-      "Games Won": 8,
-      "Games Lost": 13,
-      "Kills": 277,
-      "Deaths": 47,
+      "Games Won": 9,
+      "Games Lost": 14,
+      "Kills": 300,
+      "Deaths": 51,
       "Score": 627,
       "Skin": -1
     },
@@ -23,7 +23,7 @@
       "Kills": 271,
       "Deaths": 63,
       "Score": 460,
-      "Skin": 85
+      "Skin": 75
     },
     {
       "Account ID": "F3CD622722C46EDE",
@@ -109,10 +109,10 @@
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadasyt",
       "Games Won": 4,
-      "Games Lost": 9,
+      "Games Lost": 10,
       "Kills": 39,
       "Deaths": 22,
-      "Score": 208,
+      "Score": 205,
       "Skin": 32
     },
     {

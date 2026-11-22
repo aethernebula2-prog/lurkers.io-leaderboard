@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-21T21:17:32.717801+00:00",
-  "lastUpdated": 1795295607530,
-  "cached": true,
+  "updatedAt": "2026-11-22T01:45:46.454468+00:00",
+  "lastUpdated": 1795311940908,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -136,16 +136,6 @@
       "Skin": 2
     },
     {
-      "Account ID": "DCFF1A67B7F84694",
-      "Player Name": "Draeven",
-      "Games Won": 11,
-      "Games Lost": 14,
-      "Kills": 149,
-      "Deaths": 32,
-      "Score": 509,
-      "Skin": 76
-    },
-    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 8,
@@ -154,6 +144,16 @@
       "Deaths": 27,
       "Score": 475,
       "Skin": -1
+    },
+    {
+      "Account ID": "DCFF1A67B7F84694",
+      "Player Name": "Draeven",
+      "Games Won": 12,
+      "Games Lost": 14,
+      "Kills": 150,
+      "Deaths": 35,
+      "Score": 474,
+      "Skin": 76
     },
     {
       "Account ID": "F90B6EA09561FABE",
@@ -186,16 +186,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "7688F4197BAD69F4",
-      "Player Name": "Kaloz110",
-      "Games Won": 18,
-      "Games Lost": 14,
-      "Kills": 159,
-      "Deaths": 55,
-      "Score": 345,
-      "Skin": 90
-    },
-    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 2,
@@ -204,6 +194,16 @@
       "Deaths": 8,
       "Score": 341,
       "Skin": -1
+    },
+    {
+      "Account ID": "7688F4197BAD69F4",
+      "Player Name": "Kaloz110",
+      "Games Won": 19,
+      "Games Lost": 14,
+      "Kills": 164,
+      "Deaths": 58,
+      "Score": 340,
+      "Skin": 90
     }
   ]
 }

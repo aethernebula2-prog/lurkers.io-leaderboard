@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-21T21:17:34.318628+00:00",
-  "lastUpdated": 1795295849534,
+  "updatedAt": "2026-11-22T01:45:47.220792+00:00",
+  "lastUpdated": 1795311946309,
   "cached": false,
   "players": [
     {
@@ -78,11 +78,11 @@
     {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
-      "Games Won": 6,
+      "Games Won": 7,
       "Games Lost": 4,
-      "Kills": 258,
-      "Deaths": 33,
-      "Score": 841,
+      "Kills": 291,
+      "Deaths": 38,
+      "Score": 829,
       "Skin": -1
     },
     {
@@ -116,33 +116,13 @@
       "Skin": -1
     },
     {
-      "Account ID": "C0A242975B7897FD",
-      "Player Name": "srblaze11",
-      "Games Won": 4,
-      "Games Lost": 5,
-      "Kills": 338,
-      "Deaths": 56,
-      "Score": 648,
-      "Skin": -1
-    },
-    {
       "Account ID": "1AE730D03D553A92",
       "Player Name": "LittleRascalIO",
       "Games Won": 1,
-      "Games Lost": 14,
+      "Games Lost": 15,
       "Kills": 91,
       "Deaths": 17,
       "Score": 541,
-      "Skin": 0
-    },
-    {
-      "Account ID": "A69C811E302B9820",
-      "Player Name": "pi314159",
-      "Games Won": 2,
-      "Games Lost": 6,
-      "Kills": 216,
-      "Deaths": 44,
-      "Score": 515,
       "Skin": 0
     },
     {
@@ -153,6 +133,36 @@
       "Kills": 109,
       "Deaths": 22,
       "Score": 512,
+      "Skin": -1
+    },
+    {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 4,
+      "Games Lost": 3,
+      "Kills": 185,
+      "Deaths": 42,
+      "Score": 497,
+      "Skin": -1
+    },
+    {
+      "Account ID": "A69C811E302B9820",
+      "Player Name": "pi314159",
+      "Games Won": 2,
+      "Games Lost": 7,
+      "Kills": 227,
+      "Deaths": 48,
+      "Score": 495,
+      "Skin": 0
+    },
+    {
+      "Account ID": "C0A242975B7897FD",
+      "Player Name": "srblaze11",
+      "Games Won": 5,
+      "Games Lost": 10,
+      "Kills": 462,
+      "Deaths": 107,
+      "Score": 465,
       "Skin": -1
     },
     {
@@ -194,16 +204,6 @@
       "Deaths": 65,
       "Score": 371,
       "Skin": -1
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadasyt",
-      "Games Won": 7,
-      "Games Lost": 26,
-      "Kills": 557,
-      "Deaths": 160,
-      "Score": 369,
-      "Skin": 32
     }
   ]
 }
