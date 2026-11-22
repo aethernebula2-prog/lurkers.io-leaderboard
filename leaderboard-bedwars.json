@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-22T16:56:06.868646+00:00",
-  "lastUpdated": 1795366450061,
-  "cached": true,
+  "updatedAt": "2026-11-22T22:15:17.467731+00:00",
+  "lastUpdated": 1795385716434,
+  "cached": false,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -127,7 +127,7 @@
     },
     {
       "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "BRATJA",
+      "Player Name": "THymCanPY",
       "Games Won": 6,
       "Games Lost": 5,
       "Kills": 223,
