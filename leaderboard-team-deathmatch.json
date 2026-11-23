@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-23T03:20:54.496209+00:00",
-  "lastUpdated": 1795404052663,
-  "cached": false,
+  "updatedAt": "2026-11-23T13:49:19.990031+00:00",
+  "lastUpdated": 1795441550211,
+  "cached": true,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -119,11 +119,11 @@
       "Account ID": "1AE730D03D553A92",
       "Player Name": "LittleRascalIO",
       "Games Won": 1,
-      "Games Lost": 15,
+      "Games Lost": 16,
       "Kills": 91,
       "Deaths": 17,
       "Score": 541,
-      "Skin": 0
+      "Skin": 87
     },
     {
       "Account ID": "ABC920483AE3583",
@@ -138,12 +138,12 @@
     {
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
-      "Games Won": 6,
-      "Games Lost": 3,
-      "Kills": 264,
-      "Deaths": 60,
-      "Score": 506,
-      "Skin": -1
+      "Games Won": 8,
+      "Games Lost": 4,
+      "Kills": 315,
+      "Deaths": 73,
+      "Score": 498,
+      "Skin": 92
     },
     {
       "Account ID": "A69C811E302B9820",
@@ -176,6 +176,16 @@
       "Skin": 0
     },
     {
+      "Account ID": "AF2EF5468CBF2836",
+      "Player Name": "xXAntonyyyyXx",
+      "Games Won": 3,
+      "Games Lost": 12,
+      "Kills": 257,
+      "Deaths": 62,
+      "Score": 434,
+      "Skin": 86
+    },
+    {
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadasyt",
       "Games Won": 10,
@@ -192,16 +202,6 @@
       "Games Lost": 15,
       "Kills": 468,
       "Deaths": 135,
-      "Score": 386,
-      "Skin": -1
-    },
-    {
-      "Account ID": "91B8A8E930946EE2",
-      "Player Name": "YourKnight",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 164,
-      "Deaths": 45,
       "Score": 386,
       "Skin": -1
     }

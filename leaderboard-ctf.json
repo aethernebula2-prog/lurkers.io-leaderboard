@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-23T03:20:53.637023+00:00",
-  "lastUpdated": 1795403803369,
-  "cached": true,
+  "updatedAt": "2026-11-23T13:49:19.874439+00:00",
+  "lastUpdated": 1795441753653,
+  "cached": false,
   "players": [
     {
       "Account ID": "7688F4197BAD69F4",
@@ -123,7 +123,7 @@
       "Kills": 10,
       "Deaths": 5,
       "Score": 212,
-      "Skin": 0
+      "Skin": 87
     },
     {
       "Account ID": "3A0685ED57F6B716",
@@ -143,17 +143,7 @@
       "Kills": 26,
       "Deaths": 16,
       "Score": 191,
-      "Skin": -1
-    },
-    {
-      "Account ID": "1B1AC92E26EF59A9",
-      "Player Name": "HollowEyes",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 52,
-      "Deaths": 33,
-      "Score": 186,
-      "Skin": -1
+      "Skin": 93
     },
     {
       "Account ID": "836E6824A13037F",
@@ -196,13 +186,23 @@
       "Skin": -1
     },
     {
+      "Account ID": "1B1AC92E26EF59A9",
+      "Player Name": "HollowEyes",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 55,
+      "Deaths": 38,
+      "Score": 169,
+      "Skin": 8
+    },
+    {
       "Account ID": "702E6BB753F14E0",
       "Player Name": "CheapHeadshot",
-      "Games Won": 7,
-      "Games Lost": 8,
-      "Kills": 78,
-      "Deaths": 75,
-      "Score": 150,
+      "Games Won": 8,
+      "Games Lost": 9,
+      "Kills": 82,
+      "Deaths": 76,
+      "Score": 154,
       "Skin": -1
     }
   ]

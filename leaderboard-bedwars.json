@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-23T03:20:53.478124+00:00",
-  "lastUpdated": 1795403805540,
+  "updatedAt": "2026-11-23T13:49:19.111547+00:00",
+  "lastUpdated": 1795441197699,
   "cached": true,
   "players": [
     {
@@ -93,7 +93,7 @@
       "Kills": 43,
       "Deaths": 5,
       "Score": 867,
-      "Skin": -1
+      "Skin": 92
     },
     {
       "Account ID": "5B7139EF4AC91E04",
@@ -103,7 +103,7 @@
       "Kills": 83,
       "Deaths": 11,
       "Score": 776,
-      "Skin": -1
+      "Skin": 2
     },
     {
       "Account ID": "D32E3A97A99C2AF2",
@@ -199,10 +199,10 @@
       "Account ID": "39B11E1F6AB5F551",
       "Player Name": "DaiTuongHau2026",
       "Games Won": 28,
-      "Games Lost": 28,
-      "Kills": 382,
-      "Deaths": 134,
-      "Score": 335,
+      "Games Lost": 29,
+      "Kills": 386,
+      "Deaths": 138,
+      "Score": 328,
       "Skin": -1
     }
   ]
