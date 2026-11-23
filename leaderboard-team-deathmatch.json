@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-22T22:15:17.717688+00:00",
-  "lastUpdated": 1795385472529,
-  "cached": true,
+  "updatedAt": "2026-11-23T03:20:54.496209+00:00",
+  "lastUpdated": 1795404052663,
+  "cached": false,
   "players": [
     {
       "Account ID": "1BBBBCC2E57236C3",
@@ -66,16 +66,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "65B41DADC9A88720",
-      "Player Name": "Alexandria",
-      "Games Won": 8,
-      "Games Lost": 5,
-      "Kills": 350,
-      "Deaths": 43,
-      "Score": 875,
-      "Skin": -1
-    },
-    {
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 9,
@@ -83,6 +73,16 @@
       "Kills": 866,
       "Deaths": 104,
       "Score": 866,
+      "Skin": -1
+    },
+    {
+      "Account ID": "65B41DADC9A88720",
+      "Player Name": "Alexandria",
+      "Games Won": 9,
+      "Games Lost": 6,
+      "Kills": 392,
+      "Deaths": 53,
+      "Score": 799,
       "Skin": -1
     },
     {
@@ -136,6 +136,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "711F0DC522C942F6",
+      "Player Name": "BELLnuv",
+      "Games Won": 6,
+      "Games Lost": 3,
+      "Kills": 264,
+      "Deaths": 60,
+      "Score": 506,
+      "Skin": -1
+    },
+    {
       "Account ID": "A69C811E302B9820",
       "Player Name": "pi314159",
       "Games Won": 2,
@@ -144,16 +154,6 @@
       "Deaths": 48,
       "Score": 495,
       "Skin": 0
-    },
-    {
-      "Account ID": "711F0DC522C942F6",
-      "Player Name": "BELLnuv",
-      "Games Won": 4,
-      "Games Lost": 3,
-      "Kills": 185,
-      "Deaths": 43,
-      "Score": 487,
-      "Skin": -1
     },
     {
       "Account ID": "C0A242975B7897FD",
@@ -178,11 +178,11 @@
     {
       "Account ID": "3A0685ED57F6B716",
       "Player Name": "reydelasespadasyt",
-      "Games Won": 8,
+      "Games Won": 10,
       "Games Lost": 33,
-      "Kills": 763,
-      "Deaths": 203,
-      "Score": 395,
+      "Kills": 856,
+      "Deaths": 210,
+      "Score": 430,
       "Skin": 64
     },
     {
