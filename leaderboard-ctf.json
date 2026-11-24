@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-24T01:20:58.970135+00:00",
-  "lastUpdated": 1795483255684,
+  "updatedAt": "2026-11-24T11:45:51.391854+00:00",
+  "lastUpdated": 1795520748187,
   "cached": false,
   "players": [
     {
@@ -66,16 +66,6 @@
       "Skin": 8
     },
     {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 3,
-      "Games Lost": 6,
-      "Kills": 25,
-      "Deaths": 8,
-      "Score": 345,
-      "Skin": 10
-    },
-    {
       "Account ID": "BA2195FCCF3E9D05",
       "Player Name": "ksawi111",
       "Games Won": 10,
@@ -136,16 +126,6 @@
       "Skin": 64
     },
     {
-      "Account ID": "B5496B53DD04D63E",
-      "Player Name": "Vikos86",
-      "Games Won": 2,
-      "Games Lost": 5,
-      "Kills": 26,
-      "Deaths": 16,
-      "Score": 191,
-      "Skin": 93
-    },
-    {
       "Account ID": "836E6824A13037F",
       "Player Name": "Ahasnbro",
       "Games Won": 6,
@@ -186,24 +166,44 @@
       "Skin": 1
     },
     {
+      "Account ID": "B5496B53DD04D63E",
+      "Player Name": "Vikos86",
+      "Games Won": 2,
+      "Games Lost": 6,
+      "Kills": 31,
+      "Deaths": 21,
+      "Score": 172,
+      "Skin": 93
+    },
+    {
       "Account ID": "1B1AC92E26EF59A9",
       "Player Name": "HollowEyes",
       "Games Won": 2,
-      "Games Lost": 6,
+      "Games Lost": 7,
       "Kills": 55,
-      "Deaths": 38,
-      "Score": 169,
-      "Skin": 8
+      "Deaths": 39,
+      "Score": 163,
+      "Skin": 88
+    },
+    {
+      "Account ID": "B789B916E95883F4",
+      "Player Name": "OHISASIBURI",
+      "Games Won": 5,
+      "Games Lost": 8,
+      "Kills": 47,
+      "Deaths": 41,
+      "Score": 153,
+      "Skin": 10
     },
     {
       "Account ID": "702E6BB753F14E0",
       "Player Name": "CheapHeadshot",
       "Games Won": 9,
-      "Games Lost": 10,
+      "Games Lost": 11,
       "Kills": 97,
-      "Deaths": 94,
-      "Score": 150,
-      "Skin": -1
+      "Deaths": 95,
+      "Score": 147,
+      "Skin": 32
     }
   ]
 }
