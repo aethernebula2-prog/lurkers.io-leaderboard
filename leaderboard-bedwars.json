@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-24T11:45:50.759706+00:00",
-  "lastUpdated": 1795520329760,
+  "updatedAt": "2026-11-24T21:40:45.715416+00:00",
+  "lastUpdated": 1795556179099,
   "cached": true,
   "players": [
     {
@@ -136,16 +136,6 @@
       "Skin": 21
     },
     {
-      "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "ThimCanPy",
-      "Games Won": 7,
-      "Games Lost": 5,
-      "Kills": 292,
-      "Deaths": 58,
-      "Score": 561,
-      "Skin": 2
-    },
-    {
       "Account ID": "DCFF1A67B7F84694",
       "Player Name": "Draeven",
       "Games Won": 16,
@@ -164,6 +154,16 @@
       "Deaths": 27,
       "Score": 475,
       "Skin": -1
+    },
+    {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "ThimCanPy",
+      "Games Won": 9,
+      "Games Lost": 7,
+      "Kills": 348,
+      "Deaths": 89,
+      "Score": 447,
+      "Skin": 2
     },
     {
       "Account ID": "F90B6EA09561FABE",
