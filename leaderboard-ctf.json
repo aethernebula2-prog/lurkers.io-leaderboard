@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-25T15:07:08.226917+00:00",
-  "lastUpdated": 1795619223251,
-  "cached": false,
+  "updatedAt": "2026-11-25T23:52:27.578807+00:00",
+  "lastUpdated": 1795650617008,
+  "cached": true,
   "players": [
     {
       "Account ID": "96CA6AEAB4D59DB",
@@ -156,6 +156,16 @@
       "Skin": 8
     },
     {
+      "Account ID": "1B1AC92E26EF59A9",
+      "Player Name": "HollowEyes",
+      "Games Won": 2,
+      "Games Lost": 8,
+      "Kills": 68,
+      "Deaths": 44,
+      "Score": 174,
+      "Skin": 88
+    },
+    {
       "Account ID": "BE6C6D7AAFA1B0DF",
       "Player Name": "yordan777",
       "Games Won": 5,
@@ -174,16 +184,6 @@
       "Deaths": 21,
       "Score": 172,
       "Skin": 93
-    },
-    {
-      "Account ID": "1B1AC92E26EF59A9",
-      "Player Name": "HollowEyes",
-      "Games Won": 2,
-      "Games Lost": 7,
-      "Kills": 55,
-      "Deaths": 39,
-      "Score": 163,
-      "Skin": 88
     },
     {
       "Account ID": "F9A48BA1CDDBE185",

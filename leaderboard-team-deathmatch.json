@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-25T15:07:08.913137+00:00",
-  "lastUpdated": 1795619224644,
-  "cached": false,
+  "updatedAt": "2026-11-25T23:52:27.689708+00:00",
+  "lastUpdated": 1795650610733,
+  "cached": true,
   "players": [
     {
       "Account ID": "6896AF24B8EE135C",
@@ -70,9 +70,9 @@
       "Player Name": "Grumpy",
       "Games Won": 16,
       "Games Lost": 17,
-      "Kills": 542,
-      "Deaths": 44,
-      "Score": 1280,
+      "Kills": 549,
+      "Deaths": 45,
+      "Score": 1268,
       "Skin": 2
     },
     {
@@ -86,16 +86,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "DAA395A9E015E0DC",
-      "Player Name": "ilovevietnamXD",
-      "Games Won": 11,
-      "Games Lost": 19,
-      "Kills": 920,
-      "Deaths": 116,
-      "Score": 829,
-      "Skin": 8
-    },
-    {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
       "Games Won": 9,
@@ -104,6 +94,16 @@
       "Deaths": 57,
       "Score": 800,
       "Skin": -1
+    },
+    {
+      "Account ID": "DAA395A9E015E0DC",
+      "Player Name": "ilovevietnamXD",
+      "Games Won": 11,
+      "Games Lost": 21,
+      "Kills": 963,
+      "Deaths": 126,
+      "Score": 798,
+      "Skin": 8
     },
     {
       "Account ID": "1618CA70F71D2651",
@@ -128,11 +128,11 @@
     {
       "Account ID": "D862BB3C6ECB0C51",
       "Player Name": "RODRIGUITO",
-      "Games Won": 3,
-      "Games Lost": 12,
-      "Kills": 335,
-      "Deaths": 58,
-      "Score": 597,
+      "Games Won": 5,
+      "Games Lost": 15,
+      "Kills": 408,
+      "Deaths": 64,
+      "Score": 662,
       "Skin": 1
     },
     {
@@ -189,20 +189,20 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 16,
-      "Games Lost": 20,
+      "Games Lost": 21,
       "Kills": 655,
       "Deaths": 157,
-      "Score": 461,
+      "Score": 460,
       "Skin": 17
     },
     {
       "Account ID": "20C8107FAE342449",
       "Player Name": "nicolcheng",
-      "Games Won": 2,
+      "Games Won": 3,
       "Games Lost": 9,
-      "Kills": 161,
-      "Deaths": 38,
-      "Score": 441,
+      "Kills": 220,
+      "Deaths": 52,
+      "Score": 448,
       "Skin": 83
     }
   ]

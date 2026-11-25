@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-25T15:07:07.498074+00:00",
-  "lastUpdated": 1795619222740,
-  "cached": false,
+  "updatedAt": "2026-11-25T23:52:27.431844+00:00",
+  "lastUpdated": 1795650467380,
+  "cached": true,
   "players": [
     {
       "Account ID": "40B47B9071D0E0C3",
@@ -99,7 +99,7 @@
       "Account ID": "711F0DC522C942F6",
       "Player Name": "BELLnuv",
       "Games Won": 1,
-      "Games Lost": 12,
+      "Games Lost": 13,
       "Kills": 43,
       "Deaths": 5,
       "Score": 867,
@@ -156,16 +156,6 @@
       "Skin": -1
     },
     {
-      "Account ID": "7E7D93C59BA6DEF9",
-      "Player Name": "ThimCanPy",
-      "Games Won": 9,
-      "Games Lost": 9,
-      "Kills": 367,
-      "Deaths": 98,
-      "Score": 424,
-      "Skin": 2
-    },
-    {
       "Account ID": "F90B6EA09561FABE",
       "Player Name": "32P23",
       "Games Won": 4,
@@ -174,6 +164,16 @@
       "Deaths": 16,
       "Score": 419,
       "Skin": -1
+    },
+    {
+      "Account ID": "7E7D93C59BA6DEF9",
+      "Player Name": "ThimCanPy",
+      "Games Won": 10,
+      "Games Lost": 9,
+      "Kills": 391,
+      "Deaths": 114,
+      "Score": 395,
+      "Skin": 2
     },
     {
       "Account ID": "4C23A0F718E27662",
