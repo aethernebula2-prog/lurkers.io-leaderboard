@@ -1,9 +1,9 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-24T21:40:45.987905+00:00",
-  "lastUpdated": 1795556191129,
-  "cached": true,
+  "updatedAt": "2026-11-25T04:40:11.676478+00:00",
+  "lastUpdated": 1795581603739,
+  "cached": false,
   "players": [
     {
       "Account ID": "6896AF24B8EE135C",
@@ -59,11 +59,11 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 9,
-      "Games Lost": 28,
-      "Kills": 1221,
-      "Deaths": 89,
-      "Score": 1396,
-      "Skin": 2
+      "Games Lost": 29,
+      "Kills": 1222,
+      "Deaths": 91,
+      "Score": 1366,
+      "Skin": 0
     },
     {
       "Account ID": "E340F1474433376A",
@@ -96,16 +96,6 @@
       "Skin": 8
     },
     {
-      "Account ID": "D862BB3C6ECB0C51",
-      "Player Name": "RODRIGUITO",
-      "Games Won": 3,
-      "Games Lost": 10,
-      "Kills": 304,
-      "Deaths": 37,
-      "Score": 844,
-      "Skin": 1
-    },
-    {
       "Account ID": "65B41DADC9A88720",
       "Player Name": "Alexandria",
       "Games Won": 9,
@@ -136,14 +126,14 @@
       "Skin": -1
     },
     {
-      "Account ID": "ABC920483AE3583",
-      "Player Name": "Airman911",
-      "Games Won": 1,
-      "Games Lost": 6,
-      "Kills": 166,
-      "Deaths": 28,
-      "Score": 607,
-      "Skin": 76
+      "Account ID": "D862BB3C6ECB0C51",
+      "Player Name": "RODRIGUITO",
+      "Games Won": 3,
+      "Games Lost": 12,
+      "Kills": 335,
+      "Deaths": 58,
+      "Score": 597,
+      "Skin": 1
     },
     {
       "Account ID": "A2B6D8A33470A4BF",
@@ -156,14 +146,14 @@
       "Skin": 21
     },
     {
-      "Account ID": "1AE730D03D553A92",
-      "Player Name": "LittleRascalIO",
+      "Account ID": "ABC920483AE3583",
+      "Player Name": "Airman911",
       "Games Won": 1,
-      "Games Lost": 16,
-      "Kills": 94,
-      "Deaths": 19,
-      "Score": 500,
-      "Skin": 87
+      "Games Lost": 8,
+      "Kills": 224,
+      "Deaths": 43,
+      "Score": 532,
+      "Skin": 76
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -204,6 +194,16 @@
       "Deaths": 38,
       "Score": 441,
       "Skin": 83
+    },
+    {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 9,
+      "Games Lost": 15,
+      "Kills": 382,
+      "Deaths": 108,
+      "Score": 391,
+      "Skin": 17
     }
   ]
 }

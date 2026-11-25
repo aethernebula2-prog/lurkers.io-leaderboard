@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Capture The Flag",
-  "updatedAt": "2026-11-24T21:40:45.857847+00:00",
-  "lastUpdated": 1795556185704,
+  "updatedAt": "2026-11-25T04:40:10.948498+00:00",
+  "lastUpdated": 1795581006379,
   "cached": true,
   "players": [
     {
@@ -31,8 +31,8 @@
       "Games Won": 12,
       "Games Lost": 16,
       "Kills": 378,
-      "Deaths": 61,
-      "Score": 662,
+      "Deaths": 62,
+      "Score": 652,
       "Skin": 0
     },
     {
@@ -96,6 +96,16 @@
       "Skin": 5
     },
     {
+      "Account ID": "3A0685ED57F6B716",
+      "Player Name": "reydelasespadasyt",
+      "Games Won": 4,
+      "Games Lost": 12,
+      "Kills": 67,
+      "Deaths": 34,
+      "Score": 222,
+      "Skin": 64
+    },
+    {
       "Account ID": "427398D2482C568D",
       "Player Name": "vortexzzz",
       "Games Won": 6,
@@ -114,16 +124,6 @@
       "Deaths": 5,
       "Score": 212,
       "Skin": 87
-    },
-    {
-      "Account ID": "3A0685ED57F6B716",
-      "Player Name": "reydelasespadasyt",
-      "Games Won": 4,
-      "Games Lost": 10,
-      "Kills": 39,
-      "Deaths": 22,
-      "Score": 205,
-      "Skin": 64
     },
     {
       "Account ID": "836E6824A13037F",
@@ -186,16 +186,6 @@
       "Skin": 88
     },
     {
-      "Account ID": "B789B916E95883F4",
-      "Player Name": "OHISASIBURI",
-      "Games Won": 5,
-      "Games Lost": 9,
-      "Kills": 49,
-      "Deaths": 42,
-      "Score": 152,
-      "Skin": 10
-    },
-    {
       "Account ID": "F9A48BA1CDDBE185",
       "Player Name": "TheCreeper",
       "Games Won": 7,
@@ -203,6 +193,16 @@
       "Kills": 174,
       "Deaths": 159,
       "Score": 144,
+      "Skin": -1
+    },
+    {
+      "Account ID": "785AA2DF04855DA0",
+      "Player Name": "Thewatcher",
+      "Games Won": 0,
+      "Games Lost": 6,
+      "Kills": 130,
+      "Deaths": 91,
+      "Score": 142,
       "Skin": -1
     }
   ]
