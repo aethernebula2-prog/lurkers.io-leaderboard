@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-25T04:40:11.676478+00:00",
-  "lastUpdated": 1795581603739,
+  "updatedAt": "2026-11-25T15:07:08.913137+00:00",
+  "lastUpdated": 1795619224644,
   "cached": false,
   "players": [
     {
@@ -58,11 +58,11 @@
     {
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
-      "Games Won": 9,
+      "Games Won": 10,
       "Games Lost": 29,
-      "Kills": 1222,
-      "Deaths": 91,
-      "Score": 1366,
+      "Kills": 1258,
+      "Deaths": 96,
+      "Score": 1336,
       "Skin": 0
     },
     {
@@ -89,10 +89,10 @@
       "Account ID": "DAA395A9E015E0DC",
       "Player Name": "ilovevietnamXD",
       "Games Won": 11,
-      "Games Lost": 18,
-      "Kills": 912,
-      "Deaths": 110,
-      "Score": 867,
+      "Games Lost": 19,
+      "Kills": 920,
+      "Deaths": 116,
+      "Score": 829,
       "Skin": 8
     },
     {
@@ -136,16 +136,6 @@
       "Skin": 1
     },
     {
-      "Account ID": "A2B6D8A33470A4BF",
-      "Player Name": "Atomon",
-      "Games Won": 1,
-      "Games Lost": 7,
-      "Kills": 48,
-      "Deaths": 9,
-      "Score": 545,
-      "Skin": 21
-    },
-    {
       "Account ID": "ABC920483AE3583",
       "Player Name": "Airman911",
       "Games Won": 1,
@@ -176,6 +166,16 @@
       "Skin": 0
     },
     {
+      "Account ID": "A2B6D8A33470A4BF",
+      "Player Name": "Atomon",
+      "Games Won": 1,
+      "Games Lost": 9,
+      "Kills": 57,
+      "Deaths": 12,
+      "Score": 485,
+      "Skin": 21
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 5,
@@ -186,6 +186,16 @@
       "Skin": -1
     },
     {
+      "Account ID": "579A17105156C3D6",
+      "Player Name": "XplayerxX123",
+      "Games Won": 16,
+      "Games Lost": 20,
+      "Kills": 655,
+      "Deaths": 157,
+      "Score": 461,
+      "Skin": 17
+    },
+    {
       "Account ID": "20C8107FAE342449",
       "Player Name": "nicolcheng",
       "Games Won": 2,
@@ -194,16 +204,6 @@
       "Deaths": 38,
       "Score": 441,
       "Skin": 83
-    },
-    {
-      "Account ID": "579A17105156C3D6",
-      "Player Name": "XplayerxX123",
-      "Games Won": 9,
-      "Games Lost": 15,
-      "Kills": 382,
-      "Deaths": 108,
-      "Score": 391,
-      "Skin": 17
     }
   ]
 }

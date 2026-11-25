@@ -1,8 +1,8 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Bedwars",
-  "updatedAt": "2026-11-25T04:40:10.824732+00:00",
-  "lastUpdated": 1795581603744,
+  "updatedAt": "2026-11-25T15:07:07.498074+00:00",
+  "lastUpdated": 1795619222740,
   "cached": false,
   "players": [
     {
@@ -159,10 +159,10 @@
       "Account ID": "7E7D93C59BA6DEF9",
       "Player Name": "ThimCanPy",
       "Games Won": 9,
-      "Games Lost": 7,
-      "Kills": 348,
-      "Deaths": 89,
-      "Score": 447,
+      "Games Lost": 9,
+      "Kills": 367,
+      "Deaths": 98,
+      "Score": 424,
       "Skin": 2
     },
     {
