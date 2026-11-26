@@ -1,20 +1,10 @@
 {
   "game": "Lurkers.io",
   "gamemode": "Team Deathmatch",
-  "updatedAt": "2026-11-25T23:52:27.689708+00:00",
-  "lastUpdated": 1795650610733,
+  "updatedAt": "2026-11-26T05:51:38.982416+00:00",
+  "lastUpdated": 1795671787844,
   "cached": true,
   "players": [
-    {
-      "Account ID": "6896AF24B8EE135C",
-      "Player Name": "15pens",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 60,
-      "Deaths": 1,
-      "Score": 6011,
-      "Skin": 24
-    },
     {
       "Account ID": "C497319DFC894733",
       "Player Name": "Trench",
@@ -59,10 +49,10 @@
       "Account ID": "1EEA4A65BD99F437",
       "Player Name": "denied",
       "Games Won": 10,
-      "Games Lost": 29,
-      "Kills": 1258,
-      "Deaths": 96,
-      "Score": 1336,
+      "Games Lost": 30,
+      "Kills": 1281,
+      "Deaths": 103,
+      "Score": 1268,
       "Skin": 0
     },
     {
@@ -74,6 +64,16 @@
       "Deaths": 45,
       "Score": 1268,
       "Skin": 2
+    },
+    {
+      "Account ID": "6896AF24B8EE135C",
+      "Player Name": "15pens",
+      "Games Won": 1,
+      "Games Lost": 10,
+      "Kills": 72,
+      "Deaths": 6,
+      "Score": 1209,
+      "Skin": 24
     },
     {
       "Account ID": "5AE726D7DB6E6C20",
@@ -106,6 +106,16 @@
       "Skin": 8
     },
     {
+      "Account ID": "D862BB3C6ECB0C51",
+      "Player Name": "RODRIGUITO",
+      "Games Won": 5,
+      "Games Lost": 18,
+      "Kills": 455,
+      "Deaths": 65,
+      "Score": 721,
+      "Skin": 75
+    },
+    {
       "Account ID": "1618CA70F71D2651",
       "Player Name": "Heretic",
       "Games Won": 3,
@@ -124,26 +134,6 @@
       "Deaths": 82,
       "Score": 689,
       "Skin": -1
-    },
-    {
-      "Account ID": "D862BB3C6ECB0C51",
-      "Player Name": "RODRIGUITO",
-      "Games Won": 5,
-      "Games Lost": 15,
-      "Kills": 408,
-      "Deaths": 64,
-      "Score": 662,
-      "Skin": 1
-    },
-    {
-      "Account ID": "ABC920483AE3583",
-      "Player Name": "Airman911",
-      "Games Won": 1,
-      "Games Lost": 8,
-      "Kills": 224,
-      "Deaths": 43,
-      "Score": 532,
-      "Skin": 76
     },
     {
       "Account ID": "FACD62C2F5808FEF",
@@ -176,6 +166,16 @@
       "Skin": 21
     },
     {
+      "Account ID": "ABC920483AE3583",
+      "Player Name": "Airman911",
+      "Games Won": 1,
+      "Games Lost": 10,
+      "Kills": 242,
+      "Deaths": 53,
+      "Score": 465,
+      "Skin": 76
+    },
+    {
       "Account ID": "C0A242975B7897FD",
       "Player Name": "srblaze11",
       "Games Won": 5,
@@ -189,10 +189,10 @@
       "Account ID": "579A17105156C3D6",
       "Player Name": "XplayerxX123",
       "Games Won": 16,
-      "Games Lost": 21,
+      "Games Lost": 22,
       "Kills": 655,
       "Deaths": 157,
-      "Score": 460,
+      "Score": 459,
       "Skin": 17
     },
     {
